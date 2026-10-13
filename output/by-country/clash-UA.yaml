@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇵🇦 PA 01 - george
-  server: 50.117.15.225
+- name: 🇺🇦 乌克兰 (Ukraine) 01 - george
+  server: 83.147.18.75
   port: 443
   udp: true
   type: vless
-  uuid: 67eb6b17-7797-4ded-bf52-423c4c5f6cbd
+  uuid: 5de0c218-0138-45d8-94d2-c2c3f37a1a6d
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: G7bpUPFSW28-oE6ff8qZac1_apU6PiJ-GHmi7tAPDSY
-    short-id: 91af08b1ce1f
-  servername: www.foxsports.com
-  client-fingerprint: chrome
+    public-key: tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc
+    short-id: 7f1e29593aa94ad1
+  servername: www.bing.com
+  client-fingerprint: qq
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇵🇦 PA 01 - george
+  - 🇺🇦 乌克兰 (Ukraine) 01 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇵🇦 PA 01 - george
+  - 🇺🇦 乌克兰 (Ukraine) 01 - george
 rules:
 - MATCH,PROXIES

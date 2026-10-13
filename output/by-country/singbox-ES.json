@@ -4,8 +4,20 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇪🇸 西班牙 (Spain) 01 - george",
+      "server": "185.174.137.172",
+      "server_port": 8446,
+      "password": "e9dc02d400b67c727aca1620",
+      "tls": {
+        "enabled": true,
+        "server_name": "185.174.137.172",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇸 西班牙 (Spain) 02 - george",
       "server": "212.227.235.66",
       "server_port": 2053,
       "uuid": "ead0dd61-d398-40ad-80d6-a0e1e516d7d3",
@@ -24,18 +36,6 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇪🇸 西班牙 (Spain) 02 - george",
-      "server": "185.174.137.172",
-      "server_port": 8446,
-      "password": "e9dc02d400b67c727aca1620",
-      "tls": {
-        "enabled": true,
-        "server_name": "185.174.137.172",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
       "tag": "🇪🇸 西班牙 (Spain) 03 - george",
       "server": "46.28.71.247",
@@ -47,7 +47,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,

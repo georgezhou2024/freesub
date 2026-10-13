@@ -4,22 +4,30 @@
   },
   "outbounds": [
     {
+      "type": "shadowsocks",
+      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - george",
+      "server": "218.237.185.234",
+      "server_port": 4652,
+      "method": "aes-256-cfb",
+      "password": "qwerREWQ@@"
+    },
+    {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - george",
+      "tag": "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - george",
       "server": "test.keoplentuio.xyz",
       "server_port": 2053,
       "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - george",
-      "server": "206.1.102.81",
+      "tag": "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - george",
+      "server": "googol.wookshop.ir",
       "server_port": 17915,
       "uuid": "439628ee-ef8e-4a3e-ba0f-091b7376dcb8",
       "tls": {
         "enabled": true,
         "server_name": "googol.wookshop.ir",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -27,20 +35,32 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇰🇭 柬埔寨 (Cambodia) 04 (移动家宽) - george",
+      "server": "ruot.ayucloudservices.nl",
+      "server_port": 35019,
+      "method": "aes-128-gcm",
+      "password": "9c51ca33-a332-4de5-8677-5624e940097c"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - george",
-        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - george"
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - george",
+        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - george",
+        "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - george",
+        "🇰🇭 柬埔寨 (Cambodia) 04 (移动家宽) - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - george",
-        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - george"
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - george",
+        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - george",
+        "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - george",
+        "🇰🇭 柬埔寨 (Cambodia) 04 (移动家宽) - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

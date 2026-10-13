@@ -14,7 +14,7 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 02 - george",
-      "server": "5.157.10.149",
+      "server": "swerka.loknietotop.digital",
       "server_port": 443,
       "uuid": "ace33fb8-c593-4b17-8f72-f3359b6e9638",
       "flow": "xtls-rprx-vision",
@@ -23,7 +23,7 @@
         "server_name": "swerka.loknietotop.digital",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -44,7 +44,7 @@
         "server_name": "res.cdn.office.net",
         "utls": {
           "enabled": true,
-          "fingerprint": ""
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -56,20 +56,21 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 04 - george",
-      "server": "se1.h1cloud.net",
-      "server_port": 26100,
-      "uuid": "68c3d665-b2b5-4ffb-9f37-9f3d8c47324d",
+      "server": "136.148.211.209",
+      "server_port": 25119,
+      "uuid": "f90b7d43-69e2-4b46-a672-8029bc6796a2",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.icloud.com",
+        "server_name": "www.samsung.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "1uuvuG2Jl_o6yoVvOYm3hEboArh2Znu7zCy4Tqj36TI",
-          "short_id": "8045087bda646f1b"
+          "public_key": "szPq4a3cvxfBOmGyg-UJCV3d1Jqjnj7YR3gaxyYtnk4",
+          "short_id": "10f517"
         }
       }
     },
@@ -84,7 +85,7 @@
         "server_name": "www.samsung.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
@@ -102,38 +103,17 @@
       "tag": "🇸🇪 瑞典 (Sweden) 06 - george",
       "server": "sweedenqfds777.qcloud.surf",
       "server_port": 21223,
-      "password": "408c51e8-9246-483d-ba73-34ab4e202eb9",
+      "password": "8bd04756-3beb-4348-82c9-d35453df50ce",
       "tls": {
         "enabled": true,
-        "server_name": "sweedenqfds777.qcloud.surf",
-        "insecure": false
+        "server_name": "127.0.0.1",
+        "insecure": true
       }
     },
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 07 - george",
-      "server": "193.27.200.200",
-      "server_port": 443,
-      "uuid": "3db6eb7e-c548-11f1-9902-a337233c6cda",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "swe.wizard.select",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Sikc1gu5t_uwitf1xTTChP9tpT_sjY530p2tioHbmz0",
-          "short_id": "3b20e438da99"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 08 - george",
-      "server": "sub.merky.top",
+      "server": "94.143.231.146",
       "server_port": 443,
       "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
       "tls": {
@@ -147,23 +127,51 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/merky-connect/de6/"
+        "path": "/merky-connect/de6/",
+        "headers": {
+          "Host": "sub.merky.top"
+        }
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇸🇪 瑞典 (Sweden) 09 - george",
-      "server": "77.110.96.201",
-      "server_port": 36264,
-      "password": "Telegram-vpnjey",
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 08 - george",
+      "server": "swe.wizard.select",
+      "server_port": 443,
+      "uuid": "3db6eb7e-c548-11f1-9902-a337233c6cda",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "se.vpnjey2.dpdns.org",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "Telegram@vpnjey"
+        "server_name": "swe.wizard.select",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Sikc1gu5t_uwitf1xTTChP9tpT_sjY530p2tioHbmz0",
+          "short_id": "3b20e438da99"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 09 - george",
+      "server": "se1.h1cloud.net",
+      "server_port": 26100,
+      "uuid": "68c3d665-b2b5-4ffb-9f37-9f3d8c47324d",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.icloud.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1uuvuG2Jl_o6yoVvOYm3hEboArh2Znu7zCy4Tqj36TI",
+          "short_id": "8045087bda646f1b"
+        }
       }
     },
     {
