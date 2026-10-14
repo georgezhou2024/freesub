@@ -6,16 +6,16 @@
     {
       "type": "shadowsocks",
       "tag": "🇫🇮 芬兰 (Finland) 01 - george",
-      "server": "185.103.110.66",
-      "server_port": 18280,
+      "server": "185.103.110.68",
+      "server_port": 18283,
       "method": "aes-128-gcm",
       "password": "f9300a9bf39ae0347c3a3bfbc4dd7754"
     },
     {
       "type": "shadowsocks",
       "tag": "🇫🇮 芬兰 (Finland) 02 - george",
-      "server": "185.103.110.68",
-      "server_port": 18283,
+      "server": "185.103.110.66",
+      "server_port": 18280,
       "method": "aes-128-gcm",
       "password": "f9300a9bf39ae0347c3a3bfbc4dd7754"
     },
@@ -43,54 +43,13 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 04 - george",
-      "server": "95.216.27.15",
-      "server_port": 2053,
-      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
-          "short_id": "d368b94e275ab080"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 05 - george",
       "server": "edge10.cyrionflare.com",
       "server_port": 2052,
       "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286"
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 06 - george",
-      "server": "217.60.72.238",
-      "server_port": 443,
-      "uuid": "0de1d303-d7de-506f-8679-c4cb67e2e2cc",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "amd.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc",
-          "short_id": "a696de84963656de"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 07 - george",
+      "tag": "🇫🇮 芬兰 (Finland) 05 - george",
       "server": "65.108.3.59",
       "server_port": 443,
       "uuid": "8df2e661-6f46-471b-9133-7fc13a0daa35",
@@ -110,6 +69,71 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 06 - george",
+      "server": "95.216.27.15",
+      "server_port": 2053,
+      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
+          "short_id": "d368b94e275ab080"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 07 - george",
+      "server": "109.172.54.135",
+      "server_port": 8444,
+      "uuid": "f55e9aba-7b14-4f6f-b59a-d5b3d45c9309",
+      "tls": {
+        "enabled": true,
+        "server_name": "github.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
+          "short_id": ""
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "GunService"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 08 - george",
+      "server": "87.242.95.77",
+      "server_port": 8449,
+      "uuid": "30292475-4666-4c26-bcb2-338a0919958b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "meadow.lalibobi.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "WBkO_JIRKVjfwh7GlIIACmAJaVFobgm_EebPZgk7ijU",
+          "short_id": "c374306818a47741"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -120,7 +144,8 @@
         "🇫🇮 芬兰 (Finland) 04 - george",
         "🇫🇮 芬兰 (Finland) 05 - george",
         "🇫🇮 芬兰 (Finland) 06 - george",
-        "🇫🇮 芬兰 (Finland) 07 - george"
+        "🇫🇮 芬兰 (Finland) 07 - george",
+        "🇫🇮 芬兰 (Finland) 08 - george"
       ]
     },
     {
@@ -133,7 +158,8 @@
         "🇫🇮 芬兰 (Finland) 04 - george",
         "🇫🇮 芬兰 (Finland) 05 - george",
         "🇫🇮 芬兰 (Finland) 06 - george",
-        "🇫🇮 芬兰 (Finland) 07 - george"
+        "🇫🇮 芬兰 (Finland) 07 - george",
+        "🇫🇮 芬兰 (Finland) 08 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
