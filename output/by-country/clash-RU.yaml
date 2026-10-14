@@ -29,11 +29,18 @@ proxies:
     public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
     short-id: 457fab2ac885dbe0
   servername: github.com
-  client-fingerprint: chrome
+  client-fingerprint: random
   network: grpc
   grpc-opts:
     grpc-service-name: GunService
 - name: 🇷🇺 俄罗斯 (Russia) 03 - george
+  server: 194.87.196.107
+  port: 50120
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: 4938e975724d0ed1
+- name: 🇷🇺 俄罗斯 (Russia) 04 - george
   server: 213.165.56.102
   port: 443
   udp: true
@@ -46,27 +53,29 @@ proxies:
     short-id: 57e7977c9011061c
   servername: freede.aiage.work
   client-fingerprint: ''
-- name: 🇷🇺 俄罗斯 (Russia) 04 - george
+- name: 🇷🇺 俄罗斯 (Russia) 05 - george
+  server: 91.196.32.163
+  port: 443
+  udp: true
+  type: hysteria2
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  sni: germany3.h2corp.local
+  skip-cert-verify: true
+- name: 🇷🇺 俄罗斯 (Russia) 06 - george
   server: 194.38.11.86
   port: 65443
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
-- name: 🇷🇺 俄罗斯 (Russia) 05 - george
-  server: 217.60.72.238
-  port: 443
+- name: 🇷🇺 俄罗斯 (Russia) 07 - george
+  server: 130.49.189.158
+  port: 43558
   udp: true
-  type: vless
-  uuid: 0de1d303-d7de-0001-8679-c4cb67e2e2cc
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
-    short-id: a696de84963656de
-  servername: amd.com
-  client-fingerprint: qq
-- name: 🇷🇺 俄罗斯 (Russia) 06 - george
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 52+ggoCvKFVJyT1NDiuWOZw2rHIvAg3tgqgJl8aeCwY=
+- name: 🇷🇺 俄罗斯 (Russia) 08 - george
   server: 153.80.241.206
   port: 8444
   udp: true
@@ -80,7 +89,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: GunService
-- name: 🇷🇺 俄罗斯 (Russia) 07 - george
+- name: 🇷🇺 俄罗斯 (Russia) 09 - george
   server: 194.87.118.184
   port: 2053
   udp: true
@@ -88,14 +97,7 @@ proxies:
   password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
   sni: match-stream.lovkisport.blog
   skip-cert-verify: false
-- name: 🇷🇺 俄罗斯 (Russia) 08 - george
-  server: 130.49.189.158
-  port: 43558
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 52+ggoCvKFVJyT1NDiuWOZw2rHIvAg3tgqgJl8aeCwY=
-- name: 🇷🇺 俄罗斯 (Russia) 09 - george
+- name: 🇷🇺 俄罗斯 (Russia) 10 - george
   server: 159.194.240.128
   port: 443
   udp: true
@@ -108,7 +110,75 @@ proxies:
     short-id: a696de84963656de
   servername: amd.com
   client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 10 - george
+- name: 🇷🇺 俄罗斯 (Russia) 11 - george
+  server: 130.49.189.250
+  port: 28152
+  udp: true
+  type: hysteria2
+  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
+  sni: alb1337.zaebalsanoproxyklinus.lol
+  skip-cert-verify: false
+- name: 🇷🇺 俄罗斯 (Russia) 12 - george
+  server: du-rov.secureservice.top
+  port: 8443
+  udp: true
+  type: vless
+  uuid: c53ea5e9-ed8b-4990-805d-7f1d6451426c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI
+    short-id: 3cbc3d737fb9c4af
+  servername: du-rov.secureservice.top
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 13 - george
+  server: 5.42.99.64
+  port: 8443
+  udp: true
+  type: vless
+  uuid: c53ea5e9-ed8b-4990-805d-7f1d6451426c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI
+    short-id: 3cbc3d737fb9c4af
+  servername: du-rov.secureservice.top
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 14 - george
+  server: 5.42.99.64
+  port: 8443
+  udp: true
+  type: vless
+  uuid: c53ea5e9-ed8b-4990-805d-7f1d6451426c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI
+    short-id: 3cbc3d737fb9c4af
+  servername: du-rov.secureservice.top
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 15 - george
+  server: 87.242.95.150
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 7ac594a4-fabc-486c-9a91-5662c09e63cd
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: pobC1laHCtpMK1EA520CyOpYeel0t90hEV_eRJExFAE
+    short-id: 20272c52657d22da
+  servername: passport.yandex.ru
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 16 - george
+  server: hy9.shamanfun.ru
+  port: 1443
+  udp: true
+  type: hysteria2
+  password: c635b5f6-b5ea-4e57-927f-75860b0cb984
+  sni: hy9.shamanfun.ru
+  skip-cert-verify: false
+- name: 🇷🇺 俄罗斯 (Russia) 17 - george
   server: 45.12.75.242
   port: 26424
   udp: true
@@ -119,35 +189,15 @@ proxies:
     public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
     short-id: 23103e1e
   servername: ya.ru
-  client-fingerprint: random
-- name: 🇷🇺 俄罗斯 (Russia) 11 - george
-  server: ru-1-3.unturned-rust-dead.lol
-  port: 443
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 18 - george
+  server: spainspeedboostjbl88.qcloud.surf
+  port: 27313
   udp: true
-  type: vless
-  uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
-  tls: true
-  reality-opts:
-    public-key: aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk
-  servername: ru-1-3.unturned-rust-dead.lol
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ru-api
-- name: 🇷🇺 俄罗斯 (Russia) 12 - george
-  server: 93.188.184.150
-  port: 443
-  udp: true
-  type: vless
-  uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
-  tls: true
-  reality-opts:
-    public-key: aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk
-  servername: ru-1-2.unturned-rust-dead.lol
-  client-fingerprint: edge
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ru-api
+  type: hysteria2
+  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
+  sni: spainspeedboostjbl88.qcloud.surf
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -165,6 +215,12 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 10 - george
   - 🇷🇺 俄罗斯 (Russia) 11 - george
   - 🇷🇺 俄罗斯 (Russia) 12 - george
+  - 🇷🇺 俄罗斯 (Russia) 13 - george
+  - 🇷🇺 俄罗斯 (Russia) 14 - george
+  - 🇷🇺 俄罗斯 (Russia) 15 - george
+  - 🇷🇺 俄罗斯 (Russia) 16 - george
+  - 🇷🇺 俄罗斯 (Russia) 17 - george
+  - 🇷🇺 俄罗斯 (Russia) 18 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -182,5 +238,11 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 10 - george
   - 🇷🇺 俄罗斯 (Russia) 11 - george
   - 🇷🇺 俄罗斯 (Russia) 12 - george
+  - 🇷🇺 俄罗斯 (Russia) 13 - george
+  - 🇷🇺 俄罗斯 (Russia) 14 - george
+  - 🇷🇺 俄罗斯 (Russia) 15 - george
+  - 🇷🇺 俄罗斯 (Russia) 16 - george
+  - 🇷🇺 俄罗斯 (Russia) 17 - george
+  - 🇷🇺 俄罗斯 (Russia) 18 - george
 rules:
 - MATCH,PROXIES

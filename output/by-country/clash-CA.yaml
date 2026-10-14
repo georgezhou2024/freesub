@@ -5,70 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇦 加拿大 (Canada) 01 - george
-  server: 51.222.200.165
-  port: 5000
+  server: 3.96.190.88
+  port: 443
   udp: true
   type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 🇨🇦 加拿大 (Canada) 02 - george
-  server: 3.96.192.203
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇨🇦 加拿大 (Canada) 03 - george
-  server: 3.97.11.240
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇨🇦 加拿大 (Canada) 04 - george
-  server: 3.96.202.28
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇨🇦 加拿大 (Canada) 05 - george
-  server: 99.79.45.227
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇨🇦 加拿大 (Canada) 06 - george
-  server: 16.52.153.34
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇨🇦 加拿大 (Canada) 07 - george
-  server: 15.223.201.180
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇨🇦 加拿大 (Canada) 08 - george
-  server: 23.162.200.198
-  port: 18000
-  udp: true
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-- name: 🇨🇦 加拿大 (Canada) 09 - george
-  server: 15.223.120.64
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇨🇦 加拿大 (Canada) 10 - george
   server: 134.195.196.211
   port: 18000
   udp: true
@@ -76,57 +19,105 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
   cipher: auto
-- name: 🇨🇦 加拿大 (Canada) 11 - george
-  server: 138.197.141.58
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇨🇦 加拿大 (Canada) 12 - george
-  server: 35.183.81.9
+- name: 🇨🇦 加拿大 (Canada) 03 - george
+  server: 35.183.67.225
   port: 443
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇨🇦 加拿大 (Canada) 13 - george
+- name: 🇨🇦 加拿大 (Canada) 04 - george
   server: 15.175.220.220
   port: 443
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇨🇦 加拿大 (Canada) 14 - george
+- name: 🇨🇦 加拿大 (Canada) 05 - george
+  server: 3.96.202.28
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇨🇦 加拿大 (Canada) 06 - george
+  server: 35.182.212.10
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇨🇦 加拿大 (Canada) 07 - george
+  server: 138.197.141.58
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇨🇦 加拿大 (Canada) 08 - george
+  server: 15.223.120.64
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇨🇦 加拿大 (Canada) 09 - george
+  server: 16.52.153.34
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇨🇦 加拿大 (Canada) 10 - george
+  server: 3.96.192.203
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇨🇦 加拿大 (Canada) 11 - george
   server: 137.184.174.93
   port: 8080
   udp: true
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: 🇨🇦 加拿大 (Canada) 15 - george
-  server: 3.96.190.88
+- name: 🇨🇦 加拿大 (Canada) 12 - george
+  server: 3.99.161.236
   port: 443
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇨🇦 加拿大 (Canada) 16 - george
+- name: 🇨🇦 加拿大 (Canada) 13 - george
   server: 149.22.95.183
   port: 443
   udp: true
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇨🇦 加拿大 (Canada) 17 - george
-  server: ca.tronsg.com
+- name: 🇨🇦 加拿大 (Canada) 14 - george
+  server: 51.222.136.236
+  port: 8882
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- name: 🇨🇦 加拿大 (Canada) 15 - george
+  server: 3.99.191.16
   port: 443
   udp: true
-  type: trojan
-  password: Trojan@82164024
-  sni: ca.tronsg.com
-  skip-cert-verify: false
-- name: 🇨🇦 加拿大 (Canada) 18 - george
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇨🇦 加拿大 (Canada) 16 - george
+  server: 3.97.11.240
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇨🇦 加拿大 (Canada) 17 - george
   server: 66.70.179.198
   port: 2053
   udp: true
@@ -137,47 +128,36 @@ proxies:
     public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
     short-id: 83f8317a948bb769
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
+- name: 🇨🇦 加拿大 (Canada) 18 - george
+  server: 51.222.200.165
+  port: 5000
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
 - name: 🇨🇦 加拿大 (Canada) 19 - george
-  server: 35.182.212.10
+  server: 99.79.45.227
   port: 443
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇨🇦 加拿大 (Canada) 20 - george
-  server: 3.99.191.16
+  server: 104.21.70.22
   port: 443
   udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇨🇦 加拿大 (Canada) 21 - george
-  server: 148.113.196.75
-  port: 8443
-  udp: true
   type: vless
-  uuid: 08f96221-9b7b-4e6f-8ffe-aee8b9c9b504
+  uuid: efe19c5a-0ea1-4666-8a4c-4a33f4670775
   tls: true
-  servername: ov-canada1.09vpn.com
-  skip-cert-verify: true
+  servername: brightlux.forum
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vless/
-- name: 🇨🇦 加拿大 (Canada) 22 - george
-  server: 209.200.246.148
-  port: 443
-  udp: true
-  type: vless
-  uuid: ca52e2b6-fb9f-4dac-b6dc-49da9923f251
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk
-    short-id: f98843107912e782
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇨🇦 加拿大 (Canada) 23 - george
+    path: /raccoonwsvless
+    headers:
+      Host: brightlux.forum
+- name: 🇨🇦 加拿大 (Canada) 21 - george
   server: 51.79.31.36
   port: 31146
   udp: true
@@ -190,20 +170,36 @@ proxies:
     short-id: cf4e6f8338
   servername: play-fe.googleapis.com
   client-fingerprint: chrome
-- name: 🇨🇦 加拿大 (Canada) 24 - george
-  server: 3.99.161.236
+- name: 🇨🇦 加拿大 (Canada) 22 - george
+  server: 184.107.88.177
+  port: 8080
+  udp: true
+  type: vless
+  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇨🇦 加拿大 (Canada) 23 - george
+  server: 35.183.81.9
   port: 443
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇨🇦 加拿大 (Canada) 25 - george
-  server: 51.222.136.236
-  port: 8882
+- name: 🇨🇦 加拿大 (Canada) 24 - george
+  server: 51.79.64.198
+  port: 8119
   udp: true
   type: ss
   cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
+  password: cdBIDV42DCwnfIN
+- name: 🇨🇦 加拿大 (Canada) 25 - george
+  server: 15.223.201.180
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 🇨🇦 加拿大 (Canada) 26 - george
   server: milo.rubinaz.xyz
   port: 8080
@@ -224,6 +220,27 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: zDNVedRFPQexG9v
+- name: 🇨🇦 加拿大 (Canada) 29 - george
+  server: 23.162.200.198
+  port: 18000
+  udp: true
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+- name: 🇨🇦 加拿大 (Canada) 30 - george
+  server: 209.200.246.148
+  port: 443
+  udp: true
+  type: vless
+  uuid: ca52e2b6-fb9f-4dac-b6dc-49da9923f251
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk
+    short-id: f98843107912e782
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -257,6 +274,8 @@ proxy-groups:
   - 🇨🇦 加拿大 (Canada) 26 - george
   - 🇨🇦 加拿大 (Canada) 27 - george
   - 🇨🇦 加拿大 (Canada) 28 - george
+  - 🇨🇦 加拿大 (Canada) 29 - george
+  - 🇨🇦 加拿大 (Canada) 30 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -290,5 +309,7 @@ proxy-groups:
   - 🇨🇦 加拿大 (Canada) 26 - george
   - 🇨🇦 加拿大 (Canada) 27 - george
   - 🇨🇦 加拿大 (Canada) 28 - george
+  - 🇨🇦 加拿大 (Canada) 29 - george
+  - 🇨🇦 加拿大 (Canada) 30 - george
 rules:
 - MATCH,PROXIES

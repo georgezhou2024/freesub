@@ -12,7 +12,19 @@ proxies:
   cipher: aes-256-gcm
   password: AxIYWtskJWIIaefW
 - name: 🇸🇪 瑞典 (Sweden) 02 - george
-  server: swerka.loknietotop.digital
+  server: se1.h1cloud.net
+  port: 26100
+  udp: true
+  type: vless
+  uuid: 68c3d665-b2b5-4ffb-9f37-9f3d8c47324d
+  tls: true
+  reality-opts:
+    public-key: 1uuvuG2Jl_o6yoVvOYm3hEboArh2Znu7zCy4Tqj36TI
+    short-id: 8045087bda646f1b
+  servername: www.icloud.com
+  client-fingerprint: chrome
+- name: 🇸🇪 瑞典 (Sweden) 03 - george
+  server: 5.157.10.150
   port: 443
   udp: true
   type: vless
@@ -22,23 +34,20 @@ proxies:
   reality-opts:
     public-key: x6p656szvu_3CKLsJ4NtkooRvdTVGx7IoPca_p58_jA
     short-id: fb442438e2223836
-  servername: swerka.loknietotop.digital
-  client-fingerprint: firefox
-- name: 🇸🇪 瑞典 (Sweden) 03 - george
-  server: 46.246.125.153
-  port: 443
-  udp: true
-  type: vless
-  uuid: a16a3e32-8d63-4dec-8c67-1361388a64ca
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: ftglT-Ghp2FPiPlwyEAldfiAE1IL_AJ9UCkfCj0zk2I
-    short-id: a83b77e064761e3c
-  servername: res.cdn.office.net
+  servername: d0c5.khovanski.mom
   client-fingerprint: chrome
 - name: 🇸🇪 瑞典 (Sweden) 04 - george
-  server: 136.148.211.209
+  server: 77.110.96.201
+  port: 36264
+  udp: true
+  type: hysteria2
+  password: Telegram-vpnjey
+  sni: se.vpnjey2.dpdns.org
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+- name: 🇸🇪 瑞典 (Sweden) 05 - george
+  server: se3.h1cloud.net
   port: 25119
   udp: true
   type: vless
@@ -50,7 +59,7 @@ proxies:
     short-id: 10f517
   servername: www.samsung.com
   client-fingerprint: chrome
-- name: 🇸🇪 瑞典 (Sweden) 05 - george
+- name: 🇸🇪 瑞典 (Sweden) 06 - george
   server: 62.60.159.81
   port: 2053
   udp: true
@@ -65,31 +74,8 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpce5bb9e71
-- name: 🇸🇪 瑞典 (Sweden) 06 - george
-  server: sweedenqfds777.qcloud.surf
-  port: 21223
-  udp: true
-  type: hysteria2
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  sni: 127.0.0.1
-  skip-cert-verify: true
 - name: 🇸🇪 瑞典 (Sweden) 07 - george
-  server: 94.143.231.146
-  port: 443
-  udp: true
-  type: vless
-  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
-  tls: true
-  servername: sub.merky.top
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /merky-connect/de6/
-    headers:
-      Host: sub.merky.top
-- name: 🇸🇪 瑞典 (Sweden) 08 - george
-  server: swe.wizard.select
+  server: 193.27.200.200
   port: 443
   udp: true
   type: vless
@@ -101,18 +87,81 @@ proxies:
     short-id: 3b20e438da99
   servername: swe.wizard.select
   client-fingerprint: chrome
+- name: 🇸🇪 瑞典 (Sweden) 08 - george
+  server: sub.merky.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
+  tls: true
+  servername: sub.merky.top
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /merky-connect/de6/
 - name: 🇸🇪 瑞典 (Sweden) 09 - george
+  server: 46.246.125.153
+  port: 443
+  udp: true
+  type: vless
+  uuid: a16a3e32-8d63-4dec-8c67-1361388a64ca
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: ftglT-Ghp2FPiPlwyEAldfiAE1IL_AJ9UCkfCj0zk2I
+    short-id: a83b77e064761e3c
+  servername: res.cdn.office.net
+  client-fingerprint: random
+- name: 🇸🇪 瑞典 (Sweden) 10 - george
   server: se1.h1cloud.net
-  port: 26100
+  port: 26128
   udp: true
   type: vless
   uuid: 68c3d665-b2b5-4ffb-9f37-9f3d8c47324d
   tls: true
   reality-opts:
-    public-key: 1uuvuG2Jl_o6yoVvOYm3hEboArh2Znu7zCy4Tqj36TI
-    short-id: 8045087bda646f1b
+    public-key: sACiHit5lNtPRK_eFP6jT8dMPUZ4kQRsfPj_LL5p7Uk
+    short-id: 13ac4d3bdadf1ea1
   servername: www.icloud.com
-  client-fingerprint: edge
+  client-fingerprint: random
+  network: grpc
+  grpc-opts:
+    grpc-service-name: df50147201bf
+- name: 🇸🇪 瑞典 (Sweden) 11 - george
+  server: sweedenqfds777.qcloud.surf
+  port: 21223
+  udp: true
+  type: hysteria2
+  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
+  sni: sweedenqfds777.qcloud.surf
+  skip-cert-verify: true
+- name: 🇸🇪 瑞典 (Sweden) 12 - george
+  server: 732051t.se1.h1clayd.click
+  port: 443
+  udp: true
+  type: vless
+  uuid: ec572cf0-1337-4c51-b4ec-ff2f538c1f4c
+  tls: true
+  reality-opts:
+    public-key: NqyAfxsF9xeJZi_5itA5VCxaja1ioXjw7xPM_QonKVk
+    short-id: 0983a448f995e806
+  servername: 732051t.se1.h1clayd.click
+  client-fingerprint: firefox
+- name: 🇸🇪 瑞典 (Sweden) 13 - george
+  server: 82.197.73.139
+  port: 26226
+  udp: true
+  type: vless
+  uuid: ec572cf0-1337-4c51-b4ec-ff2f538c1f4c
+  tls: true
+  reality-opts:
+    public-key: zsSr4H-YgykAOYdIYFaAnFQtIguRhP825FodeKSoxjA
+    short-id: 2ddf3f1151012c98
+  servername: www.dn.se
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 69effd3120f4
 proxy-groups:
 - name: PROXIES
   type: select
@@ -127,6 +176,10 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 07 - george
   - 🇸🇪 瑞典 (Sweden) 08 - george
   - 🇸🇪 瑞典 (Sweden) 09 - george
+  - 🇸🇪 瑞典 (Sweden) 10 - george
+  - 🇸🇪 瑞典 (Sweden) 11 - george
+  - 🇸🇪 瑞典 (Sweden) 12 - george
+  - 🇸🇪 瑞典 (Sweden) 13 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -141,5 +194,9 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 07 - george
   - 🇸🇪 瑞典 (Sweden) 08 - george
   - 🇸🇪 瑞典 (Sweden) 09 - george
+  - 🇸🇪 瑞典 (Sweden) 10 - george
+  - 🇸🇪 瑞典 (Sweden) 11 - george
+  - 🇸🇪 瑞典 (Sweden) 12 - george
+  - 🇸🇪 瑞典 (Sweden) 13 - george
 rules:
 - MATCH,PROXIES
