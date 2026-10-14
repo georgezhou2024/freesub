@@ -5,34 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - george
-  server: 172.67.221.230
-  port: 443
-  udp: true
-  type: vless
-  uuid: ee556a4f-d9f6-44de-af02-42c51659416a
-  tls: true
-  servername: novantunnel.tech
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /Novan-AE9
-    headers:
-      Host: novantunnel.tech
-- name: 🇦🇪 阿联酋 (UAE) 02 - george
-  server: 129.153.71.28
-  port: 28863
-  udp: true
-  type: vless
-  uuid: 6a27d8d2-9746-4a12-88b1-83b44510450e
-  tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 03 - george
   server: 157.228.155.238
   port: 443
   udp: true
@@ -44,8 +16,8 @@ proxies:
     public-key: 5BDht3tAZdKEKpJymGlRK9JugOnieA-kMSWz_0FoE0I
     short-id: 6f76ad09
   servername: addons.mozilla.org
-  client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 04 - george
+  client-fingerprint: chrome
+- name: 🇦🇪 阿联酋 (UAE) 02 - george
   server: 157.228.155.185
   port: 443
   udp: true
@@ -58,7 +30,7 @@ proxies:
     short-id: 5ea112e8
   servername: addons.mozilla.org
   client-fingerprint: chrome
-- name: 🇦🇪 阿联酋 (UAE) 05 - george
+- name: 🇦🇪 阿联酋 (UAE) 03 - george
   server: 130.49.161.70
   port: 443
   udp: true
@@ -68,7 +40,7 @@ proxies:
   skip-cert-verify: false
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇦🇪 阿联酋 (UAE) 06 - george
+- name: 🇦🇪 阿联酋 (UAE) 04 - george
   server: 157.228.128.59
   port: 443
   udp: true
@@ -80,8 +52,23 @@ proxies:
     public-key: QnxkyscHouhaLDJHT47beyenVd4LHi62yfJIeRV01Ws
     short-id: 06e00e7c
   servername: addons.mozilla.org
-  client-fingerprint: randomized
-- name: 🇦🇪 阿联酋 (UAE) 07 - george
+  client-fingerprint: random
+- name: 🇦🇪 阿联酋 (UAE) 05 - george
+  server: 31.59.210.26
+  port: 2088
+  udp: true
+  type: vless
+  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+  tls: true
+  reality-opts:
+    public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
+    short-id: b1ad165f903c62fe
+  servername: www.yandex.ru
+  client-fingerprint: safari
+  network: grpc
+  grpc-opts:
+    grpc-service-name: astracat
+- name: 🇦🇪 阿联酋 (UAE) 06 - george
   server: 31.59.210.37
   port: 443
   udp: true
@@ -92,7 +79,22 @@ proxies:
     public-key: 5k0dtOSzmshCubdYeKppsUdHU4i2ghaB9uSJSzGjHW4
     short-id: 6dbf4931096f9890
   servername: www.yandex.ru
-  client-fingerprint: edge
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: astracat
+- name: 🇦🇪 阿联酋 (UAE) 07 - george
+  server: 31.59.210.25
+  port: 2087
+  udp: true
+  type: vless
+  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+  tls: true
+  reality-opts:
+    public-key: KDBhxT2YMtMjDEC9VdoDEISdCwxd6KFrSE8uyUaHcTY
+    short-id: ed435c242097fd05
+  servername: www.yandex.ru
+  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: astracat
@@ -107,12 +109,12 @@ proxies:
     public-key: qvVoQPNyuM86jBvBqOL-Z9VO_C9jMi_ZH8bb4fotNWA
     short-id: 7ec4374ffc6308fd
   servername: www.yandex.ru
-  client-fingerprint: ''
+  client-fingerprint: safari
   network: grpc
   grpc-opts:
     grpc-service-name: astracat
 - name: 🇦🇪 阿联酋 (UAE) 09 - george
-  server: uae.unixzone.us
+  server: 84.235.244.108
   port: 22573
   udp: true
   type: vless
@@ -120,17 +122,9 @@ proxies:
   network: ws
   ws-opts:
     path: /
+    headers:
+      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 10 - george
-  server: 37.9.4.112
-  port: 17701
-  udp: true
-  type: hysteria2
-  password: 56ff50da-a238-4646-95ab-dd159634bd87
-  sni: ru03.arpanet-cdn.com
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: 588c76723192f87cfe6d6786816177cd2bd9773acdc545928d7d1d5e8338d4ce
-- name: 🇦🇪 阿联酋 (UAE) 11 - george
   server: 146.70.102.82
   port: 443
   udp: true
@@ -142,36 +136,7 @@ proxies:
     public-key: GDer6NQYXdbccrFI0tLn2671PjCvrcSy0R7TKY8vG1k
     short-id: 002fb4ec7b3088cc
   servername: www.datadoghq.com
-  client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 12 - george
-  server: 185.220.68.226
-  port: 20205
-  udp: true
-  type: vless
-  uuid: d7406afb-cbbc-4302-aa56-cbe72088ccaf
-  tls: true
-  servername: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 13 - george
-  server: 31.59.210.26
-  port: 2088
-  udp: true
-  type: vless
-  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
-  tls: true
-  reality-opts:
-    public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
-    short-id: b1ad165f903c62fe
-  servername: www.yandex.ru
-  client-fingerprint: qq
-  network: grpc
-  grpc-opts:
-    grpc-service-name: astracat
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -187,9 +152,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 08 - george
   - 🇦🇪 阿联酋 (UAE) 09 - george
   - 🇦🇪 阿联酋 (UAE) 10 - george
-  - 🇦🇪 阿联酋 (UAE) 11 - george
-  - 🇦🇪 阿联酋 (UAE) 12 - george
-  - 🇦🇪 阿联酋 (UAE) 13 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -205,8 +167,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 08 - george
   - 🇦🇪 阿联酋 (UAE) 09 - george
   - 🇦🇪 阿联酋 (UAE) 10 - george
-  - 🇦🇪 阿联酋 (UAE) 11 - george
-  - 🇦🇪 阿联酋 (UAE) 12 - george
-  - 🇦🇪 阿联酋 (UAE) 13 - george
 rules:
 - MATCH,PROXIES
