@@ -4,8 +4,23 @@
   },
   "outbounds": [
     {
+      "type": "shadowsocks",
+      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - george",
+      "server": "218.237.185.234",
+      "server_port": 4652,
+      "method": "aes-256-cfb",
+      "password": "qwerREWQ@@"
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - george",
+      "server": "test.keoplentuio.xyz",
+      "server_port": 2053,
+      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
+    },
+    {
       "type": "vmess",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - george",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george",
       "server": "fujrdt.d6f54hd1j.cc",
       "server_port": 443,
       "uuid": "d877dc6f-7323-4b47-a7dd-14228cbae854",
@@ -16,35 +31,26 @@
         "insecure": false
       },
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "fujrdt.d6f54hd1j.cc"
-        }
+        "type": "ws"
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - george",
-      "server": "test.keoplentuio.xyz",
-      "server_port": 2053,
-      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - george",
-        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - george"
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - george",
+        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - george",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - george",
-        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - george"
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - george",
+        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - george",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
