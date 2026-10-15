@@ -11,13 +11,28 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇹🇷 土耳其 (Turkey) 02 (移动家宽) - george
+- name: 🇺🇸 美国 (United States) 02 (家宽) - george
+  server: 69.63.221.116
+  port: 25517
+  udp: true
+  type: vless
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
+  tls: true
+  servername: wzs.echo.net.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HBRETS1lYDldeEEFRGxhbVloPHhpEVl9AFwxSGQ9bSQ==
+    headers:
+      Host: wzs.echo.net.eu.org
+- name: 🇹🇷 土耳其 (Turkey) 03 (移动家宽) - george
   server: test.keoplentuio.xyz
   port: 2053
   udp: true
   type: vless
   uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
-- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george
+- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - george
   server: fujrdt.d6f54hd1j.cc
   port: 443
   udp: true
@@ -31,21 +46,25 @@ proxies:
   network: ws
   ws-opts:
     path: /
+    headers:
+      Host: fujrdt.d6f54hd1j.cc
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - george
-  - 🇹🇷 土耳其 (Turkey) 02 (移动家宽) - george
-  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george
+  - 🇺🇸 美国 (United States) 02 (家宽) - george
+  - 🇹🇷 土耳其 (Turkey) 03 (移动家宽) - george
+  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - george
-  - 🇹🇷 土耳其 (Turkey) 02 (移动家宽) - george
-  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george
+  - 🇺🇸 美国 (United States) 02 (家宽) - george
+  - 🇹🇷 土耳其 (Turkey) 03 (移动家宽) - george
+  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - george
 rules:
 - MATCH,PROXIES

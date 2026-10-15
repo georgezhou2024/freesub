@@ -5,13 +5,27 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇿🇦 南非 (South Africa) 01 - george
+  server: 139.84.247.164
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: tfAcRikawhNoZAhu
+- name: 🇿🇦 南非 (South Africa) 02 - george
+  server: 102.37.156.224
+  port: 443
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: aduB9HGxQHjA2SBMRjkHX6
+- name: 🇿🇦 南非 (South Africa) 03 - george
   server: 102.133.165.160
   port: 16233
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: Xsy8Ox4yOV3xLlpxtjzs3X
-- name: 🇿🇦 南非 (South Africa) 02 - george
+- name: 🇿🇦 南非 (South Africa) 04 - george
   server: 34.35.186.228
   port: 443
   udp: true
@@ -22,8 +36,8 @@ proxies:
     public-key: bSN0cv0VMxmYZsNsMkkLndOTHZu74C1htJ2M71QMaVE
     short-id: 89b3a20484eb43ec
   servername: www.cloudflare.com
-  client-fingerprint: ios
-- name: 🇿🇦 南非 (South Africa) 03 - george
+  client-fingerprint: chrome
+- name: 🇿🇦 南非 (South Africa) 05 - george
   server: 34.35.189.111
   port: 443
   udp: true
@@ -43,6 +57,8 @@ proxy-groups:
   - 🇿🇦 南非 (South Africa) 01 - george
   - 🇿🇦 南非 (South Africa) 02 - george
   - 🇿🇦 南非 (South Africa) 03 - george
+  - 🇿🇦 南非 (South Africa) 04 - george
+  - 🇿🇦 南非 (South Africa) 05 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -51,5 +67,7 @@ proxy-groups:
   - 🇿🇦 南非 (South Africa) 01 - george
   - 🇿🇦 南非 (South Africa) 02 - george
   - 🇿🇦 南非 (South Africa) 03 - george
+  - 🇿🇦 南非 (South Africa) 04 - george
+  - 🇿🇦 南非 (South Africa) 05 - george
 rules:
 - MATCH,PROXIES

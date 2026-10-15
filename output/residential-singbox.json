@@ -13,14 +13,37 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - george",
+      "tag": "🇺🇸 美国 (United States) 02 (家宽) - george",
+      "server": "69.63.221.116",
+      "server_port": 25517,
+      "uuid": "d18c6897-2849-456a-8c46-d7ecece47c20",
+      "tls": {
+        "enabled": true,
+        "server_name": "wzs.echo.net.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HBRETS1lYDldeEEFRGxhbVloPHhpEVl9AFwxSGQ9bSQ==",
+        "headers": {
+          "Host": "wzs.echo.net.eu.org"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - george",
       "server": "test.keoplentuio.xyz",
       "server_port": 2053,
       "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
     },
     {
       "type": "vmess",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - george",
       "server": "fujrdt.d6f54hd1j.cc",
       "server_port": 443,
       "uuid": "d877dc6f-7323-4b47-a7dd-14228cbae854",
@@ -31,7 +54,11 @@
         "insecure": false
       },
       "transport": {
-        "type": "ws"
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "fujrdt.d6f54hd1j.cc"
+        }
       }
     },
     {
@@ -40,8 +67,9 @@
       "outbounds": [
         "auto",
         "🇰🇷 韩国 (South Korea) 01 (家宽) - george",
-        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - george",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george"
+        "🇺🇸 美国 (United States) 02 (家宽) - george",
+        "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - george",
+        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - george"
       ]
     },
     {
@@ -49,8 +77,9 @@
       "tag": "auto",
       "outbounds": [
         "🇰🇷 韩国 (South Korea) 01 (家宽) - george",
-        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - george",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george"
+        "🇺🇸 美国 (United States) 02 (家宽) - george",
+        "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - george",
+        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
