@@ -4,35 +4,32 @@
   },
   "outbounds": [
     {
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - george",
+      "server": "hinet1.2yly.com",
+      "server_port": 24215,
+      "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
+      "tls": {
+        "enabled": true,
+        "server_name": "addons.mozilla.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
+          "short_id": ""
+        }
+      }
+    },
+    {
       "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - george",
-      "server": "218.237.185.234",
+      "tag": "🇰🇷 韩国 (South Korea) 02 (家宽) - george",
+      "server": "p141.panda001.net",
       "server_port": 4652,
       "method": "aes-256-cfb",
       "password": "qwerREWQ@@"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 02 (家宽) - george",
-      "server": "69.63.221.116",
-      "server_port": 25517,
-      "uuid": "d18c6897-2849-456a-8c46-d7ecece47c20",
-      "tls": {
-        "enabled": true,
-        "server_name": "wzs.echo.net.eu.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HBRETS1lYDldeEEFRGxhbVloPHhpEVl9AFwxSGQ9bSQ==",
-        "headers": {
-          "Host": "wzs.echo.net.eu.org"
-        }
-      }
     },
     {
       "type": "vless",
@@ -42,44 +39,22 @@
       "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
     },
     {
-      "type": "vmess",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - george",
-      "server": "fujrdt.d6f54hd1j.cc",
-      "server_port": 443,
-      "uuid": "d877dc6f-7323-4b47-a7dd-14228cbae854",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "fujrdt.d6f54hd1j.cc",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "fujrdt.d6f54hd1j.cc"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - george",
-        "🇺🇸 美国 (United States) 02 (家宽) - george",
-        "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - george",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - george"
+        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - george",
+        "🇰🇷 韩国 (South Korea) 02 (家宽) - george",
+        "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - george",
-        "🇺🇸 美国 (United States) 02 (家宽) - george",
-        "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - george",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - george"
+        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - george",
+        "🇰🇷 韩国 (South Korea) 02 (家宽) - george",
+        "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

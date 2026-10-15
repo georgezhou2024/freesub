@@ -5,13 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 罗马尼亚 (Romania) 01 - george
-  server: 154.46.31.106
-  port: 443
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: QFWzCw2uX9B9i6qAYeFBIE
-- name: 🇷🇴 罗马尼亚 (Romania) 02 - george
   server: 162.249.125.133
   port: 443
   udp: true
@@ -21,7 +14,7 @@ proxies:
   skip-cert-verify: false
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
-- name: 🇷🇴 罗马尼亚 (Romania) 03 - george
+- name: 🇷🇴 罗马尼亚 (Romania) 02 - george
   server: 82.117.255.174
   port: 443
   udp: true
@@ -34,7 +27,7 @@ proxies:
     short-id: 31e91d43e553bf32
   servername: gateway.icloud.com
   client-fingerprint: chrome
-- name: 🇷🇴 罗马尼亚 (Romania) 04 - george
+- name: 🇷🇴 罗马尼亚 (Romania) 03 - george
   server: 185.156.44.99
   port: 443
   udp: true
@@ -42,6 +35,26 @@ proxies:
   password: gf1:gfhysteria2024
   sni: speedtest.tinkoff.ru
   skip-cert-verify: true
+- name: 🇷🇴 罗马尼亚 (Romania) 04 - george
+  server: 78.154.103.45
+  port: 11901
+  udp: true
+  type: vmess
+  uuid: 1e9edd93-f160-4a4a-b369-2e5194b1932a
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /Telegram=@AmyraxVPN
+    headers:
+      Host: 78.154.103.45
+- name: 🇷🇴 罗马尼亚 (Romania) 05 - george
+  server: 154.46.31.106
+  port: 443
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: QFWzCw2uX9B9i6qAYeFBIE
 proxy-groups:
 - name: PROXIES
   type: select
@@ -51,6 +64,7 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 02 - george
   - 🇷🇴 罗马尼亚 (Romania) 03 - george
   - 🇷🇴 罗马尼亚 (Romania) 04 - george
+  - 🇷🇴 罗马尼亚 (Romania) 05 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -60,5 +74,6 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 02 - george
   - 🇷🇴 罗马尼亚 (Romania) 03 - george
   - 🇷🇴 罗马尼亚 (Romania) 04 - george
+  - 🇷🇴 罗马尼亚 (Romania) 05 - george
 rules:
 - MATCH,PROXIES
