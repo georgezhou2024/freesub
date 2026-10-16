@@ -6,96 +6,6 @@
     {
       "type": "vless",
       "tag": "🇧🇷 巴西 (Brazil) 01 - george",
-      "server": "35.199.90.53",
-      "server_port": 443,
-      "uuid": "5e517b94-e207-47ee-be3c-3020a57594e8",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "pCImwRkTjx8OIUiu1WFelZQFt1p3Q0lUoPbvjVq8GTs",
-          "short_id": "b62a4da6cd1c4dd6"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇷 巴西 (Brazil) 02 - george",
-      "server": "platform118.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform118",
-        "headers": {
-          "Host": "platform118.halalkhor.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇷 巴西 (Brazil) 03 - george",
-      "server": "platform107.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform107",
-        "headers": {
-          "Host": "platform107.halalkhor.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇷 巴西 (Brazil) 04 - george",
-      "server": "platform117.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform117",
-        "headers": {
-          "Host": "platform117.halalkhor.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇷 巴西 (Brazil) 05 - george",
-      "server": "platform106.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform106",
-        "headers": {
-          "Host": "platform106.halalkhor.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇷 巴西 (Brazil) 06 - george",
-      "server": "platform113.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform113",
-        "headers": {
-          "Host": "platform113.halalkhor.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇷 巴西 (Brazil) 07 - george",
       "server": "platform101.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
@@ -109,7 +19,21 @@
     },
     {
       "type": "vless",
-      "tag": "🇧🇷 巴西 (Brazil) 08 - george",
+      "tag": "🇧🇷 巴西 (Brazil) 02 - george",
+      "server": "platform103.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform103",
+        "headers": {
+          "Host": "platform103.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 03 - george",
       "server": "platform102.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
@@ -122,8 +46,103 @@
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 04 - george",
+      "server": "platform118.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform118",
+        "headers": {
+          "Host": "platform118.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 05 - george",
+      "server": "platform109.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform109",
+        "headers": {
+          "Host": "platform109.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 06 - george",
+      "server": "platform106.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform106",
+        "headers": {
+          "Host": "platform106.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 07 - george",
+      "server": "platform113.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform113",
+        "headers": {
+          "Host": "platform113.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 08 - george",
+      "server": "platform117.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform117",
+        "headers": {
+          "Host": "platform117.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇧🇷 巴西 (Brazil) 09 - george",
+      "server": "platform107.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform107"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 10 - george",
+      "server": "platform115.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform115",
+        "headers": {
+          "Host": "platform115.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇧🇷 巴西 (Brazil) 11 - george",
       "server": "137.131.171.249",
       "password": "CyG0RFxMjzs41uQD4OLuHQ==",
       "tls": {
@@ -141,36 +160,17 @@
     },
     {
       "type": "vless",
-      "tag": "🇧🇷 巴西 (Brazil) 10 - george",
-      "server": "platform103.golnamakcert.top",
+      "tag": "🇧🇷 巴西 (Brazil) 12 - george",
+      "server": "platform108.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
         "type": "ws",
-        "path": "/platform103"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇷 巴西 (Brazil) 11 - george",
-      "server": "platform109.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform109",
+        "path": "/platform108",
         "headers": {
-          "Host": "platform109.halalkhor.info"
+          "Host": "platform108.halalkhor.info"
         }
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇧🇷 巴西 (Brazil) 12 - george",
-      "server": "216.128.168.190",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "owVdNnQcdPgthSyX"
     },
     {
       "type": "selector",

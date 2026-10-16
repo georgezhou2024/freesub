@@ -44,16 +44,8 @@
       "password": "7eadc6dbe2ae"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - george",
-      "server": "194.87.196.107",
-      "server_port": 18443,
-      "method": "aes-256-gcm",
-      "password": "Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE"
-    },
-    {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - george",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - george",
       "server": "freede.aiage.work",
       "server_port": 443,
       "uuid": "6338c01a-310e-42c3-bf4f-2a20e161054b",
@@ -63,7 +55,7 @@
         "server_name": "freede.aiage.work",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -73,36 +65,41 @@
       }
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - george",
+      "server": "130.49.189.158",
+      "server_port": 43558,
+      "method": "chacha20-ietf-poly1305",
+      "password": "j3PKOCj7wHl5Pk6thI9HyXtCa6JU180IlBpWANgFjkY="
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇷🇺 俄罗斯 (Russia) 06 - george",
-      "server": "153.80.241.206",
-      "server_port": 8444,
-      "uuid": "f55e9aba-7b14-4f6f-b59a-d5b3d45c9309",
+      "server": "176.32.32.108",
+      "server_port": 18443,
+      "method": "aes-256-gcm",
+      "password": "cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa"
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 07 - george",
+      "server": "du-rov.secureservice.top",
+      "server_port": 8443,
+      "uuid": "c53ea5e9-ed8b-4990-805d-7f1d6451426c",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "github.com",
+        "server_name": "du-rov.secureservice.top",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
-          "short_id": ""
+          "public_key": "fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI",
+          "short_id": "3cbc3d737fb9c4af"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "GunService"
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 07 - george",
-      "server": "130.49.189.158",
-      "server_port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "j3PKOCj7wHl5Pk6thI9HyXtCa6JU180IlBpWANgFjkY="
     },
     {
       "type": "hysteria2",
@@ -112,8 +109,8 @@
       "password": "7ab3c77e-8fcc-4848-918f-cae3d4eac794",
       "tls": {
         "enabled": true,
-        "server_name": "194.87.118.184",
-        "insecure": true
+        "server_name": "match-stream.lovkisport.blog",
+        "insecure": false
       }
     },
     {
@@ -125,87 +122,33 @@
       "tls": {
         "enabled": true,
         "server_name": "match-stream.lovkisport.blog",
-        "insecure": false
+        "insecure": true
       }
     },
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 10 - george",
-      "server": "5.42.99.64",
-      "server_port": 8443,
-      "uuid": "c53ea5e9-ed8b-4990-805d-7f1d6451426c",
+      "server": "139.28.168.75",
+      "server_port": 10444,
+      "uuid": "154bd388-4968-4900-a088-18676f428a20",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "du-rov.secureservice.top",
+        "server_name": "video.yandex.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
-          "public_key": "fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI",
-          "short_id": "3cbc3d737fb9c4af"
+          "public_key": "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo",
+          "short_id": "8debcf36f1cc69ff"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 11 - george",
-      "server": "5.42.99.64",
-      "server_port": 8443,
-      "uuid": "c53ea5e9-ed8b-4990-805d-7f1d6451426c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "du-rov.secureservice.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI",
-          "short_id": "3cbc3d737fb9c4af"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 12 - george",
-      "server": "37.143.15.206",
-      "server_port": 443,
-      "uuid": "4599572f-bcfa-461e-bc73-d80e1ea65aa6",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "5post-gate.x5.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA",
-          "short_id": "111111"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 13 - george",
-      "server": "91.196.32.163",
-      "server_port": 443,
-      "password": "mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj",
-      "tls": {
-        "enabled": true,
-        "server_name": "91.196.32.163",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 14 - george",
       "server": "aelix-al.safire-soleiman.ir",
       "server_port": 6311,
       "uuid": "2ffa91fe-e1cc-4c44-a90a-45002feae978",
@@ -214,7 +157,7 @@
         "server_name": "play.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -225,7 +168,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 15 - george",
+      "tag": "🇷🇺 俄罗斯 (Russia) 12 - george",
       "server": "193.233.74.6",
       "server_port": 8444,
       "uuid": "f55e9aba-7b14-4f6f-b59a-d5b3d45c9309",
@@ -234,7 +177,7 @@
         "server_name": "github.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -263,10 +206,7 @@
         "🇷🇺 俄罗斯 (Russia) 09 - george",
         "🇷🇺 俄罗斯 (Russia) 10 - george",
         "🇷🇺 俄罗斯 (Russia) 11 - george",
-        "🇷🇺 俄罗斯 (Russia) 12 - george",
-        "🇷🇺 俄罗斯 (Russia) 13 - george",
-        "🇷🇺 俄罗斯 (Russia) 14 - george",
-        "🇷🇺 俄罗斯 (Russia) 15 - george"
+        "🇷🇺 俄罗斯 (Russia) 12 - george"
       ]
     },
     {
@@ -284,10 +224,7 @@
         "🇷🇺 俄罗斯 (Russia) 09 - george",
         "🇷🇺 俄罗斯 (Russia) 10 - george",
         "🇷🇺 俄罗斯 (Russia) 11 - george",
-        "🇷🇺 俄罗斯 (Russia) 12 - george",
-        "🇷🇺 俄罗斯 (Russia) 13 - george",
-        "🇷🇺 俄罗斯 (Russia) 14 - george",
-        "🇷🇺 俄罗斯 (Russia) 15 - george"
+        "🇷🇺 俄罗斯 (Russia) 12 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

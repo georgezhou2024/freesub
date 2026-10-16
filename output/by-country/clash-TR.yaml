@@ -18,29 +18,6 @@ proxies:
   servername: www.datadoghq.com
   client-fingerprint: chrome
 - name: 🇹🇷 土耳其 (Turkey) 02 - george
-  server: 151.241.226.201
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
-  tls: true
-  reality-opts:
-    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
-    short-id: 9e419c0759b54d6f
-  servername: www.apple.com
-  client-fingerprint: random
-- name: 🇹🇷 土耳其 (Turkey) 03 - george
-  server: 188.114.98.0
-  port: 443
-  udp: true
-  type: trojan
-  password: e309e031-991e-4656-9934-44d10deb8fd8
-  sni: nimm.mpd.cc.cd
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /0962
-- name: 🇹🇷 土耳其 (Turkey) 04 - george
   server: 85.192.48.142
   port: 443
   udp: true
@@ -52,7 +29,7 @@ proxies:
     public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
     short-id: db04ce8bdb8900f1
   servername: nvidia.com
-  client-fingerprint: ''
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -60,8 +37,6 @@ proxy-groups:
   - AUTO
   - 🇹🇷 土耳其 (Turkey) 01 - george
   - 🇹🇷 土耳其 (Turkey) 02 - george
-  - 🇹🇷 土耳其 (Turkey) 03 - george
-  - 🇹🇷 土耳其 (Turkey) 04 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -69,7 +44,5 @@ proxy-groups:
   proxies:
   - 🇹🇷 土耳其 (Turkey) 01 - george
   - 🇹🇷 土耳其 (Turkey) 02 - george
-  - 🇹🇷 土耳其 (Turkey) 03 - george
-  - 🇹🇷 土耳其 (Turkey) 04 - george
 rules:
 - MATCH,PROXIES
