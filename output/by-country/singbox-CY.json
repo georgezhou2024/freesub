@@ -6,9 +6,9 @@
     {
       "type": "vless",
       "tag": "🇨🇾 塞浦路斯 (Cyprus) 01 - george",
-      "server": "hydra.yokkastars.com",
+      "server": "5.253.28.224",
       "server_port": 40443,
-      "uuid": "405b964e-a2d2-454f-aaaa-711cc218897c",
+      "uuid": "af5eac96-e478-488a-bc8c-45269d7e8847",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -19,15 +19,15 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0",
-          "short_id": "88b6"
+          "public_key": "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw",
+          "short_id": "68a8"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇨🇾 塞浦路斯 (Cyprus) 02 - george",
-      "server": "hydra.yokkastars.com",
+      "server": "5.253.28.240",
       "server_port": 2443,
       "uuid": "5e679ccd-1586-4d5f-b87b-48251046cad8",
       "tls": {
@@ -35,7 +35,7 @@
         "server_name": "deepl.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -51,17 +51,42 @@
     {
       "type": "vless",
       "tag": "🇨🇾 塞浦路斯 (Cyprus) 03 - george",
-      "server": "77.110.105.122",
+      "server": "hydra.yokkastars.com",
+      "server_port": 40443,
+      "uuid": "405b964e-a2d2-454f-aaaa-711cc218897c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0",
+          "short_id": "88b6"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇾 塞浦路斯 (Cyprus) 04 - george",
+      "server": "co-a.speedtec.ru",
       "server_port": 443,
       "uuid": "019fbe0f-2d9f-4b89-9f81-e1e36129892a",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "co-pl.speedtec.ru",
-        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": ""
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "EBISh6QAVskJ_nvet-Qio9jS2yqxe9de6GMScYlbjhI",
+          "short_id": "226509f017e4c36d"
         }
       }
     },
@@ -72,7 +97,8 @@
         "auto",
         "🇨🇾 塞浦路斯 (Cyprus) 01 - george",
         "🇨🇾 塞浦路斯 (Cyprus) 02 - george",
-        "🇨🇾 塞浦路斯 (Cyprus) 03 - george"
+        "🇨🇾 塞浦路斯 (Cyprus) 03 - george",
+        "🇨🇾 塞浦路斯 (Cyprus) 04 - george"
       ]
     },
     {
@@ -81,7 +107,8 @@
       "outbounds": [
         "🇨🇾 塞浦路斯 (Cyprus) 01 - george",
         "🇨🇾 塞浦路斯 (Cyprus) 02 - george",
-        "🇨🇾 塞浦路斯 (Cyprus) 03 - george"
+        "🇨🇾 塞浦路斯 (Cyprus) 03 - george",
+        "🇨🇾 塞浦路斯 (Cyprus) 04 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
