@@ -5,15 +5,15 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇧🇪 比利时 (Belgium) 01 - george",
-      "server": "104.21.64.198",
-      "server_port": 2095,
-      "uuid": "73796e63-0000-4000-8000-000000000008",
+      "tag": "🌐 其他地区 (Other) 01 - george",
+      "server": "cctvhikvision.center",
+      "server_port": 2052,
+      "uuid": "26769ac3-b34c-430a-87f8-e1de14619d25",
       "transport": {
         "type": "ws",
-        "path": "/sync",
+        "path": "/@BlueKnight_net--@BlueKnight_net",
         "headers": {
-          "Host": "vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev"
+          "Host": "uwu.blueknightnet.qzz.io"
         }
       }
     },
@@ -22,14 +22,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇪 比利时 (Belgium) 01 - george"
+        "🌐 其他地区 (Other) 01 - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇪 比利时 (Belgium) 01 - george"
+        "🌐 其他地区 (Other) 01 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

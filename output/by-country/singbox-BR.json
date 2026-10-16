@@ -26,6 +26,76 @@
     {
       "type": "vless",
       "tag": "🇧🇷 巴西 (Brazil) 02 - george",
+      "server": "platform118.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform118",
+        "headers": {
+          "Host": "platform118.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 03 - george",
+      "server": "platform107.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform107",
+        "headers": {
+          "Host": "platform107.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 04 - george",
+      "server": "platform117.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform117",
+        "headers": {
+          "Host": "platform117.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 05 - george",
+      "server": "platform106.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform106",
+        "headers": {
+          "Host": "platform106.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 06 - george",
+      "server": "platform113.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform113",
+        "headers": {
+          "Host": "platform113.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 07 - george",
       "server": "platform101.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
@@ -38,16 +108,22 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇧🇷 巴西 (Brazil) 03 - george",
-      "server": "216.128.168.190",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "owVdNnQcdPgthSyX"
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 08 - george",
+      "server": "platform102.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform102",
+        "headers": {
+          "Host": "platform102.halalkhor.info"
+        }
+      }
     },
     {
       "type": "hysteria2",
-      "tag": "🇧🇷 巴西 (Brazil) 04 - george",
+      "tag": "🇧🇷 巴西 (Brazil) 09 - george",
       "server": "137.131.171.249",
       "password": "CyG0RFxMjzs41uQD4OLuHQ==",
       "tls": {
@@ -64,6 +140,39 @@
       ]
     },
     {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 10 - george",
+      "server": "platform103.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform103"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 11 - george",
+      "server": "platform109.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform109",
+        "headers": {
+          "Host": "platform109.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇧🇷 巴西 (Brazil) 12 - george",
+      "server": "216.128.168.190",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "owVdNnQcdPgthSyX"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -71,7 +180,15 @@
         "🇧🇷 巴西 (Brazil) 01 - george",
         "🇧🇷 巴西 (Brazil) 02 - george",
         "🇧🇷 巴西 (Brazil) 03 - george",
-        "🇧🇷 巴西 (Brazil) 04 - george"
+        "🇧🇷 巴西 (Brazil) 04 - george",
+        "🇧🇷 巴西 (Brazil) 05 - george",
+        "🇧🇷 巴西 (Brazil) 06 - george",
+        "🇧🇷 巴西 (Brazil) 07 - george",
+        "🇧🇷 巴西 (Brazil) 08 - george",
+        "🇧🇷 巴西 (Brazil) 09 - george",
+        "🇧🇷 巴西 (Brazil) 10 - george",
+        "🇧🇷 巴西 (Brazil) 11 - george",
+        "🇧🇷 巴西 (Brazil) 12 - george"
       ]
     },
     {
@@ -81,7 +198,15 @@
         "🇧🇷 巴西 (Brazil) 01 - george",
         "🇧🇷 巴西 (Brazil) 02 - george",
         "🇧🇷 巴西 (Brazil) 03 - george",
-        "🇧🇷 巴西 (Brazil) 04 - george"
+        "🇧🇷 巴西 (Brazil) 04 - george",
+        "🇧🇷 巴西 (Brazil) 05 - george",
+        "🇧🇷 巴西 (Brazil) 06 - george",
+        "🇧🇷 巴西 (Brazil) 07 - george",
+        "🇧🇷 巴西 (Brazil) 08 - george",
+        "🇧🇷 巴西 (Brazil) 09 - george",
+        "🇧🇷 巴西 (Brazil) 10 - george",
+        "🇧🇷 巴西 (Brazil) 11 - george",
+        "🇧🇷 巴西 (Brazil) 12 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

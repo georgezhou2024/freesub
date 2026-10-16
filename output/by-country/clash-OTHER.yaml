@@ -4,28 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇪 比利时 (Belgium) 01 - george
-  server: 104.21.64.198
-  port: 2095
+- name: 🌐 其他地区 (Other) 01 - george
+  server: cctvhikvision.center
+  port: 2052
   udp: true
   type: vless
-  uuid: 73796e63-0000-4000-8000-000000000008
+  uuid: 26769ac3-b34c-430a-87f8-e1de14619d25
   network: ws
   ws-opts:
-    path: /sync
+    path: /@BlueKnight_net--@BlueKnight_net
     headers:
-      Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+      Host: uwu.blueknightnet.qzz.io
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇧🇪 比利时 (Belgium) 01 - george
+  - 🌐 其他地区 (Other) 01 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇪 比利时 (Belgium) 01 - george
+  - 🌐 其他地区 (Other) 01 - george
 rules:
 - MATCH,PROXIES
