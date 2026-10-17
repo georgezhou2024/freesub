@@ -5,23 +5,36 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇭 瑞士 (Switzerland) 01 - george
+  server: 156.229.163.237
+  port: 10238
+  udp: true
+  type: vless
+  uuid: 05cfac59-b08a-4d35-9e6d-7924f6439f28
+  tls: true
+  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+- name: 🇨🇭 瑞士 (Switzerland) 02 - george
   server: 86.106.84.194
   port: 13261
   udp: true
   type: ss
   cipher: aes-128-gcm
   password: 2bf536a4bd6008511734a505d248de2c
-- name: 🇨🇭 瑞士 (Switzerland) 02 - george
-  server: 152.67.75.161
-  port: 443
+- name: 🇨🇭 瑞士 (Switzerland) 03 - george
+  server: 140.238.213.114
+  port: 50160
   udp: true
   type: hysteria2
-  password: 3a702d4d1de4949005d8431220e040fb
+  password: 84a506ca5aca505696a454d828420b3f
   sni: www.bing.com
   skip-cert-verify: true
-  obfs: salamander
-  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
-- name: 🇨🇭 瑞士 (Switzerland) 03 - george
+- name: 🇨🇭 瑞士 (Switzerland) 04 - george
   server: 45.90.59.15
   port: 443
   udp: true
@@ -34,7 +47,17 @@ proxies:
     short-id: 19253fae84102271
   servername: www.cloudflare.com
   client-fingerprint: firefox
-- name: 🇨🇭 瑞士 (Switzerland) 04 - george
+- name: 🇨🇭 瑞士 (Switzerland) 05 - george
+  server: 152.67.75.161
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 3a702d4d1de4949005d8431220e040fb
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
+- name: 🇨🇭 瑞士 (Switzerland) 06 - george
   server: freefl.aiage.work
   port: 443
   udp: true
@@ -47,7 +70,7 @@ proxies:
     short-id: ff0ddf949624ef2a
   servername: freefl.aiage.work
   client-fingerprint: chrome
-- name: 🇨🇭 瑞士 (Switzerland) 05 - george
+- name: 🇨🇭 瑞士 (Switzerland) 07 - george
   server: 104.165.205.42
   port: 8443
   udp: true
@@ -55,9 +78,46 @@ proxies:
   password: 990c8eb6-4c4e-4277-8602-79af8402cdd0
   sni: speedtestmark.com
   skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 06 - george
+- name: 🇨🇭 瑞士 (Switzerland) 08 - george
+  server: ch.srv.vbuste.ru
+  port: 444
+  udp: true
+  type: vless
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+  tls: true
+  reality-opts:
+    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+    short-id: 4be4110078ebed4a
+  servername: ch.srv.vbuste.ru
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: ''
+- name: 🇨🇭 瑞士 (Switzerland) 09 - george
+  server: 132.243.175.144
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
+- name: 🇨🇭 瑞士 (Switzerland) 10 - george
+  server: 45.77.241.190
+  port: 8441
+  udp: true
+  type: vless
+  uuid: c65d2504-f68e-4948-841d-0a2dc5d66fbe
+  tls: true
+  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+- name: 🇨🇭 瑞士 (Switzerland) 11 - george
   server: 208.69.78.217
-  port: 33141
+  port: 33152
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -65,15 +125,67 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭 瑞士 (Switzerland) 07 - george
-  server: 140.238.213.114
-  port: 50160
+- name: 🇨🇭 瑞士 (Switzerland) 12 - george
+  server: 208.69.78.217
+  port: 21158
   udp: true
   type: hysteria2
-  password: 84a506ca5aca505696a454d828420b3f
-  sni: 140.238.213.114
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
   skip-cert-verify: true
-- name: 🇨🇭 瑞士 (Switzerland) 08 - george
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 13 - george
+  server: 208.69.78.217
+  port: 21016
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 14 - george
+  server: 208.69.78.217
+  port: 33044
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 15 - george
+  server: 208.69.78.217
+  port: 21147
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 16 - george
+  server: 208.69.78.217
+  port: 33187
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 17 - george
+  server: 208.69.78.217
+  port: 21021
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 18 - george
   server: 208.69.78.217
   port: 21047
   udp: true
@@ -83,7 +195,47 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭 瑞士 (Switzerland) 09 - george
+- name: 🇨🇭 瑞士 (Switzerland) 19 - george
+  server: 208.69.78.217
+  port: 33195
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 20 - george
+  server: 208.69.78.217
+  port: 21046
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 21 - george
+  server: 208.69.78.217
+  port: 21090
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 22 - george
+  server: 208.69.78.217
+  port: 21067
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 23 - george
   server: 208.69.78.217
   port: 2053
   udp: true
@@ -95,41 +247,6 @@ proxies:
     short-id: ad86e2d52ff40ebd
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇨🇭 瑞士 (Switzerland) 10 - george
-  server: 138.124.63.224
-  port: 8444
-  udp: true
-  type: vless
-  uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309
-  tls: true
-  reality-opts:
-    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
-    short-id: 457fab2ac885dbe0
-  servername: github.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: GunService
-- name: 🇨🇭 瑞士 (Switzerland) 11 - george
-  server: 208.69.78.217
-  port: 33130
-  udp: true
-  type: hysteria2
-  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭 瑞士 (Switzerland) 12 - george
-  server: 208.69.78.217
-  port: 21021
-  udp: true
-  type: hysteria2
-  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: mbQXP2ASuHbF6ZPq
 proxy-groups:
 - name: PROXIES
   type: select
@@ -147,6 +264,17 @@ proxy-groups:
   - 🇨🇭 瑞士 (Switzerland) 10 - george
   - 🇨🇭 瑞士 (Switzerland) 11 - george
   - 🇨🇭 瑞士 (Switzerland) 12 - george
+  - 🇨🇭 瑞士 (Switzerland) 13 - george
+  - 🇨🇭 瑞士 (Switzerland) 14 - george
+  - 🇨🇭 瑞士 (Switzerland) 15 - george
+  - 🇨🇭 瑞士 (Switzerland) 16 - george
+  - 🇨🇭 瑞士 (Switzerland) 17 - george
+  - 🇨🇭 瑞士 (Switzerland) 18 - george
+  - 🇨🇭 瑞士 (Switzerland) 19 - george
+  - 🇨🇭 瑞士 (Switzerland) 20 - george
+  - 🇨🇭 瑞士 (Switzerland) 21 - george
+  - 🇨🇭 瑞士 (Switzerland) 22 - george
+  - 🇨🇭 瑞士 (Switzerland) 23 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -164,5 +292,16 @@ proxy-groups:
   - 🇨🇭 瑞士 (Switzerland) 10 - george
   - 🇨🇭 瑞士 (Switzerland) 11 - george
   - 🇨🇭 瑞士 (Switzerland) 12 - george
+  - 🇨🇭 瑞士 (Switzerland) 13 - george
+  - 🇨🇭 瑞士 (Switzerland) 14 - george
+  - 🇨🇭 瑞士 (Switzerland) 15 - george
+  - 🇨🇭 瑞士 (Switzerland) 16 - george
+  - 🇨🇭 瑞士 (Switzerland) 17 - george
+  - 🇨🇭 瑞士 (Switzerland) 18 - george
+  - 🇨🇭 瑞士 (Switzerland) 19 - george
+  - 🇨🇭 瑞士 (Switzerland) 20 - george
+  - 🇨🇭 瑞士 (Switzerland) 21 - george
+  - 🇨🇭 瑞士 (Switzerland) 22 - george
+  - 🇨🇭 瑞士 (Switzerland) 23 - george
 rules:
 - MATCH,PROXIES
