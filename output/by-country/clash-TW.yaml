@@ -5,34 +5,23 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 - george
-  server: 160.187.100.109
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 160.187.100.109
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 02 - george
   server: 103.115.109.49
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%3a%2f%2ft.me%2fwangcai2%f0%9f%87%a8%f0%9f%87%b3
+  sni: https://t.me/oneclickvpnkeys
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 02 - george
+  server: vpn-tw-002.fastervpn.world
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: css.rbxcdn.com
   skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 03 - george
-  server: 118.167.219.24
-  port: 24215
-  udp: true
-  type: vless
-  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
-  tls: true
-  reality-opts:
-    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
-  servername: addons.mozilla.org
-  client-fingerprint: firefox
-- name: 🇹🇼 中国台湾 (Taiwan) 04 - george
-  server: 60.248.219.78
+  server: 59.125.69.23
   port: 443
   udp: true
   type: vless
@@ -53,7 +42,6 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 - george
   - 🇹🇼 中国台湾 (Taiwan) 02 - george
   - 🇹🇼 中国台湾 (Taiwan) 03 - george
-  - 🇹🇼 中国台湾 (Taiwan) 04 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -62,6 +50,5 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 - george
   - 🇹🇼 中国台湾 (Taiwan) 02 - george
   - 🇹🇼 中国台湾 (Taiwan) 03 - george
-  - 🇹🇼 中国台湾 (Taiwan) 04 - george
 rules:
 - MATCH,PROXIES

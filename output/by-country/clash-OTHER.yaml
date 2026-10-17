@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - george
-  server: uk2-2.998998.best
+  server: uk3-2.998998.best
   port: 443
   udp: true
   type: vmess
@@ -13,13 +13,13 @@ proxies:
   alterId: 0
   cipher: auto
   tls: true
-  servername: server3.9966338.xyz
+  servername: server22.9966338.xyz
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /waetasiuofguiwer
+    path: /serhrdftshg
     headers:
-      Host: server3.9966338.xyz
+      Host: server22.9966338.xyz
 proxy-groups:
 - name: PROXIES
   type: select

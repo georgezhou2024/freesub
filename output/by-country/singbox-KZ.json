@@ -4,8 +4,32 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "vmess",
       "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - george",
+      "server": "3h-kazakhstan1.09vpn.com",
+      "server_port": 80,
+      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/vmess/"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george",
+      "server": "3h-kazakhstan1.09vpn.com",
+      "server_port": 80,
+      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/vmess/"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george",
       "server": "fi1server.rabstvo.shop",
       "server_port": 443,
       "password": "9yOIR2_QAChKs26rYaiX_aoNnOALd0aU",
@@ -17,7 +41,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george",
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - george",
       "server": "38.107.234.57",
       "server_port": 80,
       "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
@@ -26,13 +50,13 @@
         "type": "ws",
         "path": "/vmess/",
         "headers": {
-          "Host": "38.107.234.57"
+          "Host": "google.com"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george",
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - george",
       "server": "83.222.23.81",
       "server_port": 38065,
       "uuid": "4b9063e0-3288-44e9-9aac-80fbfce323a0",
@@ -51,26 +75,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - george",
-      "server": "109.248.170.119",
-      "server_port": 13447,
-      "uuid": "b573cefb-7bc7-4a42-b407-b8b534e66773",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE",
-          "short_id": "83"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -78,7 +82,8 @@
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - george",
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george",
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - george"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - george",
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - george"
       ]
     },
     {
@@ -88,7 +93,8 @@
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - george",
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george",
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - george"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - george",
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
