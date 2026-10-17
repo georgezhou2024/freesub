@@ -4,16 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇹🇷 土耳其 (Turkey) 01 - george",
-      "server": "206.1.99.116",
-      "server_port": 1080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "CM-_ISRcHPz4cetu7grgSEv0VpT5MTRE"
-    },
-    {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 02 - george",
+      "tag": "🇹🇷 土耳其 (Turkey) 01 - george",
       "server": "78.135.73.47",
       "server_port": 443,
       "uuid": "25e16692-d097-4e69-9e2d-8415609c1968",
@@ -34,7 +26,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 03 - george",
+      "tag": "🇹🇷 土耳其 (Turkey) 02 - george",
       "server": "151.241.226.201",
       "server_port": 2053,
       "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
@@ -43,7 +35,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -54,7 +46,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 04 - george",
+      "tag": "🇹🇷 土耳其 (Turkey) 03 - george",
       "server": "62.60.233.157",
       "server_port": 8444,
       "uuid": "f55e9aba-7b14-4f6f-b59a-d5b3d45c9309",
@@ -63,7 +55,7 @@
         "server_name": "github.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -77,11 +69,59 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇹🇷 土耳其 (Turkey) 04 - george",
+      "server": "me17.msjia8844.site",
+      "server_port": 7443,
+      "password": "M8LP9DztTr3znqCkmf-r08CQLBLLFK1r",
+      "tls": {
+        "enabled": true,
+        "server_name": "me17.msjia8844.site",
+        "insecure": false
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "u3Soh9_Ui0UmcuY6vk0ug8Lq"
+      }
+    },
+    {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 05 - george",
-      "server": "test.keoplentuio.xyz",
+      "server": "177.3.208.65",
+      "server_port": 443,
+      "uuid": "4f34bc04-479c-49ba-91a8-6bb9ed15031c",
+      "tls": {
+        "enabled": true,
+        "server_name": "tgmansion.site",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless-tr"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇹🇷 土耳其 (Turkey) 06 - george",
+      "server": "104.21.48.18",
       "server_port": 2053,
-      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
+      "password": "e309e031-991e-4656-9934-44d10deb8fd8",
+      "tls": {
+        "enabled": true,
+        "server_name": "nimm.mpd.cc.cd",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/0962",
+        "headers": {
+          "Host": "nimm.mpd.cc.cd"
+        }
+      }
     },
     {
       "type": "selector",
@@ -92,7 +132,8 @@
         "🇹🇷 土耳其 (Turkey) 02 - george",
         "🇹🇷 土耳其 (Turkey) 03 - george",
         "🇹🇷 土耳其 (Turkey) 04 - george",
-        "🇹🇷 土耳其 (Turkey) 05 - george"
+        "🇹🇷 土耳其 (Turkey) 05 - george",
+        "🇹🇷 土耳其 (Turkey) 06 - george"
       ]
     },
     {
@@ -103,7 +144,8 @@
         "🇹🇷 土耳其 (Turkey) 02 - george",
         "🇹🇷 土耳其 (Turkey) 03 - george",
         "🇹🇷 土耳其 (Turkey) 04 - george",
-        "🇹🇷 土耳其 (Turkey) 05 - george"
+        "🇹🇷 土耳其 (Turkey) 05 - george",
+        "🇹🇷 土耳其 (Turkey) 06 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

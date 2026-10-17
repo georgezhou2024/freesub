@@ -5,14 +5,13 @@
   "outbounds": [
     {
       "type": "vmess",
-      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - george",
-      "server": "183.109.131.75",
-      "server_port": 20086,
-      "uuid": "b26c4803-0bca-467c-a245-c9a80bdd72ec",
+      "tag": "🇨🇳 CN 01 - george",
+      "server": "120.48.133.162",
+      "server_port": 10086,
+      "uuid": "4fc543d5-23ce-4556-ae2b-01685edd4397",
       "security": "auto",
       "transport": {
-        "type": "ws",
-        "path": "/"
+        "type": "ws"
       }
     },
     {
@@ -20,14 +19,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - george"
+        "🇨🇳 CN 01 - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - george"
+        "🇨🇳 CN 01 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

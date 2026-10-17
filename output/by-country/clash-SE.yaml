@@ -5,6 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 瑞典 (Sweden) 01 - george
+  server: se3.h1cloud.net
+  port: 25119
+  udp: true
+  type: vless
+  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: szPq4a3cvxfBOmGyg-UJCV3d1Jqjnj7YR3gaxyYtnk4
+    short-id: 10f517
+  servername: www.samsung.com
+  client-fingerprint: firefox
+- name: 🇸🇪 瑞典 (Sweden) 02 - george
   server: 62.60.159.81
   port: 2053
   udp: true
@@ -19,19 +32,20 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpce5bb9e71
-- name: 🇸🇪 瑞典 (Sweden) 02 - george
-  server: 45.12.63.219
+- name: 🇸🇪 瑞典 (Sweden) 03 - george
+  server: 83.136.253.129
   port: 443
   udp: true
   type: vless
-  uuid: 9cb8d71c-fe06-4402-a591-eaa1f173b890
+  uuid: 63b1aea9-30b4-3dd0-2819-0b4e04390cb6
+  flow: xtls-rprx-vision
   tls: true
-  servername: edge-lab-b.10media.top
-  skip-cert-verify: false
-  network: grpc
-  grpc-opts:
-    grpc-service-name: swedenfeed
-- name: 🇸🇪 瑞典 (Sweden) 03 - george
+  reality-opts:
+    public-key: ZrdPHtBvi7yMRj17SohKaGQEXuDptmCJWCi8gk5HlD8
+    short-id: 35938c4e546cd459
+  servername: amp-api-search-edge.apps.apple.com
+  client-fingerprint: chrome
+- name: 🇸🇪 瑞典 (Sweden) 04 - george
   server: 77.110.96.201
   port: 36264
   udp: true
@@ -41,6 +55,17 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: Telegram@vpnjey
+- name: 🇸🇪 瑞典 (Sweden) 05 - george
+  server: 5.178.109.174
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 5.178.109.174
 proxy-groups:
 - name: PROXIES
   type: select
@@ -49,6 +74,8 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 01 - george
   - 🇸🇪 瑞典 (Sweden) 02 - george
   - 🇸🇪 瑞典 (Sweden) 03 - george
+  - 🇸🇪 瑞典 (Sweden) 04 - george
+  - 🇸🇪 瑞典 (Sweden) 05 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -57,5 +84,7 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 01 - george
   - 🇸🇪 瑞典 (Sweden) 02 - george
   - 🇸🇪 瑞典 (Sweden) 03 - george
+  - 🇸🇪 瑞典 (Sweden) 04 - george
+  - 🇸🇪 瑞典 (Sweden) 05 - george
 rules:
 - MATCH,PROXIES

@@ -6,25 +6,26 @@ log-level: info
 proxies:
 - name: 🇧🇬 保加利亚 (Bulgaria) 01 - george
   server: 213.183.63.60
-  port: 9098
+  port: 9066
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: aLpQtfEZe445QyHk
+  password: 2KUaE2a8NWTvuCZ3
 - name: 🇧🇬 保加利亚 (Bulgaria) 02 - george
   server: 213.183.63.60
-  port: 9054
+  port: 9064
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: VcFuyXvND2yQWSFY
+  password: cp8pRSUAyLhTfVWH
 - name: 🇧🇬 保加利亚 (Bulgaria) 03 - george
-  server: 213.183.63.60
-  port: 9029
+  server: 189.74.114.2
+  port: 54183
   udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: dU3DSNS8wYPXzEKw
+  type: hysteria2
+  password: 082f5694-9019-4110-b67b-8125dbb9bab8
+  sni: outh.yandex-cloud.org
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
