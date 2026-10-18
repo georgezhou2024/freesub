@@ -5,20 +5,48 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇱🇹 立陶宛 (Lithuania) 01 - george
+  server: 195.238.126.84
+  port: 9039
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: qYEN5HX4JKeVCdEC
+- name: 🇱🇹 立陶宛 (Lithuania) 02 - george
   server: 195.238.126.20
   port: 9011
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: M3t2ZEQcMGRWBjRa
-- name: 🇱🇹 立陶宛 (Lithuania) 02 - george
+- name: 🇱🇹 立陶宛 (Lithuania) 03 - george
+  server: 195.238.126.20
+  port: 9001
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: UkXRsXvR6buDMG2Y
+- name: 🇱🇹 立陶宛 (Lithuania) 04 - george
+  server: 195.238.126.20
+  port: 9002
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: b8KkNDjEd5QqFyRm
+- name: 🇱🇹 立陶宛 (Lithuania) 05 - george
   server: 195.238.126.20
   port: 9008
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: y9VURyNzJWNRYEGQ
-- name: 🇱🇹 立陶宛 (Lithuania) 03 - george
+- name: 🇱🇹 立陶宛 (Lithuania) 06 - george
+  server: 195.238.126.20
+  port: 9045
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: Lp27rqyJq72bZsqX
+- name: 🇱🇹 立陶宛 (Lithuania) 07 - george
   server: 84.32.109.20
   port: 443
   udp: true
@@ -31,8 +59,8 @@ proxies:
     short-id: 0da7e14db353e7d0
   servername: litv.nztvpn.com
   client-fingerprint: chrome
-- name: 🇱🇹 立陶宛 (Lithuania) 04 - george
-  server: b58e68t.lt1.h1clayd.click
+- name: 🇱🇹 立陶宛 (Lithuania) 08 - george
+  server: 212.24.105.101
   port: 443
   udp: true
   type: vless
@@ -52,6 +80,10 @@ proxy-groups:
   - 🇱🇹 立陶宛 (Lithuania) 02 - george
   - 🇱🇹 立陶宛 (Lithuania) 03 - george
   - 🇱🇹 立陶宛 (Lithuania) 04 - george
+  - 🇱🇹 立陶宛 (Lithuania) 05 - george
+  - 🇱🇹 立陶宛 (Lithuania) 06 - george
+  - 🇱🇹 立陶宛 (Lithuania) 07 - george
+  - 🇱🇹 立陶宛 (Lithuania) 08 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -61,5 +93,9 @@ proxy-groups:
   - 🇱🇹 立陶宛 (Lithuania) 02 - george
   - 🇱🇹 立陶宛 (Lithuania) 03 - george
   - 🇱🇹 立陶宛 (Lithuania) 04 - george
+  - 🇱🇹 立陶宛 (Lithuania) 05 - george
+  - 🇱🇹 立陶宛 (Lithuania) 06 - george
+  - 🇱🇹 立陶宛 (Lithuania) 07 - george
+  - 🇱🇹 立陶宛 (Lithuania) 08 - george
 rules:
 - MATCH,PROXIES

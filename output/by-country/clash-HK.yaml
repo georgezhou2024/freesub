@@ -5,65 +5,52 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - george
-  server: zfd-hkv1.kunlun01dns.com
-  port: 16115
+  server: 200.181.82.91
+  port: 21148
   udp: true
-  type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
+  type: ss
+  cipher: aes-256-gcm
+  password: 0dad9116-eb88-47b6-98dd-67c9ed43afa6
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - george
-  server: 207.56.137.51
-  port: 443
-  udp: true
-  type: vless
-  uuid: 01ada9fb-fa2f-45da-a0d0-bce80cdf433b
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: WNifT0qNHWrUsvC6cuvej0rzZe6qPijopbmJyRADOF0
-    short-id: f713561d
-  servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - george
-  server: 82.29.36.250
-  port: 443
-  udp: true
-  type: vless
-  uuid: 41a7af38-0bb1-4493-aa8d-634af0c2548b
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 09XPceP705hC-5sEDXDSLeL2eMOrF-mFISK8JaJ7q2g
-    short-id: 09353d6dc5b789
-  servername: aws.amazon.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - george
   server: 202.146.222.174
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 202.146.222.174
+  sni: t.me
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - george
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - george
   server: 202.146.222.29
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: "https://t.me/wangcai2ð\x9F\x87"
+  sni: 202.146.222.29
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - george
+  server: node1.luoye.ee
+  port: 443
+  udp: true
+  type: trojan
+  password: 55b36ea5-12b3-4640-a87a-fd011e717ffc
+  sni: node1.luoye.ee
+  skip-cert-verify: false
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - george
+  server: 200.181.82.91
+  port: 28122
+  udp: true
+  type: trojan
+  password: 0dad9116-eb88-47b6-98dd-67c9ed43afa6
+  sni: www.baidu.com
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 06 - george
-  server: 152.32.254.68
-  port: 5010
+  server: 4c2d5151.266nets.com
+  port: 12001
   udp: true
-  type: hysteria2
-  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-  sni: nas.aizhzo.com
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+  type: trojan
+  password: bad06c3525a6eaee1757b34776b83892
+  sni: ixigua.com
+  skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 07 - george
   server: yg1.ygkkk.dpdns.org
   port: 443
@@ -81,6 +68,19 @@ proxies:
     headers:
       Host: jmp1.907737.xyz
 - name: 🇭🇰 中国香港 (Hong Kong) 08 - george
+  server: 207.56.137.51
+  port: 443
+  udp: true
+  type: vless
+  uuid: 01ada9fb-fa2f-45da-a0d0-bce80cdf433b
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: WNifT0qNHWrUsvC6cuvej0rzZe6qPijopbmJyRADOF0
+    short-id: f713561d
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - george
   server: 156.239.13.161
   port: 51443
   udp: true
@@ -93,6 +93,16 @@ proxies:
     short-id: aa5b653590725505
   servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - george
+  server: nas.aizhzo.com
+  port: 5010
+  udp: true
+  type: hysteria2
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  sni: nas.aizhzo.com
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
 proxy-groups:
 - name: PROXIES
   type: select
@@ -106,6 +116,8 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 06 - george
   - 🇭🇰 中国香港 (Hong Kong) 07 - george
   - 🇭🇰 中国香港 (Hong Kong) 08 - george
+  - 🇭🇰 中国香港 (Hong Kong) 09 - george
+  - 🇭🇰 中国香港 (Hong Kong) 10 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -119,5 +131,7 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 06 - george
   - 🇭🇰 中国香港 (Hong Kong) 07 - george
   - 🇭🇰 中国香港 (Hong Kong) 08 - george
+  - 🇭🇰 中国香港 (Hong Kong) 09 - george
+  - 🇭🇰 中国香港 (Hong Kong) 10 - george
 rules:
 - MATCH,PROXIES
