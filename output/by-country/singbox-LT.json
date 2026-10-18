@@ -6,38 +6,6 @@
     {
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 01 - george",
-      "server": "195.238.126.84",
-      "server_port": 9039,
-      "method": "aes-256-cfb",
-      "password": "qYEN5HX4JKeVCdEC"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 02 - george",
-      "server": "195.238.126.20",
-      "server_port": 9011,
-      "method": "aes-256-cfb",
-      "password": "M3t2ZEQcMGRWBjRa"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 03 - george",
-      "server": "195.238.126.20",
-      "server_port": 9001,
-      "method": "aes-256-cfb",
-      "password": "UkXRsXvR6buDMG2Y"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 04 - george",
-      "server": "195.238.126.20",
-      "server_port": 9002,
-      "method": "aes-256-cfb",
-      "password": "b8KkNDjEd5QqFyRm"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 05 - george",
       "server": "195.238.126.20",
       "server_port": 9008,
       "method": "aes-256-cfb",
@@ -45,7 +13,31 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 06 - george",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 02 - george",
+      "server": "195.238.126.20",
+      "server_port": 9001,
+      "method": "aes-256-cfb",
+      "password": "UkXRsXvR6buDMG2Y"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 03 - george",
+      "server": "195.238.126.20",
+      "server_port": 9086,
+      "method": "aes-256-cfb",
+      "password": "37Z4TFCYhfxcpc9Q"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 04 - george",
+      "server": "195.238.126.20",
+      "server_port": 9011,
+      "method": "aes-256-cfb",
+      "password": "M3t2ZEQcMGRWBjRa"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 05 - george",
       "server": "195.238.126.20",
       "server_port": 9045,
       "method": "aes-256-cfb",
@@ -53,7 +45,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 07 - george",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 06 - george",
       "server": "84.32.109.20",
       "server_port": 443,
       "uuid": "ee18d188-14cc-417e-beb1-70e4add6d023",
@@ -74,7 +66,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 08 - george",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 07 - george",
       "server": "212.24.105.101",
       "server_port": 443,
       "uuid": "f90b7d43-69e2-4b46-a672-8029bc6796a2",
@@ -83,7 +75,7 @@
         "server_name": "b58e68t.lt1.h1clayd.click",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -103,8 +95,7 @@
         "🇱🇹 立陶宛 (Lithuania) 04 - george",
         "🇱🇹 立陶宛 (Lithuania) 05 - george",
         "🇱🇹 立陶宛 (Lithuania) 06 - george",
-        "🇱🇹 立陶宛 (Lithuania) 07 - george",
-        "🇱🇹 立陶宛 (Lithuania) 08 - george"
+        "🇱🇹 立陶宛 (Lithuania) 07 - george"
       ]
     },
     {
@@ -117,8 +108,7 @@
         "🇱🇹 立陶宛 (Lithuania) 04 - george",
         "🇱🇹 立陶宛 (Lithuania) 05 - george",
         "🇱🇹 立陶宛 (Lithuania) 06 - george",
-        "🇱🇹 立陶宛 (Lithuania) 07 - george",
-        "🇱🇹 立陶宛 (Lithuania) 08 - george"
+        "🇱🇹 立陶宛 (Lithuania) 07 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
