@@ -4,15 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - george
-  server: dog-hk.kunlun01dns.com
-  port: 21020
+- name: 🇺🇸 美国 (United States) 01 (家宽) - george
+  server: 155.117.19.17
+  port: 443
   udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
-- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - george
+  type: hysteria2
+  password: 5fa748137b6d822308eea4611f474ad5
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
+- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - george
+  server: p141.panda001.net
+  port: 4652
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george
   server: hinet1.2yly.com
   port: 24215
   udp: true
@@ -22,28 +31,35 @@ proxies:
   reality-opts:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
-  client-fingerprint: safari
-- name: 🇹🇷 土耳其 (Turkey) 03 (移动家宽) - george
-  server: test.keoplentuio.xyz
-  port: 2053
+  client-fingerprint: qq
+- name: 🇰🇷 韩国 (South Korea) 04 (家宽) - george
+  server: 183.109.131.75
+  port: 20086
   udp: true
-  type: vless
-  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
+  type: vmess
+  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - george
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - george
-  - 🇹🇷 土耳其 (Turkey) 03 (移动家宽) - george
+  - 🇺🇸 美国 (United States) 01 (家宽) - george
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - george
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george
+  - 🇰🇷 韩国 (South Korea) 04 (家宽) - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - george
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - george
-  - 🇹🇷 土耳其 (Turkey) 03 (移动家宽) - george
+  - 🇺🇸 美国 (United States) 01 (家宽) - george
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - george
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george
+  - 🇰🇷 韩国 (South Korea) 04 (家宽) - george
 rules:
 - MATCH,PROXIES
