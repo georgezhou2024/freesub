@@ -11,7 +11,7 @@
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "https%3a%2f%2ft.me%2fwangcai2%f0%9f%87%a8%f0%9f%87%b3",
+        "server_name": "t.me",
         "insecure": true
       }
     },
@@ -23,21 +23,13 @@
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "t.me",
+        "server_name": "https://t.me/wangcai2ð",
         "insecure": true
       }
     },
     {
       "type": "vmess",
       "tag": "🇭🇰 中国香港 (Hong Kong) 03 - george",
-      "server": "dog-hk.kunlun01dns.com",
-      "server_port": 21041,
-      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
-      "security": "auto"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - george",
       "server": "yg1.ygkkk.dpdns.org",
       "server_port": 443,
       "uuid": "b2ba4a73-3123-479e-aa96-5973a9ecd0c0",
@@ -57,49 +49,20 @@
     },
     {
       "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - george",
+      "server": "champion.xn--kivt58h.lol",
+      "server_port": 80,
+      "uuid": "ed2864f9-37b3-4222-8c54-014aedc400a2",
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "ak.mcdonaldshamburgergoodgoodgood.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇭🇰 中国香港 (Hong Kong) 05 - george",
-      "server": "207.56.137.51",
-      "server_port": 443,
-      "uuid": "01ada9fb-fa2f-45da-a0d0-bce80cdf433b",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "WNifT0qNHWrUsvC6cuvej0rzZe6qPijopbmJyRADOF0",
-          "short_id": "f713561d"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - george",
-      "server": "156.239.13.161",
-      "server_port": 51443,
-      "uuid": "3e4c67dd-eeaa-48ad-8066-0dca798cccb3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "WpfLIDfNGu5tmsHEa_mrZAgTDwPYD_9TK2zagNx3kgk",
-          "short_id": "aa5b653590725505"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - george",
       "server": "82.29.36.250",
       "server_port": 443,
       "uuid": "41a7af38-0bb1-4493-aa8d-634af0c2548b",
@@ -109,13 +72,29 @@
         "server_name": "aws.amazon.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
           "public_key": "09XPceP705hC-5sEDXDSLeL2eMOrF-mFISK8JaJ7q2g",
           "short_id": "09353d6dc5b789"
         }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - george",
+      "server": "nas.aizhzo.com",
+      "server_port": 5010,
+      "password": "eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ",
+      "tls": {
+        "enabled": true,
+        "server_name": "nas.aizhzo.com",
+        "insecure": false
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9"
       }
     },
     {
@@ -128,8 +107,7 @@
         "🇭🇰 中国香港 (Hong Kong) 03 - george",
         "🇭🇰 中国香港 (Hong Kong) 04 - george",
         "🇭🇰 中国香港 (Hong Kong) 05 - george",
-        "🇭🇰 中国香港 (Hong Kong) 06 - george",
-        "🇭🇰 中国香港 (Hong Kong) 07 - george"
+        "🇭🇰 中国香港 (Hong Kong) 06 - george"
       ]
     },
     {
@@ -141,8 +119,7 @@
         "🇭🇰 中国香港 (Hong Kong) 03 - george",
         "🇭🇰 中国香港 (Hong Kong) 04 - george",
         "🇭🇰 中国香港 (Hong Kong) 05 - george",
-        "🇭🇰 中国香港 (Hong Kong) 06 - george",
-        "🇭🇰 中国香港 (Hong Kong) 07 - george"
+        "🇭🇰 中国香港 (Hong Kong) 06 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
