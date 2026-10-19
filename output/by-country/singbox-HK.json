@@ -4,69 +4,132 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "vmess",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 - george",
+      "server": "13.140.91.117",
+      "server_port": 36154,
+      "uuid": "54327b73-3ce6-437d-9d00-3d6398d9f9f5",
+      "security": "auto"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 02 - george",
+      "server": "103.149.182.79",
+      "server_port": 8388,
+      "method": "chacha20-ietf",
+      "password": "asd123456"
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 - george",
+      "server": "13.140.91.117",
+      "server_port": 23808,
+      "uuid": "b2fd9449-458a-4243-bbf9-5735070d6817"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - george",
+      "server": "13.140.91.117",
+      "server_port": 25111,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "jNyPnuL1dS5CZLfr6AeO8/CtbUvT3MIOWAaSwoJlTkc=:OpjCKODVTBraYcv12EFPOaral+oiAPdOTlA0Dv9O+fE="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - george",
+      "server": "103.141.221.124",
+      "server_port": 8388,
+      "method": "chacha20-ietf",
+      "password": "asd123456"
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - george",
+      "server": "fi.api.nurcloud.org",
+      "server_port": 443,
+      "uuid": "29d5b0b0-0417-46cc-948f-8f3077ded709",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fi.api.nurcloud.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "DYai8uLOumyG7Gh3H8ADSmRMZpfw-t98uU4D6ean_Gw",
+          "short_id": "b289dd8ac05d4594"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - george",
+      "server": "152.32.254.68",
+      "server_port": 5010,
+      "password": "eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ",
+      "tls": {
+        "enabled": true,
+        "server_name": "nas.aizhzo.com",
+        "insecure": false
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - george",
       "server": "202.146.222.174",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "https://t.me/wangcai2🇨🇳",
+        "server_name": "https%3a%2f%2ft.me%2foneclickvpnkeys",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 - george",
-      "server": "202.146.222.29",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - george",
+      "server": "8c05abce-tnhmo0-tohhws-zn8y.hk3.hyhuawei.com",
       "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "password": "44e76f8c-7362-11ec-bb74-f23c9164ca5d",
       "tls": {
         "enabled": true,
-        "server_name": "https://t.me/wangcai2рҹүёрҹүі",
+        "server_name": "8c05abce-tnhmo0-tohhws-zn8y.hk3.hyhuawei.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 10 - george",
+      "server": "8aeab52c-tnhmo0-tohhws-zn8y.nw4.hyhuawei.com",
+      "server_port": 443,
+      "password": "44e76f8c-7362-11ec-bb74-f23c9164ca5d",
+      "tls": {
+        "enabled": true,
+        "server_name": "8aeab52c-tnhmo0-tohhws-zn8y.nw4.hyhuawei.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 11 - george",
+      "server": "4c2d5151.266nets.com",
+      "server_port": 12001,
+      "password": "bad06c3525a6eaee1757b34776b83892",
+      "tls": {
+        "enabled": true,
+        "server_name": "ixigua.com",
         "insecure": true
       }
     },
     {
       "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 - george",
-      "server": "i2psm3knof5qjjix.v.3dns.vip",
-      "server_port": 443,
-      "uuid": "f23bb427c1f94373876c2f43e9f790f3",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "i2psm3knof5qjjix.v.3dns.vip",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "i2psm3knof5qjjix.v.3dns.vip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - george",
-      "server": "ex1ogt73nzpqkac2.v.3dns.vip",
-      "server_port": 443,
-      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "ex1ogt73nzpqkac2.v.3dns.vip",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vmess"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - george",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 12 - george",
       "server": "yg1.ygkkk.dpdns.org",
       "server_port": 443,
       "uuid": "b2ba4a73-3123-479e-aa96-5973a9ecd0c0",
@@ -86,19 +149,19 @@
     },
     {
       "type": "trojan",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - george",
-      "server": "4c2d5151.266nets.com",
-      "server_port": 12001,
-      "password": "bad06c3525a6eaee1757b34776b83892",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 13 - george",
+      "server": "2.27.109.179",
+      "server_port": 45464,
+      "password": "XuMweB2PWs",
       "tls": {
         "enabled": true,
-        "server_name": "ixigua.com",
+        "server_name": "2.27.109.179",
         "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - george",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 14 - george",
       "server": "156.239.13.161",
       "server_port": 51443,
       "uuid": "3e4c67dd-eeaa-48ad-8066-0dca798cccb3",
@@ -118,39 +181,23 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - george",
-      "server": "nas.aizhzo.com",
-      "server_port": 5010,
-      "password": "eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ",
-      "tls": {
-        "enabled": true,
-        "server_name": "nas.aizhzo.com",
-        "insecure": false
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9"
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - george",
-      "server": "207.56.137.51",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 15 - george",
+      "server": "82.29.36.250",
       "server_port": 443,
-      "uuid": "01ada9fb-fa2f-45da-a0d0-bce80cdf433b",
+      "uuid": "41a7af38-0bb1-4493-aa8d-634af0c2548b",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "aws.amazon.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "WNifT0qNHWrUsvC6cuvej0rzZe6qPijopbmJyRADOF0",
-          "short_id": "f713561d"
+          "public_key": "09XPceP705hC-5sEDXDSLeL2eMOrF-mFISK8JaJ7q2g",
+          "short_id": "09353d6dc5b789"
         }
       }
     },
@@ -167,7 +214,13 @@
         "🇭🇰 中国香港 (Hong Kong) 06 - george",
         "🇭🇰 中国香港 (Hong Kong) 07 - george",
         "🇭🇰 中国香港 (Hong Kong) 08 - george",
-        "🇭🇰 中国香港 (Hong Kong) 09 - george"
+        "🇭🇰 中国香港 (Hong Kong) 09 - george",
+        "🇭🇰 中国香港 (Hong Kong) 10 - george",
+        "🇭🇰 中国香港 (Hong Kong) 11 - george",
+        "🇭🇰 中国香港 (Hong Kong) 12 - george",
+        "🇭🇰 中国香港 (Hong Kong) 13 - george",
+        "🇭🇰 中国香港 (Hong Kong) 14 - george",
+        "🇭🇰 中国香港 (Hong Kong) 15 - george"
       ]
     },
     {
@@ -182,7 +235,13 @@
         "🇭🇰 中国香港 (Hong Kong) 06 - george",
         "🇭🇰 中国香港 (Hong Kong) 07 - george",
         "🇭🇰 中国香港 (Hong Kong) 08 - george",
-        "🇭🇰 中国香港 (Hong Kong) 09 - george"
+        "🇭🇰 中国香港 (Hong Kong) 09 - george",
+        "🇭🇰 中国香港 (Hong Kong) 10 - george",
+        "🇭🇰 中国香港 (Hong Kong) 11 - george",
+        "🇭🇰 中国香港 (Hong Kong) 12 - george",
+        "🇭🇰 中国香港 (Hong Kong) 13 - george",
+        "🇭🇰 中国香港 (Hong Kong) 14 - george",
+        "🇭🇰 中国香港 (Hong Kong) 15 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

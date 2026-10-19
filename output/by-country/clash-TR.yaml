@@ -28,20 +28,46 @@ proxies:
     public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
     short-id: 9e419c0759b54d6f
   servername: www.apple.com
-  client-fingerprint: ''
+  client-fingerprint: firefox
 - name: 🇹🇷 土耳其 (Turkey) 03 - george
-  server: 177.3.208.65
-  port: 443
+  server: 82.26.86.145
+  port: 2053
   udp: true
   type: vless
-  uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c
+  uuid: 2f7361b1-3c6b-4ddf-9e28-5297a22513ca
+  flow: xtls-rprx-vision
   tls: true
-  servername: tgmansion.site
-  skip-cert-verify: false
+  reality-opts:
+    public-key: zr9whFIDeaz-lu6vji80yM4Vd7TBYCA4mthRk3c2U0s
+    short-id: 1bb0633431089fe4
+  servername: www.rutube.ru
   client-fingerprint: firefox
+- name: 🇹🇷 土耳其 (Turkey) 04 - george
+  server: 104.21.48.18
+  port: 2053
+  udp: true
+  type: trojan
+  password: e309e031-991e-4656-9934-44d10deb8fd8
+  sni: nimm.mpd.cc.cd
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vless-tr
+    path: /0962
+- name: 🇹🇷 土耳其 (Turkey) 05 - george
+  server: 155.103.70.53
+  port: 30303
+  udp: true
+  type: vless
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
+  tls: true
+  servername: wzs.echo.net.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HAAQNCV1EClxZAgMWAlBZXRlKXU4aTV8WGRQRQkoXFgweUABdHg==
+    headers:
+      Host: wzs.echo.net.eu.org
 proxy-groups:
 - name: PROXIES
   type: select
@@ -50,6 +76,8 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - george
   - 🇹🇷 土耳其 (Turkey) 02 - george
   - 🇹🇷 土耳其 (Turkey) 03 - george
+  - 🇹🇷 土耳其 (Turkey) 04 - george
+  - 🇹🇷 土耳其 (Turkey) 05 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -58,5 +86,7 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - george
   - 🇹🇷 土耳其 (Turkey) 02 - george
   - 🇹🇷 土耳其 (Turkey) 03 - george
+  - 🇹🇷 土耳其 (Turkey) 04 - george
+  - 🇹🇷 土耳其 (Turkey) 05 - george
 rules:
 - MATCH,PROXIES

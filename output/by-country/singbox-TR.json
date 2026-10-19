@@ -35,7 +35,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": ""
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -47,21 +47,64 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 03 - george",
-      "server": "177.3.208.65",
-      "server_port": 443,
-      "uuid": "4f34bc04-479c-49ba-91a8-6bb9ed15031c",
+      "server": "82.26.86.145",
+      "server_port": 2053,
+      "uuid": "2f7361b1-3c6b-4ddf-9e28-5297a22513ca",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "tgmansion.site",
-        "insecure": false,
+        "server_name": "www.rutube.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zr9whFIDeaz-lu6vji80yM4Vd7TBYCA4mthRk3c2U0s",
+          "short_id": "1bb0633431089fe4"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇹🇷 土耳其 (Turkey) 04 - george",
+      "server": "104.21.48.18",
+      "server_port": 2053,
+      "password": "e309e031-991e-4656-9934-44d10deb8fd8",
+      "tls": {
+        "enabled": true,
+        "server_name": "nimm.mpd.cc.cd",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/0962",
+        "headers": {
+          "Host": "nimm.mpd.cc.cd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 05 - george",
+      "server": "155.103.70.53",
+      "server_port": 30303,
+      "uuid": "d18c6897-2849-456a-8c46-d7ecece47c20",
+      "tls": {
+        "enabled": true,
+        "server_name": "wzs.echo.net.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/vless-tr"
+        "path": "/video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HAAQNCV1EClxZAgMWAlBZXRlKXU4aTV8WGRQRQkoXFgweUABdHg==",
+        "headers": {
+          "Host": "wzs.echo.net.eu.org"
+        }
       }
     },
     {
@@ -71,7 +114,9 @@
         "auto",
         "🇹🇷 土耳其 (Turkey) 01 - george",
         "🇹🇷 土耳其 (Turkey) 02 - george",
-        "🇹🇷 土耳其 (Turkey) 03 - george"
+        "🇹🇷 土耳其 (Turkey) 03 - george",
+        "🇹🇷 土耳其 (Turkey) 04 - george",
+        "🇹🇷 土耳其 (Turkey) 05 - george"
       ]
     },
     {
@@ -80,7 +125,9 @@
       "outbounds": [
         "🇹🇷 土耳其 (Turkey) 01 - george",
         "🇹🇷 土耳其 (Turkey) 02 - george",
-        "🇹🇷 土耳其 (Turkey) 03 - george"
+        "🇹🇷 土耳其 (Turkey) 03 - george",
+        "🇹🇷 土耳其 (Turkey) 04 - george",
+        "🇹🇷 土耳其 (Turkey) 05 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
