@@ -5,22 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 - george
-  server: 165.154.195.38
-  port: 35034
-  udp: true
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-  alterId: 0
-  cipher: auto
-- name: 🇹🇼 中国台湾 (Taiwan) 02 - george
-  server: 160.187.100.109
+  server: vpn-tw-002.fastervpn.world
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 160.187.100.109
+  sni: vpn-tw-002.fastervpn.world%5cu0026insecure%3d1%5cu0026allowinsecure%3d1
   skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 03 - george
+- name: 🇹🇼 中国台湾 (Taiwan) 02 - george
   server: 103.115.109.49
   port: 443
   udp: true
@@ -28,7 +20,7 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: https%3a%2f%2ft.me%2fwangcai2
   skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 04 - george
+- name: 🇹🇼 中国台湾 (Taiwan) 03 - george
   server: 152.32.167.33
   port: 443
   udp: true
@@ -40,7 +32,7 @@ proxies:
     public-key: Q8QwBSGN6J-FqgDV1pYNm0VThS_xNRyQ3DPPa9YZ3j4
     short-id: cff998a4
   servername: www.amazon.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -49,7 +41,6 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 - george
   - 🇹🇼 中国台湾 (Taiwan) 02 - george
   - 🇹🇼 中国台湾 (Taiwan) 03 - george
-  - 🇹🇼 中国台湾 (Taiwan) 04 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -58,6 +49,5 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 - george
   - 🇹🇼 中国台湾 (Taiwan) 02 - george
   - 🇹🇼 中国台湾 (Taiwan) 03 - george
-  - 🇹🇼 中国台湾 (Taiwan) 04 - george
 rules:
 - MATCH,PROXIES
