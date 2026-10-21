@@ -6,26 +6,6 @@
     {
       "type": "vless",
       "tag": "🇦🇺 澳大利亚 (Australia) 01 - george",
-      "server": "212.81.47.99",
-      "server_port": 51106,
-      "uuid": "f5f0babe-aea2-4f07-a1fc-3c9820253f49",
-      "tls": {
-        "enabled": true,
-        "server_name": "apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "2k8UhfxEK4WSVLWUr-uRExRiTiAsacWpe6I1xrnyt38",
-          "short_id": "abcd1234"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 02 - george",
       "server": "51.161.204.244",
       "server_port": 443,
       "uuid": "36e89875-9c53-482b-bc41-d3890e9da176",
@@ -35,7 +15,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -45,12 +25,48 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇦🇺 澳大利亚 (Australia) 02 - george",
+      "server": "152.67.115.203",
+      "server_port": 443,
+      "password": "633bc3be486b646190661ac2387c150a",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "850a3fb1cd33a28f12d837578ae1a2e7"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇦🇺 澳大利亚 (Australia) 03 - george",
+      "server": "158.178.137.129",
+      "password": "b42d90fa667942aebc734d60",
+      "tls": {
+        "enabled": true,
+        "server_name": "rmgyvpn.rest",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "b42d90fa667942aebc734d60"
+      },
+      "server_ports": [
+        "20000:30000",
+        "20000:20000"
+      ]
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇦🇺 澳大利亚 (Australia) 01 - george",
-        "🇦🇺 澳大利亚 (Australia) 02 - george"
+        "🇦🇺 澳大利亚 (Australia) 02 - george",
+        "🇦🇺 澳大利亚 (Australia) 03 - george"
       ]
     },
     {
@@ -58,7 +74,8 @@
       "tag": "auto",
       "outbounds": [
         "🇦🇺 澳大利亚 (Australia) 01 - george",
-        "🇦🇺 澳大利亚 (Australia) 02 - george"
+        "🇦🇺 澳大利亚 (Australia) 02 - george",
+        "🇦🇺 澳大利亚 (Australia) 03 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
