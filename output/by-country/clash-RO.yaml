@@ -5,30 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 罗马尼亚 (Romania) 01 - george
-  server: de1.dedushka.top
-  port: 443
-  udp: true
-  type: trojan
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  sni: de1.dedushka.top
-  skip-cert-verify: true
-- name: 🇷🇴 罗马尼亚 (Romania) 02 - george
-  server: hy2-new.aspidnet.xyz
-  port: 443
-  udp: true
-  type: hysteria2
-  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
-  sni: hy2-new.aspidnet.xyz
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: c1b4086fea89914496c7e10967a419216566
-- name: 🇷🇴 罗马尼亚 (Romania) 03 - george
-  server: edge10.cyrionflare.com
-  port: 2052
-  udp: true
-  type: vless
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
-- name: 🇷🇴 罗马尼亚 (Romania) 04 - george
   server: 46.28.67.55
   port: 443
   udp: true
@@ -40,8 +16,8 @@ proxies:
     public-key: i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU
     short-id: d06d78e974491b6e
   servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇷🇴 罗马尼亚 (Romania) 05 - george
+  client-fingerprint: chrome
+- name: 🇷🇴 罗马尼亚 (Romania) 02 - george
   server: 109.104.106.101
   port: 443
   udp: true
@@ -53,8 +29,16 @@ proxies:
     public-key: V-6tk21giXjug4ZXwpAhT4aXHjsXYwkgznT4dQEc9Aw
     short-id: 48d6ed723454f6db
   servername: d1-ro.cloud-cdn.xyz
-  client-fingerprint: chrome
-- name: 🇷🇴 罗马尼亚 (Romania) 06 - george
+  client-fingerprint: edge
+- name: 🇷🇴 罗马尼亚 (Romania) 03 - george
+  server: it1.dedushka.top
+  port: 443
+  udp: true
+  type: trojan
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  sni: it1.dedushka.top
+  skip-cert-verify: false
+- name: 🇷🇴 罗马尼亚 (Romania) 04 - george
   server: 146.70.124.85
   port: 443
   udp: true
@@ -67,21 +51,31 @@ proxies:
     short-id: fe24f8a0a560056e
   servername: www.datadoghq.com
   client-fingerprint: firefox
-- name: 🇷🇴 罗马尼亚 (Romania) 07 - george
-  server: it1.dedushka.top
+- name: 🇷🇴 罗马尼亚 (Romania) 05 - george
+  server: hy2-new.aspidnet.xyz
+  port: 443
+  udp: true
+  type: hysteria2
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  sni: hy2-new.aspidnet.xyz
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
+- name: 🇷🇴 罗马尼亚 (Romania) 06 - george
+  server: de1.dedushka.top
   port: 443
   udp: true
   type: trojan
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  sni: it1.dedushka.top
+  sni: de1.dedushka.top
   skip-cert-verify: false
-- name: 🇷🇴 罗马尼亚 (Romania) 08 - george
+- name: 🇷🇴 罗马尼亚 (Romania) 07 - george
   server: 185.156.44.99
   port: 443
   udp: true
   type: hysteria2
   password: gf1:gfhysteria2024
-  sni: speedtest.tinkoff.ru
+  sni: 185.156.44.99
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
@@ -95,7 +89,6 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 05 - george
   - 🇷🇴 罗马尼亚 (Romania) 06 - george
   - 🇷🇴 罗马尼亚 (Romania) 07 - george
-  - 🇷🇴 罗马尼亚 (Romania) 08 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -108,6 +101,5 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 05 - george
   - 🇷🇴 罗马尼亚 (Romania) 06 - george
   - 🇷🇴 罗马尼亚 (Romania) 07 - george
-  - 🇷🇴 罗马尼亚 (Romania) 08 - george
 rules:
 - MATCH,PROXIES

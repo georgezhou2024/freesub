@@ -5,17 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇪 爱尔兰 (Ireland) 01 - george
-  server: 13.134.170.98
-  port: 22224
+  server: 34.253.145.77
+  port: 443
   udp: true
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 🇮🇪 爱尔兰 (Ireland) 02 - george
-  server: 3.11.48.149
-  port: 22223
+  server: 34.245.155.44
+  port: 443
   udp: true
   type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+  network: h2
+  h2-opts:
+    host: []
+    path: /
 - name: 🇮🇪 爱尔兰 (Ireland) 03 - george
   server: ie1.dedushka.top
   port: 443
