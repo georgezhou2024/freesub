@@ -12,16 +12,30 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇮🇪 爱尔兰 (Ireland) 02 - george
-  server: 34.245.155.44
-  port: 443
+  server: 18.169.214.179
+  port: 22223
   udp: true
   type: vless
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  network: h2
-  h2-opts:
-    host: []
-    path: /
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: 🇮🇪 爱尔兰 (Ireland) 03 - george
+  server: 18.169.214.179
+  port: 22222
+  udp: true
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 🇮🇪 爱尔兰 (Ireland) 04 - george
+  server: 16.60.128.74
+  port: 22223
+  udp: true
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 🇮🇪 爱尔兰 (Ireland) 05 - george
+  server: 16.60.128.74
+  port: 22222
+  udp: true
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 🇮🇪 爱尔兰 (Ireland) 06 - george
   server: ie1.dedushka.top
   port: 443
   udp: true
@@ -37,6 +51,9 @@ proxy-groups:
   - 🇮🇪 爱尔兰 (Ireland) 01 - george
   - 🇮🇪 爱尔兰 (Ireland) 02 - george
   - 🇮🇪 爱尔兰 (Ireland) 03 - george
+  - 🇮🇪 爱尔兰 (Ireland) 04 - george
+  - 🇮🇪 爱尔兰 (Ireland) 05 - george
+  - 🇮🇪 爱尔兰 (Ireland) 06 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -45,5 +62,8 @@ proxy-groups:
   - 🇮🇪 爱尔兰 (Ireland) 01 - george
   - 🇮🇪 爱尔兰 (Ireland) 02 - george
   - 🇮🇪 爱尔兰 (Ireland) 03 - george
+  - 🇮🇪 爱尔兰 (Ireland) 04 - george
+  - 🇮🇪 爱尔兰 (Ireland) 05 - george
+  - 🇮🇪 爱尔兰 (Ireland) 06 - george
 rules:
 - MATCH,PROXIES

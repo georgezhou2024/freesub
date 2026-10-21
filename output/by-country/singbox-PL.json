@@ -7,30 +7,17 @@
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 01 - george",
       "server": "217.30.10.44",
+      "server_port": 9062,
+      "method": "aes-256-cfb",
+      "password": "tkhHVxxfM2QErBWe"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 02 - george",
+      "server": "217.30.10.44",
       "server_port": 9006,
       "method": "aes-256-cfb",
       "password": "FAdUvMJUq5vDgKEq"
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 02 - george",
-      "server": "45.198.0.24",
-      "server_port": 443,
-      "uuid": "e5544327-834c-455a-9db5-2454c788fa17",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl.ru-msk.club",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "nFJCJ2tvxLdLrc9G-O1laW8KDir5SDnaOTmYndVaOGQ",
-          "short_id": "7a3f9e2b1c8d4f6a"
-        }
-      }
     },
     {
       "type": "vless",
@@ -44,7 +31,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
@@ -56,26 +43,62 @@
     {
       "type": "trojan",
       "tag": "🇵🇱 波兰 (Poland) 04 - george",
-      "server": "31.133.0.186",
+      "server": "pl2.dedushka.top",
       "server_port": 443,
       "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
       "tls": {
         "enabled": true,
         "server_name": "pl2.dedushka.top",
-        "insecure": true
+        "insecure": false
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 05 - george",
+      "server": "217.30.10.44",
+      "server_port": 9052,
+      "method": "aes-256-cfb",
+      "password": "jt2ekBNc9HuVtm2a"
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 06 - george",
+      "server": "144.31.0.140",
+      "server_port": 443,
+      "uuid": "9c794bb7-54fe-4acd-844a-a26209af36c3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.sakhalin.fyi",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ",
+          "short_id": "7271129440ade8fa"
+        }
       }
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 05 - george",
+      "tag": "🇵🇱 波兰 (Poland) 07 - george",
       "server": "edge10.cyrionflare.com",
       "server_port": 2052,
       "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286"
     },
     {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 08 - george",
+      "server": "site.teslamotor.site",
+      "server_port": 20001,
+      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf"
+    },
+    {
       "type": "trojan",
-      "tag": "🇵🇱 波兰 (Poland) 06 - george",
-      "server": "pl1.dedushka.top",
+      "tag": "🇵🇱 波兰 (Poland) 09 - george",
+      "server": "31.133.0.182",
       "server_port": 443,
       "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
       "tls": {
@@ -86,35 +109,27 @@
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 07 - george",
-      "server": "144.31.101.196",
-      "server_port": 33891,
-      "uuid": "1c794e75-bcd4-4a65-9f69-ed0a10f33d60",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇵🇱 波兰 (Poland) 10 - george",
+      "server": "dfb71ct.plp1.h1cloud.net",
+      "server_port": 443,
+      "uuid": "3acb386b-fdd7-4bc9-911f-159fdcd834ce",
       "tls": {
         "enabled": true,
-        "server_name": "browser.yandex.com",
+        "server_name": "dfb71ct.plp1.h1cloud.net",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "HXXIkFRPeRpluXJ7SOoUGf9EOq4Lw-oJpvg1W0UPbEw",
-          "short_id": "5bd7b68ca4c04443"
+          "public_key": "TpxHnHiT0eGfe7fNyD5P0pfKK0-MW_9PQUkIchFpiAo",
+          "short_id": "06f7b70bb75f454e"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 08 - george",
-      "server": "site.teslamotor.site",
-      "server_port": 20001,
-      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf"
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 09 - george",
+      "tag": "🇵🇱 波兰 (Poland) 11 - george",
       "server": "2.26.225.89",
       "server_port": 8443,
       "uuid": "51a1fd52-fd88-4905-a976-35e44be28e4b",
@@ -122,66 +137,6 @@
         "enabled": true,
         "server_name": "pl.flen-vpn.xyz",
         "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇵🇱 波兰 (Poland) 10 - george",
-      "server": "54.37.131.126",
-      "server_port": 80,
-      "uuid": "6deef9ad-1357-443d-f95c-cb18952c20b3",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 11 - george",
-      "server": "150.251.113.34",
-      "server_port": 443,
-      "uuid": "d7d724b5-17ce-4f3c-877d-dfbf0f07afa1",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "8yMLSTbkpJFfbgTjNzotzz7U8OT6AERrclgKdKrXXW8",
-          "short_id": "150a627d15154cf2"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 12 - george",
-      "server": "a4d9acg.plp1.h1cloud.net",
-      "server_port": 443,
-      "uuid": "3acb386b-fdd7-4bc9-911f-159fdcd834ce",
-      "tls": {
-        "enabled": true,
-        "server_name": "a4d9acg.plp1.h1cloud.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "8pz2ja5pjpfnY-ZVymqkB8YmWnI6pkca4CKapBhA1XI",
-          "short_id": "f61a8e2fcf7222a6"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "ce30fc556a31"
       }
     },
     {
@@ -199,8 +154,7 @@
         "🇵🇱 波兰 (Poland) 08 - george",
         "🇵🇱 波兰 (Poland) 09 - george",
         "🇵🇱 波兰 (Poland) 10 - george",
-        "🇵🇱 波兰 (Poland) 11 - george",
-        "🇵🇱 波兰 (Poland) 12 - george"
+        "🇵🇱 波兰 (Poland) 11 - george"
       ]
     },
     {
@@ -217,8 +171,7 @@
         "🇵🇱 波兰 (Poland) 08 - george",
         "🇵🇱 波兰 (Poland) 09 - george",
         "🇵🇱 波兰 (Poland) 10 - george",
-        "🇵🇱 波兰 (Poland) 11 - george",
-        "🇵🇱 波兰 (Poland) 12 - george"
+        "🇵🇱 波兰 (Poland) 11 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

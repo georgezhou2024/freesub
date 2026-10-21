@@ -13,9 +13,12 @@
         "enabled": true,
         "server_name": "vpn.cintaku.qzz.io",
         "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       },
       "transport": {
@@ -46,12 +49,24 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇨🇳 CN 03 - george",
+      "server": "39.108.113.127",
+      "server_port": 10086,
+      "uuid": "7547daaa-1577-49b0-9519-bd1823add1a7",
+      "security": "auto",
+      "transport": {
+        "type": "ws"
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇨🇳 CN 01 - george",
-        "🇨🇳 CN 02 - george"
+        "🇨🇳 CN 02 - george",
+        "🇨🇳 CN 03 - george"
       ]
     },
     {
@@ -59,7 +74,8 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇳 CN 01 - george",
-        "🇨🇳 CN 02 - george"
+        "🇨🇳 CN 02 - george",
+        "🇨🇳 CN 03 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
