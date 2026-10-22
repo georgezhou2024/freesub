@@ -15,21 +15,6 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 02 - george
-  server: 203.137.165.164
-  port: 57554
-  udp: true
-  type: vless
-  uuid: fb4c1c39-2204-43bb-853c-f8579a77feb4
-  tls: true
-  servername: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 03 - george
   server: 185.253.116.33
   port: 14430
   udp: true
@@ -40,22 +25,21 @@ proxies:
     path: /vless
     headers:
       Host: 185.253.116.33
-- name: 🇦🇪 阿联酋 (UAE) 04 - george
-  server: 57.129.52.47
-  port: 52014
+- name: 🇦🇪 阿联酋 (UAE) 03 - george
+  server: 151.241.166.159
+  port: 443
   udp: true
   type: vless
-  uuid: b135a1e0-ebdb-4d46-b3fa-bd1e78580244
+  uuid: 7ab86f1f-871e-4de6-9dae-7addf6dc976c
+  flow: xtls-rprx-vision
   tls: true
-  servername: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 05 - george
-  server: uae.unixzone.us
+  reality-opts:
+    public-key: tPhBRGpTbyaPFF3W0wpqncSrdNsV5I-eyM3S9CZoeCQ
+    short-id: 9a26e586f8cadc07
+  servername: pl-hsts.zloygo.com
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 04 - george
+  server: 84.235.244.108
   port: 22573
   udp: true
   type: vless
@@ -63,7 +47,9 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇦🇪 阿联酋 (UAE) 06 - george
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 05 - george
   server: 45.59.120.217
   port: 443
   udp: true
@@ -85,7 +71,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 03 - george
   - 🇦🇪 阿联酋 (UAE) 04 - george
   - 🇦🇪 阿联酋 (UAE) 05 - george
-  - 🇦🇪 阿联酋 (UAE) 06 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -96,6 +81,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 03 - george
   - 🇦🇪 阿联酋 (UAE) 04 - george
   - 🇦🇪 阿联酋 (UAE) 05 - george
-  - 🇦🇪 阿联酋 (UAE) 06 - george
 rules:
 - MATCH,PROXIES
