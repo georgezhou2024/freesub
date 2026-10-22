@@ -4,34 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇸🇪 瑞典 (Sweden) 01 - george",
-      "server": "13.60.198.133",
-      "server_port": 443,
-      "uuid": "7060231d-b9ba-495f-a218-bf427940cf3e",
-      "transport": {
-        "type": "http"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇸🇪 瑞典 (Sweden) 02 - george",
-      "server": "77.110.96.201",
-      "server_port": 36264,
-      "password": "Telegram-vpnjey",
-      "tls": {
-        "enabled": true,
-        "server_name": "se.vpnjey2.dpdns.org",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "Telegram@vpnjey"
-      }
+      "server": "70.34.212.124",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "AxIYWtskJWIIaefW"
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 03 - george",
+      "tag": "🇸🇪 瑞典 (Sweden) 02 - george",
       "server": "185.58.115.62",
       "server_port": 443,
       "uuid": "9c794bb7-54fe-4acd-844a-a26209af36c3",
@@ -51,13 +33,44 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇸🇪 瑞典 (Sweden) 03 - george",
+      "server": "77.110.96.201",
+      "server_port": 36264,
+      "password": "Telegram-vpnjey",
+      "tls": {
+        "enabled": true,
+        "server_name": "se.vpnjey2.dpdns.org",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "Telegram@vpnjey"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 04 - george",
+      "server": "5.178.109.174",
+      "server_port": 14430,
+      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
+      "transport": {
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "5.178.109.174"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇸🇪 瑞典 (Sweden) 01 - george",
         "🇸🇪 瑞典 (Sweden) 02 - george",
-        "🇸🇪 瑞典 (Sweden) 03 - george"
+        "🇸🇪 瑞典 (Sweden) 03 - george",
+        "🇸🇪 瑞典 (Sweden) 04 - george"
       ]
     },
     {
@@ -66,7 +79,8 @@
       "outbounds": [
         "🇸🇪 瑞典 (Sweden) 01 - george",
         "🇸🇪 瑞典 (Sweden) 02 - george",
-        "🇸🇪 瑞典 (Sweden) 03 - george"
+        "🇸🇪 瑞典 (Sweden) 03 - george",
+        "🇸🇪 瑞典 (Sweden) 04 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
