@@ -35,27 +35,6 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 03 - george",
-      "server": "89.125.237.24",
-      "server_port": 443,
-      "uuid": "9c794bb7-54fe-4acd-844a-a26209af36c3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "web.stride.surf",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ",
-          "short_id": "7271129440ade8fa"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 04 - george",
       "server": "193.124.17.190",
       "server_port": 443,
       "uuid": "68cf8d29-5aa0-44b3-88a9-f1a576b6e84c",
@@ -81,8 +60,7 @@
         "auto",
         "🇨🇿 捷克 (Czech) 01 - george",
         "🇨🇿 捷克 (Czech) 02 - george",
-        "🇨🇿 捷克 (Czech) 03 - george",
-        "🇨🇿 捷克 (Czech) 04 - george"
+        "🇨🇿 捷克 (Czech) 03 - george"
       ]
     },
     {
@@ -91,8 +69,7 @@
       "outbounds": [
         "🇨🇿 捷克 (Czech) 01 - george",
         "🇨🇿 捷克 (Czech) 02 - george",
-        "🇨🇿 捷克 (Czech) 03 - george",
-        "🇨🇿 捷克 (Czech) 04 - george"
+        "🇨🇿 捷克 (Czech) 03 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
