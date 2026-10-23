@@ -5,40 +5,28 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇳 CN 01 - george
-  server: 120.48.133.162
-  port: 10086
+  server: vpn.cintaku.qzz.io
+  port: 443
   udp: true
-  type: vmess
-  uuid: a01e5d56-464f-45b9-b600-164db4700162
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
+  tls: true
+  servername: vpn.cintaku.qzz.io
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
-- name: 🇨🇳 CN 02 - george
-  server: 120.48.133.162
-  port: 10086
-  udp: true
-  type: vmess
-  uuid: a01e5d56-464f-45b9-b600-164db4700162
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /
+    path: /vlessws
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇨🇳 CN 01 - george
-  - 🇨🇳 CN 02 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇨🇳 CN 01 - george
-  - 🇨🇳 CN 02 - george
 rules:
 - MATCH,PROXIES
