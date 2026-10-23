@@ -6,51 +6,18 @@
     {
       "type": "trojan",
       "tag": "🇷🇴 罗马尼亚 (Romania) 01 - george",
-      "server": "de1.dedushka.top",
-      "server_port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "de1.dedushka.top",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 02 - george",
       "server": "it1.dedushka.top",
       "server_port": 443,
       "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
       "tls": {
         "enabled": true,
         "server_name": "it1.dedushka.top",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 03 - george",
-      "server": "46.28.67.55",
-      "server_port": 443,
-      "uuid": "d1a6a033-fdbd-46a6-a177-3370ba042b9f",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU",
-          "short_id": "d06d78e974491b6e"
-        }
+        "insecure": false
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 04 - george",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 02 - george",
       "server": "hy2-new.aspidnet.xyz",
       "server_port": 443,
       "password": "QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s",
@@ -65,49 +32,24 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 05 - george",
-      "server": "87.58.205.242",
-      "server_port": 443,
-      "uuid": "9c794bb7-54fe-4acd-844a-a26209af36c3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "backend.mskvibe.fyi",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ",
-          "short_id": "7271129440ade8fa"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 06 - george",
-      "server": "185.156.44.99",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 03 - george",
+      "server": "162.249.125.133",
       "server_port": 443,
-      "password": "gf1:gfhysteria2024",
+      "password": "QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s",
       "tls": {
         "enabled": true,
-        "server_name": "185.156.44.99",
-        "insecure": true
+        "server_name": "hy2-new.aspidnet.xyz",
+        "insecure": false
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "c1b4086fea89914496c7e10967a419216566"
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 07 - george",
-      "server": "154.46.31.106",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QFWzCw2uX9B9i6qAYeFBIE"
-    },
-    {
       "type": "vless",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 08 - george",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 04 - george",
       "server": "82.117.255.174",
       "server_port": 443,
       "uuid": "679439c5-28f2-485e-af5f-60a5fcd9c36c",
@@ -127,6 +69,51 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 05 - george",
+      "server": "46.28.67.55",
+      "server_port": 443,
+      "uuid": "d1a6a033-fdbd-46a6-a177-3370ba042b9f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU",
+          "short_id": "d06d78e974491b6e"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 06 - george",
+      "server": "de1.dedushka.top",
+      "server_port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "de1.dedushka.top",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 07 - george",
+      "server": "185.156.44.99",
+      "server_port": 443,
+      "password": "gf1:gfhysteria2024",
+      "tls": {
+        "enabled": true,
+        "server_name": "whatsapp.com",
+        "insecure": true
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -137,8 +124,7 @@
         "🇷🇴 罗马尼亚 (Romania) 04 - george",
         "🇷🇴 罗马尼亚 (Romania) 05 - george",
         "🇷🇴 罗马尼亚 (Romania) 06 - george",
-        "🇷🇴 罗马尼亚 (Romania) 07 - george",
-        "🇷🇴 罗马尼亚 (Romania) 08 - george"
+        "🇷🇴 罗马尼亚 (Romania) 07 - george"
       ]
     },
     {
@@ -151,8 +137,7 @@
         "🇷🇴 罗马尼亚 (Romania) 04 - george",
         "🇷🇴 罗马尼亚 (Romania) 05 - george",
         "🇷🇴 罗马尼亚 (Romania) 06 - george",
-        "🇷🇴 罗马尼亚 (Romania) 07 - george",
-        "🇷🇴 罗马尼亚 (Romania) 08 - george"
+        "🇷🇴 罗马尼亚 (Romania) 07 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
