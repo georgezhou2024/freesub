@@ -5,25 +5,25 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "🇲🇽 墨西哥 (Mexico) 01 - george",
-      "server": "64.177.90.30",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "BWyPPTusFKhGgzKh"
+      "tag": "🇦🇱 AL 01 - george",
+      "server": "31.171.155.50",
+      "server_port": 10394,
+      "method": "aes-128-gcm",
+      "password": "16e3d1d2200f8bb68feed164ef43a021"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 墨西哥 (Mexico) 01 - george"
+        "🇦🇱 AL 01 - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 墨西哥 (Mexico) 01 - george"
+        "🇦🇱 AL 01 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

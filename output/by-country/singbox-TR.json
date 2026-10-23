@@ -4,8 +4,44 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - george",
+      "server": "153.56.210.134",
+      "server_port": 34121,
+      "password": "c8ed6cd1-6566-4f7a-819e-1c55b2b360c9",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "9a33460c-b037-47aa-a606-d04211f4e0ec"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 02 - george",
+      "server": "151.241.226.201",
+      "server_port": 2053,
+      "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104",
+          "short_id": "9e419c0759b54d6f"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 03 - george",
       "server": "62.133.63.45",
       "server_port": 8444,
       "uuid": "a346c521-7a7f-452b-9356-a4893feb5982",
@@ -29,7 +65,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 02 - george",
+      "tag": "🇹🇷 土耳其 (Turkey) 04 - george",
       "server": "78.135.73.47",
       "server_port": 443,
       "uuid": "25e16692-d097-4e69-9e2d-8415609c1968",
@@ -49,36 +85,33 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇹🇷 土耳其 (Turkey) 03 - george",
-      "server": "153.56.210.134",
-      "server_port": 34121,
-      "password": "c8ed6cd1-6566-4f7a-819e-1c55b2b360c9",
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 05 - george",
+      "server": "194.116.236.113",
+      "server_port": 443,
+      "uuid": "9c794bb7-54fe-4acd-844a-a26209af36c3",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "9a33460c-b037-47aa-a606-d04211f4e0ec"
+        "server_name": "api.mskvibe.fyi",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ",
+          "short_id": "7271129440ade8fa"
+        }
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇹🇷 土耳其 (Turkey) 04 - george",
-      "server": "206.1.99.36",
-      "server_port": 58202,
-      "uuid": "e2adaa66-0a40-4e48-a53d-e349e7ac3b80",
-      "security": "auto"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇹🇷 土耳其 (Turkey) 05 - george",
-      "server": "free.ertebatgoostar.ir",
-      "server_port": 443,
-      "uuid": "c9eab439-53bf-46e4-ba58-fc368ae1ee8c",
-      "security": "auto"
+      "type": "shadowsocks",
+      "tag": "🇹🇷 土耳其 (Turkey) 06 - george",
+      "server": "87.107.114.105",
+      "server_port": 900,
+      "method": "aes-128-gcm",
+      "password": "db2cf3e21c83483c9084b9db1bd469fb"
     },
     {
       "type": "selector",
@@ -89,7 +122,8 @@
         "🇹🇷 土耳其 (Turkey) 02 - george",
         "🇹🇷 土耳其 (Turkey) 03 - george",
         "🇹🇷 土耳其 (Turkey) 04 - george",
-        "🇹🇷 土耳其 (Turkey) 05 - george"
+        "🇹🇷 土耳其 (Turkey) 05 - george",
+        "🇹🇷 土耳其 (Turkey) 06 - george"
       ]
     },
     {
@@ -100,7 +134,8 @@
         "🇹🇷 土耳其 (Turkey) 02 - george",
         "🇹🇷 土耳其 (Turkey) 03 - george",
         "🇹🇷 土耳其 (Turkey) 04 - george",
-        "🇹🇷 土耳其 (Turkey) 05 - george"
+        "🇹🇷 土耳其 (Turkey) 05 - george",
+        "🇹🇷 土耳其 (Turkey) 06 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
