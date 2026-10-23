@@ -36,15 +36,6 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 04 - george
-  server: 95.174.68.188
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
-  network: ws
-  ws-opts:
-    path: /vless
 proxy-groups:
 - name: PROXIES
   type: select
@@ -53,7 +44,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - george
   - 🇦🇪 阿联酋 (UAE) 02 - george
   - 🇦🇪 阿联酋 (UAE) 03 - george
-  - 🇦🇪 阿联酋 (UAE) 04 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -62,6 +52,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - george
   - 🇦🇪 阿联酋 (UAE) 02 - george
   - 🇦🇪 阿联酋 (UAE) 03 - george
-  - 🇦🇪 阿联酋 (UAE) 04 - george
 rules:
 - MATCH,PROXIES

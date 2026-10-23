@@ -1,0 +1,55 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "vmess",
+      "tag": "🇨🇳 CN 01 - george",
+      "server": "120.48.133.162",
+      "server_port": 10086,
+      "uuid": "a01e5d56-464f-45b9-b600-164db4700162",
+      "security": "auto",
+      "transport": {
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇳 CN 02 - george",
+      "server": "120.48.133.162",
+      "server_port": 10086,
+      "uuid": "a01e5d56-464f-45b9-b600-164db4700162",
+      "security": "auto",
+      "transport": {
+        "type": "ws"
+      }
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇨🇳 CN 01 - george",
+        "🇨🇳 CN 02 - george"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇨🇳 CN 01 - george",
+        "🇨🇳 CN 02 - george"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

@@ -6,134 +6,27 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 01 - george",
-      "server": "indeed.com",
-      "server_port": 443,
-      "uuid": "e818a20d-9bcd-4744-9061-ca51b9c8aeea",
-      "tls": {
-        "enabled": true,
-        "server_name": "wallweb-4ez.pages.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "wallweb-4ez.pages.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 02 - george",
       "server": "5.178.109.174",
       "server_port": 14430,
       "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
       "transport": {
         "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "5.178.109.174"
-        }
+        "path": "/vless"
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 03 - george",
-      "server": "media.vik.lalibobi.online",
-      "server_port": 443,
-      "uuid": "21ffcccd-8fbe-43fb-9dd1-24452fdfa8ad",
-      "tls": {
-        "enabled": true,
-        "server_name": "media.vik.lalibobi.online",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/live/showroom",
-        "headers": {
-          "Host": "media.vik.lalibobi.online"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇸🇪 瑞典 (Sweden) 04 - george",
-      "server": "77.110.96.201",
-      "server_port": 36264,
-      "password": "Telegram-vpnjey",
-      "tls": {
-        "enabled": true,
-        "server_name": "se.vpnjey2.dpdns.org",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "Telegram@vpnjey"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 05 - george",
-      "server": "185.58.115.62",
-      "server_port": 443,
-      "uuid": "9c794bb7-54fe-4acd-844a-a26209af36c3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "se2.gderevievsvideos.fyi",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ",
-          "short_id": "7271129440ade8fa"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇸🇪 瑞典 (Sweden) 06 - george",
-      "server": "70.34.212.124",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "AxIYWtskJWIIaefW"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇪 瑞典 (Sweden) 01 - george",
-        "🇸🇪 瑞典 (Sweden) 02 - george",
-        "🇸🇪 瑞典 (Sweden) 03 - george",
-        "🇸🇪 瑞典 (Sweden) 04 - george",
-        "🇸🇪 瑞典 (Sweden) 05 - george",
-        "🇸🇪 瑞典 (Sweden) 06 - george"
+        "🇸🇪 瑞典 (Sweden) 01 - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇪 瑞典 (Sweden) 01 - george",
-        "🇸🇪 瑞典 (Sweden) 02 - george",
-        "🇸🇪 瑞典 (Sweden) 03 - george",
-        "🇸🇪 瑞典 (Sweden) 04 - george",
-        "🇸🇪 瑞典 (Sweden) 05 - george",
-        "🇸🇪 瑞典 (Sweden) 06 - george"
+        "🇸🇪 瑞典 (Sweden) 01 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
