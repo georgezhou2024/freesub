@@ -5,11 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 罗马尼亚 (Romania) 01 - george
-  server: edge10.cyrionflare.com
-  port: 2052
+  server: 46.28.67.55
+  port: 443
   udp: true
   type: vless
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  uuid: d1a6a033-fdbd-46a6-a177-3370ba042b9f
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU
+    short-id: d06d78e974491b6e
+  servername: www.cloudflare.com
+  client-fingerprint: random
 - name: 🇷🇴 罗马尼亚 (Romania) 02 - george
   server: hy2-new.aspidnet.xyz
   port: 443
@@ -26,7 +33,7 @@ proxies:
   udp: true
   type: hysteria2
   password: gf1:gfhysteria2024
-  sni: 185.156.44.99
+  sni: vk.com
   skip-cert-verify: true
 - name: 🇷🇴 罗马尼亚 (Romania) 04 - george
   server: 82.117.255.174
@@ -40,9 +47,9 @@ proxies:
     public-key: 0QDBHaCRO2dPeeSVy3B3R_U12ZOvbvWl1JTFW_ZcpD0
     short-id: 31e91d43e553bf32
   servername: gateway.icloud.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇷🇴 罗马尼亚 (Romania) 05 - george
-  server: bogging-eyeteeth-fly.freesocks.work
+  server: 154.46.31.106
   port: 443
   udp: true
   type: ss
