@@ -13,16 +13,17 @@ proxies:
   sni: fi.67chat.ru
   skip-cert-verify: false
 - name: 🇫🇮 芬兰 (Finland) 02 - george
-  server: 45.144.234.157
-  port: 14430
+  server: 177.3.214.156
+  port: 443
   udp: true
   type: vless
-  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 45.144.234.157
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 6lZ5dkQN2sH9tYca374W4N1n9eCanD_F2FfghcksKSo
+  servername: finlandlanzarotte.live
+  client-fingerprint: firefox
 - name: 🇫🇮 芬兰 (Finland) 03 - george
   server: 95.216.27.15
   port: 2053
@@ -34,21 +35,34 @@ proxies:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
     short-id: d368b94e275ab080
   servername: www.google.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇫🇮 芬兰 (Finland) 04 - george
-  server: 31.77.199.147
-  port: 4443
+  server: 45.144.234.157
+  port: 14430
   udp: true
   type: vless
-  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
-  flow: xtls-rprx-vision
+  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 45.144.234.157
+- name: 🇫🇮 芬兰 (Finland) 05 - george
+  server: 2.29.101.158
+  port: 443
+  udp: true
+  type: vless
+  uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
   tls: true
   reality-opts:
-    public-key: GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A
-    short-id: 7da2eae792187ab9
-  servername: images.unsplash.com
-  client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 05 - george
+    public-key: pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg
+    short-id: b3c9d0c6bdd114a6
+  servername: 36a466g.fi1.h1clayd.click
+  client-fingerprint: random
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 0adb9638509b
+- name: 🇫🇮 芬兰 (Finland) 06 - george
   server: 2.26.106.232
   port: 8443
   udp: true
@@ -63,7 +77,45 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ''
-- name: 🇫🇮 芬兰 (Finland) 06 - george
+- name: 🇫🇮 芬兰 (Finland) 07 - george
+  server: 31.77.199.147
+  port: 4443
+  udp: true
+  type: vless
+  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A
+    short-id: 7da2eae792187ab9
+  servername: images.unsplash.com
+  client-fingerprint: firefox
+- name: 🇫🇮 芬兰 (Finland) 08 - george
+  server: static.86.39.13.49.clients.your-server.de
+  port: 443
+  udp: true
+  type: vless
+  uuid: 6c688f63-fad4-45d8-a6a1-1e978ed26b8b
+  flow: xtls-rprx-vision
+  tls: true
+  servername: static.75.209.109.65.clients.your-server.de
+  skip-cert-verify: false
+- name: 🇫🇮 芬兰 (Finland) 09 - george
+  server: hw3.divarkhaghazi.com
+  port: 465
+  udp: true
+  type: vless
+  uuid: 924e20da-fcad-4e7e-8113-c62d27a0d01e
+  tls: true
+  servername: hw3.divarkhaghazi.com.
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hw3.divarkhaghazi.com.
+- name: 🇫🇮 芬兰 (Finland) 10 - george
   server: uk9.998998.best
   port: 443
   udp: true
@@ -89,6 +141,10 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 04 - george
   - 🇫🇮 芬兰 (Finland) 05 - george
   - 🇫🇮 芬兰 (Finland) 06 - george
+  - 🇫🇮 芬兰 (Finland) 07 - george
+  - 🇫🇮 芬兰 (Finland) 08 - george
+  - 🇫🇮 芬兰 (Finland) 09 - george
+  - 🇫🇮 芬兰 (Finland) 10 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -100,5 +156,9 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 04 - george
   - 🇫🇮 芬兰 (Finland) 05 - george
   - 🇫🇮 芬兰 (Finland) 06 - george
+  - 🇫🇮 芬兰 (Finland) 07 - george
+  - 🇫🇮 芬兰 (Finland) 08 - george
+  - 🇫🇮 芬兰 (Finland) 09 - george
+  - 🇫🇮 芬兰 (Finland) 10 - george
 rules:
 - MATCH,PROXIES

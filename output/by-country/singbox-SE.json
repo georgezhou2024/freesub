@@ -1,0 +1,80 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 01 - george",
+      "server": "medium.com",
+      "server_port": 443,
+      "uuid": "e818a20d-9bcd-4744-9061-ca51b9c8aeea",
+      "tls": {
+        "enabled": true,
+        "server_name": "wallweb-4ez.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "wallweb-4ez.pages.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 02 - george",
+      "server": "toggle.skelmoridianservice.com",
+      "server_port": 443,
+      "uuid": "27926680-f006-4805-ad00-2fb5e55e87c7",
+      "tls": {
+        "enabled": true,
+        "server_name": "my.hexagonicfield.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4",
+          "short_id": "a1b2c3d4e5f6a7b8"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "moktana.net.v1.StreamService"
+      }
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇸🇪 瑞典 (Sweden) 01 - george",
+        "🇸🇪 瑞典 (Sweden) 02 - george"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇸🇪 瑞典 (Sweden) 01 - george",
+        "🇸🇪 瑞典 (Sweden) 02 - george"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
