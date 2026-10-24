@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 瑞典 (Sweden) 01 - george
-  server: medium.com
+  server: epam.com
   port: 443
   udp: true
   type: vless
@@ -20,20 +20,13 @@ proxies:
     headers:
       Host: wallweb-4ez.pages.dev
 - name: 🇸🇪 瑞典 (Sweden) 02 - george
-  server: toggle.skelmoridianservice.com
+  server: promo.betust.net
   port: 443
   udp: true
-  type: vless
-  uuid: 27926680-f006-4805-ad00-2fb5e55e87c7
-  tls: true
-  reality-opts:
-    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-    short-id: a1b2c3d4e5f6a7b8
-  servername: my.hexagonicfield.com
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
+  type: hysteria2
+  password: d4ca9415f0eac7897472e1e5b86d2e96
+  sni: promo.betust.net
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select

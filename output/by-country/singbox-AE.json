@@ -4,56 +4,9 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 01 - george",
-      "server": "135.84.79.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "vms.lifetime35.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 02 - george",
-      "server": "57.129.130.200",
-      "server_port": 52014,
-      "uuid": "c8b0617e-010f-43a8-b3d0-d5358febf0c9",
-      "tls": {
-        "enabled": true,
-        "server_name": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 03 - george",
-      "server": "185.253.116.33",
-      "server_port": 14430,
-      "uuid": "aee7ae19-672f-49d8-8a92-aa7cdfc89f89",
-      "transport": {
-        "type": "ws",
-        "path": "/vless"
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇦🇪 阿联酋 (UAE) 04 - george",
-      "server": "hy2.aspidnet.xyz",
+      "tag": "🇦🇪 阿联酋 (UAE) 01 - george",
+      "server": "130.49.161.70",
       "server_port": 443,
       "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
       "tls": {
@@ -68,30 +21,31 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 05 - george",
-      "server": "116.204.164.17",
-      "server_port": 7443,
-      "uuid": "57c830ca-19a2-441c-811d-db5d81b86b47",
-      "tls": {
-        "enabled": true,
-        "server_name": "o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "tag": "🇦🇪 阿联酋 (UAE) 02 - george",
+      "server": "185.253.116.33",
+      "server_port": 14430,
+      "uuid": "aee7ae19-672f-49d8-8a92-aa7cdfc89f89",
       "transport": {
         "type": "ws",
-        "path": "/@Marisa_kristi",
+        "path": "/vless",
         "headers": {
-          "Host": "o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev"
+          "Host": "185.253.116.33"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 06 - george",
+      "tag": "🇦🇪 阿联酋 (UAE) 03 - george",
+      "server": "uae.unixzone.us",
+      "server_port": 22573,
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "transport": {
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 (UAE) 04 - george",
       "server": "95.174.68.188",
       "server_port": 14430,
       "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
@@ -104,84 +58,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 07 - george",
-      "server": "84.235.244.108",
-      "server_port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "uae.unixzone.us"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 08 - george",
-      "server": "83.147.216.223",
-      "server_port": 4433,
-      "uuid": "660174a2-d32d-4521-840d-d1853bfc80b8",
-      "tls": {
-        "enabled": true,
-        "server_name": "3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 09 - george",
-      "server": "203.137.165.164",
-      "server_port": 57554,
-      "uuid": "76f22519-4f01-450a-88b3-731c11c724e5",
-      "tls": {
-        "enabled": true,
-        "server_name": "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 10 - george",
-      "server": "54.179.79.12",
-      "server_port": 53646,
-      "uuid": "d57b9436-a238-4066-8b11-d23ae57c5982",
-      "tls": {
-        "enabled": true,
-        "server_name": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -189,13 +65,7 @@
         "🇦🇪 阿联酋 (UAE) 01 - george",
         "🇦🇪 阿联酋 (UAE) 02 - george",
         "🇦🇪 阿联酋 (UAE) 03 - george",
-        "🇦🇪 阿联酋 (UAE) 04 - george",
-        "🇦🇪 阿联酋 (UAE) 05 - george",
-        "🇦🇪 阿联酋 (UAE) 06 - george",
-        "🇦🇪 阿联酋 (UAE) 07 - george",
-        "🇦🇪 阿联酋 (UAE) 08 - george",
-        "🇦🇪 阿联酋 (UAE) 09 - george",
-        "🇦🇪 阿联酋 (UAE) 10 - george"
+        "🇦🇪 阿联酋 (UAE) 04 - george"
       ]
     },
     {
@@ -205,13 +75,7 @@
         "🇦🇪 阿联酋 (UAE) 01 - george",
         "🇦🇪 阿联酋 (UAE) 02 - george",
         "🇦🇪 阿联酋 (UAE) 03 - george",
-        "🇦🇪 阿联酋 (UAE) 04 - george",
-        "🇦🇪 阿联酋 (UAE) 05 - george",
-        "🇦🇪 阿联酋 (UAE) 06 - george",
-        "🇦🇪 阿联酋 (UAE) 07 - george",
-        "🇦🇪 阿联酋 (UAE) 08 - george",
-        "🇦🇪 阿联酋 (UAE) 09 - george",
-        "🇦🇪 阿联酋 (UAE) 10 - george"
+        "🇦🇪 阿联酋 (UAE) 04 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
