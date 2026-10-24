@@ -6,20 +6,6 @@
     {
       "type": "vless",
       "tag": "🇮🇳 印度 (India) 01 - george",
-      "server": "13.140.56.100",
-      "server_port": 14430,
-      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "13.140.56.100"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 02 - george",
       "server": "in.smrtai.top",
       "server_port": 443,
       "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
@@ -39,6 +25,20 @@
     },
     {
       "type": "vless",
+      "tag": "🇮🇳 印度 (India) 02 - george",
+      "server": "13.140.56.100",
+      "server_port": 14430,
+      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
+      "transport": {
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "13.140.56.100"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇮🇳 印度 (India) 03 - george",
       "server": "194.61.31.126",
       "server_port": 2053,
@@ -48,7 +48,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -58,13 +58,25 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇮🇳 印度 (India) 04 - george",
+      "server": "152.67.8.205",
+      "server_port": 80,
+      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+      "security": "auto",
+      "transport": {
+        "type": "ws"
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇮🇳 印度 (India) 01 - george",
         "🇮🇳 印度 (India) 02 - george",
-        "🇮🇳 印度 (India) 03 - george"
+        "🇮🇳 印度 (India) 03 - george",
+        "🇮🇳 印度 (India) 04 - george"
       ]
     },
     {
@@ -73,7 +85,8 @@
       "outbounds": [
         "🇮🇳 印度 (India) 01 - george",
         "🇮🇳 印度 (India) 02 - george",
-        "🇮🇳 印度 (India) 03 - george"
+        "🇮🇳 印度 (India) 03 - george",
+        "🇮🇳 印度 (India) 04 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

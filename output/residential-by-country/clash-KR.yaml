@@ -16,7 +16,7 @@ proxies:
   ws-opts:
     path: /
 - name: 🇰🇷 韩国 (South Korea) 02 (家宽) - george
-  server: 218.237.185.234
+  server: p141.panda001.net
   port: 4652
   udp: true
   type: ss

@@ -4,26 +4,29 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🌐 其他地区 (Other) 01 - george
-  server: eu02.123450908.xyz
-  port: 2052
+- name: 🇨🇳 CN 01 - george
+  server: vpn.cintaku.qzz.io
+  port: 443
   udp: true
   type: vless
-  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+  uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
+  tls: true
+  servername: vpn.cintaku.qzz.io
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /rain1226
+    path: /vlessws
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🌐 其他地区 (Other) 01 - george
+  - 🇨🇳 CN 01 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🌐 其他地区 (Other) 01 - george
+  - 🇨🇳 CN 01 - george
 rules:
 - MATCH,PROXIES
