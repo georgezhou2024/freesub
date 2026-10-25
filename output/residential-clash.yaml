@@ -4,15 +4,21 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - george
+- name: 🇺🇸 美国 (United States) 01 (家宽) R50 - george
+  server: 23.160.56.99
+  port: 2087
+  udp: true
+  type: vless
+  uuid: f1e7eafa-0d6f-441e-8565-29f34171aef2
+- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - george
   server: 218.237.185.234
   port: 4652
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - george
-  server: 61.230.160.34
+- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george
+  server: hinet1.2yly.com
   port: 24215
   udp: true
   type: vless
@@ -21,20 +27,32 @@ proxies:
   reality-opts:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
-  client-fingerprint: safari
+  client-fingerprint: ios
+- name: 🇹🇼 中国台湾 (Taiwan) 04 (移动家宽) - george
+  server: gu232.izzzzzi.com
+  port: 20052
+  udp: true
+  type: trojan
+  password: e56e752c86a640cd
+  sni: gu232.izzzzzi.com
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇰🇷 韩国 (South Korea) 01 (家宽) - george
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - george
+  - 🇺🇸 美国 (United States) 01 (家宽) R50 - george
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - george
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george
+  - 🇹🇼 中国台湾 (Taiwan) 04 (移动家宽) - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇷 韩国 (South Korea) 01 (家宽) - george
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - george
+  - 🇺🇸 美国 (United States) 01 (家宽) R50 - george
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - george
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george
+  - 🇹🇼 中国台湾 (Taiwan) 04 (移动家宽) - george
 rules:
 - MATCH,PROXIES

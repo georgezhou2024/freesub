@@ -5,6 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - george
+  server: 162.159.228.255
+  port: 443
+  udp: true
+  type: vless
+  uuid: b135a1e0-ebdb-4d46-b3fa-bd1e78580244
+  tls: true
+  servername: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 02 - george
   server: 185.253.116.33
   port: 14430
   udp: true
@@ -15,8 +30,23 @@ proxies:
     path: /vless
     headers:
       Host: 185.253.116.33
-- name: 🇦🇪 阿联酋 (UAE) 02 - george
-  server: hy2.aspidnet.xyz
+- name: 🇦🇪 阿联酋 (UAE) 03 - george
+  server: 57.129.130.200
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 93c53b59-1523-4621-9528-77b016a28304
+  tls: true
+  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 04 - george
+  server: 130.49.161.70
   port: 443
   udp: true
   type: hysteria2
@@ -25,8 +55,23 @@ proxies:
   skip-cert-verify: false
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇦🇪 阿联酋 (UAE) 03 - george
-  server: 84.235.244.108
+- name: 🇦🇪 阿联酋 (UAE) 05 - george
+  server: 203.137.165.164
+  port: 57554
+  udp: true
+  type: vless
+  uuid: 12d65cdc-3391-4227-a2d5-52deb9948ae5
+  tls: true
+  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 06 - george
+  server: uae.unixzone.us
   port: 22573
   udp: true
   type: vless
@@ -36,6 +81,20 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 07 - george
+  server: 116.204.164.30
+  port: 7443
+  udp: true
+  type: vless
+  uuid: dcd08975-739e-44c7-9022-7c7fcb87e74b
+  tls: true
+  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -44,6 +103,10 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - george
   - 🇦🇪 阿联酋 (UAE) 02 - george
   - 🇦🇪 阿联酋 (UAE) 03 - george
+  - 🇦🇪 阿联酋 (UAE) 04 - george
+  - 🇦🇪 阿联酋 (UAE) 05 - george
+  - 🇦🇪 阿联酋 (UAE) 06 - george
+  - 🇦🇪 阿联酋 (UAE) 07 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -52,5 +115,9 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - george
   - 🇦🇪 阿联酋 (UAE) 02 - george
   - 🇦🇪 阿联酋 (UAE) 03 - george
+  - 🇦🇪 阿联酋 (UAE) 04 - george
+  - 🇦🇪 阿联酋 (UAE) 05 - george
+  - 🇦🇪 阿联酋 (UAE) 06 - george
+  - 🇦🇪 阿联酋 (UAE) 07 - george
 rules:
 - MATCH,PROXIES

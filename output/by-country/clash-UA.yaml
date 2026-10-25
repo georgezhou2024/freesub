@@ -41,12 +41,12 @@ proxies:
   port: 443
   udp: true
   type: vless
-  uuid: 594d466e-8ac3-4fda-b1d1-eeb817853518
+  uuid: 106d20f6-d70a-40e2-b69b-8e82baf8d117
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
-    short-id: 5a018643df03
+    short-id: 60500a63ad12
   servername: www.microsoft.com
   client-fingerprint: chrome
 proxy-groups:
