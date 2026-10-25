@@ -37,12 +37,25 @@
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 03 - george",
-      "server": "84.21.191.180",
-      "server_port": 1081,
-      "method": "chacha20-ietf-poly1305",
-      "password": "iWhDZY1CQ-7AQYQtmc8Ki4r3H4UYP0SF"
+      "server": "201.58.177.229",
+      "server_port": 443,
+      "uuid": "50a87e21-f0e2-4b53-a787-91adfe748f63",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "swidenafterlanzerotte.space",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "MQrvfivvEfLGzDee7h0j5uC-DwaD_38_NXOY9-NhqxM",
+          "short_id": ""
+        }
+      }
     },
     {
       "type": "vless",
