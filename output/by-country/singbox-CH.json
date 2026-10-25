@@ -12,20 +12,8 @@
       "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
     },
     {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 02 - george",
-      "server": "140.238.213.114",
-      "server_port": 50160,
-      "password": "84a506ca5aca505696a454d828420b3f",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 03 - george",
+      "tag": "🇨🇭 瑞士 (Switzerland) 02 - george",
       "server": "45.90.59.15",
       "server_port": 443,
       "uuid": "3950b45e-740d-4dca-ac95-505ec8534592",
@@ -42,6 +30,18 @@
           "public_key": "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY",
           "short_id": "19253fae84102271"
         }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 03 - george",
+      "server": "140.238.213.114",
+      "server_port": 50160,
+      "password": "84a506ca5aca505696a454d828420b3f",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
       }
     },
     {
@@ -64,7 +64,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 05 - george",
       "server": "208.69.78.217",
-      "server_port": 21080,
+      "server_port": 33152,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -80,7 +80,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 06 - george",
       "server": "208.69.78.217",
-      "server_port": 33133,
+      "server_port": 21086,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -96,7 +96,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 07 - george",
       "server": "208.69.78.217",
-      "server_port": 21084,
+      "server_port": 21016,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -112,6 +112,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 08 - george",
       "server": "208.69.78.217",
+      "server_port": 33133,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -121,17 +122,13 @@
       "obfs": {
         "type": "salamander",
         "password": "mbQXP2ASuHbF6ZPq"
-      },
-      "server_ports": [
-        "21000:21199",
-        "33000:33199"
-      ]
+      }
     },
     {
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 09 - george",
       "server": "208.69.78.217",
-      "server_port": 33013,
+      "server_port": 21080,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -147,7 +144,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 10 - george",
       "server": "208.69.78.217",
-      "server_port": 21016,
+      "server_port": 33174,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -163,7 +160,103 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 11 - george",
       "server": "208.69.78.217",
-      "server_port": 33174,
+      "server_port": 33187,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn.local",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 12 - george",
+      "server": "208.69.78.217",
+      "server_port": 21021,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn.local",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 13 - george",
+      "server": "208.69.78.217",
+      "server_port": 33092,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn.local",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 14 - george",
+      "server": "208.69.78.217",
+      "server_port": 21113,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn.local",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 15 - george",
+      "server": "208.69.78.217",
+      "server_port": 21154,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn.local",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 16 - george",
+      "server": "208.69.78.217",
+      "server_port": 21084,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn.local",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 17 - george",
+      "server": "208.69.78.217",
+      "server_port": 33117,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -190,7 +283,13 @@
         "🇨🇭 瑞士 (Switzerland) 08 - george",
         "🇨🇭 瑞士 (Switzerland) 09 - george",
         "🇨🇭 瑞士 (Switzerland) 10 - george",
-        "🇨🇭 瑞士 (Switzerland) 11 - george"
+        "🇨🇭 瑞士 (Switzerland) 11 - george",
+        "🇨🇭 瑞士 (Switzerland) 12 - george",
+        "🇨🇭 瑞士 (Switzerland) 13 - george",
+        "🇨🇭 瑞士 (Switzerland) 14 - george",
+        "🇨🇭 瑞士 (Switzerland) 15 - george",
+        "🇨🇭 瑞士 (Switzerland) 16 - george",
+        "🇨🇭 瑞士 (Switzerland) 17 - george"
       ]
     },
     {
@@ -207,7 +306,13 @@
         "🇨🇭 瑞士 (Switzerland) 08 - george",
         "🇨🇭 瑞士 (Switzerland) 09 - george",
         "🇨🇭 瑞士 (Switzerland) 10 - george",
-        "🇨🇭 瑞士 (Switzerland) 11 - george"
+        "🇨🇭 瑞士 (Switzerland) 11 - george",
+        "🇨🇭 瑞士 (Switzerland) 12 - george",
+        "🇨🇭 瑞士 (Switzerland) 13 - george",
+        "🇨🇭 瑞士 (Switzerland) 14 - george",
+        "🇨🇭 瑞士 (Switzerland) 15 - george",
+        "🇨🇭 瑞士 (Switzerland) 16 - george",
+        "🇨🇭 瑞士 (Switzerland) 17 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -15,7 +15,7 @@
         "server_name": "gateway.icloud.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -29,11 +29,11 @@
       "tag": "🇨🇿 捷克 (Czech) 02 - george",
       "server": "193.124.17.190",
       "server_port": 443,
-      "uuid": "6dfc9149-1ff9-41c3-8563-0ef284381731",
+      "uuid": "1896c6c9-a941-4688-a865-29027bf7f8e6",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.tradingview.com",
+        "server_name": "www.microsoft.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -41,7 +41,7 @@
         "reality": {
           "enabled": true,
           "public_key": "J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk",
-          "short_id": "1374bddeb25d"
+          "short_id": "6c825bc79850"
         }
       }
     },
