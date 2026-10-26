@@ -11,25 +11,10 @@ proxies:
   type: hysteria2
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
   sni: hy2.aspidnet.xyz
-  skip-cert-verify: true
+  skip-cert-verify: false
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 02 - george
-  server: 57.129.130.34
-  port: 52014
-  udp: true
-  type: vless
-  uuid: d1e65d87-c0d1-4265-9242-a56aad927341
-  tls: true
-  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 03 - george
   server: 185.253.116.33
   port: 14430
   udp: true
@@ -38,21 +23,15 @@ proxies:
   network: ws
   ws-opts:
     path: /vless
-- name: 🇦🇪 阿联酋 (UAE) 04 - george
-  server: 116.204.164.30
-  port: 7443
+- name: 🇦🇪 阿联酋 (UAE) 03 - george
+  server: forshynewh.duckdns.org
+  port: 443
   udp: true
-  type: vless
-  uuid: dcd08975-739e-44c7-9022-7c7fcb87e74b
-  tls: true
-  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
+  type: hysteria2
+  password: 329e13e4-ee7c-4802-ac72-5fcab79c2402
+  sni: forshynewh.duckdns.org
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 05 - george
+- name: 🇦🇪 阿联酋 (UAE) 04 - george
   server: uae.unixzone.us
   port: 22573
   udp: true
@@ -61,32 +40,6 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇦🇪 阿联酋 (UAE) 06 - george
-  server: 95.174.68.188
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 95.174.68.188
-- name: 🇦🇪 阿联酋 (UAE) 07 - george
-  server: 107.191.53.86
-  port: 4798
-  udp: true
-  type: vless
-  uuid: bdd0a2cf-12c5-4421-82fe-82195a27748f
-  tls: true
-  servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -96,9 +49,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - george
   - 🇦🇪 阿联酋 (UAE) 03 - george
   - 🇦🇪 阿联酋 (UAE) 04 - george
-  - 🇦🇪 阿联酋 (UAE) 05 - george
-  - 🇦🇪 阿联酋 (UAE) 06 - george
-  - 🇦🇪 阿联酋 (UAE) 07 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -108,8 +58,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - george
   - 🇦🇪 阿联酋 (UAE) 03 - george
   - 🇦🇪 阿联酋 (UAE) 04 - george
-  - 🇦🇪 阿联酋 (UAE) 05 - george
-  - 🇦🇪 阿联酋 (UAE) 06 - george
-  - 🇦🇪 阿联酋 (UAE) 07 - george
 rules:
 - MATCH,PROXIES

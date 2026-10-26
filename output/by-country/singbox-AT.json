@@ -14,6 +14,52 @@
     {
       "type": "vless",
       "tag": "🇦🇹 奥地利 (Austria) 02 - george",
+      "server": "152.53.1.40",
+      "server_port": 8443,
+      "uuid": "2b0e5676-fb62-4bf0-9607-6e7818421e8e",
+      "tls": {
+        "enabled": true,
+        "server_name": "au4.pad-sservice.lat",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/A14U",
+        "headers": {
+          "Host": "au4.pad-service.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇹 奥地利 (Austria) 03 - george",
+      "server": "62.83.19.186",
+      "server_port": 8443,
+      "uuid": "2b0e5676-fb62-4bf0-9607-6e7818421e8e",
+      "tls": {
+        "enabled": true,
+        "server_name": "au7.pad-sservice.lat",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/AU7W",
+        "headers": {
+          "Host": "au7.pad-sservice.lat"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇹 奥地利 (Austria) 04 - george",
       "server": "au5.pad-sservice.lat",
       "server_port": 8443,
       "uuid": "2b0e5676-fb62-4bf0-9607-6e7818421e8e",
@@ -36,27 +82,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇹 奥地利 (Austria) 03 - george",
-      "server": "au6.pad-sservice.lat",
-      "server_port": 8443,
-      "uuid": "2b0e5676-fb62-4bf0-9607-6e7818421e8e",
-      "tls": {
-        "enabled": true,
-        "server_name": "au6.pad-sservice.lat",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/AU6W",
-        "headers": {
-          "Host": "au6.pad-sservice.lat"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇹 奥地利 (Austria) 04 - george",
-      "server": "au2.pad-sservice.lat",
+      "tag": "🇦🇹 奥地利 (Austria) 05 - george",
+      "server": "89.58.20.210",
       "server_port": 8443,
       "uuid": "2b0e5676-fb62-4bf0-9607-6e7818421e8e",
       "tls": {
@@ -77,15 +104,66 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇦🇹 奥地利 (Austria) 05 - george",
-      "server": "68.210.96.82",
+      "type": "vless",
+      "tag": "🇦🇹 奥地利 (Austria) 06 - george",
+      "server": "159.195.253.15",
       "server_port": 8443,
-      "password": "krdyzYNnXFQqyPtjiXw9lQ",
+      "uuid": "2b0e5676-fb62-4bf0-9607-6e7818421e8e",
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
+        "server_name": "au1.pad-sservice.lat",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/au1",
+        "headers": {
+          "Host": "au1.pad-service.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇹 奥地利 (Austria) 07 - george",
+      "server": "146.19.143.218",
+      "server_port": 443,
+      "uuid": "ca14493b-b984-4ffb-bc0e-9cb5da969e15",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "tau1.freerunet.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "l1mx_plNc2oiWxJCcZLh3SGfFU-5QxYpgQ__Ea59WEg",
+          "short_id": "4a7b1c8d"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇹 奥地利 (Austria) 08 - george",
+      "server": "62.83.41.69",
+      "server_port": 8443,
+      "uuid": "2b0e5676-fb62-4bf0-9607-6e7818421e8e",
+      "tls": {
+        "enabled": true,
+        "server_name": "au6.pad-sservice.lat",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/AU6W",
+        "headers": {
+          "Host": "au6.pad-sservice.lat"
+        }
       }
     },
     {
@@ -97,7 +175,10 @@
         "🇦🇹 奥地利 (Austria) 02 - george",
         "🇦🇹 奥地利 (Austria) 03 - george",
         "🇦🇹 奥地利 (Austria) 04 - george",
-        "🇦🇹 奥地利 (Austria) 05 - george"
+        "🇦🇹 奥地利 (Austria) 05 - george",
+        "🇦🇹 奥地利 (Austria) 06 - george",
+        "🇦🇹 奥地利 (Austria) 07 - george",
+        "🇦🇹 奥地利 (Austria) 08 - george"
       ]
     },
     {
@@ -108,7 +189,10 @@
         "🇦🇹 奥地利 (Austria) 02 - george",
         "🇦🇹 奥地利 (Austria) 03 - george",
         "🇦🇹 奥地利 (Austria) 04 - george",
-        "🇦🇹 奥地利 (Austria) 05 - george"
+        "🇦🇹 奥地利 (Austria) 05 - george",
+        "🇦🇹 奥地利 (Austria) 06 - george",
+        "🇦🇹 奥地利 (Austria) 07 - george",
+        "🇦🇹 奥地利 (Austria) 08 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
