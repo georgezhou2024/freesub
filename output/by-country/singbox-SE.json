@@ -18,6 +18,49 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 02 - george",
+      "server": "136.148.218.108",
+      "server_port": 443,
+      "uuid": "4b1be712-774c-4b65-8491-a3339e124a70",
+      "tls": {
+        "enabled": true,
+        "server_name": "se1-cl3.vless-fiberstasis.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "qJja_3vaCxm3As6alnqjpIIThwGm4e4m_MOluQBNFgo",
+          "short_id": "11d37dd92940329e"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-se-3"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 03 - george",
+      "server": "191.44.114.179",
+      "server_port": 2096,
+      "uuid": "d1641bc6-3757-43db-815a-9b3f4d9b0d7e",
+      "tls": {
+        "enabled": true,
+        "server_name": "st33614.rumedia-cdn.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn/v3/live",
+        "headers": {
+          "Host": "st33614.rumedia-cdn.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 04 - george",
       "server": "191.44.114.154",
       "server_port": 8443,
       "uuid": "d1641bc6-3757-43db-815a-9b3f4d9b0d7e",
@@ -38,36 +81,66 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 03 - george",
+      "tag": "🇸🇪 瑞典 (Sweden) 05 - george",
       "server": "191.44.114.179",
-      "server_port": 2096,
+      "server_port": 8443,
       "uuid": "d1641bc6-3757-43db-815a-9b3f4d9b0d7e",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "st33614.rumedia-cdn.com",
-        "insecure": false,
+        "server_name": "www.wikipedia.org",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cdn/v3/live",
-        "headers": {
-          "Host": "st33614.rumedia-cdn.com"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "WEHGKyXsOD5i2kNCJ3GrjeNZQBsrzH76OrPDJ7x2YwY",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 04 - george",
+      "tag": "🇸🇪 瑞典 (Sweden) 06 - george",
+      "server": "89.125.37.91",
+      "server_port": 41445,
+      "uuid": "f12d0220-e1de-4232-bcef-7e5a12f05062",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "se.s3-cloud.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Ux2M6x46mIcoAoP2oCA8qEQnqc1O5cpa5zYRIdCNdnw",
+          "short_id": "7a3f9e2b1c8d4f6a"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇸🇪 瑞典 (Sweden) 07 - george",
+      "server": "70.34.212.124",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "AxIYWtskJWIIaefW"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 08 - george",
       "server": "5.178.109.174",
       "server_port": 14430,
       "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
       "transport": {
         "type": "ws",
-        "path": "/vless"
+        "path": "/vless",
+        "headers": {
+          "Host": "5.178.109.174"
+        }
       }
     },
     {
@@ -78,7 +151,11 @@
         "🇸🇪 瑞典 (Sweden) 01 - george",
         "🇸🇪 瑞典 (Sweden) 02 - george",
         "🇸🇪 瑞典 (Sweden) 03 - george",
-        "🇸🇪 瑞典 (Sweden) 04 - george"
+        "🇸🇪 瑞典 (Sweden) 04 - george",
+        "🇸🇪 瑞典 (Sweden) 05 - george",
+        "🇸🇪 瑞典 (Sweden) 06 - george",
+        "🇸🇪 瑞典 (Sweden) 07 - george",
+        "🇸🇪 瑞典 (Sweden) 08 - george"
       ]
     },
     {
@@ -88,7 +165,11 @@
         "🇸🇪 瑞典 (Sweden) 01 - george",
         "🇸🇪 瑞典 (Sweden) 02 - george",
         "🇸🇪 瑞典 (Sweden) 03 - george",
-        "🇸🇪 瑞典 (Sweden) 04 - george"
+        "🇸🇪 瑞典 (Sweden) 04 - george",
+        "🇸🇪 瑞典 (Sweden) 05 - george",
+        "🇸🇪 瑞典 (Sweden) 06 - george",
+        "🇸🇪 瑞典 (Sweden) 07 - george",
+        "🇸🇪 瑞典 (Sweden) 08 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

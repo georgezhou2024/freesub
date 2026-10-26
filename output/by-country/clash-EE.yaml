@@ -5,14 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇪🇪 爱沙尼亚 (Estonia) 01 - george
-  server: 141.0.187.15
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 70043bfa-d6fb-4980-b27e-773e9e8b2004
-  sni: crt.onecloudstream.com
-  skip-cert-verify: false
-- name: 🇪🇪 爱沙尼亚 (Estonia) 02 - george
   server: 179.254.126.223
   port: 8443
   udp: true
@@ -21,13 +13,12 @@ proxies:
   tls: true
   servername: ee2.pad-sservice.lat
   skip-cert-verify: false
-  client-fingerprint: firefox
   network: ws
   ws-opts:
     path: /EE2W
     headers:
       Host: ee2.pad-service.com
-- name: 🇪🇪 爱沙尼亚 (Estonia) 03 - george
+- name: 🇪🇪 爱沙尼亚 (Estonia) 02 - george
   server: 13.143.239.69
   port: 8443
   udp: true
@@ -36,14 +27,13 @@ proxies:
   tls: true
   servername: ee4.pad-sservice.lat
   skip-cert-verify: false
-  client-fingerprint: firefox
   network: ws
   ws-opts:
     path: /EE4W
     headers:
       Host: ee4.pad-sservice.lat
-- name: 🇪🇪 爱沙尼亚 (Estonia) 04 - george
-  server: ee1.pad-sservice.lat
+- name: 🇪🇪 爱沙尼亚 (Estonia) 03 - george
+  server: 212.87.190.131
   port: 8443
   udp: true
   type: vless
@@ -57,21 +47,6 @@ proxies:
     path: /EE1W
     headers:
       Host: ee1.pad-service.com
-- name: 🇪🇪 爱沙尼亚 (Estonia) 05 - george
-  server: ee3.pad-sservice.lat
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-  tls: true
-  servername: ee3.pad-sservice.lat
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /EE3W
-    headers:
-      Host: ee3.pad-service.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -80,8 +55,6 @@ proxy-groups:
   - 🇪🇪 爱沙尼亚 (Estonia) 01 - george
   - 🇪🇪 爱沙尼亚 (Estonia) 02 - george
   - 🇪🇪 爱沙尼亚 (Estonia) 03 - george
-  - 🇪🇪 爱沙尼亚 (Estonia) 04 - george
-  - 🇪🇪 爱沙尼亚 (Estonia) 05 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -90,7 +63,5 @@ proxy-groups:
   - 🇪🇪 爱沙尼亚 (Estonia) 01 - george
   - 🇪🇪 爱沙尼亚 (Estonia) 02 - george
   - 🇪🇪 爱沙尼亚 (Estonia) 03 - george
-  - 🇪🇪 爱沙尼亚 (Estonia) 04 - george
-  - 🇪🇪 爱沙尼亚 (Estonia) 05 - george
 rules:
 - MATCH,PROXIES

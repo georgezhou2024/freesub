@@ -13,7 +13,7 @@ proxies:
   sni: kw119.zxmm.eu.org
   skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - george
-  server: hinet1.2yly.com
+  server: 118.167.211.77
   port: 24215
   udp: true
   type: vless
