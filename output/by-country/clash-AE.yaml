@@ -15,6 +15,21 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 02 - george
+  server: 57.129.130.34
+  port: 52014
+  udp: true
+  type: vless
+  uuid: d1e65d87-c0d1-4265-9242-a56aad927341
+  tls: true
+  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 03 - george
   server: 185.253.116.33
   port: 14430
   udp: true
@@ -23,10 +38,22 @@ proxies:
   network: ws
   ws-opts:
     path: /vless
+- name: 🇦🇪 阿联酋 (UAE) 04 - george
+  server: 116.204.164.30
+  port: 7443
+  udp: true
+  type: vless
+  uuid: dcd08975-739e-44c7-9022-7c7fcb87e74b
+  tls: true
+  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
     headers:
-      Host: 185.253.116.33
-- name: 🇦🇪 阿联酋 (UAE) 03 - george
-  server: 84.235.244.108
+      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 05 - george
+  server: uae.unixzone.us
   port: 22573
   udp: true
   type: vless
@@ -34,9 +61,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 04 - george
+- name: 🇦🇪 阿联酋 (UAE) 06 - george
   server: 95.174.68.188
   port: 14430
   udp: true
@@ -47,20 +72,21 @@ proxies:
     path: /vless
     headers:
       Host: 95.174.68.188
-- name: 🇦🇪 阿联酋 (UAE) 05 - george
-  server: 142.91.101.39
-  port: 627
+- name: 🇦🇪 阿联酋 (UAE) 07 - george
+  server: 107.191.53.86
+  port: 4798
   udp: true
   type: vless
-  uuid: a32f3ec6-d776-450e-9d97-9e2deb6c8421
+  uuid: bdd0a2cf-12c5-4421-82fe-82195a27748f
   tls: true
-  servername: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+  servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /@Marisa_kristi
     headers:
-      Host: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+      Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -71,6 +97,8 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 03 - george
   - 🇦🇪 阿联酋 (UAE) 04 - george
   - 🇦🇪 阿联酋 (UAE) 05 - george
+  - 🇦🇪 阿联酋 (UAE) 06 - george
+  - 🇦🇪 阿联酋 (UAE) 07 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -81,5 +109,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 03 - george
   - 🇦🇪 阿联酋 (UAE) 04 - george
   - 🇦🇪 阿联酋 (UAE) 05 - george
+  - 🇦🇪 阿联酋 (UAE) 06 - george
+  - 🇦🇪 阿联酋 (UAE) 07 - george
 rules:
 - MATCH,PROXIES
