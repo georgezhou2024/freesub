@@ -20,8 +20,29 @@
       }
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 02 - george",
+      "server": "2.27.13.152",
+      "server_port": 8443,
+      "uuid": "d1641bc6-3757-43db-815a-9b3f4d9b0d7e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.nokia.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "14YyFG_j2yPEUu-gO_G9GqCqRiZ0DIUgzReV9CZvOAk",
+          "short_id": "0f47ff9aa15e3e30"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 芬兰 (Finland) 03 - george",
       "server": "45.149.147.213",
       "server_port": 4444,
       "password": "9b347a9b-d7a6-4b51-9890-eff62b832834",
@@ -44,7 +65,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 03 - george",
+      "tag": "🇫🇮 芬兰 (Finland) 04 - george",
       "server": "95.216.27.15",
       "server_port": 2053,
       "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
@@ -53,7 +74,7 @@
         "server_name": "www.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -64,7 +85,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 04 - george",
+      "tag": "🇫🇮 芬兰 (Finland) 05 - george",
       "server": "45.144.234.157",
       "server_port": 14430,
       "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
@@ -73,28 +94,6 @@
         "path": "/vless",
         "headers": {
           "Host": "45.144.234.157"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 05 - george",
-      "server": "65.109.212.193",
-      "server_port": 465,
-      "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
-      "tls": {
-        "enabled": true,
-        "server_name": "hw3.divarkhaghazi.com.",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "hw3.divarkhaghazi.com."
         }
       }
     },
@@ -125,6 +124,29 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 07 - george",
+      "server": "65.109.212.193",
+      "server_port": 465,
+      "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
+      "tls": {
+        "enabled": true,
+        "server_name": "hw3.divarkhaghazi.com.",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hw3.divarkhaghazi.com."
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 08 - george",
       "server": "2.27.13.152",
       "server_port": 2096,
       "uuid": "d1641bc6-3757-43db-815a-9b3f4d9b0d7e",
@@ -142,25 +164,6 @@
         "path": "/cdn/v3/live",
         "headers": {
           "Host": "st4834a.rumedia-cdn.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 08 - george",
-      "server": "191.44.114.179",
-      "server_port": 2096,
-      "uuid": "d1641bc6-3757-43db-815a-9b3f4d9b0d7e",
-      "tls": {
-        "enabled": true,
-        "server_name": "st33614.rumedia-cdn.com",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cdn/v3/live",
-        "headers": {
-          "Host": "st33614.rumedia-cdn.com"
         }
       }
     },

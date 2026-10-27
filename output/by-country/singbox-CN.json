@@ -5,22 +5,24 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇲🇰 MK 01 - george",
-      "server": "89.185.82.151",
-      "server_port": 10443,
-      "uuid": "0869a7d7-b8e8-42be-8bca-84b0ab07744a",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇨🇳 CN 01 - george",
+      "server": "188.114.98.0",
+      "server_port": 443,
+      "uuid": "fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349",
       "tls": {
         "enabled": true,
-        "server_name": "stackoverflow.com",
+        "server_name": "vpn.cintaku.qzz.io",
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "XNfikFybWtjJjWU7-QBGrr-D9YUW0uSK_sR7mDDUmRU",
-          "short_id": "6ba85179"
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vlessws",
+        "headers": {
+          "Host": "vpn.cintaku.qzz.io"
         }
       }
     },
@@ -29,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇰 MK 01 - george"
+        "🇨🇳 CN 01 - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇰 MK 01 - george"
+        "🇨🇳 CN 01 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
