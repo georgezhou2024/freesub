@@ -4,9 +4,38 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇧🇷 巴西 (Brazil) 01 - george",
+      "server": "185.207.196.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "vms.lifetime11.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 02 - george",
+      "server": "92.53.189.40",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "vms.lifetime19.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇧🇷 巴西 (Brazil) 03 - george",
       "server": "147.15.108.14",
+      "server_port": 20000,
       "password": "CyG0RFxMjzs41uQD4OLuHQ==",
       "tls": {
         "enabled": true,
@@ -16,25 +45,25 @@
       "obfs": {
         "type": "salamander",
         "password": "CyG0RFxMjzs41uQD4OLuHQ=="
-      },
-      "server_ports": [
-        "20000:30000",
-        "20000:20000"
-      ]
+      }
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇷 巴西 (Brazil) 01 - george"
+        "🇧🇷 巴西 (Brazil) 01 - george",
+        "🇧🇷 巴西 (Brazil) 02 - george",
+        "🇧🇷 巴西 (Brazil) 03 - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 巴西 (Brazil) 01 - george"
+        "🇧🇷 巴西 (Brazil) 01 - george",
+        "🇧🇷 巴西 (Brazil) 02 - george",
+        "🇧🇷 巴西 (Brazil) 03 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

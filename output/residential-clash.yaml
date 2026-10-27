@@ -5,38 +5,34 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 (家宽) - george
-  server: 49.254.204.133
-  port: 1774
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 1234!@#$
-- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - george
   server: 218.237.185.234
   port: 4652
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george
-  server: kw119.zxmm.eu.org
-  port: 20031
+- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - george
+  server: 49.254.204.133
+  port: 1774
   udp: true
-  type: trojan
-  password: 00a72bf349e6479b
-  sni: kw119.zxmm.eu.org
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - george
-  server: 118.167.211.77
-  port: 24215
+  type: ss
+  cipher: aes-256-cfb
+  password: 1234!@#$
+- name: 🇸🇬 新加坡 (Singapore) 03 (家宽) - george
+  server: 152.70.253.44
+  port: 443
   udp: true
   type: vless
-  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
   tls: true
-  reality-opts:
-    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
-  servername: addons.mozilla.org
-  client-fingerprint: firefox
+  servername: wzs.echo.net.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HV1ZNVwcHTQsJSgAJVBQUG0dCQEwWAx4AAg4c
+    headers:
+      Host: wzs.echo.net.eu.org
 proxy-groups:
 - name: PROXIES
   type: select
@@ -44,8 +40,7 @@ proxy-groups:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - george
   - 🇰🇷 韩国 (South Korea) 02 (家宽) - george
-  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - george
+  - 🇸🇬 新加坡 (Singapore) 03 (家宽) - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -53,7 +48,6 @@ proxy-groups:
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - george
   - 🇰🇷 韩国 (South Korea) 02 (家宽) - george
-  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - george
+  - 🇸🇬 新加坡 (Singapore) 03 (家宽) - george
 rules:
 - MATCH,PROXIES
