@@ -22,7 +22,7 @@ proxies:
     public-key: i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU
     short-id: d06d78e974491b6e
   servername: www.cloudflare.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇷🇴 罗马尼亚 (Romania) 03 - george
   server: 162.249.125.133
   port: 443
@@ -46,6 +46,14 @@ proxies:
     short-id: 31e91d43e553bf32
   servername: gateway.icloud.com
   client-fingerprint: chrome
+- name: 🇷🇴 罗马尼亚 (Romania) 05 - george
+  server: 185.156.44.99
+  port: 443
+  udp: true
+  type: hysteria2
+  password: gf1:gfhysteria2024
+  sni: speedtest.tinkoff.ru
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -55,6 +63,7 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 02 - george
   - 🇷🇴 罗马尼亚 (Romania) 03 - george
   - 🇷🇴 罗马尼亚 (Romania) 04 - george
+  - 🇷🇴 罗马尼亚 (Romania) 05 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -64,5 +73,6 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 02 - george
   - 🇷🇴 罗马尼亚 (Romania) 03 - george
   - 🇷🇴 罗马尼亚 (Romania) 04 - george
+  - 🇷🇴 罗马尼亚 (Romania) 05 - george
 rules:
 - MATCH,PROXIES
