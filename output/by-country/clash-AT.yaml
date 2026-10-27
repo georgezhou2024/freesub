@@ -12,7 +12,7 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇦🇹 奥地利 (Austria) 02 - george
-  server: softice.net
+  server: 188.137.158.169
   port: 443
   udp: true
   type: vless
@@ -21,7 +21,20 @@ proxies:
   tls: true
   servername: softice.net
   skip-cert-verify: false
-  client-fingerprint: chrome
+  client-fingerprint: firefox
+- name: 🇦🇹 奥地利 (Austria) 03 - george
+  server: 146.19.143.218
+  port: 443
+  udp: true
+  type: vless
+  uuid: ca14493b-b984-4ffb-bc0e-9cb5da969e15
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: l1mx_plNc2oiWxJCcZLh3SGfFU-5QxYpgQ__Ea59WEg
+    short-id: 4a7b1c8d
+  servername: tau1.freerunet.online
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -29,6 +42,7 @@ proxy-groups:
   - AUTO
   - 🇦🇹 奥地利 (Austria) 01 - george
   - 🇦🇹 奥地利 (Austria) 02 - george
+  - 🇦🇹 奥地利 (Austria) 03 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -36,5 +50,6 @@ proxy-groups:
   proxies:
   - 🇦🇹 奥地利 (Austria) 01 - george
   - 🇦🇹 奥地利 (Austria) 02 - george
+  - 🇦🇹 奥地利 (Austria) 03 - george
 rules:
 - MATCH,PROXIES

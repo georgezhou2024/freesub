@@ -5,21 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇳 CN 01 - george
-  server: 122.8.45.7
-  port: 8443
+  server: 188.114.98.0
+  port: 443
   udp: true
   type: vless
-  uuid: 362a0364-2b0f-cd11-9c20-ab9dfbeb8b11
+  uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
   tls: true
-  reality-opts:
-    public-key: wcOBPSgoOKptWa9ZHpFpmbrPfLqobBNpCgLH88Ptjhk
-  servername: download.nvidia.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
+  servername: vpn.cintaku.qzz.io
+  skip-cert-verify: false
+  client-fingerprint: safari
+  network: ws
+  ws-opts:
+    path: /vlessws
+    headers:
+      Host: vpn.cintaku.qzz.io
 - name: 🇨🇳 CN 02 - george
-  server: 8.35.211.242
+  server: vpn.cintaku.qzz.io
   port: 443
   udp: true
   type: vless
@@ -30,8 +31,6 @@ proxies:
   network: ws
   ws-opts:
     path: /vlessws
-    headers:
-      Host: vpn.cintaku.qzz.io
 proxy-groups:
 - name: PROXIES
   type: select

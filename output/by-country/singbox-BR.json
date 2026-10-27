@@ -4,47 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇧🇷 巴西 (Brazil) 01 - george",
-      "server": "185.207.196.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vms.lifetime11.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇷 巴西 (Brazil) 02 - george",
-      "server": "92.53.189.40",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vms.lifetime19.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇧🇷 巴西 (Brazil) 03 - george",
-      "server": "147.15.108.14",
-      "server_port": 20000,
-      "password": "CyG0RFxMjzs41uQD4OLuHQ==",
+      "server": "216.238.104.154",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "rmgyvpn.rest",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "CyG0RFxMjzs41uQD4OLuHQ=="
+        "server_name": "findtemporaryworkandfreelancerprojectsonlineplatform.com",
+        "insecure": false
       }
     },
     {
@@ -52,18 +20,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇷 巴西 (Brazil) 01 - george",
-        "🇧🇷 巴西 (Brazil) 02 - george",
-        "🇧🇷 巴西 (Brazil) 03 - george"
+        "🇧🇷 巴西 (Brazil) 01 - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 巴西 (Brazil) 01 - george",
-        "🇧🇷 巴西 (Brazil) 02 - george",
-        "🇧🇷 巴西 (Brazil) 03 - george"
+        "🇧🇷 巴西 (Brazil) 01 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
