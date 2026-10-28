@@ -6,7 +6,7 @@
     {
       "type": "vless",
       "tag": "🇷🇴 罗马尼亚 (Romania) 01 - george",
-      "server": "155.117.5.208",
+      "server": "178.83.45.226",
       "server_port": 2052,
       "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286"
     },
@@ -22,7 +22,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -32,8 +32,16 @@
       }
     },
     {
-      "type": "hysteria2",
+      "type": "shadowsocks",
       "tag": "🇷🇴 罗马尼亚 (Romania) 03 - george",
+      "server": "154.46.31.106",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "QFWzCw2uX9B9i6qAYeFBIE"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 04 - george",
       "server": "162.249.125.133",
       "server_port": 443,
       "password": "QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s",
@@ -49,7 +57,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 04 - george",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 05 - george",
       "server": "82.117.255.174",
       "server_port": 443,
       "uuid": "679439c5-28f2-485e-af5f-60a5fcd9c36c",
@@ -69,14 +77,22 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 06 - george",
+      "server": "bogging-eyeteeth-fly.freesocks.work",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "QFWzCw2uX9B9i6qAYeFBIE"
+    },
+    {
       "type": "hysteria2",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 05 - george",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 07 - george",
       "server": "185.156.44.99",
       "server_port": 443,
       "password": "gf1:gfhysteria2024",
       "tls": {
         "enabled": true,
-        "server_name": "speedtest.tinkoff.ru",
+        "server_name": "www.amazon.com",
         "insecure": true
       }
     },
@@ -89,7 +105,9 @@
         "🇷🇴 罗马尼亚 (Romania) 02 - george",
         "🇷🇴 罗马尼亚 (Romania) 03 - george",
         "🇷🇴 罗马尼亚 (Romania) 04 - george",
-        "🇷🇴 罗马尼亚 (Romania) 05 - george"
+        "🇷🇴 罗马尼亚 (Romania) 05 - george",
+        "🇷🇴 罗马尼亚 (Romania) 06 - george",
+        "🇷🇴 罗马尼亚 (Romania) 07 - george"
       ]
     },
     {
@@ -100,7 +118,9 @@
         "🇷🇴 罗马尼亚 (Romania) 02 - george",
         "🇷🇴 罗马尼亚 (Romania) 03 - george",
         "🇷🇴 罗马尼亚 (Romania) 04 - george",
-        "🇷🇴 罗马尼亚 (Romania) 05 - george"
+        "🇷🇴 罗马尼亚 (Romania) 05 - george",
+        "🇷🇴 罗马尼亚 (Romania) 06 - george",
+        "🇷🇴 罗马尼亚 (Romania) 07 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

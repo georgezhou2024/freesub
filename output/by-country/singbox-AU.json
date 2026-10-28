@@ -6,35 +6,34 @@
     {
       "type": "vless",
       "tag": "🇦🇺 澳大利亚 (Australia) 01 - george",
-      "server": "51.161.204.242",
-      "server_port": 443,
-      "uuid": "a14b736b-a92a-48d6-a596-5d31f7378ded",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "a2qGjvUPq6Nz5FTbn_MSHp-055q2h8YXqIL5VIJ5zwE",
-          "short_id": "d15c17cef9b2e456"
+      "server": "162.159.135.234",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "vms.lifetime54.workers.dev"
         }
       }
     },
     {
-      "type": "trojan",
+      "type": "hysteria2",
       "tag": "🇦🇺 澳大利亚 (Australia) 02 - george",
-      "server": "45.63.30.142",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "server": "158.178.137.129",
+      "password": "b42d90fa667942aebc734d60",
       "tls": {
         "enabled": true,
-        "server_name": "connectwithemployerstohireyouridealteam.com",
+        "server_name": "rmgyvpn.rest",
         "insecure": true
-      }
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "b42d90fa667942aebc734d60"
+      },
+      "server_ports": [
+        "20000:30000",
+        "20000:20000"
+      ]
     },
     {
       "type": "vless",
@@ -60,13 +59,41 @@
     {
       "type": "trojan",
       "tag": "🇦🇺 澳大利亚 (Australia) 04 - george",
+      "server": "45.63.30.142",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "connectwithemployerstohireyouridealteam.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇺 澳大利亚 (Australia) 05 - george",
+      "server": "au001.zestapp778.com",
+      "server_port": 35652,
+      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
+      "tls": {
+        "enabled": true,
+        "server_name": "au001.zestapp778.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇦🇺 澳大利亚 (Australia) 06 - george",
       "server": "au.tronsg.com",
       "server_port": 443,
       "password": "Trojan@82164024",
       "tls": {
         "enabled": true,
         "server_name": "au.tronsg.com",
-        "insecure": true
+        "insecure": false
       }
     },
     {
@@ -77,7 +104,9 @@
         "🇦🇺 澳大利亚 (Australia) 01 - george",
         "🇦🇺 澳大利亚 (Australia) 02 - george",
         "🇦🇺 澳大利亚 (Australia) 03 - george",
-        "🇦🇺 澳大利亚 (Australia) 04 - george"
+        "🇦🇺 澳大利亚 (Australia) 04 - george",
+        "🇦🇺 澳大利亚 (Australia) 05 - george",
+        "🇦🇺 澳大利亚 (Australia) 06 - george"
       ]
     },
     {
@@ -87,7 +116,9 @@
         "🇦🇺 澳大利亚 (Australia) 01 - george",
         "🇦🇺 澳大利亚 (Australia) 02 - george",
         "🇦🇺 澳大利亚 (Australia) 03 - george",
-        "🇦🇺 澳大利亚 (Australia) 04 - george"
+        "🇦🇺 澳大利亚 (Australia) 04 - george",
+        "🇦🇺 澳大利亚 (Australia) 05 - george",
+        "🇦🇺 澳大利亚 (Australia) 06 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
