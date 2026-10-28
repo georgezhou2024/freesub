@@ -5,50 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - george
-  server: 2.27.13.152
-  port: 8443
+  server: 45.144.234.157
+  port: 14430
   udp: true
   type: vless
-  uuid: d1641bc6-3757-43db-815a-9b3f4d9b0d7e
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 14YyFG_j2yPEUu-gO_G9GqCqRiZ0DIUgzReV9CZvOAk
-    short-id: 0f47ff9aa15e3e30
-  servername: www.nokia.com
-  client-fingerprint: chrome
+  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 45.144.234.157
 - name: 🇫🇮 芬兰 (Finland) 02 - george
-  server: 95.216.27.15
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
-  tls: true
-  reality-opts:
-    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
-    short-id: d368b94e275ab080
-  servername: www.google.com
-  client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 03 - george
-  server: dns22.m3hrzd.ir
-  port: 1346
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: U5Jk0BhRNKjb5wQBBOXx2wwkWZ_yWU0N
-- name: 🇫🇮 芬兰 (Finland) 04 - george
-  server: 78.17.27.137
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 48d9a277-776b-4ab8-a357-88a1958beed8
-  tls: true
-  reality-opts:
-    public-key: DZ0BYEIHEe9KmJzM_j5EAN0t3_BTcfO63P7x6SRCeQM
-    short-id: a05ccbf2edb5ebd1
-  servername: www.aalto.fi
-  client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 05 - george
   server: 31.77.199.147
   port: 4443
   udp: true
@@ -61,93 +28,23 @@ proxies:
     short-id: 7da2eae792187ab9
   servername: images.unsplash.com
   client-fingerprint: firefox
-- name: 🇫🇮 芬兰 (Finland) 06 - george
-  server: 65.109.212.193
-  port: 465
-  udp: true
-  type: vless
-  uuid: 924e20da-fcad-4e7e-8113-c62d27a0d01e
-  tls: true
-  servername: hw3.divarkhaghazi.com.
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hw3.divarkhaghazi.com.
-- name: 🇫🇮 芬兰 (Finland) 07 - george
-  server: 45.144.234.157
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 45.144.234.157
-- name: 🇫🇮 芬兰 (Finland) 08 - george
-  server: 46.62.204.134
-  port: 443
-  udp: true
-  type: trojan
-  password: humanity
-  sni: www.pleadcourt.org
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇫🇮 芬兰 (Finland) 09 - george
-  server: 46.62.204.134
-  port: 443
-  udp: true
-  type: trojan
-  password: humanity
-  sni: www.pleadcourt.org
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇫🇮 芬兰 (Finland) 10 - george
-  server: 46.62.204.134
-  port: 443
-  udp: true
-  type: trojan
-  password: humanity
-  sni: www.pleadcourt.org
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇫🇮 芬兰 (Finland) 11 - george
-  server: 46.62.204.134
-  port: 443
-  udp: true
-  type: trojan
-  password: humanity
-  sni: www.pleadcourt.org
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇫🇮 芬兰 (Finland) 12 - george
-  server: 191.44.114.179
+- name: 🇫🇮 芬兰 (Finland) 03 - george
+  server: 2.27.13.152
   port: 2096
   udp: true
   type: vless
   uuid: d1641bc6-3757-43db-815a-9b3f4d9b0d7e
   tls: true
-  servername: st33614.rumedia-cdn.com
+  servername: st4834a.rumedia-cdn.com
   skip-cert-verify: false
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /cdn/v3/live
     headers:
-      Host: st33614.rumedia-cdn.com
-- name: 🇫🇮 芬兰 (Finland) 13 - george
-  server: 77.42.12.225
+      Host: st4834a.rumedia-cdn.com
+- name: 🇫🇮 芬兰 (Finland) 04 - george
+  server: 196.196.204.174
   port: 443
   udp: true
   type: vless
@@ -161,6 +58,25 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: f345a414c040
+- name: 🇫🇮 芬兰 (Finland) 05 - george
+  server: dns22.m3hrzd.ir
+  port: 1346
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: U5Jk0BhRNKjb5wQBBOXx2wwkWZ_yWU0N
+- name: 🇫🇮 芬兰 (Finland) 06 - george
+  server: 95.216.27.15
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
+  tls: true
+  reality-opts:
+    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
+    short-id: d368b94e275ab080
+  servername: www.google.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -172,13 +88,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 04 - george
   - 🇫🇮 芬兰 (Finland) 05 - george
   - 🇫🇮 芬兰 (Finland) 06 - george
-  - 🇫🇮 芬兰 (Finland) 07 - george
-  - 🇫🇮 芬兰 (Finland) 08 - george
-  - 🇫🇮 芬兰 (Finland) 09 - george
-  - 🇫🇮 芬兰 (Finland) 10 - george
-  - 🇫🇮 芬兰 (Finland) 11 - george
-  - 🇫🇮 芬兰 (Finland) 12 - george
-  - 🇫🇮 芬兰 (Finland) 13 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -190,12 +99,5 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 04 - george
   - 🇫🇮 芬兰 (Finland) 05 - george
   - 🇫🇮 芬兰 (Finland) 06 - george
-  - 🇫🇮 芬兰 (Finland) 07 - george
-  - 🇫🇮 芬兰 (Finland) 08 - george
-  - 🇫🇮 芬兰 (Finland) 09 - george
-  - 🇫🇮 芬兰 (Finland) 10 - george
-  - 🇫🇮 芬兰 (Finland) 11 - george
-  - 🇫🇮 芬兰 (Finland) 12 - george
-  - 🇫🇮 芬兰 (Finland) 13 - george
 rules:
 - MATCH,PROXIES

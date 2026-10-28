@@ -6,10 +6,10 @@
     {
       "type": "shadowsocks",
       "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - george",
-      "server": "49.254.204.133",
-      "server_port": 1774,
+      "server": "p141.panda001.net",
+      "server_port": 4652,
       "method": "aes-256-cfb",
-      "password": "1234!@#$"
+      "password": "qwerREWQ@@"
     },
     {
       "type": "vless",
@@ -23,7 +23,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "android"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
@@ -35,12 +35,21 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 03 (家宽) - george",
-      "server": "p141.panda001.net",
-      "server_port": 4652,
-      "method": "aes-256-cfb",
-      "password": "qwerREWQ@@"
+      "type": "vmess",
+      "tag": "🇨🇦 加拿大 (Canada) 03 (家宽) - george",
+      "server": "sg-transit-3.nebulacloud.win",
+      "server_port": 30330,
+      "uuid": "dfa9f875-3805-49d9-8636-46b6899be24e",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "sg-transit-3.nebulacloud.win",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ca/getData"
+      }
     },
     {
       "type": "selector",
@@ -49,7 +58,7 @@
         "auto",
         "🇰🇷 韩国 (South Korea) 01 (家宽) - george",
         "🇮🇳 印度 (India) 02 (家宽) - george",
-        "🇰🇷 韩国 (South Korea) 03 (家宽) - george"
+        "🇨🇦 加拿大 (Canada) 03 (家宽) - george"
       ]
     },
     {
@@ -58,7 +67,7 @@
       "outbounds": [
         "🇰🇷 韩国 (South Korea) 01 (家宽) - george",
         "🇮🇳 印度 (India) 02 (家宽) - george",
-        "🇰🇷 韩国 (South Korea) 03 (家宽) - george"
+        "🇨🇦 加拿大 (Canada) 03 (家宽) - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

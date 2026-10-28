@@ -5,29 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇾 塞浦路斯 (Cyprus) 01 - george
-  server: 171.22.119.74
-  port: 8446
-  udp: true
-  type: trojan
-  password: Pass-Client-1
-  sni: 171.22.119.74
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-video-call
-- name: 🇨🇾 塞浦路斯 (Cyprus) 02 - george
-  server: 92.51.23.133
-  port: 443
+  server: 5.253.30.99
+  port: 40443
   udp: true
   type: vless
-  uuid: 26f751bc-2edc-4338-9c3f-abeb32aba3b7
+  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA
-  servername: zjlavrpl7kwo.staticpool.store
-  client-fingerprint: firefox
-- name: 🇨🇾 塞浦路斯 (Cyprus) 03 - george
+    public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
+    short-id: 88b6
+  servername: deepl.com
+  client-fingerprint: chrome
+- name: 🇨🇾 塞浦路斯 (Cyprus) 02 - george
   server: 5.253.28.240
   port: 2443
   udp: true
@@ -49,7 +39,6 @@ proxy-groups:
   - AUTO
   - 🇨🇾 塞浦路斯 (Cyprus) 01 - george
   - 🇨🇾 塞浦路斯 (Cyprus) 02 - george
-  - 🇨🇾 塞浦路斯 (Cyprus) 03 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -57,6 +46,5 @@ proxy-groups:
   proxies:
   - 🇨🇾 塞浦路斯 (Cyprus) 01 - george
   - 🇨🇾 塞浦路斯 (Cyprus) 02 - george
-  - 🇨🇾 塞浦路斯 (Cyprus) 03 - george
 rules:
 - MATCH,PROXIES
