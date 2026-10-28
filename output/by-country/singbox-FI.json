@@ -6,26 +6,6 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 01 - george",
-      "server": "45.149.147.213",
-      "server_port": 4443,
-      "uuid": "9b347a9b-d7a6-4b51-9890-eff62b832834",
-      "tls": {
-        "enabled": true,
-        "server_name": "45-149-147-213.sslip.io",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "kobedin-server1-vless"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 02 - george",
       "server": "2.27.13.152",
       "server_port": 8443,
       "uuid": "d1641bc6-3757-43db-815a-9b3f4d9b0d7e",
@@ -45,43 +25,8 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇫🇮 芬兰 (Finland) 03 - george",
-      "server": "31.76.8.20",
-      "server_port": 4443,
-      "password": "146d567c-6335-4e63-a8aa-7ec068642440",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl1.obxodvpn.us",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇫🇮 芬兰 (Finland) 04 - george",
-      "server": "45.149.147.213",
-      "server_port": 4444,
-      "password": "9b347a9b-d7a6-4b51-9890-eff62b832834",
-      "tls": {
-        "enabled": true,
-        "server_name": "45-149-147-213.sslip.io",
-        "insecure": false,
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "kobedin-server1-trojan"
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 05 - george",
+      "tag": "🇫🇮 芬兰 (Finland) 02 - george",
       "server": "95.216.27.15",
       "server_port": 2053,
       "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
@@ -90,7 +35,7 @@
         "server_name": "www.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -100,8 +45,83 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇫🇮 芬兰 (Finland) 03 - george",
+      "server": "dns22.m3hrzd.ir",
+      "server_port": 1346,
+      "method": "chacha20-ietf-poly1305",
+      "password": "U5Jk0BhRNKjb5wQBBOXx2wwkWZ_yWU0N"
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 04 - george",
+      "server": "78.17.27.137",
+      "server_port": 8443,
+      "uuid": "48d9a277-776b-4ab8-a357-88a1958beed8",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.aalto.fi",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "DZ0BYEIHEe9KmJzM_j5EAN0t3_BTcfO63P7x6SRCeQM",
+          "short_id": "a05ccbf2edb5ebd1"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 05 - george",
+      "server": "31.77.199.147",
+      "server_port": 4443,
+      "uuid": "20dd9433-389e-4573-ba7b-689619cf13da",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "images.unsplash.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A",
+          "short_id": "7da2eae792187ab9"
+        }
+      }
+    },
+    {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 06 - george",
+      "server": "65.109.212.193",
+      "server_port": 465,
+      "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
+      "tls": {
+        "enabled": true,
+        "server_name": "hw3.divarkhaghazi.com.",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hw3.divarkhaghazi.com."
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 07 - george",
       "server": "45.144.234.157",
       "server_port": 14430,
       "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
@@ -114,31 +134,107 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 07 - george",
-      "server": "65.109.212.193",
-      "server_port": 465,
-      "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
+      "type": "trojan",
+      "tag": "🇫🇮 芬兰 (Finland) 08 - george",
+      "server": "46.62.204.134",
+      "server_port": 443,
+      "password": "humanity",
       "tls": {
         "enabled": true,
-        "server_name": "hw3.divarkhaghazi.com.",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ]
+        "server_name": "www.pleadcourt.org",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/assignment",
         "headers": {
-          "Host": "hw3.divarkhaghazi.com."
+          "Host": "www.pleadcourt.org"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 芬兰 (Finland) 09 - george",
+      "server": "46.62.204.134",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.pleadcourt.org",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 芬兰 (Finland) 10 - george",
+      "server": "46.62.204.134",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.pleadcourt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 芬兰 (Finland) 11 - george",
+      "server": "46.62.204.134",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.pleadcourt.org",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "unsafe"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.pleadcourt.org"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 08 - george",
-      "server": "196.196.204.174",
+      "tag": "🇫🇮 芬兰 (Finland) 12 - george",
+      "server": "191.44.114.179",
+      "server_port": 2096,
+      "uuid": "d1641bc6-3757-43db-815a-9b3f4d9b0d7e",
+      "tls": {
+        "enabled": true,
+        "server_name": "st33614.rumedia-cdn.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn/v3/live",
+        "headers": {
+          "Host": "st33614.rumedia-cdn.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 13 - george",
+      "server": "77.42.12.225",
       "server_port": 443,
       "uuid": "056405e8-de9f-4d0d-8145-956f13cc34da",
       "tls": {
@@ -160,27 +256,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 09 - george",
-      "server": "31.77.199.147",
-      "server_port": 4443,
-      "uuid": "20dd9433-389e-4573-ba7b-689619cf13da",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "images.unsplash.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A",
-          "short_id": "7da2eae792187ab9"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -193,7 +268,11 @@
         "🇫🇮 芬兰 (Finland) 06 - george",
         "🇫🇮 芬兰 (Finland) 07 - george",
         "🇫🇮 芬兰 (Finland) 08 - george",
-        "🇫🇮 芬兰 (Finland) 09 - george"
+        "🇫🇮 芬兰 (Finland) 09 - george",
+        "🇫🇮 芬兰 (Finland) 10 - george",
+        "🇫🇮 芬兰 (Finland) 11 - george",
+        "🇫🇮 芬兰 (Finland) 12 - george",
+        "🇫🇮 芬兰 (Finland) 13 - george"
       ]
     },
     {
@@ -208,7 +287,11 @@
         "🇫🇮 芬兰 (Finland) 06 - george",
         "🇫🇮 芬兰 (Finland) 07 - george",
         "🇫🇮 芬兰 (Finland) 08 - george",
-        "🇫🇮 芬兰 (Finland) 09 - george"
+        "🇫🇮 芬兰 (Finland) 09 - george",
+        "🇫🇮 芬兰 (Finland) 10 - george",
+        "🇫🇮 芬兰 (Finland) 11 - george",
+        "🇫🇮 芬兰 (Finland) 12 - george",
+        "🇫🇮 芬兰 (Finland) 13 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -19,27 +19,6 @@ proxies:
   client-fingerprint: random
 - name: 🇺🇦 乌克兰 (Ukraine) 02 - george
   server: 104.253.216.227
-  port: 49917
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP
-- name: 🇺🇦 乌克兰 (Ukraine) 03 - george
-  server: 216.24.57.225
-  port: 2083
-  udp: true
-  type: vless
-  uuid: 3bcbd7ef-e05b-4745-a1de-5ecf98dd2fb6
-  tls: true
-  servername: pol.netvia.ir
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /wss
-    headers:
-      Host: pol.netvia.ir
-- name: 🇺🇦 乌克兰 (Ukraine) 04 - george
-  server: staging.lastilhame.monster
   port: 443
   udp: true
   type: vless
@@ -50,7 +29,7 @@ proxies:
     public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
     short-id: 9409f73c2fd7
   servername: www.microsoft.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -58,8 +37,6 @@ proxy-groups:
   - AUTO
   - 🇺🇦 乌克兰 (Ukraine) 01 - george
   - 🇺🇦 乌克兰 (Ukraine) 02 - george
-  - 🇺🇦 乌克兰 (Ukraine) 03 - george
-  - 🇺🇦 乌克兰 (Ukraine) 04 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -67,7 +44,5 @@ proxy-groups:
   proxies:
   - 🇺🇦 乌克兰 (Ukraine) 01 - george
   - 🇺🇦 乌克兰 (Ukraine) 02 - george
-  - 🇺🇦 乌克兰 (Ukraine) 03 - george
-  - 🇺🇦 乌克兰 (Ukraine) 04 - george
 rules:
 - MATCH,PROXIES

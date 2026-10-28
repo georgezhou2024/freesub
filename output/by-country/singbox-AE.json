@@ -4,15 +4,23 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "shadowsocks",
       "tag": "🇦🇪 阿联酋 (UAE) 01 - george",
+      "server": "ams1.rvpn.app",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "x2A6AsyZ-rAllz0wbKHzWA"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇦🇪 阿联酋 (UAE) 02 - george",
       "server": "130.49.161.70",
       "server_port": 443,
       "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
       "tls": {
         "enabled": true,
         "server_name": "hy2.aspidnet.xyz",
-        "insecure": true
+        "insecure": false
       },
       "obfs": {
         "type": "salamander",
@@ -20,45 +28,8 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 02 - george",
-      "server": "128.241.25.127",
-      "server_port": 30036,
-      "uuid": "eec9a459-86a9-461c-9a02-539287015eb0",
-      "tls": {
-        "enabled": true,
-        "server_name": "3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 03 - george",
-      "server": "185.253.116.33",
-      "server_port": 14430,
-      "uuid": "aee7ae19-672f-49d8-8a92-aa7cdfc89f89",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "185.253.116.33"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇦🇪 阿联酋 (UAE) 04 - george",
+      "tag": "🇦🇪 阿联酋 (UAE) 03 - george",
       "server": "forshynewh.duckdns.org",
       "server_port": 443,
       "password": "329e13e4-ee7c-4802-ac72-5fcab79c2402",
@@ -69,152 +40,62 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇦🇪 阿联酋 (UAE) 04 - george",
+      "server": "zfd-boardv2.kunlun01dns.com",
+      "server_port": 16284,
+      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+      "security": "auto"
+    },
+    {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 05 - george",
-      "server": "5.75.195.83",
-      "server_port": 56879,
-      "uuid": "66a14267-564a-44b3-bc39-84bf8b3dc9ec",
-      "tls": {
-        "enabled": true,
-        "server_name": "5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 06 - george",
-      "server": "95.174.68.188",
-      "server_port": 14430,
-      "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "95.174.68.188"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 07 - george",
-      "server": "91.132.48.136",
+      "server": "5.129.198.34",
       "server_port": 443,
-      "uuid": "0d607d84-0ae0-4b9c-a4f3-1766ab456e02",
+      "uuid": "26f751bc-2edc-4338-9c3f-abeb32aba3b7",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "bunny.net",
+        "server_name": "mmxi9k64xsh7.assetgrid.space",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "_0hmzeEAGEx6boacV3d-FrFGaFBYfdvJno39FxveJwM",
-          "short_id": "e7c5f2a9"
+          "public_key": "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 08 - george",
-      "server": "144.31.135.38",
-      "server_port": 9444,
-      "uuid": "37920394-38f8-4312-9ef3-75494c62231c",
+      "tag": "🇦🇪 阿联酋 (UAE) 06 - george",
+      "server": "142.91.101.39",
+      "server_port": 627,
+      "uuid": "a32f3ec6-d776-450e-9d97-9e2deb6c8421",
       "tls": {
         "enabled": true,
-        "server_name": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
         "path": "/@Marisa_kristi",
         "headers": {
-          "Host": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
+          "Host": "jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 09 - george",
-      "server": "84.235.244.108",
+      "tag": "🇦🇪 阿联酋 (UAE) 07 - george",
+      "server": "uae.unixzone.us",
       "server_port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "uae.unixzone.us"
-        }
+        "type": "ws"
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 10 - george",
-      "server": "45.77.241.190",
-      "server_port": 8441,
-      "uuid": "6163155f-2a79-4c87-8b7f-874a89b577ec",
-      "tls": {
-        "enabled": true,
-        "server_name": "3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 11 - george",
-      "server": "162.159.228.255",
-      "server_port": 443,
-      "uuid": "b135a1e0-ebdb-4d46-b3fa-bd1e78580244",
-      "tls": {
-        "enabled": true,
-        "server_name": "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇦🇪 阿联酋 (UAE) 12 - george",
-      "server": "ams1.rvpn.app",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "x2A6AsyZ-rAllz0wbKHzWA"
     },
     {
       "type": "selector",
@@ -227,12 +108,7 @@
         "🇦🇪 阿联酋 (UAE) 04 - george",
         "🇦🇪 阿联酋 (UAE) 05 - george",
         "🇦🇪 阿联酋 (UAE) 06 - george",
-        "🇦🇪 阿联酋 (UAE) 07 - george",
-        "🇦🇪 阿联酋 (UAE) 08 - george",
-        "🇦🇪 阿联酋 (UAE) 09 - george",
-        "🇦🇪 阿联酋 (UAE) 10 - george",
-        "🇦🇪 阿联酋 (UAE) 11 - george",
-        "🇦🇪 阿联酋 (UAE) 12 - george"
+        "🇦🇪 阿联酋 (UAE) 07 - george"
       ]
     },
     {
@@ -245,12 +121,7 @@
         "🇦🇪 阿联酋 (UAE) 04 - george",
         "🇦🇪 阿联酋 (UAE) 05 - george",
         "🇦🇪 阿联酋 (UAE) 06 - george",
-        "🇦🇪 阿联酋 (UAE) 07 - george",
-        "🇦🇪 阿联酋 (UAE) 08 - george",
-        "🇦🇪 阿联酋 (UAE) 09 - george",
-        "🇦🇪 阿联酋 (UAE) 10 - george",
-        "🇦🇪 阿联酋 (UAE) 11 - george",
-        "🇦🇪 阿联酋 (UAE) 12 - george"
+        "🇦🇪 阿联酋 (UAE) 07 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

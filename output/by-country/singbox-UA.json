@@ -25,36 +25,9 @@
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇺🇦 乌克兰 (Ukraine) 02 - george",
       "server": "104.253.216.227",
-      "server_port": 49917,
-      "method": "chacha20-ietf-poly1305",
-      "password": "G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 03 - george",
-      "server": "216.24.57.225",
-      "server_port": 2083,
-      "uuid": "3bcbd7ef-e05b-4745-a1de-5ecf98dd2fb6",
-      "tls": {
-        "enabled": true,
-        "server_name": "pol.netvia.ir",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/wss",
-        "headers": {
-          "Host": "pol.netvia.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 04 - george",
-      "server": "staging.lastilhame.monster",
       "server_port": 443,
       "uuid": "2ba7f500-017b-4891-87a0-e4e62a4ad52d",
       "flow": "xtls-rprx-vision",
@@ -63,7 +36,7 @@
         "server_name": "www.microsoft.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -78,9 +51,7 @@
       "outbounds": [
         "auto",
         "🇺🇦 乌克兰 (Ukraine) 01 - george",
-        "🇺🇦 乌克兰 (Ukraine) 02 - george",
-        "🇺🇦 乌克兰 (Ukraine) 03 - george",
-        "🇺🇦 乌克兰 (Ukraine) 04 - george"
+        "🇺🇦 乌克兰 (Ukraine) 02 - george"
       ]
     },
     {
@@ -88,9 +59,7 @@
       "tag": "auto",
       "outbounds": [
         "🇺🇦 乌克兰 (Ukraine) 01 - george",
-        "🇺🇦 乌克兰 (Ukraine) 02 - george",
-        "🇺🇦 乌克兰 (Ukraine) 03 - george",
-        "🇺🇦 乌克兰 (Ukraine) 04 - george"
+        "🇺🇦 乌克兰 (Ukraine) 02 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

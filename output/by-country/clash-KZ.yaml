@@ -5,15 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - george
-  server: 46.8.43.125
-  port: 443
+  server: 45.136.59.28
+  port: 43000
   udp: true
   type: vless
-  uuid: 846cedee-2a52-4a62-a0b9-11850ead6a8b
+  uuid: a8b8b21e-1f31-4e4d-a639-efb2de0d577e
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: ER-T5En54-sn6IXy7jU8vQVcBbOiWvznnezf3qZ273w
-  servername: kz-central.v8x2b.lol
+    public-key: osqok9aA_NR7WyAxZptD36-_U8BF_9gL8AH84MMzbFs
+    short-id: ced96d59
+  servername: 45.136.59.28
   client-fingerprint: chrome
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george
   server: 38.107.234.57
@@ -26,107 +28,7 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess/
-    headers:
-      Host: 3h-kazakhstan1.09vpn.com
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george
-  server: 38.107.234.57
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: 3h-kazakhstan1.09vpn.com
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - george
-  server: 38.107.234.57
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: google.com
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - george
-  server: 38.107.234.57
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - george
-  server: 38.107.234.57
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 07 - george
-  server: 38.107.234.57
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: viber.com
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 08 - george
-  server: 83.222.23.81
-  port: 38065
-  udp: true
-  type: vless
-  uuid: 4b9063e0-3288-44e9-9aac-80fbfce323a0
-  tls: true
-  reality-opts:
-    public-key: dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo
-    short-id: fa
-  servername: yahoo.com
-  client-fingerprint: random
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 09 - george
-  server: 178.236.16.98
-  port: 35728
-  udp: true
-  type: vless
-  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
-  tls: true
-  reality-opts:
-    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
-    short-id: 69a2
-  servername: yahoo.com
-  client-fingerprint: chrome
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 10 - george
-  server: 3h-kazakhstan1.09vpn.com
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 11 - george
   server: 109.248.170.119
   port: 13447
   udp: true
@@ -137,7 +39,7 @@ proxies:
     public-key: _0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE
     short-id: '83'
   servername: yahoo.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -146,14 +48,6 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - george
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - george
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - george
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - george
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 07 - george
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 08 - george
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 09 - george
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 10 - george
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 11 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -162,13 +56,5 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - george
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - george
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - george
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - george
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 07 - george
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 08 - george
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 09 - george
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 10 - george
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 11 - george
 rules:
 - MATCH,PROXIES

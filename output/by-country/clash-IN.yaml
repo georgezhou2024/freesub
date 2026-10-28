@@ -16,16 +16,6 @@ proxies:
     headers:
       Host: 13.140.56.100
 - name: 🇮🇳 印度 (India) 02 - george
-  server: 139.84.145.241
-  port: 46362
-  udp: true
-  type: vless
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  tls: true
-  servername: in002.zestapp778.com
-  skip-cert-verify: false
-  client-fingerprint: firefox
-- name: 🇮🇳 印度 (India) 03 - george
   server: 194.61.31.126
   port: 2053
   udp: true
@@ -36,9 +26,19 @@ proxies:
     public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
     short-id: 9980e0609b0d3891
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: chrome
+- name: 🇮🇳 印度 (India) 03 - george
+  server: 139.84.145.241
+  port: 46362
+  udp: true
+  type: vless
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  tls: true
+  servername: in002.zestapp778.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
 - name: 🇮🇳 印度 (India) 04 - george
-  server: in.smrtai.top
+  server: 178.212.35.198
   port: 443
   udp: true
   type: vless
@@ -48,14 +48,27 @@ proxies:
     public-key: 3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q
     short-id: 6bdc8320
   servername: www.cloudflare.com
-  client-fingerprint: random
+  client-fingerprint: firefox
 - name: 🇮🇳 印度 (India) 05 - george
-  server: 172.105.39.124
-  port: 7002
+  server: in.tronsg.com
+  port: 443
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
+  type: trojan
+  password: Trojan@82164024
+  sni: in.tronsg.com
+  skip-cert-verify: true
+- name: 🇮🇳 印度 (India) 06 - george
+  server: 109.237.98.217
+  port: 443
+  udp: true
+  type: vless
+  uuid: 26f751bc-2edc-4338-9c3f-abeb32aba3b7
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: lR8BTY8XJ6qt9th7wR3ZnfwCiqRs2yosrONK-SuSsDo
+  servername: rdaes5js9g1.img-assets.world
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -66,6 +79,7 @@ proxy-groups:
   - 🇮🇳 印度 (India) 03 - george
   - 🇮🇳 印度 (India) 04 - george
   - 🇮🇳 印度 (India) 05 - george
+  - 🇮🇳 印度 (India) 06 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -76,5 +90,6 @@ proxy-groups:
   - 🇮🇳 印度 (India) 03 - george
   - 🇮🇳 印度 (India) 04 - george
   - 🇮🇳 印度 (India) 05 - george
+  - 🇮🇳 印度 (India) 06 - george
 rules:
 - MATCH,PROXIES

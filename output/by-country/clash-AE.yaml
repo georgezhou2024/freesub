@@ -5,42 +5,23 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - george
+  server: ams1.rvpn.app
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: x2A6AsyZ-rAllz0wbKHzWA
+- name: 🇦🇪 阿联酋 (UAE) 02 - george
   server: 130.49.161.70
   port: 443
   udp: true
   type: hysteria2
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
   sni: hy2.aspidnet.xyz
-  skip-cert-verify: true
+  skip-cert-verify: false
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇦🇪 阿联酋 (UAE) 02 - george
-  server: 128.241.25.127
-  port: 30036
-  udp: true
-  type: vless
-  uuid: eec9a459-86a9-461c-9a02-539287015eb0
-  tls: true
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
 - name: 🇦🇪 阿联酋 (UAE) 03 - george
-  server: 185.253.116.33
-  port: 14430
-  udp: true
-  type: vless
-  uuid: aee7ae19-672f-49d8-8a92-aa7cdfc89f89
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 185.253.116.33
-- name: 🇦🇪 阿联酋 (UAE) 04 - george
   server: forshynewh.duckdns.org
   port: 443
   udp: true
@@ -48,62 +29,42 @@ proxies:
   password: 329e13e4-ee7c-4802-ac72-5fcab79c2402
   sni: forshynewh.duckdns.org
   skip-cert-verify: false
+- name: 🇦🇪 阿联酋 (UAE) 04 - george
+  server: zfd-boardv2.kunlun01dns.com
+  port: 16284
+  udp: true
+  type: vmess
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
+  cipher: auto
 - name: 🇦🇪 阿联酋 (UAE) 05 - george
-  server: 5.75.195.83
-  port: 56879
-  udp: true
-  type: vless
-  uuid: 66a14267-564a-44b3-bc39-84bf8b3dc9ec
-  tls: true
-  servername: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 06 - george
-  server: 95.174.68.188
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 95.174.68.188
-- name: 🇦🇪 阿联酋 (UAE) 07 - george
-  server: 91.132.48.136
+  server: 5.129.198.34
   port: 443
   udp: true
   type: vless
-  uuid: 0d607d84-0ae0-4b9c-a4f3-1766ab456e02
+  uuid: 26f751bc-2edc-4338-9c3f-abeb32aba3b7
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: _0hmzeEAGEx6boacV3d-FrFGaFBYfdvJno39FxveJwM
-    short-id: e7c5f2a9
-  servername: bunny.net
+    public-key: fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA
+  servername: mmxi9k64xsh7.assetgrid.space
   client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 08 - george
-  server: 144.31.135.38
-  port: 9444
+- name: 🇦🇪 阿联酋 (UAE) 06 - george
+  server: 142.91.101.39
+  port: 627
   udp: true
   type: vless
-  uuid: 37920394-38f8-4312-9ef3-75494c62231c
+  uuid: a32f3ec6-d776-450e-9d97-9e2deb6c8421
   tls: true
-  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  servername: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /@Marisa_kristi
     headers:
-      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 09 - george
-  server: 84.235.244.108
+      Host: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 07 - george
+  server: uae.unixzone.us
   port: 22573
   udp: true
   type: vless
@@ -111,45 +72,6 @@ proxies:
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 10 - george
-  server: 45.77.241.190
-  port: 8441
-  udp: true
-  type: vless
-  uuid: 6163155f-2a79-4c87-8b7f-874a89b577ec
-  tls: true
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 11 - george
-  server: 162.159.228.255
-  port: 443
-  udp: true
-  type: vless
-  uuid: b135a1e0-ebdb-4d46-b3fa-bd1e78580244
-  tls: true
-  servername: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 12 - george
-  server: ams1.rvpn.app
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: x2A6AsyZ-rAllz0wbKHzWA
 proxy-groups:
 - name: PROXIES
   type: select
@@ -162,11 +84,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - george
   - 🇦🇪 阿联酋 (UAE) 06 - george
   - 🇦🇪 阿联酋 (UAE) 07 - george
-  - 🇦🇪 阿联酋 (UAE) 08 - george
-  - 🇦🇪 阿联酋 (UAE) 09 - george
-  - 🇦🇪 阿联酋 (UAE) 10 - george
-  - 🇦🇪 阿联酋 (UAE) 11 - george
-  - 🇦🇪 阿联酋 (UAE) 12 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -179,10 +96,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - george
   - 🇦🇪 阿联酋 (UAE) 06 - george
   - 🇦🇪 阿联酋 (UAE) 07 - george
-  - 🇦🇪 阿联酋 (UAE) 08 - george
-  - 🇦🇪 阿联酋 (UAE) 09 - george
-  - 🇦🇪 阿联酋 (UAE) 10 - george
-  - 🇦🇪 阿联酋 (UAE) 11 - george
-  - 🇦🇪 阿联酋 (UAE) 12 - george
 rules:
 - MATCH,PROXIES
