@@ -13,14 +13,26 @@
         "type": "ws",
         "path": "/ws",
         "headers": {
-          "Host": "ais.speedtest.net"
+          "Host": "v2ray.simspeedup.com"
         }
       }
     },
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇹🇭 泰国 (Thailand) 02 - george",
-      "server": "104.16.10.185",
+      "server": "th001.zestapp778.com",
+      "server_port": 33079,
+      "password": "5t6i121em5lkmsmk",
+      "tls": {
+        "enabled": true,
+        "server_name": "th001.zestapp778.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇭 泰国 (Thailand) 03 - george",
+      "server": "104.16.111.193",
       "server_port": 443,
       "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
       "tls": {
@@ -38,8 +50,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇭 泰国 (Thailand) 03 - george",
-      "server": "th001.zestapp778.com",
+      "tag": "🇹🇭 泰国 (Thailand) 04 - george",
+      "server": "38.60.233.38",
       "server_port": 22222,
       "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
       "tls": {
@@ -48,13 +60,13 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇹🇭 泰国 (Thailand) 04 - george",
+      "tag": "🇹🇭 泰国 (Thailand) 05 - george",
       "server": "45.154.26.63",
       "server_port": 443,
       "uuid": "ff85e702-b605-4109-884d-2c1f065d0954",
@@ -81,7 +93,8 @@
         "🇹🇭 泰国 (Thailand) 01 - george",
         "🇹🇭 泰国 (Thailand) 02 - george",
         "🇹🇭 泰国 (Thailand) 03 - george",
-        "🇹🇭 泰国 (Thailand) 04 - george"
+        "🇹🇭 泰国 (Thailand) 04 - george",
+        "🇹🇭 泰国 (Thailand) 05 - george"
       ]
     },
     {
@@ -91,7 +104,8 @@
         "🇹🇭 泰国 (Thailand) 01 - george",
         "🇹🇭 泰国 (Thailand) 02 - george",
         "🇹🇭 泰国 (Thailand) 03 - george",
-        "🇹🇭 泰国 (Thailand) 04 - george"
+        "🇹🇭 泰国 (Thailand) 04 - george",
+        "🇹🇭 泰国 (Thailand) 05 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

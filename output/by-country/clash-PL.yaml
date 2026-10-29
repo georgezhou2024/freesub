@@ -5,51 +5,25 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - george
-  server: 217.30.10.44
-  port: 9042
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: S7KwUu7yBy58S3Ga
-- name: 🇵🇱 波兰 (Poland) 02 - george
-  server: 168.222.43.53
-  port: 2052
-  udp: true
-  type: vless
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
-- name: 🇵🇱 波兰 (Poland) 03 - george
   server: 155.117.5.208
   port: 20001
   udp: true
   type: vless
   uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
+- name: 🇵🇱 波兰 (Poland) 02 - george
+  server: 217.30.10.44
+  port: 9062
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: tkhHVxxfM2QErBWe
+- name: 🇵🇱 波兰 (Poland) 03 - george
+  server: 168.222.43.53
+  port: 2052
+  udp: true
+  type: vless
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
 - name: 🇵🇱 波兰 (Poland) 04 - george
-  server: 82.118.22.161
-  port: 443
-  udp: true
-  type: vless
-  uuid: 05488656-d4bf-4634-8b2e-e4ff5a56c7e2
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E
-    short-id: fa3ea655619a3e78
-  servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇵🇱 波兰 (Poland) 05 - george
-  server: 45.148.119.127
-  port: 443
-  udp: true
-  type: vless
-  uuid: 329e13e4-ee7c-4802-ac72-5fcab79c2402
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: pOHbbyo_PlUwH4DjC6bKvC3jB8RPnCdu-nL8trAP8CI
-    short-id: '50'
-  servername: cloudflare.com
-  client-fingerprint: chrome
-- name: 🇵🇱 波兰 (Poland) 06 - george
   server: 78.17.128.153
   port: 35076
   udp: true
@@ -57,8 +31,8 @@ proxies:
   password: b4c8ee9caa74b7ba0a61
   sni: scrap.halyvanedorogo.ru
   skip-cert-verify: false
-- name: 🇵🇱 波兰 (Poland) 07 - george
-  server: 77.232.135.141
+- name: 🇵🇱 波兰 (Poland) 05 - george
+  server: ru1.radiolumens.uk
   port: 8445
   udp: true
   type: vless
@@ -70,7 +44,20 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: beru-pl
-- name: 🇵🇱 波兰 (Poland) 08 - george
+- name: 🇵🇱 波兰 (Poland) 06 - george
+  server: 82.118.22.161
+  port: 443
+  udp: true
+  type: vless
+  uuid: 05488656-d4bf-4634-8b2e-e4ff5a56c7e2
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E
+    short-id: fa3ea655619a3e78
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇵🇱 波兰 (Poland) 07 - george
   server: 54.37.131.126
   port: 80
   udp: true
@@ -83,7 +70,7 @@ proxies:
     path: /
     headers:
       Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
-- name: 🇵🇱 波兰 (Poland) 09 - george
+- name: 🇵🇱 波兰 (Poland) 08 - george
   server: 2.26.6.1
   port: 2087
   udp: true
@@ -92,7 +79,8 @@ proxies:
   tls: true
   servername: 2.26.6.1
   skip-cert-verify: false
-- name: 🇵🇱 波兰 (Poland) 10 - george
+  client-fingerprint: chrome
+- name: 🇵🇱 波兰 (Poland) 09 - george
   server: 150.251.113.34
   port: 443
   udp: true
@@ -105,26 +93,6 @@ proxies:
     short-id: 150a627d15154cf2
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇵🇱 波兰 (Poland) 11 - george
-  server: pl.tronsg.com
-  port: 443
-  udp: true
-  type: trojan
-  password: Trojan@82164024
-  sni: pl.tronsg.com
-  skip-cert-verify: false
-- name: 🇵🇱 波兰 (Poland) 12 - george
-  server: pl1.h1cloud.net
-  port: 27591
-  udp: true
-  type: vless
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  tls: true
-  reality-opts:
-    public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
-    short-id: 6c5c7900406a1ae7
-  servername: www.samsung.com
-  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -139,9 +107,6 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 07 - george
   - 🇵🇱 波兰 (Poland) 08 - george
   - 🇵🇱 波兰 (Poland) 09 - george
-  - 🇵🇱 波兰 (Poland) 10 - george
-  - 🇵🇱 波兰 (Poland) 11 - george
-  - 🇵🇱 波兰 (Poland) 12 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -156,8 +121,5 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 07 - george
   - 🇵🇱 波兰 (Poland) 08 - george
   - 🇵🇱 波兰 (Poland) 09 - george
-  - 🇵🇱 波兰 (Poland) 10 - george
-  - 🇵🇱 波兰 (Poland) 11 - george
-  - 🇵🇱 波兰 (Poland) 12 - george
 rules:
 - MATCH,PROXIES

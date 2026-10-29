@@ -5,57 +5,34 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇷 法国 (France) 01 - george
-  server: 51.77.216.96
-  port: 53567
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: SnOSRfo0h6mnWehTG_Xang
-- name: 🇫🇷 法国 (France) 02 - george
   server: 54.36.174.140
   port: 443
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 6heexyz
+- name: 🇫🇷 法国 (France) 02 - george
+  server: 51.83.192.80
+  port: 8388
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: itzvpn@321
 - name: 🇫🇷 法国 (France) 03 - george
-  server: 51.77.217.70
-  port: 33128
-  udp: true
-  type: hysteria2
-  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: ChY5QQQT3ZtUdNT8
-- name: 🇫🇷 法国 (France) 04 - george
-  server: 51.77.217.70
-  port: 21169
-  udp: true
-  type: hysteria2
-  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: ChY5QQQT3ZtUdNT8
-- name: 🇫🇷 法国 (France) 05 - george
-  server: 51.77.217.70
-  port: 21182
-  udp: true
-  type: hysteria2
-  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: ChY5QQQT3ZtUdNT8
-- name: 🇫🇷 法国 (France) 06 - george
   server: 54.36.174.134
   port: 443
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 6heexyz
-- name: 🇫🇷 法国 (France) 07 - george
+- name: 🇫🇷 法国 (France) 04 - george
+  server: 51.77.216.96
+  port: 53567
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: SnOSRfo0h6mnWehTG_Xang
+- name: 🇫🇷 法国 (France) 05 - george
   server: 51.77.217.70
   port: 21000
   udp: true
@@ -66,27 +43,55 @@ proxies:
   obfs: salamander
   obfs-password: ChY5QQQT3ZtUdNT8
   ports: 21000-21199,33000-33199
-- name: 🇫🇷 法国 (France) 08 - george
-  server: 51.77.217.70
-  port: 8447
-  udp: true
-  type: hysteria2
-  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: ChY5QQQT3ZtUdNT8
-- name: 🇫🇷 法国 (France) 09 - george
-  server: 13.36.234.11
+- name: 🇫🇷 法国 (France) 06 - george
+  server: 185.18.250.245
   port: 443
   udp: true
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷 法国 (France) 07 - george
+  server: 152.228.139.33
+  port: 51671
+  udp: true
+  type: vless
+  uuid: 75cc7568-abb0-46a8-88be-8137d3c647d4
+  tls: true
+  reality-opts:
+    public-key: -5PowNUY37Pi01YKO9fjRTrum1m_9n6XauaPDpmOJzU
+    short-id: 2fed44d8c59f7e71
+  servername: www.sony.com
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc_common3
+- name: 🇫🇷 法国 (France) 08 - george
+  server: 62.210.124.146
+  port: 22000
+  udp: true
   type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-fr-001.fastervpn.world
+  password: dongtaiwang.com
+  sni: www.microsoft.com
   skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 09 - george
+  server: 51.77.217.70
+  port: 2053
+  udp: true
+  type: vless
+  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
+  tls: true
+  reality-opts:
+    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
+    short-id: bfe58beb41f1d09f
+  servername: www.apple.com
+  client-fingerprint: firefox
 - name: 🇫🇷 法国 (France) 10 - george
   server: 51.77.217.70
-  port: 8445
+  port: 8447
   udp: true
   type: hysteria2
   password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
@@ -105,75 +110,39 @@ proxies:
   obfs: salamander
   obfs-password: ChY5QQQT3ZtUdNT8
 - name: 🇫🇷 法国 (France) 12 - george
-  server: 51.77.217.70
-  port: 2053
+  server: 152.228.139.33
+  port: 35108
   udp: true
   type: vless
-  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
+  uuid: 81dc0b61-f9fe-4ad6-8b4e-b8c067b73712
   tls: true
   reality-opts:
-    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
-    short-id: bfe58beb41f1d09f
-  servername: www.apple.com
-  client-fingerprint: firefox
+    public-key: X_lOw5Zz4SJBa1cRHV4dAq5msYE-ClY5-WNcBmBWRxg
+    short-id: 52add08b86a5ccea
+  servername: www.nvidia.com
+  client-fingerprint: random
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-common3
 - name: 🇫🇷 法国 (France) 13 - george
-  server: 62.210.91.2
-  port: 23576
-  udp: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-  servername: fuck.rkn
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 14 - george
-  server: 62.210.91.10
-  port: 23576
-  udp: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 15 - george
-  server: 62.210.124.146
-  port: 22000
+  server: 62.210.7.139
+  port: 60111
   udp: true
   type: hysteria2
-  password: dongtaiwang.com
-  sni: www.microsoft.com
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: www.bing.com
   skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 16 - george
-  server: 51.83.192.80
-  port: 8388
+- name: 🇫🇷 法国 (France) 14 - george
+  server: 51.77.217.70
+  port: 8445
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: itzvpn@321
-- name: 🇫🇷 法国 (France) 17 - george
-  server: 51.83.6.5
-  port: 20250
-  udp: true
-  type: vmess
-  uuid: de883d6d-4099-41bc-ba86-82ffed64a380
-  alterId: 0
-  cipher: auto
-- name: 🇫🇷 法国 (France) 18 - george
-  server: 138.124.70.41
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
-  network: ws
-  ws-opts:
-    path: /vless
-- name: 🇫🇷 法国 (France) 19 - george
+  type: hysteria2
+  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
+- name: 🇫🇷 法国 (France) 15 - george
   server: 137.74.16.237
   port: 443
   udp: true
@@ -186,38 +155,44 @@ proxies:
     short-id: b390e0a721d242b0
   servername: www.icloud.com
   client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 20 - george
-  server: 62.210.7.139
-  port: 60111
+- name: 🇫🇷 法国 (France) 16 - george
+  server: 51.77.217.70
+  port: 21182
   udp: true
   type: hysteria2
-  password: github.com/Alvin9999-newpac/fanqiang
-  sni: google.com
+  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
+  sni: vpn.local
   skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 21 - george
-  server: 152.228.139.33
-  port: 35108
-  udp: true
-  type: vless
-  uuid: 81dc0b61-f9fe-4ad6-8b4e-b8c067b73712
-  tls: true
-  reality-opts:
-    public-key: X_lOw5Zz4SJBa1cRHV4dAq5msYE-ClY5-WNcBmBWRxg
-    short-id: 52add08b86a5ccea
-  servername: www.nvidia.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-common3
-- name: 🇫🇷 法国 (France) 22 - george
-  server: 31.185.105.12
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
+- name: 🇫🇷 法国 (France) 17 - george
+  server: 13.36.234.11
   port: 443
   udp: true
   type: hysteria2
-  password: 1953e43b-605c-4262-83eb-41a80646b801
-  sni: fr.song69.fun
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-fr-001.fastervpn.world
   skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 23 - george
+- name: 🇫🇷 法国 (France) 18 - george
+  server: 62.210.91.2
+  port: 23576
+  udp: true
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 19 - george
+  server: 51.83.6.5
+  port: 20250
+  udp: true
+  type: vless
+  uuid: de883d6d-4099-41bc-ba86-82ffed64a380
+- name: 🇫🇷 法国 (France) 20 - george
   server: 62.210.147.2
   port: 43115
   udp: true
@@ -225,30 +200,7 @@ proxies:
   password: github.com/Alvin9999-newpac/fanqiang
   sni: www.microsoft.com
   skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 24 - george
-  server: 104.21.103.254
-  port: 443
-  udp: true
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷 法国 (France) 25 - george
-  server: 54.37.136.194
-  port: 2053
-  udp: true
-  type: vless
-  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
-  tls: true
-  reality-opts:
-    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
-    short-id: 50ba05992b05c1c3
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 26 - george
+- name: 🇫🇷 法国 (France) 21 - george
   server: 145.223.68.58
   port: 443
   udp: true
@@ -261,30 +213,7 @@ proxies:
     short-id: a44ff7d2e80213c2
   servername: www.cloudflare.com
   client-fingerprint: firefox
-- name: 🇫🇷 法国 (France) 27 - george
-  server: 185.220.100.168
-  port: 443
-  udp: true
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷 法国 (France) 28 - george
-  server: ai.smrtai.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 086bf957-9cd0-4e55-8280-bbef10435b41
-  tls: true
-  reality-opts:
-    public-key: R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc
-    short-id: 086bf957
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 29 - george
+- name: 🇫🇷 法国 (France) 22 - george
   server: 212.227.90.142
   port: 443
   udp: true
@@ -295,7 +224,28 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
-- name: 🇫🇷 法国 (France) 30 - george
+- name: 🇫🇷 法国 (France) 23 - george
+  server: w.geogame.ir
+  port: 2053
+  udp: true
+  type: vless
+  uuid: fbda2834-b1e7-4148-afb9-deda31036a30
+  tls: true
+  servername: w.geogame.ir
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 24 - george
+  server: 212.24.104.79
+  port: 2053
+  udp: true
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷 法国 (France) 25 - george
   server: 145.239.55.210
   port: 80
   udp: true
@@ -308,23 +258,74 @@ proxies:
     path: /
     headers:
       Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-- name: 🇫🇷 法国 (France) 31 - george
-  server: 178.104.70.11
+- name: 🇫🇷 法国 (France) 26 - george
+  server: 54.37.136.194
+  port: 2053
+  udp: true
+  type: vless
+  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  tls: true
+  reality-opts:
+    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+    short-id: 50ba05992b05c1c3
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 27 - george
+  server: 5.44.46.142
+  port: 443
+  udp: true
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷 法国 (France) 28 - george
+  server: 138.124.70.41
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 138.124.70.41
+- name: 🇫🇷 法国 (France) 29 - george
+  server: 31.185.105.12
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 1953e43b-605c-4262-83eb-41a80646b801
+  sni: fr.song69.fun
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 30 - george
+  server: ai.smrtai.top
   port: 443
   udp: true
   type: vless
-  uuid: 64726966-0000-4000-8000-740000000000
+  uuid: 086bf957-9cd0-4e55-8280-bbef10435b41
   tls: true
-  servername: parsa-panel-dy55x.railway1385-2a46.workers.dev
-  skip-cert-verify: false
+  reality-opts:
+    public-key: R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc
+    short-id: 086bf957
+  servername: www.cloudflare.com
   client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: parsa-panel-dy55x.railway1385-2a46.workers.dev
+- name: 🇫🇷 法国 (France) 31 - george
+  server: 161.97.66.16
+  port: 443
+  udp: true
+  type: vless
+  uuid: 086bf957-9cd0-4e55-8280-bbef10435b41
+  tls: true
+  reality-opts:
+    public-key: R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc
+    short-id: 086bf957
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
 - name: 🇫🇷 法国 (France) 32 - george
-  server: 212.24.104.79
+  server: 185.114.72.31
   port: 2053
   udp: true
   type: trojan
@@ -334,42 +335,6 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
-- name: 🇫🇷 法国 (France) 33 - george
-  server: 161.97.160.224
-  port: 443
-  udp: true
-  type: vless
-  uuid: b81b4d1b-7f20-48f1-82dc-d24bef898cab
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0
-    short-id: e6
-  servername: passport.yandex.ru
-  client-fingerprint: random
-- name: 🇫🇷 法国 (France) 34 - george
-  server: ww3.levikogjgfdd.ir
-  port: 443
-  udp: true
-  type: vless
-  uuid: b81b4d1b-7f20-48f1-82dc-d24bef898cab
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0
-    short-id: e6
-  servername: passport.yandex.ru
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 35 - george
-  server: fr001.zestapp778.com
-  port: 28484
-  udp: true
-  type: vless
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  tls: true
-  servername: fr001.zestapp778.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -407,9 +372,6 @@ proxy-groups:
   - 🇫🇷 法国 (France) 30 - george
   - 🇫🇷 法国 (France) 31 - george
   - 🇫🇷 法国 (France) 32 - george
-  - 🇫🇷 法国 (France) 33 - george
-  - 🇫🇷 法国 (France) 34 - george
-  - 🇫🇷 法国 (France) 35 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -447,8 +409,5 @@ proxy-groups:
   - 🇫🇷 法国 (France) 30 - george
   - 🇫🇷 法国 (France) 31 - george
   - 🇫🇷 法国 (France) 32 - george
-  - 🇫🇷 法国 (France) 33 - george
-  - 🇫🇷 法国 (France) 34 - george
-  - 🇫🇷 法国 (France) 35 - george
 rules:
 - MATCH,PROXIES
