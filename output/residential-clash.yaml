@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 (家宽) - george
-  server: p141.panda001.net
+  server: 218.237.185.234
   port: 4652
   udp: true
   type: ss
@@ -20,26 +20,19 @@ proxies:
   tls: true
   servername: app-6ada5023.deploy.meerasolution.com
   skip-cert-verify: false
-  client-fingerprint: chrome
+  client-fingerprint: android
   network: ws
   ws-opts:
     path: /ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
     headers:
       Host: app-6ada5023.deploy.meerasolution.com
-- name: 🇨🇦 加拿大 (Canada) 03 (家宽) - george
-  server: sg-transit-3.nebulacloud.win
-  port: 30330
+- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - george
+  server: 49.254.204.133
+  port: 1774
   udp: true
-  type: vmess
-  uuid: dfa9f875-3805-49d9-8636-46b6899be24e
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: sg-transit-3.nebulacloud.win
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ca/getData
+  type: ss
+  cipher: aes-256-cfb
+  password: 1234!@#$
 proxy-groups:
 - name: PROXIES
   type: select
@@ -47,7 +40,7 @@ proxy-groups:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - george
   - 🇮🇳 印度 (India) 02 (家宽) - george
-  - 🇨🇦 加拿大 (Canada) 03 (家宽) - george
+  - 🇰🇷 韩国 (South Korea) 03 (家宽) - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -55,6 +48,6 @@ proxy-groups:
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - george
   - 🇮🇳 印度 (India) 02 (家宽) - george
-  - 🇨🇦 加拿大 (Canada) 03 (家宽) - george
+  - 🇰🇷 韩国 (South Korea) 03 (家宽) - george
 rules:
 - MATCH,PROXIES
