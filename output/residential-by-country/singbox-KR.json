@@ -4,11 +4,12 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - george",
-      "server": "112.169.175.199",
-      "server_port": 31157,
-      "uuid": "bd2fb303-b4c7-49af-a8e3-5c6f11b005dd"
+      "server": "49.254.204.133",
+      "server_port": 1774,
+      "method": "aes-256-cfb",
+      "password": "1234!@#$"
     },
     {
       "type": "shadowsocks",
@@ -19,21 +20,12 @@
       "password": "qwerREWQ@@"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 03 (家宽) - george",
-      "server": "49.254.204.133",
-      "server_port": 1774,
-      "method": "aes-256-cfb",
-      "password": "1234!@#$"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇰🇷 韩国 (South Korea) 01 (家宽) - george",
-        "🇰🇷 韩国 (South Korea) 02 (家宽) - george",
-        "🇰🇷 韩国 (South Korea) 03 (家宽) - george"
+        "🇰🇷 韩国 (South Korea) 02 (家宽) - george"
       ]
     },
     {
@@ -41,8 +33,7 @@
       "tag": "auto",
       "outbounds": [
         "🇰🇷 韩国 (South Korea) 01 (家宽) - george",
-        "🇰🇷 韩国 (South Korea) 02 (家宽) - george",
-        "🇰🇷 韩国 (South Korea) 03 (家宽) - george"
+        "🇰🇷 韩国 (South Korea) 02 (家宽) - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -15,7 +15,7 @@
         "server_name": "www.bing.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
@@ -27,33 +27,13 @@
     {
       "type": "vless",
       "tag": "🇺🇦 乌克兰 (Ukraine) 02 - george",
-      "server": "netx.smrtai.top",
-      "server_port": 443,
-      "uuid": "d8b58872-cc25-4bb2-badb-b86399c075fa",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk",
-          "short_id": "d8b58872"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 03 - george",
       "server": "staging.lastilhame.monster",
       "server_port": 443,
-      "uuid": "aded66f1-de12-4c3c-af9e-a21d6e7d9c96",
+      "uuid": "2ba7f500-017b-4891-87a0-e4e62a4ad52d",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.foxsports.com",
+        "server_name": "www.microsoft.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -61,7 +41,7 @@
         "reality": {
           "enabled": true,
           "public_key": "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg",
-          "short_id": "2a80364e93d9"
+          "short_id": "9409f73c2fd7"
         }
       }
     },
@@ -71,8 +51,7 @@
       "outbounds": [
         "auto",
         "🇺🇦 乌克兰 (Ukraine) 01 - george",
-        "🇺🇦 乌克兰 (Ukraine) 02 - george",
-        "🇺🇦 乌克兰 (Ukraine) 03 - george"
+        "🇺🇦 乌克兰 (Ukraine) 02 - george"
       ]
     },
     {
@@ -80,8 +59,7 @@
       "tag": "auto",
       "outbounds": [
         "🇺🇦 乌克兰 (Ukraine) 01 - george",
-        "🇺🇦 乌克兰 (Ukraine) 02 - george",
-        "🇺🇦 乌克兰 (Ukraine) 03 - george"
+        "🇺🇦 乌克兰 (Ukraine) 02 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
