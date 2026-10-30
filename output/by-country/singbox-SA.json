@@ -5,23 +5,25 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇲🇨 MC 01 - george",
-      "server": "104.194.148.125",
-      "server_port": 443,
-      "uuid": "167539f8-88ff-46b3-955c-4c8f7bf0f296",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇸🇦 沙特 (Saudi Arabia) 01 - george",
+      "server": "81.208.170.142",
+      "server_port": 1500,
+      "uuid": "e332f028-d343-5b44-8016-b3130f39e133",
       "tls": {
         "enabled": true,
-        "server_name": "suffolkprimarycare.uk",
+        "server_name": "www.ebay.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "5Xgf3UO6yZb7gCK3R3GULk8jyNIp7Sr-26YXZfSW71c",
-          "short_id": "13975a8e0bd50e7c"
+          "public_key": "VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE",
+          "short_id": "775eb6408888248e"
         }
+      },
+      "transport": {
+        "type": "grpc"
       }
     },
     {
@@ -29,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇨 MC 01 - george"
+        "🇸🇦 沙特 (Saudi Arabia) 01 - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇨 MC 01 - george"
+        "🇸🇦 沙特 (Saudi Arabia) 01 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
