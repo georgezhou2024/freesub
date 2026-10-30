@@ -4,26 +4,26 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 01 - george",
-      "server": "217.30.10.44",
-      "server_port": 9071,
-      "method": "aes-256-cfb",
-      "password": "mENfxTFQpRKKh4As"
-    },
-    {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 02 - george",
+      "tag": "🇵🇱 波兰 (Poland) 01 - george",
       "server": "155.117.5.208",
       "server_port": 20001,
       "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf"
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 03 - george",
+      "tag": "🇵🇱 波兰 (Poland) 02 - george",
       "server": "168.222.43.53",
       "server_port": 2052,
       "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 03 - george",
+      "server": "pol.rvpn.app",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "8z2OB_gvFvpKgjFi8s9Cvw"
     },
     {
       "type": "trojan",
@@ -49,7 +49,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
