@@ -4,27 +4,12 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 01 (家宽) - george",
-      "server": "789156.xyz",
-      "server_port": 443,
-      "uuid": "5f11c240-89df-494c-9c81-8b619023bb58",
-      "tls": {
-        "enabled": true,
-        "server_name": "789156.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048fp=chrome",
-        "headers": {
-          "Host": "789156.xyz"
-        }
-      }
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - george",
+      "server": "dog-hk.kunlun01dns.com",
+      "server_port": 21019,
+      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+      "security": "auto"
     },
     {
       "type": "vless",
@@ -34,45 +19,20 @@
       "uuid": "bd2fb303-b4c7-49af-a8e3-5c6f11b005dd"
     },
     {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 03 (家宽) - george",
-      "server": "122.176.216.52",
-      "server_port": 443,
-      "uuid": "16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
-      "tls": {
-        "enabled": true,
-        "server_name": "app-6ada5023.deploy.meerasolution.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "android"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
-        "headers": {
-          "Host": "app-6ada5023.deploy.meerasolution.com"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 (家宽) - george",
-        "🇰🇷 韩国 (South Korea) 02 (家宽) - george",
-        "🇮🇳 印度 (India) 03 (家宽) - george"
+        "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - george",
+        "🇰🇷 韩国 (South Korea) 02 (家宽) - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - george",
-        "🇰🇷 韩国 (South Korea) 02 (家宽) - george",
-        "🇮🇳 印度 (India) 03 (家宽) - george"
+        "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - george",
+        "🇰🇷 韩国 (South Korea) 02 (家宽) - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

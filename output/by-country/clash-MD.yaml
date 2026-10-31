@@ -18,19 +18,6 @@ proxies:
   servername: www.bing.com
   client-fingerprint: qq
 - name: 🇲🇩 摩尔多瓦 (Moldova) 02 - george
-  server: 5.181.158.193
-  port: 443
-  udp: true
-  type: vless
-  uuid: 1c8f7130-8c1a-4949-831d-1d45b39c795b
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: TS4XYds5zXG3-cU_zgA3jE6zoDc-Q1WXMQnVj4bdRhA
-    short-id: 7c41ea9b53d618af
-  servername: svoboda18.bystriynet.online
-  client-fingerprint: firefox
-- name: 🇲🇩 摩尔多瓦 (Moldova) 03 - george
   server: 5.181.158.100
   port: 8470
   udp: true
@@ -50,7 +37,6 @@ proxy-groups:
   - AUTO
   - 🇲🇩 摩尔多瓦 (Moldova) 01 - george
   - 🇲🇩 摩尔多瓦 (Moldova) 02 - george
-  - 🇲🇩 摩尔多瓦 (Moldova) 03 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -58,6 +44,5 @@ proxy-groups:
   proxies:
   - 🇲🇩 摩尔多瓦 (Moldova) 01 - george
   - 🇲🇩 摩尔多瓦 (Moldova) 02 - george
-  - 🇲🇩 摩尔多瓦 (Moldova) 03 - george
 rules:
 - MATCH,PROXIES

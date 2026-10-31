@@ -15,7 +15,7 @@
         "server_name": "kz1.waspnest.space",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -25,17 +25,22 @@
       }
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george",
-      "server": "3h-kazakhstan1.09vpn.com",
-      "server_port": 80,
-      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/vmess/",
-        "headers": {
-          "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+      "server": "46.8.43.125",
+      "server_port": 443,
+      "uuid": "f190853d-4cc5-4a67-acfb-5e0b3b750537",
+      "tls": {
+        "enabled": true,
+        "server_name": "kz-central.v8x2b.lol",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ER-T5En54-sn6IXy7jU8vQVcBbOiWvznnezf3qZ273w",
+          "short_id": ""
         }
       }
     },
@@ -48,30 +53,12 @@
       "security": "auto",
       "transport": {
         "type": "ws",
-        "path": "/vmess/",
-        "headers": {
-          "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - george",
-      "server": "3h-kazakhstan1.09vpn.com",
-      "server_port": 80,
-      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/vmess/",
-        "headers": {
-          "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
-        }
+        "path": "/vmess/"
       }
     },
     {
       "type": "vless",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - george",
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - george",
       "server": "109.248.170.119",
       "server_port": 13447,
       "uuid": "b573cefb-7bc7-4a42-b407-b8b534e66773",
@@ -90,125 +77,8 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - george",
-      "server": "38.107.234.57",
-      "server_port": 80,
-      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/vmess/",
-        "headers": {
-          "Host": "viber.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 07 - george",
-      "server": "38.107.234.57",
-      "server_port": 80,
-      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/vmess/",
-        "headers": {
-          "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 08 - george",
-      "server": "38.107.234.57",
-      "server_port": 80,
-      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/vmess/"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 09 - george",
-      "server": "38.107.234.57",
-      "server_port": 80,
-      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/vmess/",
-        "headers": {
-          "Host": "google.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 10 - george",
-      "server": "38.107.234.57",
-      "server_port": 80,
-      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/vmess/",
-        "headers": {
-          "Host": "38.107.234.57"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 11 - george",
-      "server": "38.107.234.57",
-      "server_port": 80,
-      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/vmess/",
-        "headers": {
-          "Host": "38.107.234.57"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 12 - george",
-      "server": "38.107.234.57",
-      "server_port": 80,
-      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/vmess/",
-        "headers": {
-          "Host": "38.107.234.57"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 13 - george",
-      "server": "38.107.234.57",
-      "server_port": 80,
-      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/vmess/",
-        "headers": {
-          "Host": "3h-kazakhstan1.09vpn.com"
-        }
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 14 - george",
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - george",
       "server": "178.236.16.98",
       "server_port": 35728,
       "uuid": "a00d89f6-ab7e-4e30-a5e5-54c701d62c93",
@@ -228,7 +98,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 15 - george",
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - george",
       "server": "83.222.23.81",
       "server_port": 38065,
       "uuid": "4b9063e0-3288-44e9-9aac-80fbfce323a0",
@@ -237,7 +107,7 @@
         "server_name": "yahoo.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -256,16 +126,7 @@
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george",
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - george",
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 07 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 08 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 09 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 10 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 11 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 12 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 13 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 14 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 15 - george"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - george"
       ]
     },
     {
@@ -277,16 +138,7 @@
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george",
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - george",
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 07 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 08 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 09 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 10 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 11 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 12 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 13 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 14 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 15 - george"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
