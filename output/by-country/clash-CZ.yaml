@@ -31,7 +31,7 @@ proxies:
   servername: udemy.com
   client-fingerprint: chrome
 - name: 🇨🇿 捷克 (Czech) 03 - george
-  server: cz-prg.dontblockmepls.com
+  server: 31.77.13.22
   port: 2063
   udp: true
   type: vless
@@ -57,18 +57,18 @@ proxies:
     headers:
       Host: n.bitpulse.me
 - name: 🇨🇿 捷克 (Czech) 05 - george
-  server: 193.124.17.190
+  server: server.slavkiti.monster
   port: 443
   udp: true
   type: vless
-  uuid: b60cab55-e7a1-413d-a297-ddd7bad3fb62
+  uuid: 6dfc9149-1ff9-41c3-8563-0ef284381731
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: bbcab8fa80a3
-  servername: www.microsoft.com
-  client-fingerprint: firefox
+    short-id: 1374bddeb25d
+  servername: www.tradingview.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select

@@ -4,32 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - george
-  server: 49.254.204.133
-  port: 1774
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 1234!@#$
-- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - george
-  server: 125.227.86.45
+- name: 🇺🇸 美国 (United States) 01 (家宽) - george
+  server: 789156.xyz
   port: 443
   udp: true
-  type: trojan
-  password: 0a9f1f5a397bd427
-  sni: TG.freecodes
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: db
-- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - george
-  server: 218.237.185.234
-  port: 4652
+  type: vless
+  uuid: 5f11c240-89df-494c-9c81-8b619023bb58
+  tls: true
+  servername: 789156.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2048fp=chrome
+    headers:
+      Host: 789156.xyz
+- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - george
+  server: 112.169.175.199
+  port: 31157
   udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇮🇳 印度 (India) 04 (家宽) - george
+  type: vless
+  uuid: bd2fb303-b4c7-49af-a8e3-5c6f11b005dd
+- name: 🇮🇳 印度 (India) 03 (家宽) - george
   server: 122.176.216.52
   port: 443
   udp: true
@@ -38,7 +34,7 @@ proxies:
   tls: true
   servername: app-6ada5023.deploy.meerasolution.com
   skip-cert-verify: false
-  client-fingerprint: chrome
+  client-fingerprint: android
   network: ws
   ws-opts:
     path: /ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
@@ -49,18 +45,16 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇰🇷 韩国 (South Korea) 01 (家宽) - george
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - george
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - george
-  - 🇮🇳 印度 (India) 04 (家宽) - george
+  - 🇺🇸 美国 (United States) 01 (家宽) - george
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - george
+  - 🇮🇳 印度 (India) 03 (家宽) - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇷 韩国 (South Korea) 01 (家宽) - george
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - george
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - george
-  - 🇮🇳 印度 (India) 04 (家宽) - george
+  - 🇺🇸 美国 (United States) 01 (家宽) - george
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - george
+  - 🇮🇳 印度 (India) 03 (家宽) - george
 rules:
 - MATCH,PROXIES

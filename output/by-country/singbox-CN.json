@@ -12,11 +12,7 @@
       "tls": {
         "enabled": true,
         "server_name": "vpn.cintaku.qzz.io",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "insecure": false
       },
       "transport": {
         "type": "ws",
@@ -29,7 +25,7 @@
     {
       "type": "vless",
       "tag": "🇨🇳 CN 02 - george",
-      "server": "188.114.98.0",
+      "server": "vpn.cintaku.qzz.io",
       "server_port": 443,
       "uuid": "fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349",
       "tls": {
@@ -46,29 +42,12 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇨🇳 CN 03 - george",
-      "server": "vpn.cintaku.qzz.io",
-      "server_port": 443,
-      "uuid": "fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.cintaku.qzz.io",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vlessws"
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇨🇳 CN 01 - george",
-        "🇨🇳 CN 02 - george",
-        "🇨🇳 CN 03 - george"
+        "🇨🇳 CN 02 - george"
       ]
     },
     {
@@ -76,8 +55,7 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇳 CN 01 - george",
-        "🇨🇳 CN 02 - george",
-        "🇨🇳 CN 03 - george"
+        "🇨🇳 CN 02 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
