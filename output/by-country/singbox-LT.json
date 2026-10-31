@@ -31,17 +31,17 @@
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 04 - george",
       "server": "195.238.126.20",
-      "server_port": 9078,
+      "server_port": 9002,
       "method": "aes-256-cfb",
-      "password": "JCJpbRbQZNw9XFZG"
+      "password": "b8KkNDjEd5QqFyRm"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 05 - george",
       "server": "195.238.126.20",
-      "server_port": 9008,
+      "server_port": 9078,
       "method": "aes-256-cfb",
-      "password": "y9VURyNzJWNRYEGQ"
+      "password": "JCJpbRbQZNw9XFZG"
     },
     {
       "type": "selector",

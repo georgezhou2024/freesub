@@ -5,18 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇦🇲 亚美尼亚 (Armenia) 01 - george",
-      "server": "2.56.207.68",
-      "server_port": 443,
-      "uuid": "0192c3d3-18d5-4b95-8eb3-598e18de6918",
+      "tag": "🇸🇮 斯洛文尼亚 (Slovenia) 01 - george",
+      "server": "92.42.201.65",
+      "server_port": 4443,
+      "uuid": "e0134f1c-8b74-4733-9c34-50cb251480c2",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.slovarik.xyz",
-        "insecure": false,
+        "server_name": "node-slo03.rkitman.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "CTiiN_SriTUj-eBv0047HpCWgLtAzWzq-gwvIWN9KUI",
+          "short_id": "7f0275a4db6068fb"
         }
       }
     },
@@ -25,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇲 亚美尼亚 (Armenia) 01 - george"
+        "🇸🇮 斯洛文尼亚 (Slovenia) 01 - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇲 亚美尼亚 (Armenia) 01 - george"
+        "🇸🇮 斯洛文尼亚 (Slovenia) 01 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
