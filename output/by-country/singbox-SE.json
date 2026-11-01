@@ -12,7 +12,11 @@
       "tls": {
         "enabled": true,
         "server_name": "searchhealthcarejobsandbuildmedicalcareerpathway.com",
-        "insecure": false
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -50,7 +54,27 @@
       "tls": {
         "enabled": true,
         "server_name": "177.3.215.54",
-        "insecure": false
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 05 - george",
+      "server": "179.253.179.109",
+      "server_port": 54443,
+      "uuid": "0ef03752-c8bf-4482-8710-e563ca4808f9",
+      "tls": {
+        "enabled": true,
+        "server_name": "177.3.215.54",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
       }
     },
     {
@@ -61,7 +85,8 @@
         "🇸🇪 瑞典 (Sweden) 01 - george",
         "🇸🇪 瑞典 (Sweden) 02 - george",
         "🇸🇪 瑞典 (Sweden) 03 - george",
-        "🇸🇪 瑞典 (Sweden) 04 - george"
+        "🇸🇪 瑞典 (Sweden) 04 - george",
+        "🇸🇪 瑞典 (Sweden) 05 - george"
       ]
     },
     {
@@ -71,7 +96,8 @@
         "🇸🇪 瑞典 (Sweden) 01 - george",
         "🇸🇪 瑞典 (Sweden) 02 - george",
         "🇸🇪 瑞典 (Sweden) 03 - george",
-        "🇸🇪 瑞典 (Sweden) 04 - george"
+        "🇸🇪 瑞典 (Sweden) 04 - george",
+        "🇸🇪 瑞典 (Sweden) 05 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

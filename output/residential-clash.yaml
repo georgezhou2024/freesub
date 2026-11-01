@@ -4,14 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - george
+- name: 🇺🇸 美国 (United States) 01 (移动家宽) - george
+  server: us001.zestapp778.com
+  port: 57277
+  udp: true
+  type: trojan
+  password: 5t6i121em5lkmsmk
+  sni: us001.zestapp778.com
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - george
   server: 49.254.204.133
   port: 1774
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: 1234!@#$
-- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - george
+- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george
   server: 125.227.86.45
   port: 443
   udp: true
@@ -22,32 +30,21 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: db
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - george
-  server: 0e05f970-tki800-traezq-1t5n1.hk2.hyhuawei.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
-  tls: true
-  reality-opts:
-    public-key: c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo
-  servername: download.windowsupdate.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇰🇷 韩国 (South Korea) 01 (家宽) - george
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - george
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - george
+  - 🇺🇸 美国 (United States) 01 (移动家宽) - george
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - george
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇷 韩国 (South Korea) 01 (家宽) - george
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - george
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - george
+  - 🇺🇸 美国 (United States) 01 (移动家宽) - george
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - george
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george
 rules:
 - MATCH,PROXIES

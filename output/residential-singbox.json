@@ -4,8 +4,20 @@
   },
   "outbounds": [
     {
+      "type": "trojan",
+      "tag": "🇺🇸 美国 (United States) 01 (移动家宽) - george",
+      "server": "us001.zestapp778.com",
+      "server_port": 57277,
+      "password": "5t6i121em5lkmsmk",
+      "tls": {
+        "enabled": true,
+        "server_name": "us001.zestapp778.com",
+        "insecure": true
+      }
+    },
+    {
       "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - george",
+      "tag": "🇰🇷 韩国 (South Korea) 02 (家宽) - george",
       "server": "49.254.204.133",
       "server_port": 1774,
       "method": "aes-256-cfb",
@@ -13,7 +25,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - george",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george",
       "server": "125.227.86.45",
       "server_port": 443,
       "password": "0a9f1f5a397bd427",
@@ -31,42 +43,22 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - george",
-      "server": "0e05f970-tki800-traezq-1t5n1.hk2.hyhuawei.com",
-      "server_port": 443,
-      "uuid": "ea800f9e-ca6c-11ef-8e74-f23c913c8d2b",
-      "tls": {
-        "enabled": true,
-        "server_name": "download.windowsupdate.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo",
-          "short_id": ""
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - george",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - george",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - george"
+        "🇺🇸 美国 (United States) 01 (移动家宽) - george",
+        "🇰🇷 韩国 (South Korea) 02 (家宽) - george",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - george",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - george",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - george"
+        "🇺🇸 美国 (United States) 01 (移动家宽) - george",
+        "🇰🇷 韩国 (South Korea) 02 (家宽) - george",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
