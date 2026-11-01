@@ -6,100 +6,167 @@
     {
       "type": "shadowsocks",
       "tag": "🇺🇸 美国 (United States) 01 - george",
-      "server": "37.19.198.244",
+      "server": "156.146.38.169",
       "server_port": 443,
       "method": "aes-128-gcm",
       "password": "shadowsocks"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 02 - george",
-      "server": "45.138.100.248",
-      "server_port": 10443,
-      "uuid": "ae908ff5-f749-402c-af25-e6e9aef4d6bb"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 03 - george",
-      "server": "37.19.198.243",
+      "tag": "🇺🇸 美国 (United States) 02 - george",
+      "server": "156.146.38.167",
       "server_port": 443,
       "method": "aes-128-gcm",
       "password": "shadowsocks"
     },
     {
-      "type": "trojan",
-      "tag": "🇺🇸 美国 (United States) 04 - george",
-      "server": "130.94.19.95",
-      "server_port": 57277,
-      "password": "5t6i121em5lkmsmk",
-      "tls": {
-        "enabled": true,
-        "server_name": "us001.zestapp778.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 05 - george",
-      "server": "104.21.70.21",
-      "server_port": 8080,
-      "uuid": "93fa8bdb-9cca-4a3e-8355-b7c12e4f595e",
+      "tag": "🇺🇸 美国 (United States) 03 - george",
+      "server": "38.107.232.36",
+      "server_port": 80,
+      "uuid": "18cf8db1-9f86-43f7-baa0-382efb7f2dfa",
       "transport": {
         "type": "ws",
-        "path": "/vl/yLWNcuUuw1jlJpkDhGy?ed=2560",
+        "path": "/vless/",
         "headers": {
-          "Host": "fornewiran.ade-1000.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 06 - george",
-      "server": "147.182.212.232",
-      "server_port": 56565,
-      "uuid": "7b188eea-b08f-42c2-bac7-d3b0e74218b8",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.paypal.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Td03Ae-cuYLq4xg7MSps58c_yRUcbbwtZLXm0ywabjY",
-          "short_id": ""
+          "Host": "38.107.232.36"
         }
       }
     },
     {
       "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 07 - george",
-      "server": "45.86.51.18",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "tag": "🇺🇸 美国 (United States) 04 - george",
+      "server": "156.146.38.170",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 05 - george",
+      "server": "156.146.38.168",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
     },
     {
       "type": "trojan",
-      "tag": "🇺🇸 美国 (United States) 08 - george",
-      "server": "69.164.240.85",
-      "server_port": 50875,
-      "password": "nwilryafgkyvuxauc8pz",
+      "tag": "🇺🇸 美国 (United States) 06 - george",
+      "server": "66.23.203.21",
+      "server_port": 59689,
+      "password": "ae7eb4dwyaz25pxwgq59",
       "tls": {
         "enabled": true,
-        "server_name": "69.164.240.85",
+        "server_name": "66.23.203.21",
         "insecure": true
       }
     },
     {
       "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 07 - george",
+      "server": "185.215.132.9",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 08 - george",
+      "server": "95.215.201.18",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇺🇸 美国 (United States) 09 - george",
+      "server": "185.215.132.18",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 10 - george",
+      "server": "172.64.144.240",
+      "server_port": 443,
+      "uuid": "87c467e9-f0af-4b03-8fbd-65fd375d3a26",
+      "tls": {
+        "enabled": true,
+        "server_name": "pmpmppm.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048fp=randomized",
+        "headers": {
+          "Host": "pmpmppm.pages.dev"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 美国 (United States) 11 - george",
+      "server": "66.163.114.126",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "resources.findconnectwithemployersandbuildprofessionalnetwork.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 美国 (United States) 12 - george",
+      "server": "66.163.114.114",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "learn.findconnectwithemployersandbuildprofessionalnetwork.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 13 - george",
+      "server": "173.244.56.6",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 美国 (United States) 14 - george",
+      "server": "66.163.114.166",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "blog.findconnectwithemployersandbuildprofessionalnetwork.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 (United States) 15 - george",
+      "server": "129.146.77.248",
+      "server_port": 39495,
+      "uuid": "f836c736-87fc-4fde-aabc-00857ecdff3e",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/cctv13.m3u8"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 16 - george",
       "server": "37.19.198.160",
       "server_port": 443,
       "method": "aes-128-gcm",
@@ -107,48 +174,38 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 10 - george",
-      "server": "15.204.247.175",
-      "server_port": 8008,
-      "method": "aes-256-gcm",
-      "password": "XKFKl2rULjIp74"
+      "tag": "🇺🇸 美国 (United States) 17 - george",
+      "server": "173.244.56.9",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 18 - george",
+      "server": "37.19.198.236",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 19 - george",
+      "server": "37.19.198.244",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 德国 (Germany) 11 - george",
-      "server": "172.66.44.124",
-      "server_port": 2096,
+      "tag": "🇺🇸 美国 (United States) 20 - george",
+      "server": "stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev",
+      "server_port": 443,
       "uuid": "b2f2f9f2-1864-48ea-839b-22815faff1f1",
       "tls": {
         "enabled": true,
         "server_name": "stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/9BozNyvQ8VdRvsYX?ed=2560",
-        "headers": {
-          "Host": "stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 12 - george",
-      "server": "162.159.228.255",
-      "server_port": 443,
-      "uuid": "b135a1e0-ebdb-4d46-b3fa-bd1e78580244",
-      "tls": {
-        "enabled": true,
-        "server_name": "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev",
-        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -156,126 +213,8 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
-        }
+        "path": "/"
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 德国 (Germany) 13 - george",
-      "server": "162.159.153.4",
-      "server_port": 443,
-      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
-      "tls": {
-        "enabled": true,
-        "server_name": "rayan-007.maxima.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "rayan-007.maxima.dpdns.org"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 14 - george",
-      "server": "181.214.1.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vms.lifetime39.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇱 以色列 (Israel) 15 - george",
-      "server": "185.95.231.156",
-      "server_port": 443,
-      "uuid": "1f8cf47a-b66a-4916-979f-26edfcf44eea",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To",
-          "short_id": "a3a578ab"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 16 - george",
-      "server": "108.165.152.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vms.lifetime61.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇺🇸 美国 (United States) 17 - george",
-      "server": "66.163.122.7",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "66.163.122.7",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 18 - george",
-      "server": "198.98.53.130",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "eDfN7SODQceIOmIAbtJJtK"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 19 - george",
-      "server": "129.213.91.185",
-      "server_port": 35013,
-      "password": "4291c983-c520-46ac-82cc-48f14bef573f",
-      "tls": {
-        "enabled": true,
-        "server_name": "129.213.91.185",
-        "insecure": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 20 - george",
-      "server": "193.151.163.18",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "selector",
@@ -292,12 +231,12 @@
         "🇺🇸 美国 (United States) 08 - george",
         "🇺🇸 美国 (United States) 09 - george",
         "🇺🇸 美国 (United States) 10 - george",
-        "🇩🇪 德国 (Germany) 11 - george",
-        "🇯🇵 日本 (Japan) 12 - george",
-        "🇩🇪 德国 (Germany) 13 - george",
+        "🇺🇸 美国 (United States) 11 - george",
+        "🇺🇸 美国 (United States) 12 - george",
+        "🇺🇸 美国 (United States) 13 - george",
         "🇺🇸 美国 (United States) 14 - george",
-        "🇮🇱 以色列 (Israel) 15 - george",
-        "🇪🇸 西班牙 (Spain) 16 - george",
+        "🇺🇸 美国 (United States) 15 - george",
+        "🇺🇸 美国 (United States) 16 - george",
         "🇺🇸 美国 (United States) 17 - george",
         "🇺🇸 美国 (United States) 18 - george",
         "🇺🇸 美国 (United States) 19 - george",
@@ -318,12 +257,12 @@
         "🇺🇸 美国 (United States) 08 - george",
         "🇺🇸 美国 (United States) 09 - george",
         "🇺🇸 美国 (United States) 10 - george",
-        "🇩🇪 德国 (Germany) 11 - george",
-        "🇯🇵 日本 (Japan) 12 - george",
-        "🇩🇪 德国 (Germany) 13 - george",
+        "🇺🇸 美国 (United States) 11 - george",
+        "🇺🇸 美国 (United States) 12 - george",
+        "🇺🇸 美国 (United States) 13 - george",
         "🇺🇸 美国 (United States) 14 - george",
-        "🇮🇱 以色列 (Israel) 15 - george",
-        "🇪🇸 西班牙 (Spain) 16 - george",
+        "🇺🇸 美国 (United States) 15 - george",
+        "🇺🇸 美国 (United States) 16 - george",
         "🇺🇸 美国 (United States) 17 - george",
         "🇺🇸 美国 (United States) 18 - george",
         "🇺🇸 美国 (United States) 19 - george",

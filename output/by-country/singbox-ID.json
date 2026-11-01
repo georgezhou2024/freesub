@@ -5,22 +5,17 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇦🇱 AL 01 - george",
-      "server": "151.123.187.198",
-      "server_port": 443,
-      "uuid": "b24ad12f-f6ce-4f0b-a264-d58a76104026",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇮🇩 印尼 (Indonesia) 01 - george",
+      "server": "in001.zestapp778.com",
+      "server_port": 57353,
+      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
       "tls": {
         "enabled": true,
-        "server_name": "al2.magazinnarubeva.ru",
+        "server_name": "in001.zestapp778.com",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "trN5x0amt2YuVzF2vZnK294YBAuh_zl5QkZjPyWz-TI",
-          "short_id": "8718c58d3d51db59"
         }
       }
     },
@@ -29,14 +24,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇱 AL 01 - george"
+        "🇮🇩 印尼 (Indonesia) 01 - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇱 AL 01 - george"
+        "🇮🇩 印尼 (Indonesia) 01 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
