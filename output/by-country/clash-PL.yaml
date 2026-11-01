@@ -6,27 +6,31 @@ log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - george
   server: 217.30.10.44
+  port: 9006
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: FAdUvMJUq5vDgKEq
+- name: 🇵🇱 波兰 (Poland) 02 - george
+  server: 217.30.10.44
   port: 9052
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: jt2ekBNc9HuVtm2a
-- name: 🇵🇱 波兰 (Poland) 02 - george
-  server: 70.34.252.255
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
-  skip-cert-verify: false
 - name: 🇵🇱 波兰 (Poland) 03 - george
-  server: 45.192.12.83
+  server: 94.249.180.86
   port: 443
   udp: true
-  type: hysteria2
-  password: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
-  sni: nl1.obxodvpn.us
-  skip-cert-verify: true
+  type: vless
+  uuid: 0de1d303-d7de-0001-8679-c4cb67e2e2cc
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
+    short-id: a696de84963656de
+  servername: amd.com
+  client-fingerprint: chrome
 - name: 🇵🇱 波兰 (Poland) 04 - george
   server: 2.26.255.215
   port: 443
@@ -41,6 +45,27 @@ proxies:
   servername: cloudflare.com
   client-fingerprint: ''
 - name: 🇵🇱 波兰 (Poland) 05 - george
+  server: 31.59.143.147
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Liu35gmIQJtbul5AeCrceJTjsmln4RaqxX6joKlaBjk
+    short-id: ae97223a8f799889
+  servername: pl2.waspnest.space
+  client-fingerprint: firefox
+- name: 🇵🇱 波兰 (Poland) 06 - george
+  server: 70.34.252.255
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
+  skip-cert-verify: false
+- name: 🇵🇱 波兰 (Poland) 07 - george
   server: 82.118.22.161
   port: 443
   udp: true
@@ -52,20 +77,33 @@ proxies:
     public-key: xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E
     short-id: fa3ea655619a3e78
   servername: www.cloudflare.com
-  client-fingerprint: safari
-- name: 🇵🇱 波兰 (Poland) 06 - george
-  server: pl1.h1cloud.net
-  port: 27591
+  client-fingerprint: chrome
+- name: 🇵🇱 波兰 (Poland) 08 - george
+  server: 31.77.13.19
+  port: 2063
   udp: true
   type: vless
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
-    short-id: 6c5c7900406a1ae7
-  servername: www.samsung.com
-  client-fingerprint: edge
-- name: 🇵🇱 波兰 (Poland) 07 - george
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+  servername: rusbid.de
+  client-fingerprint: chrome
+- name: 🇵🇱 波兰 (Poland) 09 - george
+  server: 185.50.202.4
+  port: 443
+  udp: true
+  type: vless
+  uuid: 902e7be9-d0a8-42a6-994f-8320916a9d9e
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: UW2KCNPSvGsHK2UXmcFveOY17nWWo3CoCk8ydVT7A3s
+    short-id: 953e2426ac9a7c0e
+  servername: media2.usicloid.my
+  client-fingerprint: qq
+- name: 🇵🇱 波兰 (Poland) 10 - george
   server: 150.251.113.34
   port: 443
   udp: true
@@ -90,6 +128,9 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 05 - george
   - 🇵🇱 波兰 (Poland) 06 - george
   - 🇵🇱 波兰 (Poland) 07 - george
+  - 🇵🇱 波兰 (Poland) 08 - george
+  - 🇵🇱 波兰 (Poland) 09 - george
+  - 🇵🇱 波兰 (Poland) 10 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -102,5 +143,8 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 05 - george
   - 🇵🇱 波兰 (Poland) 06 - george
   - 🇵🇱 波兰 (Poland) 07 - george
+  - 🇵🇱 波兰 (Poland) 08 - george
+  - 🇵🇱 波兰 (Poland) 09 - george
+  - 🇵🇱 波兰 (Poland) 10 - george
 rules:
 - MATCH,PROXIES

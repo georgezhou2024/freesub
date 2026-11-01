@@ -4,28 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇲 亚美尼亚 (Armenia) 01 - george
-  server: 2.56.207.68
+- name: 🇦🇱 AL 01 - george
+  server: 151.123.187.198
   port: 443
   udp: true
   type: vless
-  uuid: 0192c3d3-18d5-4b95-8eb3-598e18de6918
+  uuid: b24ad12f-f6ce-4f0b-a264-d58a76104026
   flow: xtls-rprx-vision
   tls: true
-  servername: www.slovarik.xyz
-  skip-cert-verify: false
-  client-fingerprint: firefox
+  reality-opts:
+    public-key: trN5x0amt2YuVzF2vZnK294YBAuh_zl5QkZjPyWz-TI
+    short-id: 8718c58d3d51db59
+  servername: al2.magazinnarubeva.ru
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇦🇲 亚美尼亚 (Armenia) 01 - george
+  - 🇦🇱 AL 01 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇲 亚美尼亚 (Armenia) 01 - george
+  - 🇦🇱 AL 01 - george
 rules:
 - MATCH,PROXIES
