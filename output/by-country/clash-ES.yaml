@@ -19,22 +19,6 @@ proxies:
   cipher: aes-256-cfb
   password: KnJGad3FqTvjqbaX
 - name: 🇪🇸 西班牙 (Spain) 03 - george
-  server: 66.163.118.244
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: api.discovergreatjobsandadvanceyourcareer.com
-  skip-cert-verify: false
-- name: 🇪🇸 西班牙 (Spain) 04 - george
-  server: 66.163.118.166
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: learn.discovergreatjobsandadvanceyourcareer.com
-  skip-cert-verify: false
-- name: 🇪🇸 西班牙 (Spain) 05 - george
   server: 212.227.235.66
   port: 2053
   udp: true
@@ -46,7 +30,15 @@ proxies:
     short-id: 29e8dcd2b37aaa7f
   servername: www.apple.com
   client-fingerprint: firefox
-- name: 🇪🇸 西班牙 (Spain) 06 - george
+- name: 🇪🇸 西班牙 (Spain) 04 - george
+  server: 66.163.118.244
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: 66.163.118.244
+  skip-cert-verify: true
+- name: 🇪🇸 西班牙 (Spain) 05 - george
   server: 66.163.118.251
   port: 443
   udp: true
@@ -54,13 +46,21 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: resources.discovergreatjobsandadvanceyourcareer.com
   skip-cert-verify: false
-- name: 🇪🇸 西班牙 (Spain) 07 - george
-  server: 66.163.118.131
+- name: 🇪🇸 西班牙 (Spain) 06 - george
+  server: 66.163.118.166
   port: 443
   udp: true
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: www.discovergreatjobsandadvanceyourcareer.com
+  sni: learn.discovergreatjobsandadvanceyourcareer.com
+  skip-cert-verify: false
+- name: 🇪🇸 西班牙 (Spain) 07 - george
+  server: 66.163.118.62
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.discovergreatjobsandadvanceyourcareer.com
   skip-cert-verify: false
 - name: 🇪🇸 西班牙 (Spain) 08 - george
   server: 46.28.71.247
@@ -76,7 +76,7 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇪🇸 西班牙 (Spain) 09 - george
-  server: 156.252.229.159
+  server: 156.252.229.30
   port: 8443
   udp: true
   type: vless
@@ -88,7 +88,7 @@ proxies:
   servername: play.googleapis.com
   client-fingerprint: chrome
 - name: 🇪🇸 西班牙 (Spain) 10 - george
-  server: 156.252.229.30
+  server: 156.252.229.11
   port: 8443
   udp: true
   type: vless
@@ -98,9 +98,9 @@ proxies:
     public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
     short-id: 974f7f8f
   servername: play.googleapis.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇪🇸 西班牙 (Spain) 11 - george
-  server: 156.252.229.11
+  server: 156.252.229.159
   port: 8443
   udp: true
   type: vless
@@ -123,19 +123,6 @@ proxies:
     short-id: 974f7f8f
   servername: play.googleapis.com
   client-fingerprint: chrome
-- name: 🇪🇸 西班牙 (Spain) 13 - george
-  server: 83.147.18.3
-  port: 443
-  udp: true
-  type: vless
-  uuid: 9f61cdf4-810d-4052-bbc7-2da0c8e20104
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA
-    short-id: fd8cf7e1173f0edb
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -153,7 +140,6 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 10 - george
   - 🇪🇸 西班牙 (Spain) 11 - george
   - 🇪🇸 西班牙 (Spain) 12 - george
-  - 🇪🇸 西班牙 (Spain) 13 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -171,6 +157,5 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 10 - george
   - 🇪🇸 西班牙 (Spain) 11 - george
   - 🇪🇸 西班牙 (Spain) 12 - george
-  - 🇪🇸 西班牙 (Spain) 13 - george
 rules:
 - MATCH,PROXIES

@@ -6,14 +6,6 @@
     {
       "type": "vmess",
       "tag": "🇺🇸 美国 (United States) 01 - george",
-      "server": "129.146.143.80",
-      "server_port": 48111,
-      "uuid": "d4603cc2-e0ee-4651-83f5-1db5b7168177",
-      "security": "auto"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 02 - george",
       "server": "129.146.77.248",
       "server_port": 39495,
       "uuid": "f836c736-87fc-4fde-aabc-00857ecdff3e",
@@ -25,15 +17,193 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 03 - george",
+      "tag": "🇺🇸 美国 (United States) 02 - george",
       "server": "95.215.201.18",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
+      "tag": "🇺🇸 美国 (United States) 03 - george",
+      "server": "129.153.77.162",
+      "server_port": 8443,
+      "password": "1r0d8slwbpg1iebe",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "f7yrrbc9h6b1krnk"
+      }
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇺🇸 美国 (United States) 04 - george",
+      "server": "216.105.168.18",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "bQZl7HDxSabr1FurTYQHFU"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 美国 (United States) 05 - george",
+      "server": "66.163.112.31",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "unlockyourfuturefindyourperfectcareer.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 06 - george",
+      "server": "154.29.159.211",
+      "server_port": 26763,
+      "uuid": "d3f0d021-6a98-43c1-ba26-b75bd0d145f0",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "9tgCHwsQFN0j6FaMsAeJN8TSD2qQFnX6JdTaEdp8TRU",
+          "short_id": "b72b5eed"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 (United States) 07 - george",
+      "server": "23.147.56.181",
+      "server_port": 52843,
+      "uuid": "88be793c-c368-4eb1-8809-057e5df96606",
+      "security": "auto"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 美国 (United States) 08 - george",
+      "server": "66.163.112.142",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.unlockyourfuturefindyourperfectcareer.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 美国 (United States) 09 - george",
+      "server": "66.163.112.121",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.unlockyourfuturefindyourperfectcareer.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 美国 (United States) 10 - george",
+      "server": "64.32.13.230",
+      "server_port": 443,
+      "password": "aed1cc24-351d-11ef-ba52-f23c9164ca5d",
+      "tls": {
+        "enabled": true,
+        "server_name": "0a2298d1-tm3mo0-0-1rfon.los.hyhuawei.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 美国 (United States) 11 - george",
+      "server": "66.163.112.13",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "blog.unlockyourfuturefindyourperfectcareer.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 12 - george",
+      "server": "67.209.184.133",
+      "server_port": 443,
+      "uuid": "96ebc166-565c-474f-9712-7990b55c368a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Tp015Ga5LodBwKs4z7Wz4hTvqeh8-4q1EQPZqvZfWR0",
+          "short_id": "ad09494d431b2b92"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 13 - george",
+      "server": "173.244.56.9",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 美国 (United States) 14 - george",
+      "server": "186.241.105.213",
+      "server_port": 443,
+      "password": "va3E77I9fZCnCVcGKkxBCfz5",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn.liumr.top",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 美国 (United States) 15 - george",
+      "server": "38.102.234.153",
+      "server_port": 18603,
+      "password": "lk59gDrTm2",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.777061.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 16 - george",
       "server": "144.202.126.147",
       "server_port": 443,
       "uuid": "45d51389-0c38-4843-8ae8-cffb94e97a72",
@@ -56,141 +226,24 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 05 - george",
-      "server": "64.32.13.230",
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 17 - george",
+      "server": "173.244.56.6",
       "server_port": 443,
-      "password": "8bb68d04-6973-11ee-b518-f23c9164ca5d",
-      "tls": {
-        "enabled": true,
-        "server_name": "73395328-tmm5c0-tpv2b9-1o8ak.los.hyhuawei.com",
-        "insecure": false
-      }
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
     },
     {
-      "type": "trojan",
-      "tag": "🇺🇸 美国 (United States) 06 - george",
-      "server": "66.163.112.13",
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 18 - george",
+      "server": "156.146.38.170",
       "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "api.nextjobopportunityandclaimyouridealrole.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 07 - george",
-      "server": "107.173.237.146",
-      "server_port": 8443,
-      "uuid": "1d39f715-2740-4d99-bc3b-197cc48dcee7",
-      "tls": {
-        "enabled": true,
-        "server_name": "updates.cdn-apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D3ojIs3AUKP_tV0E4TEjh90HBVJp24Nq3qMfdxD30kc",
-          "short_id": "df8611c07d"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 08 - george",
-      "server": "85.155.179.206",
-      "server_port": 443,
-      "uuid": "86a83d11-d751-4b60-aa4e-1dca5cff7028",
-      "tls": {
-        "enabled": true,
-        "server_name": "us3.shtil.io",
-        "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 09 - george",
-      "server": "6ec450f1-tmm5c0-ttyyk7-1h0r9.los.hyhuawei.com",
-      "server_port": 443,
-      "password": "9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9",
-      "tls": {
-        "enabled": true,
-        "server_name": "6ec450f1-tmm5c0-ttyyk7-1h0r9.los.hyhuawei.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇺🇸 美国 (United States) 10 - george",
-      "server": "66.163.112.76",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "66.163.112.76",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 11 - george",
-      "server": "67.209.184.133",
-      "server_port": 443,
-      "uuid": "96ebc166-565c-474f-9712-7990b55c368a",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Tp015Ga5LodBwKs4z7Wz4hTvqeh8-4q1EQPZqvZfWR0",
-          "short_id": "ad09494d431b2b92"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇺🇸 美国 (United States) 12 - george",
-      "server": "66.163.112.121",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.unlockyourfuturefindyourperfectcareer.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 13 - george",
+      "tag": "🇺🇸 美国 (United States) 19 - george",
       "server": "45.76.172.197",
       "server_port": 443,
       "uuid": "b256c867-a020-48e0-be80-1b079f2613a2",
@@ -213,98 +266,12 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 14 - george",
-      "server": "807fc395-tmm5c0-u5ip77-duku.los.hyhuawei.com",
-      "server_port": 443,
-      "password": "8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9",
-      "tls": {
-        "enabled": true,
-        "server_name": "807fc395-tmm5c0-u5ip77-duku.los.hyhuawei.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 15 - george",
-      "server": "45.63.53.81",
-      "server_port": 443,
-      "uuid": "c512dcbd-1847-40a2-9c99-989c8bfe4717",
-      "tls": {
-        "enabled": true,
-        "server_name": "itunes.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "6nTROV2ELz-3vNUl0A00hp378QngpYABrPgjCpUknD0",
-          "short_id": "f436f707"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "itunes.apple.com"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 16 - george",
-      "server": "129.153.77.162",
-      "server_port": 8443,
-      "password": "1r0d8slwbpg1iebe",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "f7yrrbc9h6b1krnk"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 17 - george",
-      "server": "169.128.83.4",
-      "server_port": 57259,
-      "uuid": "a1962f23-f8f8-412d-f2ce-3361e7b72889"
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 18 - george",
-      "server": "173.244.56.6",
+      "tag": "🇺🇸 美国 (United States) 20 - george",
+      "server": "156.146.38.167",
       "server_port": 443,
       "method": "aes-128-gcm",
       "password": "shadowsocks"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 19 - george",
-      "server": "f452bbe9-tmm5c0-tpda83-1lkbs.los.hyhuawei.com",
-      "server_port": 443,
-      "password": "5a4c13ae-6673-11ee-a149-f23c9164ca5d",
-      "tls": {
-        "enabled": true,
-        "server_name": "f452bbe9-tmm5c0-tpda83-1lkbs.los.hyhuawei.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 20 - george",
-      "server": "179.255.103.55",
-      "server_port": 443,
-      "password": "92bf29cc-ee08-4c97-bf0b-b4dff41e5bd8",
-      "tls": {
-        "enabled": true,
-        "server_name": "n02.jinggai.online",
-        "insecure": false
-      }
     },
     {
       "type": "selector",
