@@ -6,6 +6,18 @@
     {
       "type": "hysteria2",
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 - george",
+      "server": "vpn-tw-002.fastervpn.world",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn-tw-002.fastervpn.world\\u0026insecure=1\\u0026allowinsecure=1",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - george",
       "server": "103.115.109.49",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
@@ -17,7 +29,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - george",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - george",
       "server": "152.32.167.33",
       "server_port": 443,
       "uuid": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a",
@@ -34,18 +46,6 @@
           "public_key": "Q8QwBSGN6J-FqgDV1pYNm0VThS_xNRyQ3DPPa9YZ3j4",
           "short_id": "cff998a4"
         }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - george",
-      "server": "vpn-tw-002.fastervpn.world",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "whatsapp.com",
-        "insecure": true
       }
     },
     {
@@ -73,26 +73,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 06 - george",
-      "server": "45.207.159.71",
-      "server_port": 8443,
-      "uuid": "eb8c97f7-a154-4442-91b0-54c0d055ad0b",
-      "tls": {
-        "enabled": true,
-        "server_name": "github.githubassets.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA",
-          "short_id": "4ad2e4e660550e43"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -101,8 +81,7 @@
         "🇹🇼 中国台湾 (Taiwan) 02 - george",
         "🇹🇼 中国台湾 (Taiwan) 03 - george",
         "🇹🇼 中国台湾 (Taiwan) 04 - george",
-        "🇹🇼 中国台湾 (Taiwan) 05 - george",
-        "🇹🇼 中国台湾 (Taiwan) 06 - george"
+        "🇹🇼 中国台湾 (Taiwan) 05 - george"
       ]
     },
     {
@@ -113,8 +92,7 @@
         "🇹🇼 中国台湾 (Taiwan) 02 - george",
         "🇹🇼 中国台湾 (Taiwan) 03 - george",
         "🇹🇼 中国台湾 (Taiwan) 04 - george",
-        "🇹🇼 中国台湾 (Taiwan) 05 - george",
-        "🇹🇼 中国台湾 (Taiwan) 06 - george"
+        "🇹🇼 中国台湾 (Taiwan) 05 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
