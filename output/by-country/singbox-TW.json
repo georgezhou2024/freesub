@@ -4,8 +4,32 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 - george",
+      "server": "103.115.109.49",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https://t.me/oneclickvpnkeys",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - george",
+      "server": "vpn-tw-002.fastervpn.world",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn-tw-002.fastervpn.world%5cu0026insecure%3d1%5cu0026allowinsecure%3d1",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - george",
       "server": "152.32.167.33",
       "server_port": 443,
       "uuid": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a",
@@ -25,21 +49,9 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - george",
-      "server": "47.129.112.129",
-      "server_port": 20000,
-      "password": "CQUPACy34t6Tjx8FdQdkCiYW",
-      "tls": {
-        "enabled": true,
-        "server_name": "sg-transit-3.nebulacloud.win",
-        "insecure": true
-      }
-    },
-    {
       "type": "anytls",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - george",
-      "server": "er8u54dh.df6h451rh.xin",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 04 - george",
+      "server": "684616s4.df6h451rh.xin",
       "server_port": 443,
       "password": "0324fbc29561",
       "tls": {
@@ -55,7 +67,8 @@
         "auto",
         "🇹🇼 中国台湾 (Taiwan) 01 - george",
         "🇹🇼 中国台湾 (Taiwan) 02 - george",
-        "🇹🇼 中国台湾 (Taiwan) 03 - george"
+        "🇹🇼 中国台湾 (Taiwan) 03 - george",
+        "🇹🇼 中国台湾 (Taiwan) 04 - george"
       ]
     },
     {
@@ -64,7 +77,8 @@
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 - george",
         "🇹🇼 中国台湾 (Taiwan) 02 - george",
-        "🇹🇼 中国台湾 (Taiwan) 03 - george"
+        "🇹🇼 中国台湾 (Taiwan) 03 - george",
+        "🇹🇼 中国台湾 (Taiwan) 04 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

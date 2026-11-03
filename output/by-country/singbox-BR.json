@@ -12,7 +12,19 @@
       "tls": {
         "enabled": true,
         "server_name": "findtemporaryworkandfreelancerprojectsonlineplatform.com",
-        "insecure": false,
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇧🇷 巴西 (Brazil) 02 - george",
+      "server": "br001.zestapp778.com",
+      "server_port": 39533,
+      "password": "5t6i121em5lkmsmk",
+      "tls": {
+        "enabled": true,
+        "server_name": "br001.zestapp778.com",
+        "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -24,14 +36,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇷 巴西 (Brazil) 01 - george"
+        "🇧🇷 巴西 (Brazil) 01 - george",
+        "🇧🇷 巴西 (Brazil) 02 - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 巴西 (Brazil) 01 - george"
+        "🇧🇷 巴西 (Brazil) 01 - george",
+        "🇧🇷 巴西 (Brazil) 02 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
