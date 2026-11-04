@@ -19,18 +19,18 @@ proxies:
   grpc-opts:
     grpc-service-name: GunService
 - name: 🇷🇺 俄罗斯 (Russia) 02 - george
-  server: 130.49.177.193
+  server: 147.45.126.220
   port: 443
   udp: true
   type: vless
-  uuid: 727a9178-d7f0-4142-8205-b0d19959ded0
-  flow: xtls-rprx-vision
+  uuid: ede2f330-aab4-4a34-8b79-0df85ae3f6a9
   tls: true
-  reality-opts:
-    public-key: DCpi9-1rSXxBnEIAQ9U3mTqHivk7vHJRV_T2pWw5vCc
-    short-id: 681fc2dd643bc2f3
-  servername: de-2.ffpn.pro
+  servername: pol.qikbro.com
+  skip-cert-verify: false
   client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: assets
 - name: 🇷🇺 俄罗斯 (Russia) 03 - george
   server: 201.24.121.243
   port: 443
@@ -58,13 +58,6 @@ proxies:
   servername: du-rov.secureservice.top
   client-fingerprint: random
 - name: 🇷🇺 俄罗斯 (Russia) 05 - george
-  server: 46.17.46.27
-  port: 18443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
-- name: 🇷🇺 俄罗斯 (Russia) 06 - george
   server: du-rov.secureservice.top
   port: 8443
   udp: true
@@ -77,19 +70,6 @@ proxies:
     short-id: 3cbc3d737fb9c4af
   servername: du-rov.secureservice.top
   client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 07 - george
-  server: 147.45.126.220
-  port: 443
-  udp: true
-  type: vless
-  uuid: ede2f330-aab4-4a34-8b79-0df85ae3f6a9
-  tls: true
-  servername: pol.qikbro.com
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: assets
 proxy-groups:
 - name: PROXIES
   type: select
@@ -100,8 +80,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 03 - george
   - 🇷🇺 俄罗斯 (Russia) 04 - george
   - 🇷🇺 俄罗斯 (Russia) 05 - george
-  - 🇷🇺 俄罗斯 (Russia) 06 - george
-  - 🇷🇺 俄罗斯 (Russia) 07 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -112,7 +90,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 03 - george
   - 🇷🇺 俄罗斯 (Russia) 04 - george
   - 🇷🇺 俄罗斯 (Russia) 05 - george
-  - 🇷🇺 俄罗斯 (Russia) 06 - george
-  - 🇷🇺 俄罗斯 (Russia) 07 - george
 rules:
 - MATCH,PROXIES

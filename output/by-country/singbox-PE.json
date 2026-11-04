@@ -5,22 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇸🇮 斯洛文尼亚 (Slovenia) 01 - george",
-      "server": "92.42.201.65",
-      "server_port": 4443,
-      "uuid": "e0134f1c-8b74-4733-9c34-50cb251480c2",
+      "tag": "🇵🇪 秘鲁 (Peru) 01 - george",
+      "server": "134.185.81.5",
+      "server_port": 47881,
+      "uuid": "59b203b2-b1bc-4e9c-a9e5-ccb8f691bf72",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "node-slo03.rkitman.ru",
+        "server_name": "www.tesla.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
-          "public_key": "CTiiN_SriTUj-eBv0047HpCWgLtAzWzq-gwvIWN9KUI",
-          "short_id": "7f0275a4db6068fb"
+          "public_key": "6XmXX1QXGodmtqU37Zx9CDHnCnPtonRdq8ieLmt__g4",
+          "short_id": "38d72071"
         }
       }
     },
@@ -29,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇮 斯洛文尼亚 (Slovenia) 01 - george"
+        "🇵🇪 秘鲁 (Peru) 01 - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇮 斯洛文尼亚 (Slovenia) 01 - george"
+        "🇵🇪 秘鲁 (Peru) 01 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
