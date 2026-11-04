@@ -53,7 +53,6 @@ except ImportError as e:
 # ══════════════════════════════════════════════════════════════════
 
 SOURCE_URLS = [
-    "https://wild-cloud-9893.heleimail.workers.dev",
     "https://github.com/Au1rxx/free-vpn-subscriptions/raw/main/output/by-country/v2ray-base64-TW.txt",
     "https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/main/configs/all.txt",
     "https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/base64/mix",
@@ -61,11 +60,11 @@ SOURCE_URLS = [
     "https://raw.githubusercontent.com/10ium/telegram-configs-collector/main/security/tls",
     "https://github.com/Au1rxx/free-vpn-subscriptions/raw/main/output/v2ray-base64.txt",
     "https://raw.githubusercontent.com/freefq/free/master/v2",
-    "https://open.heleimail.workers.dev/",
+    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt",
     "https://www.ermao.net/sub/v2ray/ermao.net",
     "https://raw.githubusercontent.com/ishalumi/proxy-node-collector/main/output/nodes_base64.txt",
     "https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/base64.txt",
-    "https://raw.githubusercontent.com/twj0/subseek/refs/heads/master/data/sub_github.txt",
+    "https://shadowmere.akiel.dev/api/b64sub/",
 ]
 
 OUTPUT_DIR = "output"
@@ -2254,18 +2253,7 @@ def export_all(unique_nodes, residential, non_residential):
         export_clash_yaml(p, os.path.join(RESIDENTIAL_COUNTRY_DIR, f"clash-{cc}.yaml"))
         export_singbox_json(s, os.path.join(RESIDENTIAL_COUNTRY_DIR, f"singbox-{cc}.json"))
 
-    # 5) 优选最快 20 节点 (自动: 每次更新按真实延迟重新挑选)
-    ranked = sorted(unique_nodes, key=lambda x: x.get("latency_ms", 99999))
-    top20 = [x for x in ranked if x.get("outbound")][:20]
-    t20_links, t20_proxies, t20_sb = build_group(top20)
-    with open(os.path.join(OUTPUT_DIR, "top20-v2ray.txt"), "w", encoding="utf-8") as f:
-        f.write(base64.b64encode("\n".join(t20_links).encode()).decode())
-    with open(os.path.join(OUTPUT_DIR, "top20-links.txt"), "w", encoding="utf-8") as f:
-        f.write("\n".join(t20_links))
-    export_singbox_json(t20_sb, os.path.join(OUTPUT_DIR, "top20-singbox.json"))
-    print(f"[*] 优选 TOP20 已导出: {len(top20)} 节点")
-
-    print(f"[*] 导出完毕: 全量 {len(all_links)} | 家宽 {len(res_links)} | 优选 {len(top20)}")
+    print(f"[*] 导出完毕: 全量 {len(all_links)} | 家宽 {len(res_links)}")
     return len(all_links), len(res_links)
 
 
