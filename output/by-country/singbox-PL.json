@@ -4,24 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 01 - george",
-      "server": "217.30.10.44",
-      "server_port": 9095,
-      "method": "aes-256-cfb",
-      "password": "N7j3pdTYkKmsy8CR"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 02 - george",
-      "server": "217.30.10.44",
-      "server_port": 9076,
-      "method": "aes-256-cfb",
-      "password": "S2zDyyPcmZN2h8EC"
-    },
-    {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 03 - george",
+      "tag": "🇵🇱 波兰 (Poland) 01 - george",
       "server": "217.30.10.72",
       "server_port": 443,
       "uuid": "5c32201a-6c0e-451b-8f0a-24b4bd40df59",
@@ -42,7 +26,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇵🇱 波兰 (Poland) 04 - george",
+      "tag": "🇵🇱 波兰 (Poland) 02 - george",
       "server": "70.34.252.255",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -54,7 +38,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 05 - george",
+      "tag": "🇵🇱 波兰 (Poland) 03 - george",
       "server": "2.26.255.215",
       "server_port": 443,
       "uuid": "69e41e64-a832-471a-b740-94577ca85520",
@@ -75,7 +59,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 06 - george",
+      "tag": "🇵🇱 波兰 (Poland) 04 - george",
       "server": "94.249.180.86",
       "server_port": 443,
       "uuid": "0de1d303-d7de-0001-8679-c4cb67e2e2cc",
@@ -95,26 +79,11 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇵🇱 波兰 (Poland) 07 - george",
-      "server": "54.37.131.126",
-      "server_port": 80,
-      "uuid": "059fda3e-5ca9-4fbd-dd89-01cc6d4bb5dd",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
-        }
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 08 - george",
+      "tag": "🇵🇱 波兰 (Poland) 05 - george",
       "server": "145.63.143.205",
       "server_port": 8444,
-      "uuid": "35c9f200-7520-4005-b78e-f8a2fb9f68f7",
+      "uuid": "a8321cfe-39a2-48a0-a918-f01f7d9006ed",
       "tls": {
         "enabled": true,
         "server_name": "pl1.meshbeat.online",
@@ -133,63 +102,18 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 09 - george",
-      "server": "84.23.52.120",
-      "server_port": 28453,
-      "uuid": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl.sparxiecn.com",
-        "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
+      "type": "vmess",
+      "tag": "🇵🇱 波兰 (Poland) 06 - george",
+      "server": "54.37.131.126",
+      "server_port": 80,
+      "uuid": "059fda3e-5ca9-4fbd-dd89-01cc6d4bb5dd",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
         }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/lovelive"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 10 - george",
-      "server": "84.23.52.120",
-      "server_port": 28449,
-      "uuid": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl.sparxiecn.com",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/lovelive"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 11 - george",
-      "server": "84.23.52.120",
-      "server_port": 28450,
-      "uuid": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl.sparxiecn.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/lovelive"
       }
     },
     {
@@ -202,12 +126,7 @@
         "🇵🇱 波兰 (Poland) 03 - george",
         "🇵🇱 波兰 (Poland) 04 - george",
         "🇵🇱 波兰 (Poland) 05 - george",
-        "🇵🇱 波兰 (Poland) 06 - george",
-        "🇵🇱 波兰 (Poland) 07 - george",
-        "🇵🇱 波兰 (Poland) 08 - george",
-        "🇵🇱 波兰 (Poland) 09 - george",
-        "🇵🇱 波兰 (Poland) 10 - george",
-        "🇵🇱 波兰 (Poland) 11 - george"
+        "🇵🇱 波兰 (Poland) 06 - george"
       ]
     },
     {
@@ -219,12 +138,7 @@
         "🇵🇱 波兰 (Poland) 03 - george",
         "🇵🇱 波兰 (Poland) 04 - george",
         "🇵🇱 波兰 (Poland) 05 - george",
-        "🇵🇱 波兰 (Poland) 06 - george",
-        "🇵🇱 波兰 (Poland) 07 - george",
-        "🇵🇱 波兰 (Poland) 08 - george",
-        "🇵🇱 波兰 (Poland) 09 - george",
-        "🇵🇱 波兰 (Poland) 10 - george",
-        "🇵🇱 波兰 (Poland) 11 - george"
+        "🇵🇱 波兰 (Poland) 06 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
