@@ -4,15 +4,19 @@
   },
   "outbounds": [
     {
-      "type": "anytls",
+      "type": "trojan",
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - george",
-      "server": "er8u54dh.df6h451rh.xin",
+      "server": "125.227.86.46",
       "server_port": 443,
-      "password": "0324fbc29561",
+      "password": "0a9f1f5a397bd427",
       "tls": {
         "enabled": true,
-        "server_name": "px.ads.linkedin.com",
+        "server_name": "TG.freecodes",
         "insecure": true
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "db"
       }
     },
     {
