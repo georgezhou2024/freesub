@@ -29,20 +29,16 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 04 - george
-  server: 80.240.18.227
-  port: 10051
+  server: 84.235.244.108
+  port: 22573
   udp: true
   type: vless
-  uuid: d161dcf1-fde2-44cc-b08d-d8944895e842
-  tls: true
-  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   network: ws
   ws-opts:
-    path: /@Marisa_kristi
+    path: /
     headers:
-      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 05 - george
   server: 95.174.68.188
   port: 14430
@@ -52,8 +48,6 @@ proxies:
   network: ws
   ws-opts:
     path: /vless
-    headers:
-      Host: 95.174.68.188
 proxy-groups:
 - name: PROXIES
   type: select
