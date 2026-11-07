@@ -5,14 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇭 瑞士 (Switzerland) 01 - george
-  server: 186.190.215.251
+  server: 79.127.184.104
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇨🇭 瑞士 (Switzerland) 02 - george
-  server: 79.127.184.104
+  server: 186.190.215.251
   port: 19999
   udp: true
   type: ss
@@ -33,6 +33,16 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇨🇭 瑞士 (Switzerland) 05 - george
+  server: 208.69.78.217
+  port: 33187
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 06 - george
   server: 140.238.213.114
   port: 50160
   udp: true
@@ -40,15 +50,27 @@ proxies:
   password: 84a506ca5aca505696a454d828420b3f
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇨🇭 瑞士 (Switzerland) 06 - george
-  server: 208.69.78.29
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: learn.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: false
 - name: 🇨🇭 瑞士 (Switzerland) 07 - george
+  server: 208.69.78.217
+  port: 21054
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 08 - george
+  server: 208.69.78.217
+  port: 21021
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 09 - george
   server: 152.67.75.161
   port: 443
   udp: true
@@ -58,25 +80,9 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: c13f29db6a638ad2b211b9ce2669ef27
-- name: 🇨🇭 瑞士 (Switzerland) 08 - george
-  server: 208.69.78.60
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: cdn.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 09 - george
-  server: 208.69.78.222
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: yourultimateprofessionalcareerhub.com
-  skip-cert-verify: false
 - name: 🇨🇭 瑞士 (Switzerland) 10 - george
   server: 208.69.78.217
-  port: 21016
+  port: 21154
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -85,18 +91,16 @@ proxies:
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 11 - george
-  server: 208.69.78.217
-  port: 21067
+  server: 104.165.205.42
+  port: 8443
   udp: true
   type: hysteria2
-  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: mbQXP2ASuHbF6ZPq
+  password: 54d2f622-fd71-4f5f-8813-832b68f4ca3b
+  sni: speedtestmark.com
+  skip-cert-verify: false
 - name: 🇨🇭 瑞士 (Switzerland) 12 - george
   server: 208.69.78.217
-  port: 33171
+  port: 21158
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -105,29 +109,28 @@ proxies:
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 13 - george
-  server: 104.165.205.42
-  port: 8443
+  server: 208.69.78.217
+  port: 33117
   udp: true
   type: hysteria2
-  password: 54d2f622-fd71-4f5f-8813-832b68f4ca3b
-  sni: speedtestmark.com
-  skip-cert-verify: false
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 14 - george
-  server: pl3.japancase.site
-  port: 443
+  server: 208.69.78.217
+  port: 33133
   udp: true
-  type: vless
-  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: COvqGpB7lUdZshmbn5zdqiVi81n8Iyha8RbEHtK93xc
-    short-id: 5037f0423dc4e4ff
-  servername: pl3.japancase.site
-  client-fingerprint: chrome
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 15 - george
   server: 208.69.78.217
-  port: 33174
+  port: 33141
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -137,7 +140,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 16 - george
   server: 208.69.78.217
-  port: 21113
+  port: 33013
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -147,7 +150,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 17 - george
   server: 208.69.78.217
-  port: 21046
+  port: 8444
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -157,7 +160,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 18 - george
   server: 208.69.78.217
-  port: 21161
+  port: 33195
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -167,7 +170,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 19 - george
   server: 208.69.78.217
-  port: 21147
+  port: 21080
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -187,7 +190,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 21 - george
   server: 208.69.78.217
-  port: 33141
+  port: 21000
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -195,9 +198,10 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
+  ports: 21000-21199,33000-33199
 - name: 🇨🇭 瑞士 (Switzerland) 22 - george
   server: 208.69.78.217
-  port: 21054
+  port: 33025
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -207,7 +211,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 23 - george
   server: 208.69.78.217
-  port: 21090
+  port: 21067
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -217,7 +221,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 24 - george
   server: 208.69.78.217
-  port: 21158
+  port: 21086
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -227,7 +231,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 25 - george
   server: 208.69.78.217
-  port: 21086
+  port: 21161
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -237,7 +241,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 26 - george
   server: 208.69.78.217
-  port: 33187
+  port: 33171
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -247,7 +251,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 27 - george
   server: 208.69.78.217
-  port: 33152
+  port: 21084
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -257,7 +261,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 28 - george
   server: 208.69.78.217
-  port: 21154
+  port: 33044
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -267,7 +271,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 29 - george
   server: 208.69.78.217
-  port: 8444
+  port: 21046
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -277,7 +281,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 30 - george
   server: 208.69.78.217
-  port: 33044
+  port: 33152
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -287,7 +291,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 31 - george
   server: 208.69.78.217
-  port: 33117
+  port: 33174
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -297,7 +301,7 @@ proxies:
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 32 - george
   server: 208.69.78.217
-  port: 21084
+  port: 33130
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -305,6 +309,34 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 33 - george
+  server: 208.69.78.217
+  port: 21147
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 34 - george
+  server: 208.69.78.217
+  port: 33092
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 35 - george
+  server: 208.69.78.208
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: resources.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
@@ -342,6 +374,9 @@ proxy-groups:
   - 🇨🇭 瑞士 (Switzerland) 30 - george
   - 🇨🇭 瑞士 (Switzerland) 31 - george
   - 🇨🇭 瑞士 (Switzerland) 32 - george
+  - 🇨🇭 瑞士 (Switzerland) 33 - george
+  - 🇨🇭 瑞士 (Switzerland) 34 - george
+  - 🇨🇭 瑞士 (Switzerland) 35 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -379,5 +414,8 @@ proxy-groups:
   - 🇨🇭 瑞士 (Switzerland) 30 - george
   - 🇨🇭 瑞士 (Switzerland) 31 - george
   - 🇨🇭 瑞士 (Switzerland) 32 - george
+  - 🇨🇭 瑞士 (Switzerland) 33 - george
+  - 🇨🇭 瑞士 (Switzerland) 34 - george
+  - 🇨🇭 瑞士 (Switzerland) 35 - george
 rules:
 - MATCH,PROXIES

@@ -4,28 +4,35 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - george
-  server: 125.227.86.46
+- name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - george
+  server: e0064cf5-tmm5c0-to0mym-z93q.hk3.hyhuawei.com
   port: 443
   udp: true
-  type: trojan
-  password: 0a9f1f5a397bd427
-  sni: TG.freecodes
+  type: hysteria2
+  password: 40639730-e027-11ea-87ad-f23c913c8d2b
+  sni: e0064cf5-tmm5c0-to0mym-z93q.hk3.hyhuawei.com
   skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: db
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - george
+  server: baf80640-tmm5c0-to0mym-z93q.nw4.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 40639730-e027-11ea-87ad-f23c913c8d2b
+  sni: baf80640-tmm5c0-to0mym-z93q.nw4.hyhuawei.com
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - george
+  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - george
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - george
+  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - george
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - george
 rules:
 - MATCH,PROXIES

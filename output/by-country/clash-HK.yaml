@@ -15,24 +15,16 @@ proxies:
   reality-opts:
     public-key: DtOZ39u6MyQMG96tl13-M7-HeaqQzW2RLBVPk9py-Vg
   servername: dash.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - george
-  server: 50dc16b5-tmm5c0-tmj4pk-1kcpe.hk3.hyhuawei.com
+  server: 202.146.222.89
   port: 443
   udp: true
   type: hysteria2
-  password: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
-  sni: 50dc16b5-tmm5c0-tmj4pk-1kcpe.hk3.hyhuawei.com
-  skip-cert-verify: false
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/clashv8\u0001f1e8\u0001f1f3
+  skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - george
-  server: 9a07c316-tmkao0-u1vxv2-v3c2.nw4.hyhuawei.com
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  sni: 9a07c316-tmkao0-u1vxv2-v3c2.nw4.hyhuawei.com
-  skip-cert-verify: false
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - george
   server: 202.146.222.174
   port: 443
   udp: true
@@ -40,25 +32,7 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: https%3a%2f%2ft.me%2foneclickvpnkeys
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - george
-  server: 202.146.222.89
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vk.com
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - george
-  server: 152.32.254.68
-  port: 5010
-  udp: true
-  type: hysteria2
-  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-  sni: 127.0.0.1
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - george
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - george
   server: 85.155.149.190
   port: 443
   udp: true
@@ -71,14 +45,29 @@ proxies:
     short-id: bee10b047804c637
   servername: hk1.japancase.site
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - george
-  server: 202.146.222.29
-  port: 443
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - george
+  server: 152.32.254.68
+  port: 5010
   udp: true
   type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2ð\x9f\x87¨ð\x9f\x87³
-  skip-cert-verify: true
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  sni: nas.aizhzo.com
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - george
+  server: 165.154.63.139
+  port: 443
+  udp: true
+  type: vless
+  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ
+    short-id: ca4aedd4
+  servername: www.amazon.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -90,8 +79,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 04 - george
   - 🇭🇰 中国香港 (Hong Kong) 05 - george
   - 🇭🇰 中国香港 (Hong Kong) 06 - george
-  - 🇭🇰 中国香港 (Hong Kong) 07 - george
-  - 🇭🇰 中国香港 (Hong Kong) 08 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -103,7 +90,5 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 04 - george
   - 🇭🇰 中国香港 (Hong Kong) 05 - george
   - 🇭🇰 中国香港 (Hong Kong) 06 - george
-  - 🇭🇰 中国香港 (Hong Kong) 07 - george
-  - 🇭🇰 中国香港 (Hong Kong) 08 - george
 rules:
 - MATCH,PROXIES
