@@ -5,28 +5,40 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇩🇪 德国 (Germany) 01 - george
-  server: 193.108.119.83
-  port: 19999
+  server: 188.114.97.6
+  port: 8080
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  type: vless
+  uuid: 93fa8bdb-9cca-4a3e-8355-b7c12e4f595e
+  network: ws
+  ws-opts:
+    path: /vl/yLWNcuUuw1jlJpkDhGy?ed=2560
+    headers:
+      Host: fornewiran.ade-1000.workers.dev
 - name: 🇩🇪 德国 (Germany) 02 - george
-  server: 23.157.88.43
-  port: 19999
+  server: 172.66.44.124
+  port: 8443
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  type: vless
+  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
+  tls: true
+  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+  skip-cert-verify: false
+  client-fingerprint: randomized
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
 - name: 🇩🇪 德国 (Germany) 03 - george
-  server: 193.108.117.84
+  server: 185.176.204.18
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇩🇪 德国 (Germany) 04 - george
-  server: 193.108.117.111
+  server: 193.108.117.84
   port: 19999
   udp: true
   type: ss
@@ -40,82 +52,48 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇩🇪 德国 (Germany) 06 - george
-  server: 185.226.172.8
-  port: 8008
+  server: 193.108.119.83
+  port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇩🇪 德国 (Germany) 07 - george
-  server: 193.108.119.3
+  server: 23.157.88.43
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇩🇪 德国 (Germany) 08 - george
-  server: 185.176.204.18
+  server: 193.108.117.111
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇩🇪 德国 (Germany) 09 - george
-  server: 193.108.116.98
+  server: 193.108.119.3
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇩🇪 德国 (Germany) 10 - george
-  server: 193.108.118.247
+  server: 193.108.116.98
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇩🇪 德国 (Germany) 11 - george
-  server: 146.70.20.147
-  port: 8080
+  server: 193.108.118.247
+  port: 19999
   udp: true
   type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇩🇪 德国 (Germany) 12 - george
-  server: 193.108.119.29
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: blog.iloverussia2026.com
-  skip-cert-verify: false
-- name: 🇩🇪 德国 (Germany) 13 - george
-  server: 163.245.42.56
-  port: 443
-  udp: true
-  type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  servername: mother-earth.fyi
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 14 - george
-  server: 51.102.203.129
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇩🇪 德国 (Germany) 15 - george
-  server: 169.150.210.233
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇩🇪 德国 (Germany) 16 - george
   server: 9.247.23.209
   port: 443
   udp: true
@@ -127,7 +105,45 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   servername: mother-earth.fyi
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 17 - george
+- name: 🇩🇪 德国 (Germany) 13 - george
+  server: 91.233.8.141
+  port: 443
+  udp: true
+  type: vless
+  uuid: 81d8f575-a9c3-03e7-be6b-c0e1dc1d2e20
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: k76Ze8R0E5NyZwvBZT1A4n0zlVXxTeHQDAs0bBqiGQw
+    short-id: 6e5f2a3b
+  servername: tnt-cloud.ru
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 14 - george
+  server: 163.245.42.56
+  port: 443
+  udp: true
+  type: vless
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: mother-earth.fyi
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 15 - george
+  server: 82.118.19.153
+  port: 443
+  udp: true
+  type: vless
+  uuid: adcaa148-7c66-4282-a81a-99ec8afa029d
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Tiuy8om5Lk0pWL95-8LaFFTwH0vbURVMoOkaW9xGaiE
+    short-id: 670ed9f350bd8ee0
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 16 - george
   server: 193.108.119.87
   port: 1270
   udp: true
@@ -138,75 +154,21 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
+- name: 🇩🇪 德国 (Germany) 17 - george
+  server: 169.150.210.233
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
 - name: 🇩🇪 德国 (Germany) 18 - george
-  server: 193.108.119.193
-  port: 443
+  server: 185.226.172.8
+  port: 8008
   udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: resources.iloverussia2026.com
-  skip-cert-verify: false
+  type: ss
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
 - name: 🇩🇪 德国 (Germany) 19 - george
-  server: 193.108.119.15
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.iloverussia2026.com
-  skip-cert-verify: false
-- name: 🇩🇪 德国 (Germany) 20 - george
-  server: 2.26.54.200
-  port: 8018
-  udp: true
-  type: vmess
-  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /websocket/transfer/gayporn
-- name: 🇩🇪 德国 (Germany) 21 - george
-  server: 151.243.169.164
-  port: 12824
-  udp: true
-  type: hysteria2
-  password: d62s7ghfehm742us
-  sni: derfderf.ru
-  skip-cert-verify: false
-- name: 🇩🇪 德国 (Germany) 22 - george
-  server: 5.252.179.15
-  port: 443
-  udp: true
-  type: vless
-  uuid: 0ab273e4-cea6-41d0-bbab-41071d2fc455
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: XQB2zIgrhD8AtxgYFM8UiiWYt1sLVBLhMg1M4-sGMAY
-    short-id: 296f27de82dad7ff
-  servername: www.bing.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 23 - george
-  server: 57.129.41.216
-  port: 80
-  udp: true
-  type: vless
-  uuid: 18535741-e8b3-4b43-9348-785b55936751
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 24 - george
-  server: 91.107.169.224
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 78ed2c82-20d6-48ed-a76d-294065803259
-  alterId: 0
-  cipher: auto
-  network: httpupgrade
-- name: 🇩🇪 德国 (Germany) 25 - george
   server: 185.177.229.95
   port: 1270
   udp: true
@@ -217,7 +179,7 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇩🇪 德国 (Germany) 26 - george
+- name: 🇩🇪 德国 (Germany) 20 - george
   server: 144.31.140.125
   port: 8443
   udp: true
@@ -230,44 +192,33 @@ proxies:
     short-id: 168c15efac9df5fd
   servername: twitch.tv
   client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 27 - george
+- name: 🇩🇪 德国 (Germany) 21 - george
+  server: 57.129.113.16
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: NcAXc0UZI6yQJE1p8QmOv8
+- name: 🇩🇪 德国 (Germany) 22 - george
   server: 57.129.41.216
   port: 80
   udp: true
   type: vless
-  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
+  uuid: 18535741-e8b3-4b43-9348-785b55936751
   network: ws
   ws-opts:
     path: /vless/
     headers:
-      Host: OV-Germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 28 - george
-  server: 5.45.100.100
-  port: 51511
-  udp: true
-  type: hysteria2
-  password: miaoge110
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 29 - george
-  server: edge.bookmai.com
+      Host: ov-germany1.09vpn.com
+- name: 🇩🇪 德国 (Germany) 23 - george
+  server: 193.108.119.96
   port: 443
   udp: true
-  type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  servername: mother-earth.fyi
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 30 - george
-  server: 167.233.129.126
-  port: 2474
-  udp: true
-  type: vless
-  uuid: 287db857-de04-4212-bd69-5d14083e340e
-- name: 🇩🇪 德国 (Germany) 31 - george
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: learn.iloverussia2026.com
+  skip-cert-verify: false
+- name: 🇩🇪 德国 (Germany) 24 - george
   server: de001.zestapp778.com
   port: 51520
   udp: true
@@ -275,7 +226,65 @@ proxies:
   password: 5t6i121em5lkmsmk
   sni: de001.zestapp778.com
   skip-cert-verify: false
-- name: 🇩🇪 德国 (Germany) 32 - george
+- name: 🇩🇪 德国 (Germany) 25 - george
+  server: 46.28.69.123
+  port: 443
+  udp: true
+  type: vless
+  uuid: b945f9aa-1b45-4912-aa7e-248509472bad
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 7KnJYp2-sE3o35mnbSZzX3fNg-ns9n8xyNfkRSHCD3E
+    short-id: 238e23c5150f02e4
+  servername: gateway.icloud.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 26 - george
+  server: 146.70.20.147
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇩🇪 德国 (Germany) 27 - george
+  server: 2.26.54.200
+  port: 8018
+  udp: true
+  type: vmess
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /websocket/transfer/gayporn
+    headers:
+      Host: shit.67133767.xyz
+- name: 🇩🇪 德国 (Germany) 28 - george
+  server: 3.76.221.4
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 3.76.221.4
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 29 - george
+  server: 151.243.169.164
+  port: 12824
+  udp: true
+  type: hysteria2
+  password: d62s7ghfehm742us
+  sni: derfderf.ru
+  skip-cert-verify: false
+- name: 🇩🇪 德国 (Germany) 30 - george
+  server: 91.107.169.224
+  port: 80
+  udp: true
+  type: vmess
+  uuid: 78ed2c82-20d6-48ed-a76d-294065803259
+  alterId: 0
+  cipher: auto
+  network: httpupgrade
+- name: 🇩🇪 德国 (Germany) 31 - george
   server: 179.61.138.145
   port: 36264
   udp: true
@@ -285,40 +294,66 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: Telegram@vpnjey
-- name: 🇩🇪 德国 (Germany) 33 - george
-  server: s1-api.denmexa.ir
-  port: 2789
+- name: 🇩🇪 德国 (Germany) 32 - george
+  server: base.hosamobenl.co.uk
+  port: 443
   udp: true
   type: vless
-  uuid: d14392a5-8fd5-4c19-be8e-3503e3cee9cf
+  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
+  tls: true
+  servername: base.hosamobenl.co.uk
+  skip-cert-verify: false
+- name: 🇩🇪 德国 (Germany) 33 - george
+  server: 5.252.179.15
+  port: 443
+  udp: true
+  type: vless
+  uuid: 0ab273e4-cea6-41d0-bbab-41071d2fc455
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: o6UTWdONnTOvDOWmhfxXUoeOEtlw7VUkoAWkmOk_FWI
-    short-id: 4e4aaad65cc07da8
-  servername: tgju.org
-  client-fingerprint: edge
+    public-key: XQB2zIgrhD8AtxgYFM8UiiWYt1sLVBLhMg1M4-sGMAY
+    short-id: 296f27de82dad7ff
+  servername: www.bing.com
+  client-fingerprint: random
 - name: 🇩🇪 德国 (Germany) 34 - george
-  server: 193.108.119.78
+  server: 5.45.100.100
+  port: 51511
+  udp: true
+  type: hysteria2
+  password: miaoge110
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 35 - george
+  server: 167.233.129.126
+  port: 2474
+  udp: true
+  type: vless
+  uuid: 287db857-de04-4212-bd69-5d14083e340e
+- name: 🇩🇪 德国 (Germany) 36 - george
+  server: 213.202.208.199
+  port: 7001
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- name: 🇩🇪 德国 (Germany) 37 - george
+  server: 193.108.119.193
   port: 443
   udp: true
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: www.iloverussia2026.com
+  sni: resources.iloverussia2026.com
   skip-cert-verify: false
-- name: 🇩🇪 德国 (Germany) 35 - george
-  server: 147.45.153.29
+- name: 🇩🇪 德国 (Germany) 38 - george
+  server: 3.69.232.199
   port: 443
   udp: true
-  type: vless
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU
-    short-id: b9120cd53ffd7bba
-  servername: patch-46.topp-con.xyz
-  client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 36 - george
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 39 - george
   server: 217.60.27.78
   port: 443
   udp: true
@@ -330,16 +365,68 @@ proxies:
     public-key: q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ
   servername: music.3apes.online
   client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 37 - george
-  server: 3.76.221.4
+- name: 🇩🇪 德国 (Germany) 40 - george
+  server: steel7.hadsvpn.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 23c82941-70f4-4381-90db-bd28e9a902e9
+  sni: steel7.hadsvpn.com
+  skip-cert-verify: false
+- name: 🇩🇪 德国 (Germany) 41 - george
+  server: 193.108.119.15
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.iloverussia2026.com
+  skip-cert-verify: false
+- name: 🇩🇪 德国 (Germany) 42 - george
+  server: edge.bookmai.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: mother-earth.fyi
+  client-fingerprint: firefox
+- name: 🇩🇪 德国 (Germany) 43 - george
+  server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+  port: 443
+  udp: true
+  type: trojan
+  password: 6cddea99-9b18-4d42-8638-131bd9f5374f
+  sni: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 44 - george
+  server: 45.32.157.84
+  port: 443
+  udp: true
+  type: trojan
+  password: Tg3RnK7Xp8B1
+  sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 45 - george
+  server: vpn-de-002.fastervpn.world
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 3.76.221.4
+  sni: 127.0.0.1
   skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 38 - george
-  server: tr3.japancase.site
+- name: 🇩🇪 德国 (Germany) 46 - george
+  server: fi1.obxodvpn.us
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 146d567c-6335-4e63-a8aa-7ec068642440
+  sni: fi1.obxodvpn.us
+  skip-cert-verify: false
+- name: 🇩🇪 德国 (Germany) 47 - george
+  server: 147.45.66.62
   port: 443
   udp: true
   type: vless
@@ -351,15 +438,65 @@ proxies:
     short-id: 071c3bd86b0c3c73
   servername: tr3.japancase.site
   client-fingerprint: ''
-- name: 🇩🇪 德国 (Germany) 39 - george
-  server: vpn-de-002.fastervpn.world
+- name: 🇩🇪 德国 (Germany) 48 - george
+  server: germany1.xorsand.eu
+  port: 10105
+  udp: true
+  type: vless
+  uuid: ad3f4a0a-a89f-498e-9869-a93c8fa185b1
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: PFC3JN1er1JE2vAemwRhNjewz8I4NUWP4XHf2Dza4Es
+    short-id: 12e321badd07906e
+  servername: play.google.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 49 - george
+  server: 196.245.217.41
+  port: 443
+  udp: true
+  type: vless
+  uuid: b7b8ee80-db83-4276-8c68-87dc88b0b0b5
+  tls: true
+  reality-opts:
+    public-key: 3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE
+    short-id: e572b6579ea525d4
+  servername: 71b840t.de7.h1clayd.click
+  client-fingerprint: firefox
+- name: 🇩🇪 德国 (Germany) 50 - george
+  server: s1-api.denmexa.ir
+  port: 2789
+  udp: true
+  type: vless
+  uuid: d14392a5-8fd5-4c19-be8e-3503e3cee9cf
+  tls: true
+  reality-opts:
+    public-key: o6UTWdONnTOvDOWmhfxXUoeOEtlw7VUkoAWkmOk_FWI
+    short-id: 4e4aaad65cc07da8
+  servername: tgju.org
+  client-fingerprint: edge
+- name: 🇩🇪 德国 (Germany) 51 - george
+  server: seo.nexun.ir
+  port: 2088
+  udp: true
+  type: vless
+  uuid: ae23e87e-0764-4152-901c-1427b00c81b7
+  tls: true
+  servername: seo.nexun.ir
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: ''
+- name: 🇩🇪 德国 (Germany) 52 - george
+  server: 3.76.203.180
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 127.0.0.1
+  sni: vpn-de-002.fastervpn.world
   skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 40 - george
+- name: 🇩🇪 德国 (Germany) 53 - george
   server: 82.39.171.12
   port: 443
   udp: true
@@ -372,72 +509,14 @@ proxies:
     short-id: c39cc7310a
   servername: yahoo.com
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 41 - george
-  server: 18.194.242.173
+- name: 🇩🇪 德国 (Germany) 54 - george
+  server: 18.153.65.67
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 127.0.0.1
   skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 42 - george
-  server: 18.153.65.67
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-de-002.fastervpn.world
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 43 - george
-  server: 45.129.242.56
-  port: 443
-  udp: true
-  type: vless
-  uuid: ebdfaf99-41d8-4e48-8196-d54510ffb556
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: YURKlEQ3rap4KOXXGsVFZyYev2oDU2gCEbNTXPdKWRY
-    short-id: abcdef
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 44 - george
-  server: 91.107.179.0
-  port: 10105
-  udp: true
-  type: vless
-  uuid: ad3f4a0a-a89f-498e-9869-a93c8fa185b1
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: PFC3JN1er1JE2vAemwRhNjewz8I4NUWP4XHf2Dza4Es
-    short-id: 12e321badd07906e
-  servername: play.google.com
-  client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 45 - george
-  server: 3.76.203.180
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 3.76.203.180
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 46 - george
-  server: base.hosamobenl.co.uk
-  port: 443
-  udp: true
-  type: vless
-  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
-  tls: true
-  servername: base.hosamobenl.co.uk
-  skip-cert-verify: false
-- name: 🇩🇪 德国 (Germany) 47 - george
-  server: 213.202.208.199
-  port: 7001
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
 proxy-groups:
 - name: PROXIES
   type: select
@@ -490,6 +569,13 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 45 - george
   - 🇩🇪 德国 (Germany) 46 - george
   - 🇩🇪 德国 (Germany) 47 - george
+  - 🇩🇪 德国 (Germany) 48 - george
+  - 🇩🇪 德国 (Germany) 49 - george
+  - 🇩🇪 德国 (Germany) 50 - george
+  - 🇩🇪 德国 (Germany) 51 - george
+  - 🇩🇪 德国 (Germany) 52 - george
+  - 🇩🇪 德国 (Germany) 53 - george
+  - 🇩🇪 德国 (Germany) 54 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -542,5 +628,12 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 45 - george
   - 🇩🇪 德国 (Germany) 46 - george
   - 🇩🇪 德国 (Germany) 47 - george
+  - 🇩🇪 德国 (Germany) 48 - george
+  - 🇩🇪 德国 (Germany) 49 - george
+  - 🇩🇪 德国 (Germany) 50 - george
+  - 🇩🇪 德国 (Germany) 51 - george
+  - 🇩🇪 德国 (Germany) 52 - george
+  - 🇩🇪 德国 (Germany) 53 - george
+  - 🇩🇪 德国 (Germany) 54 - george
 rules:
 - MATCH,PROXIES

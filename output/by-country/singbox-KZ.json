@@ -6,6 +6,27 @@
     {
       "type": "vless",
       "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - george",
+      "server": "90.156.230.179",
+      "server_port": 443,
+      "uuid": "dc95c1dd-2cd3-414c-8cf1-71ae86dad666",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kz-cdn-prsv-forum.keno.su",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Au1rmQdDRjlEJk17IfLQv5PBUEEosMWNhAlrWZj6mnY",
+          "short_id": "14324280"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george",
       "server": "95.57.50.87",
       "server_port": 443,
       "uuid": "db80088c-32a1-4cb8-a907-0f3cb7844152",
@@ -26,8 +47,8 @@
     },
     {
       "type": "vmess",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george",
-      "server": "38.107.234.57",
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george",
+      "server": "3h-kazakhstan1.09vpn.com",
       "server_port": 80,
       "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
       "security": "auto",
@@ -35,7 +56,7 @@
         "type": "ws",
         "path": "/vmess/",
         "headers": {
-          "Host": "viber.com"
+          "Host": "3h-kazakhstan1.09vpn.com"
         }
       }
     },
@@ -45,7 +66,8 @@
       "outbounds": [
         "auto",
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george",
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george"
       ]
     },
     {
@@ -53,7 +75,8 @@
       "tag": "auto",
       "outbounds": [
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - george",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george",
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

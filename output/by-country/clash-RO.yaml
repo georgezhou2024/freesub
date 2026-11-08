@@ -5,15 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 罗马尼亚 (Romania) 01 - george
-  server: 162.249.125.133
+  server: bogging-eyeteeth-fly.freesocks.work
   port: 443
   udp: true
-  type: hysteria2
-  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
-  sni: hy2-new.aspidnet.xyz
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: c1b4086fea89914496c7e10967a419216566
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: QFWzCw2uX9B9i6qAYeFBIE
 - name: 🇷🇴 罗马尼亚 (Romania) 02 - george
   server: 46.28.67.55
   port: 443
@@ -28,22 +25,23 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: firefox
 - name: 🇷🇴 罗马尼亚 (Romania) 03 - george
-  server: hy2-new.aspidnet.xyz
+  server: 162.249.125.133
   port: 443
   udp: true
   type: hysteria2
   password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
   sni: hy2-new.aspidnet.xyz
-  skip-cert-verify: true
+  skip-cert-verify: false
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
 - name: 🇷🇴 罗马尼亚 (Romania) 04 - george
-  server: 194.68.44.42
-  port: 64546
+  server: 185.156.44.99
+  port: 443
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: U83u9OGpvSatIUW7LsWffr
+  type: hysteria2
+  password: gf1:gfhysteria2024
+  sni: whatsapp.com
+  skip-cert-verify: true
 - name: 🇷🇴 罗马尼亚 (Romania) 05 - george
   server: 82.152.132.211
   port: 8044
@@ -52,20 +50,12 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: dCamglzrORaopqbpBlptzbt9QdiH4CSN
 - name: 🇷🇴 罗马尼亚 (Romania) 06 - george
-  server: 185.156.44.99
-  port: 443
-  udp: true
-  type: hysteria2
-  password: gf1:gfhysteria2024
-  sni: www.amazon.com
-  skip-cert-verify: true
-- name: 🇷🇴 罗马尼亚 (Romania) 07 - george
-  server: 154.46.31.106
-  port: 443
+  server: 194.68.44.42
+  port: 64546
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: QFWzCw2uX9B9i6qAYeFBIE
+  password: U83u9OGpvSatIUW7LsWffr
 proxy-groups:
 - name: PROXIES
   type: select
@@ -77,7 +67,6 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 04 - george
   - 🇷🇴 罗马尼亚 (Romania) 05 - george
   - 🇷🇴 罗马尼亚 (Romania) 06 - george
-  - 🇷🇴 罗马尼亚 (Romania) 07 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -89,6 +78,5 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 04 - george
   - 🇷🇴 罗马尼亚 (Romania) 05 - george
   - 🇷🇴 罗马尼亚 (Romania) 06 - george
-  - 🇷🇴 罗马尼亚 (Romania) 07 - george
 rules:
 - MATCH,PROXIES

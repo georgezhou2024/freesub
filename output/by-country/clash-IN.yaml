@@ -17,6 +17,17 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: firefox
 - name: 🇮🇳 印度 (India) 02 - george
+  server: 13.140.56.100
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 13.140.56.100
+- name: 🇮🇳 印度 (India) 03 - george
   server: 107.181.139.144
   port: 443
   udp: true
@@ -29,52 +40,13 @@ proxies:
     short-id: df7b054cfc29800c
   servername: in1.japancase.site
   client-fingerprint: firefox
-- name: 🇮🇳 印度 (India) 03 - george
-  server: 122.176.216.52
-  port: 443
-  udp: true
-  type: vless
-  uuid: 16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
-  tls: true
-  servername: app-6ada5023.deploy.meerasolution.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
-    headers:
-      Host: app-6ada5023.deploy.meerasolution.com
 - name: 🇮🇳 印度 (India) 04 - george
-  server: 13.140.56.100
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 13.140.56.100
-- name: 🇮🇳 印度 (India) 05 - george
   server: 172.105.39.124
   port: 7002
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: RexnBgU7EV5ADxG
-- name: 🇮🇳 印度 (India) 06 - george
-  server: dddz-1-x.473221.xyz
-  port: 33170
-  udp: true
-  type: vless
-  uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: e-3jHS8LUXVi0ZWuwUAxd7OjFznKPr3N0B-H4SuW0yk
-    short-id: c732f5c7529fa4
-  servername: web.hkha.org
-  client-fingerprint: edge
 proxy-groups:
 - name: PROXIES
   type: select
@@ -84,8 +56,6 @@ proxy-groups:
   - 🇮🇳 印度 (India) 02 - george
   - 🇮🇳 印度 (India) 03 - george
   - 🇮🇳 印度 (India) 04 - george
-  - 🇮🇳 印度 (India) 05 - george
-  - 🇮🇳 印度 (India) 06 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -95,7 +65,5 @@ proxy-groups:
   - 🇮🇳 印度 (India) 02 - george
   - 🇮🇳 印度 (India) 03 - george
   - 🇮🇳 印度 (India) 04 - george
-  - 🇮🇳 印度 (India) 05 - george
-  - 🇮🇳 印度 (India) 06 - george
 rules:
 - MATCH,PROXIES

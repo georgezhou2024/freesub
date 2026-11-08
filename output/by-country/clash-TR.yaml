@@ -15,6 +15,16 @@ proxies:
   obfs: salamander
   obfs-password: 642516f2-f9bd-41ce-9904-dee699c39cf9
 - name: 🇹🇷 土耳其 (Turkey) 02 - george
+  server: 153.56.210.134
+  port: 34121
+  udp: true
+  type: hysteria2
+  password: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 9a33460c-b037-47aa-a606-d04211f4e0ec
+- name: 🇹🇷 土耳其 (Turkey) 03 - george
   server: 62.133.63.45
   port: 8444
   udp: true
@@ -29,16 +39,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: GunService
-- name: 🇹🇷 土耳其 (Turkey) 03 - george
-  server: 153.56.210.134
-  port: 34121
-  udp: true
-  type: hysteria2
-  password: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 9a33460c-b037-47aa-a606-d04211f4e0ec
 - name: 🇹🇷 土耳其 (Turkey) 04 - george
   server: 153.56.210.134
   port: 57251
@@ -60,7 +60,7 @@ proxies:
     public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
     short-id: 9e419c0759b54d6f
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select

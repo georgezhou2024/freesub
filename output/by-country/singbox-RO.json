@@ -4,20 +4,12 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "shadowsocks",
       "tag": "🇷🇴 罗马尼亚 (Romania) 01 - george",
-      "server": "162.249.125.133",
+      "server": "bogging-eyeteeth-fly.freesocks.work",
       "server_port": 443,
-      "password": "QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s",
-      "tls": {
-        "enabled": true,
-        "server_name": "hy2-new.aspidnet.xyz",
-        "insecure": false
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "c1b4086fea89914496c7e10967a419216566"
-      }
+      "method": "chacha20-ietf-poly1305",
+      "password": "QFWzCw2uX9B9i6qAYeFBIE"
     },
     {
       "type": "vless",
@@ -43,13 +35,13 @@
     {
       "type": "hysteria2",
       "tag": "🇷🇴 罗马尼亚 (Romania) 03 - george",
-      "server": "hy2-new.aspidnet.xyz",
+      "server": "162.249.125.133",
       "server_port": 443,
       "password": "QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s",
       "tls": {
         "enabled": true,
         "server_name": "hy2-new.aspidnet.xyz",
-        "insecure": true
+        "insecure": false
       },
       "obfs": {
         "type": "salamander",
@@ -57,12 +49,16 @@
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "hysteria2",
       "tag": "🇷🇴 罗马尼亚 (Romania) 04 - george",
-      "server": "194.68.44.42",
-      "server_port": 64546,
-      "method": "chacha20-ietf-poly1305",
-      "password": "U83u9OGpvSatIUW7LsWffr"
+      "server": "185.156.44.99",
+      "server_port": 443,
+      "password": "gf1:gfhysteria2024",
+      "tls": {
+        "enabled": true,
+        "server_name": "whatsapp.com",
+        "insecure": true
+      }
     },
     {
       "type": "shadowsocks",
@@ -73,24 +69,12 @@
       "password": "dCamglzrORaopqbpBlptzbt9QdiH4CSN"
     },
     {
-      "type": "hysteria2",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 06 - george",
-      "server": "185.156.44.99",
-      "server_port": 443,
-      "password": "gf1:gfhysteria2024",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amazon.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 07 - george",
-      "server": "154.46.31.106",
-      "server_port": 443,
+      "tag": "🇷🇴 罗马尼亚 (Romania) 06 - george",
+      "server": "194.68.44.42",
+      "server_port": 64546,
       "method": "chacha20-ietf-poly1305",
-      "password": "QFWzCw2uX9B9i6qAYeFBIE"
+      "password": "U83u9OGpvSatIUW7LsWffr"
     },
     {
       "type": "selector",
@@ -102,8 +86,7 @@
         "🇷🇴 罗马尼亚 (Romania) 03 - george",
         "🇷🇴 罗马尼亚 (Romania) 04 - george",
         "🇷🇴 罗马尼亚 (Romania) 05 - george",
-        "🇷🇴 罗马尼亚 (Romania) 06 - george",
-        "🇷🇴 罗马尼亚 (Romania) 07 - george"
+        "🇷🇴 罗马尼亚 (Romania) 06 - george"
       ]
     },
     {
@@ -115,8 +98,7 @@
         "🇷🇴 罗马尼亚 (Romania) 03 - george",
         "🇷🇴 罗马尼亚 (Romania) 04 - george",
         "🇷🇴 罗马尼亚 (Romania) 05 - george",
-        "🇷🇴 罗马尼亚 (Romania) 06 - george",
-        "🇷🇴 罗马尼亚 (Romania) 07 - george"
+        "🇷🇴 罗马尼亚 (Romania) 06 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
