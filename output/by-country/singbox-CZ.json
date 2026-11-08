@@ -4,8 +4,34 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇨🇿 捷克 (Czech) 01 - george",
+      "server": "172.66.44.98",
+      "server_port": 443,
+      "password": "Nd2bFutZK2ma29bYqC@z",
+      "tls": {
+        "enabled": true,
+        "server_name": "4oKhrijUyjyTFlnvoWhL3ZFW5wSGI34O.PAGeS.DeV",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tr/2W6ONoBA1CTMk80znuAVgQ9dvWey2KD8?ed=2560",
+        "headers": {
+          "Host": "4okhrijuyjytflnvowhl3zfw5wsgi34o.pages.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇿 捷克 (Czech) 02 - george",
       "server": "195.123.245.241",
       "server_port": 443,
       "uuid": "7c053ca8-38cc-45e2-930c-eda1fd66f903",
@@ -26,7 +52,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 02 - george",
+      "tag": "🇨🇿 捷克 (Czech) 03 - george",
       "server": "212.102.38.25",
       "server_port": 443,
       "uuid": "b34a52cb-cd52-49a8-9362-b8e97c151d49",
@@ -47,7 +73,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 03 - george",
+      "tag": "🇨🇿 捷克 (Czech) 04 - george",
       "server": "193.124.17.190",
       "server_port": 443,
       "uuid": "fad0b9a6-187d-4fcc-96fc-498bc5b3135a",
@@ -73,7 +99,8 @@
         "auto",
         "🇨🇿 捷克 (Czech) 01 - george",
         "🇨🇿 捷克 (Czech) 02 - george",
-        "🇨🇿 捷克 (Czech) 03 - george"
+        "🇨🇿 捷克 (Czech) 03 - george",
+        "🇨🇿 捷克 (Czech) 04 - george"
       ]
     },
     {
@@ -82,7 +109,8 @@
       "outbounds": [
         "🇨🇿 捷克 (Czech) 01 - george",
         "🇨🇿 捷克 (Czech) 02 - george",
-        "🇨🇿 捷克 (Czech) 03 - george"
+        "🇨🇿 捷克 (Czech) 03 - george",
+        "🇨🇿 捷克 (Czech) 04 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

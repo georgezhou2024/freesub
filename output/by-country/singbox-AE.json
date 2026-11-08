@@ -4,32 +4,17 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇦🇪 阿联酋 (UAE) 01 - george",
-      "server": "162.159.153.4",
-      "server_port": 443,
-      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
-      "tls": {
-        "enabled": true,
-        "server_name": "rAyAn-007.mAxImA.DpDnS.OrG",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "rAyAn-007.mAxImA.DpDnS.OrG"
-        }
-      }
+      "server": "151.241.19.36",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "shadowsocks",
       "tag": "🇦🇪 阿联酋 (UAE) 02 - george",
-      "server": "151.241.19.36",
+      "server": "151.241.19.29",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -43,7 +28,7 @@
       "tls": {
         "enabled": true,
         "server_name": "hy2.aspidnet.xyz",
-        "insecure": true
+        "insecure": false
       },
       "obfs": {
         "type": "salamander",
@@ -51,16 +36,8 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇦🇪 阿联酋 (UAE) 04 - george",
-      "server": "151.241.19.29",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
       "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 05 - george",
+      "tag": "🇦🇪 阿联酋 (UAE) 04 - george",
       "server": "84.235.244.108",
       "server_port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
@@ -74,7 +51,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 06 - george",
+      "tag": "🇦🇪 阿联酋 (UAE) 05 - george",
       "server": "95.174.68.188",
       "server_port": 14430,
       "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
@@ -95,8 +72,7 @@
         "🇦🇪 阿联酋 (UAE) 02 - george",
         "🇦🇪 阿联酋 (UAE) 03 - george",
         "🇦🇪 阿联酋 (UAE) 04 - george",
-        "🇦🇪 阿联酋 (UAE) 05 - george",
-        "🇦🇪 阿联酋 (UAE) 06 - george"
+        "🇦🇪 阿联酋 (UAE) 05 - george"
       ]
     },
     {
@@ -107,8 +83,7 @@
         "🇦🇪 阿联酋 (UAE) 02 - george",
         "🇦🇪 阿联酋 (UAE) 03 - george",
         "🇦🇪 阿联酋 (UAE) 04 - george",
-        "🇦🇪 阿联酋 (UAE) 05 - george",
-        "🇦🇪 阿联酋 (UAE) 06 - george"
+        "🇦🇪 阿联酋 (UAE) 05 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
