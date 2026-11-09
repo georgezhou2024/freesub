@@ -5,25 +5,28 @@
   "outbounds": [
     {
       "type": "vmess",
-      "tag": "🇮🇩 印尼 (Indonesia) 01 - george",
-      "server": "zfd-boardv2.kunlun01dns.com",
-      "server_port": 16298,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
-      "security": "auto"
+      "tag": "🇨🇳 CN 01 - george",
+      "server": "39.108.113.127",
+      "server_port": 10086,
+      "uuid": "b0253c6c-0b96-4950-bde1-669f13bc1a01",
+      "security": "auto",
+      "transport": {
+        "type": "ws"
+      }
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇩 印尼 (Indonesia) 01 - george"
+        "🇨🇳 CN 01 - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇩 印尼 (Indonesia) 01 - george"
+        "🇨🇳 CN 01 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

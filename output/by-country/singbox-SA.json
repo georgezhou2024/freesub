@@ -5,22 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - george",
-      "server": "esso-music-coroborito.keno.su",
-      "server_port": 443,
-      "uuid": "dc95c1dd-2cd3-414c-8cf1-71ae86dad666",
+      "tag": "🇸🇦 沙特 (Saudi Arabia) 01 - george",
+      "server": "216.106.191.201",
+      "server_port": 10403,
+      "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "esso-music-coroborito.keno.su",
+        "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "_MeP-WwmolUvi6wMXNoSs_zo6miG_OW7xk4ibzADiHY",
-          "short_id": ""
+          "public_key": "suK-MYTtZhJ9IJgsxPLTHLQadNotDqYslQcd5BNV_EQ",
+          "short_id": "6aa50b0cc8d23464"
         }
       }
     },
@@ -29,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇪 爱沙尼亚 (Estonia) 01 - george"
+        "🇸🇦 沙特 (Saudi Arabia) 01 - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇪 爱沙尼亚 (Estonia) 01 - george"
+        "🇸🇦 沙特 (Saudi Arabia) 01 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

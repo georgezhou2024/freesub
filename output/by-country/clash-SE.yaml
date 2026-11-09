@@ -26,30 +26,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇸🇪 瑞典 (Sweden) 04 - george
-  server: 31.76.81.144
-  port: 443
-  udp: true
-  type: vless
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg
-    short-id: a1037b25dcef6aa7
-  servername: sw.golangwikito.cfd
-  client-fingerprint: firefox
-- name: 🇸🇪 瑞典 (Sweden) 05 - george
-  server: 62.93.166.184
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 06 - george
   server: 70.34.207.14
   port: 443
   udp: true
@@ -57,26 +33,7 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
   skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 07 - george
-  server: 95.143.196.97
-  port: 443
-  udp: true
-  type: trojan
-  password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
-  sni: connect-se.mimowhat.online
-  skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 08 - george
-  server: 5.178.109.174
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 5.178.109.174
-- name: 🇸🇪 瑞典 (Sweden) 09 - george
+- name: 🇸🇪 瑞典 (Sweden) 05 - george
   server: 138.199.55.230
   port: 1270
   udp: true
@@ -87,7 +44,7 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 10 - george
+- name: 🇸🇪 瑞典 (Sweden) 06 - george
   server: 138.124.86.230
   port: 48115
   udp: true
@@ -100,7 +57,18 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: 138-124-86-230-sslip-io
-- name: 🇸🇪 瑞典 (Sweden) 11 - george
+- name: 🇸🇪 瑞典 (Sweden) 07 - george
+  server: 5.178.109.174
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 5.178.109.174
+- name: 🇸🇪 瑞典 (Sweden) 08 - george
   server: 194.104.94.141
   port: 443
   udp: true
@@ -109,7 +77,66 @@ proxies:
   tls: true
   servername: se3.shtil.io
   skip-cert-verify: false
+  client-fingerprint: chrome
+- name: 🇸🇪 瑞典 (Sweden) 09 - george
+  server: 62.93.166.184
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇸🇪 瑞典 (Sweden) 10 - george
+  server: 362c1eg.se1.h1clayd.click
+  port: 443
+  udp: true
+  type: vless
+  uuid: c82031be-e90f-4b15-ab4f-7ccef236d3ca
+  tls: true
+  reality-opts:
+    public-key: BLhS7fE4Yh6kAADw7yRIn2PzKun-JDagJHJNOePYRSY
+    short-id: bee802ae4ab66496
+  servername: 362c1eg.se1.h1clayd.click
   client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: ''
+- name: 🇸🇪 瑞典 (Sweden) 11 - george
+  server: mirinday385.dpdns.org
+  port: 8082
+  udp: true
+  type: vless
+  uuid: a5ecffc2-6c54-4b08-9ea7-e9e14f8caadb
+  tls: true
+  servername: mirinday385.dpdns.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: httpupgrade
+  httpupgrade-opts:
+    path: /am3rum
+    headers:
+      Host: ''
+- name: 🇸🇪 瑞典 (Sweden) 12 - george
+  server: 95.143.196.97
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 769f34f0-1500-488f-b414-03bc90666502
+  sni: se.mimowhat.online
+  skip-cert-verify: false
+- name: 🇸🇪 瑞典 (Sweden) 13 - george
+  server: p1.alonex.cc.cd
+  port: 8443
+  udp: true
+  type: vless
+  uuid: e51e6447-078d-4766-91b4-dfa84c3cb579
+  tls: true
+  servername: p1.alonex.cc.cd
+  skip-cert-verify: false
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -126,6 +153,8 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 09 - george
   - 🇸🇪 瑞典 (Sweden) 10 - george
   - 🇸🇪 瑞典 (Sweden) 11 - george
+  - 🇸🇪 瑞典 (Sweden) 12 - george
+  - 🇸🇪 瑞典 (Sweden) 13 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -142,5 +171,7 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 09 - george
   - 🇸🇪 瑞典 (Sweden) 10 - george
   - 🇸🇪 瑞典 (Sweden) 11 - george
+  - 🇸🇪 瑞典 (Sweden) 12 - george
+  - 🇸🇪 瑞典 (Sweden) 13 - george
 rules:
 - MATCH,PROXIES
