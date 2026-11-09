@@ -4,83 +4,36 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - george",
-      "server": "172.66.44.98",
+      "server": "129.101.103.211",
       "server_port": 443,
-      "password": "Nd2bFutZK2ma29bYqC@z",
+      "uuid": "3f5e89d5-591f-4ac9-b071-b05680b573c3",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "4oKhrijUyjyTFlnvoWhL3ZFW5wSGI34O.PAGeS.DeV",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
+        "server_name": "de2.gacvpn.site",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tr/2W6ONoBA1CTMk80znuAVgQ9dvWey2KD8?ed=2560",
-        "headers": {
-          "Host": "4okhrijuyjytflnvowhl3zfw5wsgi34o.pages.dev"
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "8fSwTqCwJ2HWGxcTQsZs8Sx0hRk2Ru7HFdu-iLnesGg",
+          "short_id": "53d0d0611a"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 02 - george",
-      "server": "195.123.245.241",
-      "server_port": 443,
-      "uuid": "7c053ca8-38cc-45e2-930c-eda1fd66f903",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "gateway.icloud.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "hlY5ce1UsVIgE46y5PlEZhUsSaXUnCtoDLLaGrhInjw",
-          "short_id": "23d0950d60bc0d5b"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 03 - george",
-      "server": "212.102.38.25",
-      "server_port": 443,
-      "uuid": "b34a52cb-cd52-49a8-9362-b8e97c151d49",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "udemy.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE",
-          "short_id": "e90360ec7cc61b20"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 04 - george",
       "server": "193.124.17.190",
       "server_port": 443,
-      "uuid": "fad0b9a6-187d-4fcc-96fc-498bc5b3135a",
+      "uuid": "13aef2e0-b3fb-4322-a0e9-c10b908ce6b5",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.foxsports.com",
+        "server_name": "www.techradar.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -88,7 +41,7 @@
         "reality": {
           "enabled": true,
           "public_key": "J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk",
-          "short_id": "8325360e8bd2"
+          "short_id": "87f895f23064"
         }
       }
     },
@@ -98,9 +51,7 @@
       "outbounds": [
         "auto",
         "🇨🇿 捷克 (Czech) 01 - george",
-        "🇨🇿 捷克 (Czech) 02 - george",
-        "🇨🇿 捷克 (Czech) 03 - george",
-        "🇨🇿 捷克 (Czech) 04 - george"
+        "🇨🇿 捷克 (Czech) 02 - george"
       ]
     },
     {
@@ -108,9 +59,7 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇿 捷克 (Czech) 01 - george",
-        "🇨🇿 捷克 (Czech) 02 - george",
-        "🇨🇿 捷克 (Czech) 03 - george",
-        "🇨🇿 捷克 (Czech) 04 - george"
+        "🇨🇿 捷克 (Czech) 02 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

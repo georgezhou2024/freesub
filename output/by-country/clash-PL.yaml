@@ -5,6 +5,49 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - george
+  server: 8.6.112.0
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 8eb92a78-ec8d-4ff6-8a2d-8b801367be87
+  tls: true
+  servername: KAmraN02-3rpN9m-2.KAMran-02.WORKErS.dEV
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: KAmraN02-3rpN9m-2.KAMran-02.WORKErS.dEV
+- name: 🇵🇱 波兰 (Poland) 02 - george
+  server: 217.30.10.44
+  port: 9042
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: S7KwUu7yBy58S3Ga
+- name: 🇵🇱 波兰 (Poland) 03 - george
+  server: 217.30.10.44
+  port: 9006
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: FAdUvMJUq5vDgKEq
+- name: 🇵🇱 波兰 (Poland) 04 - george
+  server: 217.30.10.44
+  port: 9063
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: aQqJbtwFGcCCaeL3
+- name: 🇵🇱 波兰 (Poland) 05 - george
+  server: 217.30.10.44
+  port: 9052
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: jt2ekBNc9HuVtm2a
+- name: 🇵🇱 波兰 (Poland) 06 - george
   server: 2.26.6.1
   port: 2087
   udp: true
@@ -14,7 +57,20 @@ proxies:
   servername: 2.26.6.1
   skip-cert-verify: true
   client-fingerprint: chrome
-- name: 🇵🇱 波兰 (Poland) 02 - george
+- name: 🇵🇱 波兰 (Poland) 07 - george
+  server: 150.251.113.34
+  port: 443
+  udp: true
+  type: vless
+  uuid: d7d724b5-17ce-4f3c-877d-dfbf0f07afa1
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 8yMLSTbkpJFfbgTjNzotzz7U8OT6AERrclgKdKrXXW8
+    short-id: 150a627d15154cf2
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇵🇱 波兰 (Poland) 08 - george
   server: 70.34.252.255
   port: 443
   udp: true
@@ -22,32 +78,6 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
   skip-cert-verify: false
-- name: 🇵🇱 波兰 (Poland) 03 - george
-  server: 201.58.181.231
-  port: 4443
-  udp: true
-  type: vless
-  uuid: fafc7c16-f890-45ee-a856-02df225172dd
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: kn7Lh0yi6CYrHW5KpiQrfrs9FED-mbbEEKgOoiDkx2M
-    short-id: 858affa9443ebac6
-  servername: www.kinopoisk.ru
-  client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 04 - george
-  server: 82.118.22.161
-  port: 443
-  udp: true
-  type: vless
-  uuid: 05488656-d4bf-4634-8b2e-e4ff5a56c7e2
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E
-    short-id: fa3ea655619a3e78
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -57,6 +87,10 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 02 - george
   - 🇵🇱 波兰 (Poland) 03 - george
   - 🇵🇱 波兰 (Poland) 04 - george
+  - 🇵🇱 波兰 (Poland) 05 - george
+  - 🇵🇱 波兰 (Poland) 06 - george
+  - 🇵🇱 波兰 (Poland) 07 - george
+  - 🇵🇱 波兰 (Poland) 08 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -66,5 +100,9 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 02 - george
   - 🇵🇱 波兰 (Poland) 03 - george
   - 🇵🇱 波兰 (Poland) 04 - george
+  - 🇵🇱 波兰 (Poland) 05 - george
+  - 🇵🇱 波兰 (Poland) 06 - george
+  - 🇵🇱 波兰 (Poland) 07 - george
+  - 🇵🇱 波兰 (Poland) 08 - george
 rules:
 - MATCH,PROXIES
