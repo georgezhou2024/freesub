@@ -4,25 +4,25 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - george
-  server: 112.120.123.140
-  port: 443
+- name: 🇸🇬 新加坡 (Singapore) 01 (家宽) - george
+  server: 116.88.224.217
+  port: 8080
   udp: true
-  type: hysteria2
-  password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-  sni: 7017cade-tmm5c0-u1dz9j-12hj8.nw4.hyhuawei.com
-  skip-cert-verify: false
+  type: vmess
+  uuid: 6f4f0eb5-fe86-41ca-eccb-a6ca68f88d9b
+  alterId: 0
+  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - george
+  - 🇸🇬 新加坡 (Singapore) 01 (家宽) - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - george
+  - 🇸🇬 新加坡 (Singapore) 01 (家宽) - george
 rules:
 - MATCH,PROXIES

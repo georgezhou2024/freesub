@@ -7,21 +7,37 @@
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 01 - george",
       "server": "217.30.10.44",
-      "server_port": 9076,
+      "server_port": 9042,
       "method": "aes-256-cfb",
-      "password": "S2zDyyPcmZN2h8EC"
+      "password": "S7KwUu7yBy58S3Ga"
     },
     {
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 02 - george",
       "server": "217.30.10.44",
-      "server_port": 9052,
+      "server_port": 9063,
       "method": "aes-256-cfb",
-      "password": "jt2ekBNc9HuVtm2a"
+      "password": "aQqJbtwFGcCCaeL3"
     },
     {
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 03 - george",
+      "server": "217.30.10.44",
+      "server_port": 9006,
+      "method": "aes-256-cfb",
+      "password": "FAdUvMJUq5vDgKEq"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 04 - george",
+      "server": "217.30.10.44",
+      "server_port": 9099,
+      "method": "aes-256-cfb",
+      "password": "7heRqkPG3hg4UnRm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 05 - george",
       "server": "217.30.10.44",
       "server_port": 9071,
       "method": "aes-256-cfb",
@@ -29,27 +45,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 04 - george",
+      "tag": "🇵🇱 波兰 (Poland) 06 - george",
       "server": "217.30.10.44",
       "server_port": 9062,
       "method": "aes-256-cfb",
       "password": "tkhHVxxfM2QErBWe"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 05 - george",
-      "server": "217.30.10.44",
-      "server_port": 9042,
-      "method": "aes-256-cfb",
-      "password": "S7KwUu7yBy58S3Ga"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 06 - george",
-      "server": "217.30.10.44",
-      "server_port": 9063,
-      "method": "aes-256-cfb",
-      "password": "aQqJbtwFGcCCaeL3"
     },
     {
       "type": "shadowsocks",
@@ -63,37 +63,21 @@
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 08 - george",
       "server": "217.30.10.44",
-      "server_port": 9006,
+      "server_port": 9076,
       "method": "aes-256-cfb",
-      "password": "FAdUvMJUq5vDgKEq"
+      "password": "S2zDyyPcmZN2h8EC"
     },
     {
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 09 - george",
       "server": "217.30.10.44",
-      "server_port": 9099,
+      "server_port": 9052,
       "method": "aes-256-cfb",
-      "password": "7heRqkPG3hg4UnRm"
+      "password": "jt2ekBNc9HuVtm2a"
     },
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 10 - george",
-      "server": "2.26.6.1",
-      "server_port": 2087,
-      "uuid": "b9fdc03f-389b-4cda-9be4-155b623bee15",
-      "tls": {
-        "enabled": true,
-        "server_name": "2.26.6.1",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 11 - george",
       "server": "177.202.68.217",
       "server_port": 443,
       "uuid": "f8d52ece-fad4-478d-875d-df6eed3befa7",
@@ -109,6 +93,22 @@
           "enabled": true,
           "public_key": "DsTVLCehsKvfFGtNZU5leKOLTlEp28qeifHYtRKOFwg",
           "short_id": "986ede37bf6925ae"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 11 - george",
+      "server": "2.26.6.1",
+      "server_port": 2087,
+      "uuid": "b9fdc03f-389b-4cda-9be4-155b623bee15",
+      "tls": {
+        "enabled": true,
+        "server_name": "2.26.6.1",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -146,48 +146,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 14 - george",
-      "server": "msk9.gacvpn.site",
-      "server_port": 443,
-      "uuid": "3f5e89d5-591f-4ac9-b071-b05680b573c3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl2-edge.gacvpn.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ZrIwTVGx75Dkh7b7eKnczKFkkADOfSnVgeqYXTlUhUI",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 15 - george",
-      "server": "82.118.22.161",
-      "server_port": 443,
-      "uuid": "05488656-d4bf-4634-8b2e-e4ff5a56c7e2",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E",
-          "short_id": "fa3ea655619a3e78"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -204,9 +162,7 @@
         "🇵🇱 波兰 (Poland) 10 - george",
         "🇵🇱 波兰 (Poland) 11 - george",
         "🇵🇱 波兰 (Poland) 12 - george",
-        "🇵🇱 波兰 (Poland) 13 - george",
-        "🇵🇱 波兰 (Poland) 14 - george",
-        "🇵🇱 波兰 (Poland) 15 - george"
+        "🇵🇱 波兰 (Poland) 13 - george"
       ]
     },
     {
@@ -225,9 +181,7 @@
         "🇵🇱 波兰 (Poland) 10 - george",
         "🇵🇱 波兰 (Poland) 11 - george",
         "🇵🇱 波兰 (Poland) 12 - george",
-        "🇵🇱 波兰 (Poland) 13 - george",
-        "🇵🇱 波兰 (Poland) 14 - george",
-        "🇵🇱 波兰 (Poland) 15 - george"
+        "🇵🇱 波兰 (Poland) 13 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
