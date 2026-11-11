@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇪🇪 爱沙尼亚 (Estonia) 01 - george
-  server: 185.215.184.53
-  port: 443
+- name: 🇳🇬 尼日利亚 (Nigeria) 01 - george
+  server: 23.95.72.244
+  port: 50889
   udp: true
   type: vless
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+  uuid: 9a5e7b1c-bf39-4b1f-891f-ac87824ee38f
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-    short-id: 428ef87fd47a3a32
-  servername: dvizhok.su
+    public-key: nRsOy4cUKjMIi5k8HtdfY9qnrm8fMe031yi56zMtzSg
+    short-id: 2eae70bfca3776cc
+  servername: api.adidas.com
   client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇪🇪 爱沙尼亚 (Estonia) 01 - george
+  - 🇳🇬 尼日利亚 (Nigeria) 01 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇪🇪 爱沙尼亚 (Estonia) 01 - george
+  - 🇳🇬 尼日利亚 (Nigeria) 01 - george
 rules:
 - MATCH,PROXIES
