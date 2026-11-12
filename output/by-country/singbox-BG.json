@@ -7,9 +7,9 @@
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - george",
       "server": "213.183.63.60",
-      "server_port": 9085,
+      "server_port": 9098,
       "method": "aes-256-cfb",
-      "password": "9ej82EKe2gq7gLAM"
+      "password": "aLpQtfEZe445QyHk"
     },
     {
       "type": "shadowsocks",
@@ -23,66 +23,60 @@
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - george",
       "server": "213.183.63.60",
-      "server_port": 9049,
-      "method": "aes-256-cfb",
-      "password": "PRBf4BS2HvJqtWxY"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 04 - george",
-      "server": "213.183.63.60",
       "server_port": 9066,
       "method": "aes-256-cfb",
       "password": "2KUaE2a8NWTvuCZ3"
     },
     {
       "type": "shadowsocks",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 04 - george",
+      "server": "213.183.63.60",
+      "server_port": 9085,
+      "method": "aes-256-cfb",
+      "password": "9ej82EKe2gq7gLAM"
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 05 - george",
-      "server": "213.183.63.60",
-      "server_port": 9098,
-      "method": "aes-256-cfb",
-      "password": "aLpQtfEZe445QyHk"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 06 - george",
-      "server": "213.183.63.60",
-      "server_port": 9061,
-      "method": "aes-256-cfb",
-      "password": "4R3hUfZ2FHhDmNcP"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 07 - george",
       "server": "213.183.63.60",
       "server_port": 9054,
       "method": "aes-256-cfb",
       "password": "VcFuyXvND2yQWSFY"
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 06 - george",
+      "server": "213.183.63.60",
+      "server_port": 9049,
+      "method": "aes-256-cfb",
+      "password": "PRBf4BS2HvJqtWxY"
+    },
+    {
       "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 08 - george",
-      "server": "bg2.gacvpn.site",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 07 - george",
+      "server": "88.80.150.15",
       "server_port": 443,
-      "uuid": "3f5e89d5-591f-4ac9-b071-b05680b573c3",
-      "flow": "xtls-rprx-vision",
+      "uuid": "1d46250c-f015-439d-a7fd-c4d9e2a4c63d",
       "tls": {
         "enabled": true,
-        "server_name": "bg2.gacvpn.site",
+        "server_name": "bg2.oncloudvpn.com",
+        "insecure": false,
+        "alpn": [
+          "h2"
+        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SgFQg7srP1xgjWhnSU9lpUMDRlsoLIXlw6nX-mfOdlg",
-          "short_id": "1f8bab7ad81089f2"
+          "fingerprint": "edge"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
       }
     },
     {
       "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 09 - george",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 08 - george",
       "server": "195.123.226.21",
       "server_port": 443,
       "uuid": "6589c320-db68-43cd-a273-b46299bab355",
@@ -113,8 +107,7 @@
         "🇧🇬 保加利亚 (Bulgaria) 05 - george",
         "🇧🇬 保加利亚 (Bulgaria) 06 - george",
         "🇧🇬 保加利亚 (Bulgaria) 07 - george",
-        "🇧🇬 保加利亚 (Bulgaria) 08 - george",
-        "🇧🇬 保加利亚 (Bulgaria) 09 - george"
+        "🇧🇬 保加利亚 (Bulgaria) 08 - george"
       ]
     },
     {
@@ -128,8 +121,7 @@
         "🇧🇬 保加利亚 (Bulgaria) 05 - george",
         "🇧🇬 保加利亚 (Bulgaria) 06 - george",
         "🇧🇬 保加利亚 (Bulgaria) 07 - george",
-        "🇧🇬 保加利亚 (Bulgaria) 08 - george",
-        "🇧🇬 保加利亚 (Bulgaria) 09 - george"
+        "🇧🇬 保加利亚 (Bulgaria) 08 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
