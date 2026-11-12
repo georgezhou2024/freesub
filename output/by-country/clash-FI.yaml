@@ -5,17 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - george
-  server: 45.144.234.157
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 45.144.234.157
-- name: 🇫🇮 芬兰 (Finland) 02 - george
   server: 177.202.75.56
   port: 443
   udp: true
@@ -23,7 +12,7 @@ proxies:
   password: 146d567c-6335-4e63-a8aa-7ec068642440
   sni: fi1.obxodvpn.us
   skip-cert-verify: false
-- name: 🇫🇮 芬兰 (Finland) 03 - george
+- name: 🇫🇮 芬兰 (Finland) 02 - george
   server: 65.109.208.183
   port: 443
   udp: true
@@ -33,20 +22,20 @@ proxies:
   servername: free.for.member.iiproxy.com
   skip-cert-verify: false
   client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 04 - george
-  server: 72.35.246.39
-  port: 2053
+- name: 🇫🇮 芬兰 (Finland) 03 - george
+  server: 169.40.34.41
+  port: 443
   udp: true
   type: vless
-  uuid: b6c29ae7-4748-4049-b642-b695c0d2c776
+  uuid: 622654a4-b666-000b-9260-fb717e05154f
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: TSOm7XIZvGzYoCbh_lFFA9PTQJqI-JU5kKIAffGmUWg
-    short-id: 5e39e518bfac6392
-  servername: vk.ru
-  client-fingerprint: ''
-- name: 🇫🇮 芬兰 (Finland) 05 - george
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+    short-id: 1c3e8241a8743df9
+  servername: key-master-saver.com
+  client-fingerprint: ios
+- name: 🇫🇮 芬兰 (Finland) 04 - george
   server: 95.216.27.15
   port: 2053
   udp: true
@@ -67,7 +56,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 02 - george
   - 🇫🇮 芬兰 (Finland) 03 - george
   - 🇫🇮 芬兰 (Finland) 04 - george
-  - 🇫🇮 芬兰 (Finland) 05 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -77,6 +65,5 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 02 - george
   - 🇫🇮 芬兰 (Finland) 03 - george
   - 🇫🇮 芬兰 (Finland) 04 - george
-  - 🇫🇮 芬兰 (Finland) 05 - george
 rules:
 - MATCH,PROXIES

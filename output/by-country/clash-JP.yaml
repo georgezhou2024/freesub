@@ -5,96 +5,28 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 - george
-  server: 168.138.205.100
+  server: jpa.123069.xyz
   port: 53758
   udp: true
   type: ss
   cipher: aes-128-gcm
   password: Bwlqh7GcFB
 - name: 🇯🇵 日本 (Japan) 02 - george
-  server: 168.110.16.191
-  port: 8444
-  udp: true
-  type: trojan
-  password: Hy2OracleTokyo2026Owner
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 03 - george
-  server: 168.138.43.75
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: jp01.a0a.xyz
-- name: 🇯🇵 日本 (Japan) 04 - george
-  server: 3.114.220.22
-  port: 10583
-  udp: true
-  type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  servername: www.apple.com
-  client-fingerprint: random
-- name: 🇯🇵 日本 (Japan) 05 - george
-  server: 3.114.220.22
-  port: 19645
-  udp: true
-  type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 06 - george
-  server: 8.211.175.236
-  port: 8443
-  udp: true
-  type: hysteria2
-  password: u63SxILNwtrQZ7Y1ZrFaZfsA
-  sni: 8.211.175.236
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 07 - george
-  server: 3.114.220.22
-  port: 18007
-  udp: true
-  type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  servername: www.apple.com
-  client-fingerprint: qq
-- name: 🇯🇵 日本 (Japan) 08 - george
   server: 84.247.155.196
-  port: 443
+  port: 80
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: 3eOFeNssde7PYYMv
-- name: 🇯🇵 日本 (Japan) 09 - george
-  server: 158.101.140.31
-  port: 1985
+- name: 🇯🇵 日本 (Japan) 03 - george
+  server: 8.209.247.109
+  port: 443
   udp: true
   type: hysteria2
-  password: 4ab7d1e3-f2a7-44ca-91bd-45d3c5f423d2
-  sni: 158.101.140.31
+  password: usqmqUKJFIlCmvkCNSY64L3k
+  sni: bing.com
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 10 - george
+- name: 🇯🇵 日本 (Japan) 04 - george
   server: 168.110.45.41
   port: 23444
   udp: true
@@ -107,7 +39,113 @@ proxies:
     short-id: 119c9e68498f5900
   servername: www.microsoft.com
   client-fingerprint: chrome
+- name: 🇯🇵 日本 (Japan) 05 - george
+  server: 158.101.140.31
+  port: 1985
+  udp: true
+  type: hysteria2
+  password: 4ab7d1e3-f2a7-44ca-91bd-45d3c5f423d2
+  sni: 158.101.140.31
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 06 - george
+  server: 8.211.175.236
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: u63SxILNwtrQZ7Y1ZrFaZfsA
+  sni: bing.com
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 07 - george
+  server: 168.138.43.75
+  port: 80
+  udp: true
+  type: vmess
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: 168.138.43.75
+- name: 🇯🇵 日本 (Japan) 08 - george
+  server: 168.110.45.41
+  port: 21443
+  udp: true
+  type: hysteria2
+  password: pnKhsG5E1hH1VglAXmT9cq1
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 09 - george
+  server: 138.3.208.26
+  port: 50160
+  udp: true
+  type: hysteria2
+  password: 184cdec28da5a09450803c8debcd2cc9
+  sni: '1'
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 10 - george
+  server: 3.114.220.22
+  port: 10583
+  udp: true
+  type: vless
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  servername: www.apple.com
+  client-fingerprint: random
 - name: 🇯🇵 日本 (Japan) 11 - george
+  server: 84.247.155.196
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+- name: 🇯🇵 日本 (Japan) 12 - george
+  server: ootd-jp.xiaokeyun.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 3d84bbdc-9616-4e89-9ded-c9bff9db8dc7
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: oEgpqVVhvIZpCejedfWU0OqhEnfsGNGEmmds1nzRqEE
+    short-id: 568d60f0
+  servername: v3-default.ixigua.com
+  client-fingerprint: edge
+- name: 🇯🇵 日本 (Japan) 13 - george
+  server: 172.67.217.240
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  client-fingerprint: safari
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 14 - george
+  server: 3.114.220.22
+  port: 19645
+  udp: true
+  type: vless
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇯🇵 日本 (Japan) 15 - george
   server: 103.172.116.201
   port: 10403
   udp: true
@@ -120,18 +158,46 @@ proxies:
     short-id: f96b3b17a0f5b1fe
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 12 - george
-  server: 111.68.14.18
-  port: 443
+- name: 🇯🇵 日本 (Japan) 16 - george
+  server: 23.95.72.244
+  port: 55569
   udp: true
   type: vless
-  uuid: f4dc7e38-f861-460b-b1af-d8a5fa141d7b
+  uuid: 9a5e7b1c-bf39-4b1f-891f-ac87824ee38f
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: iPjmjJ-QoIFgm0QumbMLLpT1w9w_HZNqRjtPoFqx7WY
-    short-id: c6e2572e3267
-  servername: cloudflare.com
+    public-key: DPhViTQH8MZ2cPKNtB4_UNAq1_a32PlPHtQX49Yew1M
+    short-id: 4c5a975455f02a
+  servername: api.adidas.com
+  client-fingerprint: safari
+- name: 🇯🇵 日本 (Japan) 17 - george
+  server: 3.114.220.22
+  port: 18007
+  udp: true
+  type: vless
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  servername: www.apple.com
   client-fingerprint: chrome
+- name: 🇯🇵 日本 (Japan) 18 - george
+  server: 152.69.195.67
+  port: 47878
+  udp: true
+  type: vless
+  uuid: eb8613e3-8393-4cff-a3ad-6501fd4adc63
+- name: 🇯🇵 日本 (Japan) 19 - george
+  server: 193.123.160.109
+  port: 8443
+  udp: true
+  type: trojan
+  password: F3NzMNuYnG7akU2mSlBY
+  sni: www.microsoft.com
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -149,6 +215,13 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 10 - george
   - 🇯🇵 日本 (Japan) 11 - george
   - 🇯🇵 日本 (Japan) 12 - george
+  - 🇯🇵 日本 (Japan) 13 - george
+  - 🇯🇵 日本 (Japan) 14 - george
+  - 🇯🇵 日本 (Japan) 15 - george
+  - 🇯🇵 日本 (Japan) 16 - george
+  - 🇯🇵 日本 (Japan) 17 - george
+  - 🇯🇵 日本 (Japan) 18 - george
+  - 🇯🇵 日本 (Japan) 19 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -166,5 +239,12 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 10 - george
   - 🇯🇵 日本 (Japan) 11 - george
   - 🇯🇵 日本 (Japan) 12 - george
+  - 🇯🇵 日本 (Japan) 13 - george
+  - 🇯🇵 日本 (Japan) 14 - george
+  - 🇯🇵 日本 (Japan) 15 - george
+  - 🇯🇵 日本 (Japan) 16 - george
+  - 🇯🇵 日本 (Japan) 17 - george
+  - 🇯🇵 日本 (Japan) 18 - george
+  - 🇯🇵 日本 (Japan) 19 - george
 rules:
 - MATCH,PROXIES
