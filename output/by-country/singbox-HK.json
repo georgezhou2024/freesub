@@ -12,105 +12,52 @@
       "security": "auto"
     },
     {
-      "type": "hysteria2",
+      "type": "shadowsocks",
       "tag": "🇭🇰 中国香港 (Hong Kong) 02 - george",
-      "server": "152.32.254.68",
-      "server_port": 5010,
-      "password": "eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ",
-      "tls": {
-        "enabled": true,
-        "server_name": "nas.aizhzo.com",
-        "insecure": false
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9"
-      }
+      "server": "213.176.92.148",
+      "server_port": 40647,
+      "method": "aes-256-gcm",
+      "password": "DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY="
     },
     {
       "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 03 - george",
-      "server": "bd8d18d7-tmm5c0-tny186-4lg6.hk3.hyhuawei.com",
+      "server": "vpn-hk-004.fastervpn.world",
       "server_port": 443,
-      "password": "a4c9b7cc-a816-11ed-9f65-f23c9164ca5d",
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "bd8d18d7-tmm5c0-tny186-4lg6.hk3.hyhuawei.com",
-        "insecure": false
+        "server_name": "vpn-hk-004.fastervpn.world",
+        "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 04 - george",
-      "server": "6d889de6-tly2o0-tn28ki-mv7m.nw4.hyhuawei.com",
-      "server_port": 443,
-      "password": "94d40708-8273-11ea-8fc9-f23c913c8d2b",
-      "tls": {
-        "enabled": true,
-        "server_name": "6d889de6-tly2o0-tn28ki-mv7m.nw4.hyhuawei.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - george",
-      "server": "43.255.157.53",
-      "server_port": 28675,
-      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.lamer.com.hk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "jgtiLXdCnQ9WRWMuu2gsuGQOQTCRZQpspnn228kjTSA",
-          "short_id": "9a79807253c040"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - george",
-      "server": "202.146.222.89",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "https://t.me/clashv8",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - george",
       "server": "202.146.222.174",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "https%3a%2f%2ft.me%2fwangcai2",
+        "server_name": "t.me",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - george",
-      "server": "202.146.222.29",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - george",
+      "server": "202.146.222.89",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "https://t.me/wangcai2üáüá",
+        "server_name": "202.146.222.89",
         "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - george",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - george",
       "server": "103.172.116.191",
       "server_port": 10103,
       "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
@@ -139,10 +86,7 @@
         "🇭🇰 中国香港 (Hong Kong) 03 - george",
         "🇭🇰 中国香港 (Hong Kong) 04 - george",
         "🇭🇰 中国香港 (Hong Kong) 05 - george",
-        "🇭🇰 中国香港 (Hong Kong) 06 - george",
-        "🇭🇰 中国香港 (Hong Kong) 07 - george",
-        "🇭🇰 中国香港 (Hong Kong) 08 - george",
-        "🇭🇰 中国香港 (Hong Kong) 09 - george"
+        "🇭🇰 中国香港 (Hong Kong) 06 - george"
       ]
     },
     {
@@ -154,10 +98,7 @@
         "🇭🇰 中国香港 (Hong Kong) 03 - george",
         "🇭🇰 中国香港 (Hong Kong) 04 - george",
         "🇭🇰 中国香港 (Hong Kong) 05 - george",
-        "🇭🇰 中国香港 (Hong Kong) 06 - george",
-        "🇭🇰 中国香港 (Hong Kong) 07 - george",
-        "🇭🇰 中国香港 (Hong Kong) 08 - george",
-        "🇭🇰 中国香港 (Hong Kong) 09 - george"
+        "🇭🇰 中国香港 (Hong Kong) 06 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
