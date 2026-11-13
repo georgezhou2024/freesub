@@ -4,20 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🇮🇳 印度 (India) 01 - george",
-      "server": "152.67.8.205",
-      "server_port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇮🇳 印度 (India) 02 - george",
+      "tag": "🇮🇳 印度 (India) 01 - george",
       "server": "194.61.31.126",
       "server_port": 2053,
       "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
@@ -37,56 +25,54 @@
     },
     {
       "type": "vless",
+      "tag": "🇮🇳 印度 (India) 02 - george",
+      "server": "178.212.35.198",
+      "server_port": 443,
+      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
+          "short_id": "6bdc8320"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇮🇳 印度 (India) 03 - george",
       "server": "13.140.56.100",
       "server_port": 14430,
       "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
       "transport": {
         "type": "ws",
-        "path": "/vless"
+        "path": "/vless",
+        "headers": {
+          "Host": "13.140.56.100"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🇮🇳 印度 (India) 04 - george",
-      "server": "103.172.116.191",
-      "server_port": 10303,
-      "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "mjWmmSvs0D3V3130FT7MVbRs94pPuWXR7ffaQ_3A4kU",
-          "short_id": "f96b3b17a0f5b1fe"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 05 - george",
       "server": "13.140.253.35",
       "server_port": 443,
-      "uuid": "bcd3798c-a56f-6bfc-b738-a17c43bd4a50",
+      "uuid": "f1d3c8af71c4ef75625fcf446aa2c15b",
       "tls": {
         "enabled": true,
-        "server_name": "xray-m0642ki4-silver-nebula-10.cloady.io",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+        "server_name": "xray-h0urp9tx-rapid-summit-2.cloady.io",
+        "insecure": true
       },
       "transport": {
         "type": "ws",
-        "path": "/362b2b2c7197d648",
+        "path": "/050334203cc522a3",
         "headers": {
-          "Host": "xray-m0642ki4-silver-nebula-10.cloady.io"
+          "Host": "xray-h0urp9tx-rapid-summit-2.cloady.io"
         }
       }
     },
@@ -98,8 +84,7 @@
         "🇮🇳 印度 (India) 01 - george",
         "🇮🇳 印度 (India) 02 - george",
         "🇮🇳 印度 (India) 03 - george",
-        "🇮🇳 印度 (India) 04 - george",
-        "🇮🇳 印度 (India) 05 - george"
+        "🇮🇳 印度 (India) 04 - george"
       ]
     },
     {
@@ -109,8 +94,7 @@
         "🇮🇳 印度 (India) 01 - george",
         "🇮🇳 印度 (India) 02 - george",
         "🇮🇳 印度 (India) 03 - george",
-        "🇮🇳 印度 (India) 04 - george",
-        "🇮🇳 印度 (India) 05 - george"
+        "🇮🇳 印度 (India) 04 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
