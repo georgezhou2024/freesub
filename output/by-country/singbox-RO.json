@@ -4,45 +4,31 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 01 - george",
-      "server": "82.152.132.211",
-      "server_port": 8044,
-      "method": "chacha20-ietf-poly1305",
-      "password": "byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB"
-    },
-    {
       "type": "vless",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 02 - george",
-      "server": "46.28.67.55",
-      "server_port": 443,
-      "uuid": "d1a6a033-fdbd-46a6-a177-3370ba042b9f",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 01 - george",
+      "server": "94.184.37.198",
+      "server_port": 18403,
+      "uuid": "d7b1a442-678d-4fe1-9fed-590698c3fba9",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "access.dastanacloud.ir",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU",
-          "short_id": "d06d78e974491b6e"
+          "fingerprint": "chrome"
         }
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 03 - george",
-      "server": "185.156.44.99",
+      "type": "shadowsocks",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 02 - george",
+      "server": "bogging-eyeteeth-fly.freesocks.work",
       "server_port": 443,
-      "password": "gf1:gfhysteria2024",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amazon.com",
-        "insecure": true
-      }
+      "method": "chacha20-ietf-poly1305",
+      "password": "QFWzCw2uX9B9i6qAYeFBIE"
     },
     {
       "type": "selector",
@@ -50,8 +36,7 @@
       "outbounds": [
         "auto",
         "🇷🇴 罗马尼亚 (Romania) 01 - george",
-        "🇷🇴 罗马尼亚 (Romania) 02 - george",
-        "🇷🇴 罗马尼亚 (Romania) 03 - george"
+        "🇷🇴 罗马尼亚 (Romania) 02 - george"
       ]
     },
     {
@@ -59,8 +44,7 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇴 罗马尼亚 (Romania) 01 - george",
-        "🇷🇴 罗马尼亚 (Romania) 02 - george",
-        "🇷🇴 罗马尼亚 (Romania) 03 - george"
+        "🇷🇴 罗马尼亚 (Romania) 02 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

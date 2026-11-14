@@ -36,13 +36,33 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇿🇦 南非 (South Africa) 04 - george",
+      "server": "94.184.37.198",
+      "server_port": 18407,
+      "uuid": "d7b1a442-678d-4fe1-9fed-590698c3fba9",
+      "tls": {
+        "enabled": true,
+        "server_name": "access.dastanacloud.ir",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇿🇦 南非 (South Africa) 01 - george",
         "🇿🇦 南非 (South Africa) 02 - george",
-        "🇿🇦 南非 (South Africa) 03 - george"
+        "🇿🇦 南非 (South Africa) 03 - george",
+        "🇿🇦 南非 (South Africa) 04 - george"
       ]
     },
     {
@@ -51,7 +71,8 @@
       "outbounds": [
         "🇿🇦 南非 (South Africa) 01 - george",
         "🇿🇦 南非 (South Africa) 02 - george",
-        "🇿🇦 南非 (South Africa) 03 - george"
+        "🇿🇦 南非 (South Africa) 03 - george",
+        "🇿🇦 南非 (South Africa) 04 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

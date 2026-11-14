@@ -4,12 +4,23 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇦🇱 AL 01 - george",
-      "server": "185.4.115.149",
-      "server_port": 1348,
-      "method": "chacha20-ietf-poly1305",
-      "password": "byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB"
+      "server": "94.184.37.198",
+      "server_port": 18402,
+      "uuid": "d7b1a442-678d-4fe1-9fed-590698c3fba9",
+      "tls": {
+        "enabled": true,
+        "server_name": "access.dastanacloud.ir",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "type": "selector",

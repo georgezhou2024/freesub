@@ -5,12 +5,15 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇱 AL 01 - george
-  server: 185.4.115.149
-  port: 1348
+  server: 94.184.37.198
+  port: 18402
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB
+  type: vless
+  uuid: d7b1a442-678d-4fe1-9fed-590698c3fba9
+  tls: true
+  servername: access.dastanacloud.ir
+  skip-cert-verify: false
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select

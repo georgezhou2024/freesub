@@ -5,13 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 - george
-  server: 35.236.180.222
+  server: amasoid.ddns.net
   port: 14514
   udp: true
   type: ss
   cipher: 2022-blake3-aes-128-gcm
   password: b7I6g7l7fJhBaMInJ+zkzw==
 - name: 🇹🇼 中国台湾 (Taiwan) 02 - george
+  server: 103.160.180.26
+  port: 22222
+  udp: true
+  type: vmess
+  uuid: a5206a55-d5bd-41b9-92a5-bd27a90355ff
+  alterId: 0
+  cipher: auto
+- name: 🇹🇼 中国台湾 (Taiwan) 03 - george
   server: 103.115.109.49
   port: 443
   udp: true
@@ -19,13 +27,13 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 103.115.109.49
   skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 03 - george
+- name: 🇹🇼 中国台湾 (Taiwan) 04 - george
   server: vpn-tw-002.fastervpn.world
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-tw-002.fastervpn.world
+  sni: vpn-tw-002.fastervpn.world%5cu0026insecure%3d1%5cu0026allowinsecure%3d1
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
@@ -35,6 +43,7 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 - george
   - 🇹🇼 中国台湾 (Taiwan) 02 - george
   - 🇹🇼 中国台湾 (Taiwan) 03 - george
+  - 🇹🇼 中国台湾 (Taiwan) 04 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -43,5 +52,6 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 - george
   - 🇹🇼 中国台湾 (Taiwan) 02 - george
   - 🇹🇼 中国台湾 (Taiwan) 03 - george
+  - 🇹🇼 中国台湾 (Taiwan) 04 - george
 rules:
 - MATCH,PROXIES
