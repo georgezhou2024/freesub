@@ -6,18 +6,18 @@ log-level: info
 proxies:
 - name: 🇧🇬 保加利亚 (Bulgaria) 01 - george
   server: 213.183.63.60
-  port: 9061
+  port: 9085
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: 4R3hUfZ2FHhDmNcP
+  password: 9ej82EKe2gq7gLAM
 - name: 🇧🇬 保加利亚 (Bulgaria) 02 - george
   server: 213.183.63.60
-  port: 9054
+  port: 9066
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: VcFuyXvND2yQWSFY
+  password: 2KUaE2a8NWTvuCZ3
 - name: 🇧🇬 保加利亚 (Bulgaria) 03 - george
   server: 213.183.63.60
   port: 9098
@@ -27,18 +27,18 @@ proxies:
   password: aLpQtfEZe445QyHk
 - name: 🇧🇬 保加利亚 (Bulgaria) 04 - george
   server: 213.183.63.60
-  port: 9049
+  port: 9054
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: PRBf4BS2HvJqtWxY
+  password: VcFuyXvND2yQWSFY
 - name: 🇧🇬 保加利亚 (Bulgaria) 05 - george
   server: 213.183.63.60
-  port: 9064
+  port: 9030
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: cp8pRSUAyLhTfVWH
+  password: GeregetR8cvQHzYr
 - name: 🇧🇬 保加利亚 (Bulgaria) 06 - george
   server: 195.123.226.21
   port: 443
@@ -52,18 +52,6 @@ proxies:
     short-id: 77bb0d07bddbc832
   servername: gateway.icloud.com
   client-fingerprint: chrome
-- name: 🇧🇬 保加利亚 (Bulgaria) 07 - george
-  server: p1real5.greewebservices.ir
-  port: 1270
-  udp: true
-  type: vless
-  uuid: b0511969-f769-460b-963b-70c6b84b6967
-  tls: true
-  reality-opts:
-    public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
-    short-id: 9b60d3
-  servername: play.googleapis.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -75,7 +63,6 @@ proxy-groups:
   - 🇧🇬 保加利亚 (Bulgaria) 04 - george
   - 🇧🇬 保加利亚 (Bulgaria) 05 - george
   - 🇧🇬 保加利亚 (Bulgaria) 06 - george
-  - 🇧🇬 保加利亚 (Bulgaria) 07 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -87,6 +74,5 @@ proxy-groups:
   - 🇧🇬 保加利亚 (Bulgaria) 04 - george
   - 🇧🇬 保加利亚 (Bulgaria) 05 - george
   - 🇧🇬 保加利亚 (Bulgaria) 06 - george
-  - 🇧🇬 保加利亚 (Bulgaria) 07 - george
 rules:
 - MATCH,PROXIES
