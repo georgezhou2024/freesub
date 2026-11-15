@@ -5,24 +5,139 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 - george
-  server: jpa.123069.xyz
-  port: 53758
+  server: 162.159.228.255
+  port: 443
   udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: Bwlqh7GcFB
-- name: 🇯🇵 日本 (Japan) 02 - george
-  server: 168.110.63.247
-  port: 8081
-  udp: true
-  type: vmess
-  uuid: c3bde296-8e44-4b8c-a325-577d5b3cc7c8
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: b135a1e0-ebdb-4d46-b3fa-bd1e78580244
+  tls: true
+  servername: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /vless
+    path: /@Marisa_kristi
+    headers:
+      Host: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
+- name: 🇯🇵 日本 (Japan) 02 - george
+  server: 57.129.130.200
+  port: 52014
+  udp: true
+  type: vless
+  uuid: c8b0617e-010f-43a8-b3d0-d5358febf0c9
+  tls: true
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
 - name: 🇯🇵 日本 (Japan) 03 - george
+  server: 46.101.46.169
+  port: 486
+  udp: true
+  type: vless
+  uuid: 16bf3359-e7d8-4de6-86a0-6d65cf793b56
+  tls: true
+  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+- name: 🇯🇵 日本 (Japan) 04 - george
+  server: 57.129.130.57
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 47ba5dc6-8961-48a0-8b54-f57ec524627a
+  tls: true
+  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+- name: 🇯🇵 日本 (Japan) 05 - george
+  server: 31.76.91.70
+  port: 443
+  udp: true
+  type: vless
+  uuid: 7072eeba-94fd-4fb3-92f2-a4506dd84cd8
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: ejx56dFtS4LK_Th6HSLFFdm7v7zqRpv8KfjrWAw4Sjg
+    short-id: bd6f67b6b2152b45
+  servername: fuji.etherhub.cc
+  client-fingerprint: firefox
+- name: 🇯🇵 日本 (Japan) 06 - george
+  server: 57.129.52.47
+  port: 52014
+  udp: true
+  type: vless
+  uuid: ecc4675b-1607-4699-8b20-23af97b671af
+  tls: true
+  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
+- name: 🇯🇵 日本 (Japan) 07 - george
+  server: 147.45.42.73
+  port: 20443
+  udp: true
+  type: vless
+  uuid: f293db4d-7ab1-4faf-bb15-89540d8709cb
+  tls: true
+  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
+- name: 🇯🇵 日本 (Japan) 08 - george
+  server: 84.247.155.196
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+- name: 🇯🇵 日本 (Japan) 09 - george
+  server: 5.75.195.83
+  port: 56879
+  udp: true
+  type: vless
+  uuid: f8847ac2-e586-400f-841b-00081ea4592e
+  tls: true
+  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+- name: 🇯🇵 日本 (Japan) 10 - george
+  server: 43.130.234.128
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: Yuike2026cat
+  sni: 43-130-234-128.sslip.io
+  skip-cert-verify: false
+- name: 🇯🇵 日本 (Japan) 11 - george
   server: 103.75.118.228
   port: 12683
   udp: true
@@ -35,41 +150,87 @@ proxies:
     short-id: 48050fab
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 04 - george
-  server: fuji.etherhub.cc
+- name: 🇯🇵 日本 (Japan) 12 - george
+  server: 84.247.155.196
+  port: 80
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+- name: 🇯🇵 日本 (Japan) 13 - george
+  server: 109.120.155.155
+  port: 444
+  udp: true
+  type: vless
+  uuid: 99ab6748-3d57-4562-9451-843c15960b9b
+  tls: true
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+- name: 🇯🇵 日本 (Japan) 14 - george
+  server: 129.153.71.28
+  port: 28863
+  udp: true
+  type: vless
+  uuid: 3e956106-7f92-4cbf-bf77-715d3890fa84
+  tls: true
+  servername: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
+- name: 🇯🇵 日本 (Japan) 15 - george
+  server: 158.101.151.157
   port: 443
   udp: true
   type: vless
-  uuid: 7072eeba-94fd-4fb3-92f2-a4506dd84cd8
+  uuid: 66171cbe-0b4b-4b24-99f6-d5a822f4dc9a
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: ejx56dFtS4LK_Th6HSLFFdm7v7zqRpv8KfjrWAw4Sjg
-    short-id: bd6f67b6b2152b45
-  servername: fuji.etherhub.cc
-  client-fingerprint: qq
-- name: 🇯🇵 日本 (Japan) 05 - george
-  server: 103.75.118.228
-  port: 11452
+    public-key: 99eQkMBHqOEKororOWKFlmH8M0o9VaVpV9w1vQIxhz8
+    short-id: 684c7531e599dec0
+  servername: www.microsoft.com
+  client-fingerprint: chrome
+- name: 🇯🇵 日本 (Japan) 16 - george
+  server: 89.22.224.146
+  port: 43788
   udp: true
   type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
+  uuid: 6fbd9bd1-ccd4-4e2f-a918-a0f871965763
   tls: true
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 06 - george
-  server: 43.130.234.128
-  port: 8443
-  udp: true
-  type: hysteria2
-  password: Yuike2026cat
-  sni: 43-130-234-128.sslip.io
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
   skip-cert-verify: false
-- name: 🇯🇵 日本 (Japan) 07 - george
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+- name: 🇯🇵 日本 (Japan) 17 - george
+  server: 84.22.150.39
+  port: 7443
+  udp: true
+  type: vless
+  uuid: 9d5cbb90-876b-448d-9874-27ab35bae6e7
+  tls: true
+  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+- name: 🇯🇵 日本 (Japan) 18 - george
   server: 138.3.208.26
   port: 50160
   udp: true
@@ -77,20 +238,64 @@ proxies:
   password: 184cdec28da5a09450803c8debcd2cc9
   sni: 138.3.208.26
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 08 - george
-  server: 168.138.43.75
-  port: 80
+- name: 🇯🇵 日本 (Japan) 19 - george
+  server: 80.240.18.227
+  port: 10051
   udp: true
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: d161dcf1-fde2-44cc-b08d-d8944895e842
+  tls: true
+  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /cctv13.m3u8
+    path: /@Marisa_kristi
     headers:
-      Host: 168.138.43.75
-- name: 🇯🇵 日本 (Japan) 09 - george
+      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+- name: 🇯🇵 日本 (Japan) 20 - george
+  server: zfapi.zalolink.com
+  port: 43149
+  udp: true
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
+    short-id: 15aa0ad4
+  servername: psstatic.cdn.bcebos.com
+  client-fingerprint: chrome
+- name: 🇯🇵 日本 (Japan) 21 - george
+  server: 38.47.96.220
+  port: 11424
+  udp: true
+  type: vless
+  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+  tls: true
+  servername: notls.lukongtou.eu.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: Telegram-WangCai2🇨🇳
+    headers:
+      Host: notls.lukongtou.eu.org
+- name: 🇯🇵 日本 (Japan) 22 - george
+  server: 203.137.165.164
+  port: 57554
+  udp: true
+  type: vless
+  uuid: e5b2a063-a114-4bd0-802d-b2da1fe1d1da
+  tls: true
+  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+- name: 🇯🇵 日本 (Japan) 23 - george
   server: 8.211.175.236
   port: 8443
   udp: true
@@ -98,8 +303,30 @@ proxies:
   password: u63SxILNwtrQZ7Y1ZrFaZfsA
   sni: 8.211.175.236
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 10 - george
-  server: 172.67.156.147
+- name: 🇯🇵 日本 (Japan) 24 - george
+  server: 45.77.241.190
+  port: 8441
+  udp: true
+  type: vless
+  uuid: 3011e40c-228f-4f2e-9dbf-5b256887e071
+  tls: true
+  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+- name: 🇯🇵 日本 (Japan) 25 - george
+  server: 168.138.205.100
+  port: 53758
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: Bwlqh7GcFB
+- name: 🇯🇵 日本 (Japan) 26 - george
+  server: 104.16.10.135
   port: 443
   udp: true
   type: vless
@@ -107,18 +334,24 @@ proxies:
   tls: true
   servername: jp3.yohototo.top
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 11 - george
-  server: 84.247.155.196
+- name: 🇯🇵 日本 (Japan) 27 - george
+  server: 43.130.234.128
   port: 443
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
+  type: vless
+  uuid: a2d4ddd8-4d3f-49f5-b78b-bdb3eebab9a6
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: DLYP4CSy4Ey15aYSzcYdwfW4XIuiw3_DuKunNLEDgS4
+  servername: www.microsoft.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -135,6 +368,22 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 09 - george
   - 🇯🇵 日本 (Japan) 10 - george
   - 🇯🇵 日本 (Japan) 11 - george
+  - 🇯🇵 日本 (Japan) 12 - george
+  - 🇯🇵 日本 (Japan) 13 - george
+  - 🇯🇵 日本 (Japan) 14 - george
+  - 🇯🇵 日本 (Japan) 15 - george
+  - 🇯🇵 日本 (Japan) 16 - george
+  - 🇯🇵 日本 (Japan) 17 - george
+  - 🇯🇵 日本 (Japan) 18 - george
+  - 🇯🇵 日本 (Japan) 19 - george
+  - 🇯🇵 日本 (Japan) 20 - george
+  - 🇯🇵 日本 (Japan) 21 - george
+  - 🇯🇵 日本 (Japan) 22 - george
+  - 🇯🇵 日本 (Japan) 23 - george
+  - 🇯🇵 日本 (Japan) 24 - george
+  - 🇯🇵 日本 (Japan) 25 - george
+  - 🇯🇵 日本 (Japan) 26 - george
+  - 🇯🇵 日本 (Japan) 27 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -151,5 +400,21 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 09 - george
   - 🇯🇵 日本 (Japan) 10 - george
   - 🇯🇵 日本 (Japan) 11 - george
+  - 🇯🇵 日本 (Japan) 12 - george
+  - 🇯🇵 日本 (Japan) 13 - george
+  - 🇯🇵 日本 (Japan) 14 - george
+  - 🇯🇵 日本 (Japan) 15 - george
+  - 🇯🇵 日本 (Japan) 16 - george
+  - 🇯🇵 日本 (Japan) 17 - george
+  - 🇯🇵 日本 (Japan) 18 - george
+  - 🇯🇵 日本 (Japan) 19 - george
+  - 🇯🇵 日本 (Japan) 20 - george
+  - 🇯🇵 日本 (Japan) 21 - george
+  - 🇯🇵 日本 (Japan) 22 - george
+  - 🇯🇵 日本 (Japan) 23 - george
+  - 🇯🇵 日本 (Japan) 24 - george
+  - 🇯🇵 日本 (Japan) 25 - george
+  - 🇯🇵 日本 (Japan) 26 - george
+  - 🇯🇵 日本 (Japan) 27 - george
 rules:
 - MATCH,PROXIES

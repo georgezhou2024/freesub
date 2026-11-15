@@ -5,16 +5,24 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 罗马尼亚 (Romania) 01 - george
-  server: 94.184.37.198
-  port: 18403
+  server: 162.249.125.133
+  port: 443
   udp: true
-  type: vless
-  uuid: d7b1a442-678d-4fe1-9fed-590698c3fba9
-  tls: true
-  servername: access.dastanacloud.ir
+  type: hysteria2
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  sni: hy2-new.aspidnet.xyz
   skip-cert-verify: false
-  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
 - name: 🇷🇴 罗马尼亚 (Romania) 02 - george
+  server: 185.156.44.99
+  port: 443
+  udp: true
+  type: hysteria2
+  password: gf1:gfhysteria2024
+  sni: css.rbxcdn.com
+  skip-cert-verify: true
+- name: 🇷🇴 罗马尼亚 (Romania) 03 - george
   server: bogging-eyeteeth-fly.freesocks.work
   port: 443
   udp: true
@@ -28,6 +36,7 @@ proxy-groups:
   - AUTO
   - 🇷🇴 罗马尼亚 (Romania) 01 - george
   - 🇷🇴 罗马尼亚 (Romania) 02 - george
+  - 🇷🇴 罗马尼亚 (Romania) 03 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -35,5 +44,6 @@ proxy-groups:
   proxies:
   - 🇷🇴 罗马尼亚 (Romania) 01 - george
   - 🇷🇴 罗马尼亚 (Romania) 02 - george
+  - 🇷🇴 罗马尼亚 (Romania) 03 - george
 rules:
 - MATCH,PROXIES

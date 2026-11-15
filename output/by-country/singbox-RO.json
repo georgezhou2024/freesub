@@ -4,27 +4,36 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇷🇴 罗马尼亚 (Romania) 01 - george",
-      "server": "94.184.37.198",
-      "server_port": 18403,
-      "uuid": "d7b1a442-678d-4fe1-9fed-590698c3fba9",
+      "server": "162.249.125.133",
+      "server_port": 443,
+      "password": "QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s",
       "tls": {
         "enabled": true,
-        "server_name": "access.dastanacloud.ir",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "hy2-new.aspidnet.xyz",
+        "insecure": false
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "c1b4086fea89914496c7e10967a419216566"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 02 - george",
+      "server": "185.156.44.99",
+      "server_port": 443,
+      "password": "gf1:gfhysteria2024",
+      "tls": {
+        "enabled": true,
+        "server_name": "css.rbxcdn.com",
+        "insecure": true
       }
     },
     {
       "type": "shadowsocks",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 02 - george",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 03 - george",
       "server": "bogging-eyeteeth-fly.freesocks.work",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -36,7 +45,8 @@
       "outbounds": [
         "auto",
         "🇷🇴 罗马尼亚 (Romania) 01 - george",
-        "🇷🇴 罗马尼亚 (Romania) 02 - george"
+        "🇷🇴 罗马尼亚 (Romania) 02 - george",
+        "🇷🇴 罗马尼亚 (Romania) 03 - george"
       ]
     },
     {
@@ -44,7 +54,8 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇴 罗马尼亚 (Romania) 01 - george",
-        "🇷🇴 罗马尼亚 (Romania) 02 - george"
+        "🇷🇴 罗马尼亚 (Romania) 02 - george",
+        "🇷🇴 罗马尼亚 (Romania) 03 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
