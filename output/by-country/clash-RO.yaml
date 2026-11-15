@@ -20,15 +20,8 @@ proxies:
   udp: true
   type: hysteria2
   password: gf1:gfhysteria2024
-  sni: css.rbxcdn.com
+  sni: www.amazon.com
   skip-cert-verify: true
-- name: 🇷🇴 罗马尼亚 (Romania) 03 - george
-  server: bogging-eyeteeth-fly.freesocks.work
-  port: 443
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: QFWzCw2uX9B9i6qAYeFBIE
 proxy-groups:
 - name: PROXIES
   type: select
@@ -36,7 +29,6 @@ proxy-groups:
   - AUTO
   - 🇷🇴 罗马尼亚 (Romania) 01 - george
   - 🇷🇴 罗马尼亚 (Romania) 02 - george
-  - 🇷🇴 罗马尼亚 (Romania) 03 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -44,6 +36,5 @@ proxy-groups:
   proxies:
   - 🇷🇴 罗马尼亚 (Romania) 01 - george
   - 🇷🇴 罗马尼亚 (Romania) 02 - george
-  - 🇷🇴 罗马尼亚 (Romania) 03 - george
 rules:
 - MATCH,PROXIES

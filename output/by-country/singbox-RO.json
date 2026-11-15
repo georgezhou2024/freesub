@@ -27,17 +27,9 @@
       "password": "gf1:gfhysteria2024",
       "tls": {
         "enabled": true,
-        "server_name": "css.rbxcdn.com",
+        "server_name": "www.amazon.com",
         "insecure": true
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 03 - george",
-      "server": "bogging-eyeteeth-fly.freesocks.work",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QFWzCw2uX9B9i6qAYeFBIE"
     },
     {
       "type": "selector",
@@ -45,8 +37,7 @@
       "outbounds": [
         "auto",
         "🇷🇴 罗马尼亚 (Romania) 01 - george",
-        "🇷🇴 罗马尼亚 (Romania) 02 - george",
-        "🇷🇴 罗马尼亚 (Romania) 03 - george"
+        "🇷🇴 罗马尼亚 (Romania) 02 - george"
       ]
     },
     {
@@ -54,8 +45,7 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇴 罗马尼亚 (Romania) 01 - george",
-        "🇷🇴 罗马尼亚 (Romania) 02 - george",
-        "🇷🇴 罗马尼亚 (Romania) 03 - george"
+        "🇷🇴 罗马尼亚 (Romania) 02 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
