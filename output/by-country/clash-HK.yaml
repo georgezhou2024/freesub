@@ -5,22 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - george
-  server: 202.146.222.174
-  port: 443
+  server: 152.32.254.68
+  port: 5010
   udp: true
   type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2🇨🇳
-  skip-cert-verify: true
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  sni: nas.aizhzo.com
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - george
-  server: 202.146.222.29
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: whatsapp.com
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - george
   server: 202.146.222.89
   port: 443
   udp: true
@@ -28,31 +22,33 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 202.146.222.89
   skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - george
+  server: 202.146.222.174
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/oneclickvpnkeys
+  skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - george
-  server: 8.217.1.203
-  port: 8443
+  server: 202.146.222.29
+  port: 443
   udp: true
-  type: vless
-  uuid: 8b17beac-b143-447d-aa68-14cbb121a602
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 74P0QFvaK6B13rHsxR_t0lqRlg4YLuORD4VaHr5Jd38
-    short-id: 0bf55f64
-  servername: www.apple.com
-  client-fingerprint: chrome
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https3a2f2ft.me2fwangcai2efa3bfc3bcc3a1
+  skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 05 - george
-  server: 141.98.234.5
-  port: 8443
+  server: 91.213.186.45
+  port: 46986
   udp: true
   type: vless
-  uuid: 0025b3da-a92e-45b4-ab2d-de0f3ef3bf23
+  uuid: 71327a90-b9c4-4385-b850-4d3c5832d9cc
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 2kIZnJhcwmSnHlJ6I6kz5srz0R-9uUMJAAMAuS_U2xE
-    short-id: 1a60e2b1ca53aa6d
-  servername: linen-shop.justext.space
+    public-key: 5Uk63lFOn1Z3gmImXWrXbvQ0b9gXTOiY_VWuI898Vmk
+  servername: www.paypal.com
   client-fingerprint: firefox
 - name: 🇭🇰 中国香港 (Hong Kong) 06 - george
   server: 45.192.193.54
@@ -67,22 +63,17 @@ proxies:
   servername: www.iij.ad.jp
   client-fingerprint: chrome
 - name: 🇭🇰 中国香港 (Hong Kong) 07 - george
-  server: 213.176.92.148
-  port: 40647
+  server: 45.192.194.104
+  port: 35600
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY=
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - george
-  server: 152.32.254.68
-  port: 5010
-  udp: true
-  type: hysteria2
-  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-  sni: nas.aizhzo.com
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+  type: vless
+  uuid: d34c4e7c-3eac-4a26-adb9-9004b6981ad8
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: zHmC_LkSMSrRHcetzsRJZvu6irqviiG3vf9VuXRL6FE
+  servername: www.iij.ad.jp
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -95,7 +86,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 05 - george
   - 🇭🇰 中国香港 (Hong Kong) 06 - george
   - 🇭🇰 中国香港 (Hong Kong) 07 - george
-  - 🇭🇰 中国香港 (Hong Kong) 08 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -108,6 +98,5 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 05 - george
   - 🇭🇰 中国香港 (Hong Kong) 06 - george
   - 🇭🇰 中国香港 (Hong Kong) 07 - george
-  - 🇭🇰 中国香港 (Hong Kong) 08 - george
 rules:
 - MATCH,PROXIES
