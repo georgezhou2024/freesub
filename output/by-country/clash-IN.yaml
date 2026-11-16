@@ -5,29 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇳 印度 (India) 01 - george
-  server: 152.67.8.205
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇮🇳 印度 (India) 02 - george
-  server: in.smrtai.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 6bdc8320-7eae-46fc-be08-f5f54e65dfc8
-  tls: true
-  reality-opts:
-    public-key: 3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q
-    short-id: 6bdc8320
-  servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇮🇳 印度 (India) 03 - george
   server: 194.61.31.126
   port: 2053
   udp: true
@@ -39,22 +16,7 @@ proxies:
     short-id: 9980e0609b0d3891
   servername: www.apple.com
   client-fingerprint: random
-- name: 🇮🇳 印度 (India) 04 - george
-  server: 85.234.100.32
-  port: 443
-  udp: true
-  type: vless
-  uuid: c1208c5a-2350-0003-affd-fc41b4319286
-  tls: true
-  servername: decdn-28.nome-rkp.net
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /media/ws/
-    headers:
-      Host: decdn-28.nome-rkp.net
-- name: 🇮🇳 印度 (India) 05 - george
+- name: 🇮🇳 印度 (India) 02 - george
   server: 13.140.56.100
   port: 14430
   udp: true
@@ -65,21 +27,46 @@ proxies:
     path: /vless
     headers:
       Host: 13.140.56.100
-- name: 🇮🇳 印度 (India) 06 - george
-  server: 104.21.13.108
+- name: 🇮🇳 印度 (India) 03 - george
+  server: 178.212.35.198
+  port: 443
+  udp: true
+  type: vless
+  uuid: 6bdc8320-7eae-46fc-be08-f5f54e65dfc8
+  tls: true
+  reality-opts:
+    public-key: 3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q
+    short-id: 6bdc8320
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇮🇳 印度 (India) 04 - george
+  server: 152.67.8.205
+  port: 80
+  udp: true
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 152.67.8.205
+- name: 🇮🇳 印度 (India) 05 - george
+  server: 13.140.253.35
   port: 443
   udp: true
   type: vless
   uuid: 06a5afa1-2bbc-a5d1-1770-becd1089c636
   tls: true
-  servername: small-forest-d3e9.sarahds.workers.dev
+  servername: xray-dmr3b3hy-calm-maple-7.cloady.io
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /0175469f14317d82
     headers:
-      Host: small-forest-d3e9.sarahds.workers.dev
+      Host: xray-dmr3b3hy-calm-maple-7.cloady.io
 proxy-groups:
 - name: PROXIES
   type: select
@@ -90,7 +77,6 @@ proxy-groups:
   - 🇮🇳 印度 (India) 03 - george
   - 🇮🇳 印度 (India) 04 - george
   - 🇮🇳 印度 (India) 05 - george
-  - 🇮🇳 印度 (India) 06 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -101,6 +87,5 @@ proxy-groups:
   - 🇮🇳 印度 (India) 03 - george
   - 🇮🇳 印度 (India) 04 - george
   - 🇮🇳 印度 (India) 05 - george
-  - 🇮🇳 印度 (India) 06 - george
 rules:
 - MATCH,PROXIES
