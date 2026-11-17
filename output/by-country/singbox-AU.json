@@ -37,29 +37,10 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇦🇺 澳大利亚 (Australia) 03 - george",
-      "server": "159.13.55.48",
-      "password": "b42d90fa667942aebc734d60",
-      "tls": {
-        "enabled": true,
-        "server_name": "hy2-au2.whuiy.xyz",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "b42d90fa667942aebc734d60"
-      },
-      "server_ports": [
-        "20000:30000",
-        "20000:20000"
-      ]
-    },
-    {
       "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 04 - george",
-      "server": "176.97.68.100",
-      "server_port": 443,
+      "tag": "🇦🇺 澳大利亚 (Australia) 03 - george",
+      "server": "zfapi.zalolink.com",
+      "server_port": 54528,
       "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -78,7 +59,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 05 - george",
+      "tag": "🇦🇺 澳大利亚 (Australia) 04 - george",
       "server": "43.255.157.53",
       "server_port": 48158,
       "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
@@ -99,9 +80,9 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 06 - george",
-      "server": "zfapi.zalolink.com",
-      "server_port": 54528,
+      "tag": "🇦🇺 澳大利亚 (Australia) 05 - george",
+      "server": "176.97.68.100",
+      "server_port": 443,
       "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -109,7 +90,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
@@ -127,8 +108,7 @@
         "🇦🇺 澳大利亚 (Australia) 02 - george",
         "🇦🇺 澳大利亚 (Australia) 03 - george",
         "🇦🇺 澳大利亚 (Australia) 04 - george",
-        "🇦🇺 澳大利亚 (Australia) 05 - george",
-        "🇦🇺 澳大利亚 (Australia) 06 - george"
+        "🇦🇺 澳大利亚 (Australia) 05 - george"
       ]
     },
     {
@@ -139,8 +119,7 @@
         "🇦🇺 澳大利亚 (Australia) 02 - george",
         "🇦🇺 澳大利亚 (Australia) 03 - george",
         "🇦🇺 澳大利亚 (Australia) 04 - george",
-        "🇦🇺 澳大利亚 (Australia) 05 - george",
-        "🇦🇺 澳大利亚 (Australia) 06 - george"
+        "🇦🇺 澳大利亚 (Australia) 05 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
