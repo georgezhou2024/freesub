@@ -5,20 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - george
-  server: 185.246.155.91
-  port: 10403
+  server: 91.217.10.237
+  port: 443
   udp: true
   type: vless
-  uuid: dbf3f074-3b18-43f3-b82a-debd8c879c69
-  flow: xtls-rprx-vision
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
   tls: true
   reality-opts:
-    public-key: obQkp5VlQpnlt1hRLQ3VfHISYiiISZJyJZAMaIdjCko
-    short-id: 6859f5b59e55aa30
-  servername: www.apple.com
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: 868419504747f6de
+  servername: api-ns-mgr.galioncc.com
   client-fingerprint: chrome
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george
-  server: 38.107.234.57
+  server: 3h-kazakhstan1.09vpn.com
   port: 80
   udp: true
   type: vmess
@@ -31,6 +30,19 @@ proxies:
     headers:
       Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george
+  server: 185.246.155.91
+  port: 10403
+  udp: true
+  type: vless
+  uuid: dbf3f074-3b18-43f3-b82a-debd8c879c69
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: obQkp5VlQpnlt1hRLQ3VfHISYiiISZJyJZAMaIdjCko
+    short-id: 6859f5b59e55aa30
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - george
   server: 109.248.170.119
   port: 13447
   udp: true
@@ -50,6 +62,7 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - george
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -58,5 +71,6 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - george
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - george
 rules:
 - MATCH,PROXIES
