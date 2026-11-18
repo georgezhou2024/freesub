@@ -6,26 +6,19 @@ log-level: info
 proxies:
 - name: 🇧🇬 保加利亚 (Bulgaria) 01 - george
   server: 213.183.63.60
-  port: 9098
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: aLpQtfEZe445QyHk
-- name: 🇧🇬 保加利亚 (Bulgaria) 02 - george
-  server: 213.183.63.60
   port: 9054
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: VcFuyXvND2yQWSFY
-- name: 🇧🇬 保加利亚 (Bulgaria) 03 - george
+- name: 🇧🇬 保加利亚 (Bulgaria) 02 - george
   server: 213.183.63.60
-  port: 9064
+  port: 9029
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: cp8pRSUAyLhTfVWH
-- name: 🇧🇬 保加利亚 (Bulgaria) 04 - george
+  password: dU3DSNS8wYPXzEKw
+- name: 🇧🇬 保加利亚 (Bulgaria) 03 - george
   server: 195.123.226.21
   port: 443
   udp: true
@@ -46,7 +39,6 @@ proxy-groups:
   - 🇧🇬 保加利亚 (Bulgaria) 01 - george
   - 🇧🇬 保加利亚 (Bulgaria) 02 - george
   - 🇧🇬 保加利亚 (Bulgaria) 03 - george
-  - 🇧🇬 保加利亚 (Bulgaria) 04 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -55,6 +47,5 @@ proxy-groups:
   - 🇧🇬 保加利亚 (Bulgaria) 01 - george
   - 🇧🇬 保加利亚 (Bulgaria) 02 - george
   - 🇧🇬 保加利亚 (Bulgaria) 03 - george
-  - 🇧🇬 保加利亚 (Bulgaria) 04 - george
 rules:
 - MATCH,PROXIES

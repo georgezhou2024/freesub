@@ -5,22 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇧🇭 BH 01 - george",
-      "server": "bh1.vpnjantit.com",
+      "tag": "🇵🇭 菲律宾 (Philippines) 01 - george",
+      "server": "120.89.61.213",
       "server_port": 443,
-      "uuid": "b36a16e4-ded8-11f1-bdea-5254b0a2c347",
+      "uuid": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cloudflare.com",
+        "server_name": "ph1.gofizz.in",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "lDEkUokSL-mrM1jsH8UKs8-3cfJMvkxhY7k37iBkFi4",
-          "short_id": "32b72239bc69220e"
+          "public_key": "wAh4gvnTR3NRk0SFrkBRkX3tNeybFNodcmg7piumxiM",
+          "short_id": "87395f88"
         }
       }
     },
@@ -29,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇭 BH 01 - george"
+        "🇵🇭 菲律宾 (Philippines) 01 - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇭 BH 01 - george"
+        "🇵🇭 菲律宾 (Philippines) 01 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
