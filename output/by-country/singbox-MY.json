@@ -4,21 +4,18 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇮🇩 印尼 (Indonesia) 01 - george",
-      "server": "104.17.3.81",
+      "type": "trojan",
+      "tag": "🇲🇾 马来西亚 (Malaysia) 01 - george",
+      "server": "47.250.84.25",
       "server_port": 443,
-      "uuid": "12d67d2b-ae5c-4d56-9f14-d71d96f7826f",
+      "password": "5931134d1cde66bf83a54acdfebe7ab2",
       "tls": {
         "enabled": true,
-        "server_name": "natan.srpcom.cloud",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vlessws",
-        "headers": {
-          "Host": "natan.srpcom.cloud"
+        "server_name": "moltbot.doctoroyy.net",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -27,14 +24,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇩 印尼 (Indonesia) 01 - george"
+        "🇲🇾 马来西亚 (Malaysia) 01 - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇩 印尼 (Indonesia) 01 - george"
+        "🇲🇾 马来西亚 (Malaysia) 01 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
