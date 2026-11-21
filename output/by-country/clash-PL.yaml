@@ -6,87 +6,48 @@ log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - george
   server: 217.30.10.44
-  port: 9062
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: tkhHVxxfM2QErBWe
-- name: 🇵🇱 波兰 (Poland) 02 - george
-  server: 217.30.10.44
-  port: 9006
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: FAdUvMJUq5vDgKEq
-- name: 🇵🇱 波兰 (Poland) 03 - george
-  server: 217.30.10.70
-  port: 9059
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 9XwYyZsK8SNzQDtY
-- name: 🇵🇱 波兰 (Poland) 04 - george
-  server: 217.30.10.44
   port: 9063
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: aQqJbtwFGcCCaeL3
-- name: 🇵🇱 波兰 (Poland) 05 - george
-  server: 217.30.10.70
-  port: 9098
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: aLpQtfEZe445QyHk
-- name: 🇵🇱 波兰 (Poland) 06 - george
-  server: 217.30.10.44
-  port: 9071
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: mENfxTFQpRKKh4As
-- name: 🇵🇱 波兰 (Poland) 07 - george
-  server: 217.30.10.44
-  port: 9052
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: jt2ekBNc9HuVtm2a
-- name: 🇵🇱 波兰 (Poland) 08 - george
-  server: 217.30.10.44
-  port: 9076
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: S2zDyyPcmZN2h8EC
-- name: 🇵🇱 波兰 (Poland) 09 - george
-  server: 217.30.10.70
-  port: 9003
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: JdmRK9gMEqFgs8nP
-- name: 🇵🇱 波兰 (Poland) 10 - george
+- name: 🇵🇱 波兰 (Poland) 02 - george
   server: 217.30.10.44
   port: 9099
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: 7heRqkPG3hg4UnRm
-- name: 🇵🇱 波兰 (Poland) 11 - george
-  server: 45.194.66.177
-  port: 443
+- name: 🇵🇱 波兰 (Poland) 03 - george
+  server: 217.30.10.44
+  port: 9076
   udp: true
-  type: vless
-  uuid: 352a250d-080b-47b5-b7db-f9f8fa31c551
-  flow: xtls-rprx-vision
-  tls: true
-  servername: 31tawwo0.virtual-network.lol
-  skip-cert-verify: false
-  client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 12 - george
-  server: 13.143.239.94
+  type: ss
+  cipher: aes-256-cfb
+  password: S2zDyyPcmZN2h8EC
+- name: 🇵🇱 波兰 (Poland) 04 - george
+  server: 217.30.10.44
+  port: 9071
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: mENfxTFQpRKKh4As
+- name: 🇵🇱 波兰 (Poland) 05 - george
+  server: 217.30.10.70
+  port: 9038
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: gYCYXfkUQEs2TaJQ
+- name: 🇵🇱 波兰 (Poland) 06 - george
+  server: 217.30.10.44
+  port: 9062
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: tkhHVxxfM2QErBWe
+- name: 🇵🇱 波兰 (Poland) 07 - george
+  server: 143.246.41.214
   port: 443
   udp: true
   type: vless
@@ -96,7 +57,7 @@ proxies:
     public-key: 8OI8rEgAiWxH-cG03xgzuz7XTFHrbA1MY9HnPHcgSUA
     short-id: 1d5ac21e988c571f
   servername: 702e56t.pl5.h1clayd.click
-  client-fingerprint: chrome
+  client-fingerprint: ''
 proxy-groups:
 - name: PROXIES
   type: select
@@ -109,11 +70,6 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 05 - george
   - 🇵🇱 波兰 (Poland) 06 - george
   - 🇵🇱 波兰 (Poland) 07 - george
-  - 🇵🇱 波兰 (Poland) 08 - george
-  - 🇵🇱 波兰 (Poland) 09 - george
-  - 🇵🇱 波兰 (Poland) 10 - george
-  - 🇵🇱 波兰 (Poland) 11 - george
-  - 🇵🇱 波兰 (Poland) 12 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -126,10 +82,5 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 05 - george
   - 🇵🇱 波兰 (Poland) 06 - george
   - 🇵🇱 波兰 (Poland) 07 - george
-  - 🇵🇱 波兰 (Poland) 08 - george
-  - 🇵🇱 波兰 (Poland) 09 - george
-  - 🇵🇱 波兰 (Poland) 10 - george
-  - 🇵🇱 波兰 (Poland) 11 - george
-  - 🇵🇱 波兰 (Poland) 12 - george
 rules:
 - MATCH,PROXIES

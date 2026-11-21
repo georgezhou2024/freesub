@@ -5,22 +5,24 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - george",
-      "server": "5.129.202.80",
+      "tag": "🇱🇺 卢森堡 (Luxembourg) 01 - george",
+      "server": "92.223.84.254",
       "server_port": 443,
-      "uuid": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
-      "flow": "xtls-rprx-vision",
+      "uuid": "740b2630-b42d-425c-bacd-37e7e30d78f1",
       "tls": {
         "enabled": true,
-        "server_name": "mirror-50.topp-con.xyz",
+        "server_name": "subgift.gcorecdn.com",
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8",
-          "short_id": "2ef2b10d5143d798"
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/t.me-SubGift",
+        "headers": {
+          "Host": "subgift.gcorecdn.com"
         }
       }
     },
@@ -29,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇪 爱沙尼亚 (Estonia) 01 - george"
+        "🇱🇺 卢森堡 (Luxembourg) 01 - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇪 爱沙尼亚 (Estonia) 01 - george"
+        "🇱🇺 卢森堡 (Luxembourg) 01 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -6,7 +6,7 @@
     {
       "type": "hysteria2",
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 - george",
-      "server": "160.187.100.109",
+      "server": "vpn-tw-002.fastervpn.world",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
@@ -16,20 +16,8 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - george",
-      "server": "103.115.109.49",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "https://t.me/oneclickvpnkeys",
-        "insecure": true
-      }
-    },
-    {
       "type": "vmess",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - george",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - george",
       "server": "dp8yk.xiaoyan.io",
       "server_port": 16616,
       "uuid": "904f0569-8695-466f-97cf-0de2face1b46",
@@ -48,8 +36,7 @@
       "outbounds": [
         "auto",
         "🇹🇼 中国台湾 (Taiwan) 01 - george",
-        "🇹🇼 中国台湾 (Taiwan) 02 - george",
-        "🇹🇼 中国台湾 (Taiwan) 03 - george"
+        "🇹🇼 中国台湾 (Taiwan) 02 - george"
       ]
     },
     {
@@ -57,8 +44,7 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 - george",
-        "🇹🇼 中国台湾 (Taiwan) 02 - george",
-        "🇹🇼 中国台湾 (Taiwan) 03 - george"
+        "🇹🇼 中国台湾 (Taiwan) 02 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
