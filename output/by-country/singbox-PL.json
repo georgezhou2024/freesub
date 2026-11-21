@@ -7,9 +7,9 @@
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 01 - george",
       "server": "217.30.10.44",
-      "server_port": 9063,
+      "server_port": 9095,
       "method": "aes-256-cfb",
-      "password": "aQqJbtwFGcCCaeL3"
+      "password": "N7j3pdTYkKmsy8CR"
     },
     {
       "type": "shadowsocks",
@@ -23,52 +23,113 @@
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 03 - george",
       "server": "217.30.10.44",
-      "server_port": 9076,
-      "method": "aes-256-cfb",
-      "password": "S2zDyyPcmZN2h8EC"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 04 - george",
-      "server": "217.30.10.44",
       "server_port": 9071,
       "method": "aes-256-cfb",
       "password": "mENfxTFQpRKKh4As"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 05 - george",
-      "server": "217.30.10.70",
-      "server_port": 9038,
+      "tag": "🇵🇱 波兰 (Poland) 04 - george",
+      "server": "217.30.10.44",
+      "server_port": 9076,
       "method": "aes-256-cfb",
-      "password": "gYCYXfkUQEs2TaJQ"
+      "password": "S2zDyyPcmZN2h8EC"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 05 - george",
+      "server": "217.30.10.44",
+      "server_port": 9063,
+      "method": "aes-256-cfb",
+      "password": "aQqJbtwFGcCCaeL3"
     },
     {
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 06 - george",
       "server": "217.30.10.44",
-      "server_port": 9062,
+      "server_port": 9006,
       "method": "aes-256-cfb",
-      "password": "tkhHVxxfM2QErBWe"
+      "password": "FAdUvMJUq5vDgKEq"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 07 - george",
+      "server": "217.30.10.44",
+      "server_port": 9052,
+      "method": "aes-256-cfb",
+      "password": "jt2ekBNc9HuVtm2a"
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 07 - george",
-      "server": "143.246.41.214",
+      "tag": "🇵🇱 波兰 (Poland) 08 - george",
+      "server": "45.194.66.177",
       "server_port": 443,
-      "uuid": "be146d46-ae50-4691-838c-b6c87dbaec8f",
+      "uuid": "352a250d-080b-47b5-b7db-f9f8fa31c551",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "702e56t.pl5.h1clayd.click",
+        "server_name": "31tawwo0.virtual-network.lol",
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": ""
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇵🇱 波兰 (Poland) 09 - george",
+      "server": "54.37.131.126",
+      "server_port": 80,
+      "uuid": "1e55beca-3c69-4fa7-fb1f-15c1b767435f",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 10 - george",
+      "server": "150.241.87.52",
+      "server_port": 443,
+      "uuid": "ecc0e60a-f2cc-4266-8353-b228df89730a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl.galacticworld.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "8OI8rEgAiWxH-cG03xgzuz7XTFHrbA1MY9HnPHcgSUA",
-          "short_id": "1d5ac21e988c571f"
+          "public_key": "GBO_paFyK9FihgPMH8r_vHa4IKMkSGfvAQ2fhPK_1H4",
+          "short_id": ""
         }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 11 - george",
+      "server": "144.31.4.18",
+      "server_port": 443,
+      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
+      "tls": {
+        "enabled": true,
+        "server_name": "marginbirch.cleanfoodshop.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/media/ws/"
       }
     },
     {
@@ -82,7 +143,11 @@
         "🇵🇱 波兰 (Poland) 04 - george",
         "🇵🇱 波兰 (Poland) 05 - george",
         "🇵🇱 波兰 (Poland) 06 - george",
-        "🇵🇱 波兰 (Poland) 07 - george"
+        "🇵🇱 波兰 (Poland) 07 - george",
+        "🇵🇱 波兰 (Poland) 08 - george",
+        "🇵🇱 波兰 (Poland) 09 - george",
+        "🇵🇱 波兰 (Poland) 10 - george",
+        "🇵🇱 波兰 (Poland) 11 - george"
       ]
     },
     {
@@ -95,7 +160,11 @@
         "🇵🇱 波兰 (Poland) 04 - george",
         "🇵🇱 波兰 (Poland) 05 - george",
         "🇵🇱 波兰 (Poland) 06 - george",
-        "🇵🇱 波兰 (Poland) 07 - george"
+        "🇵🇱 波兰 (Poland) 07 - george",
+        "🇵🇱 波兰 (Poland) 08 - george",
+        "🇵🇱 波兰 (Poland) 09 - george",
+        "🇵🇱 波兰 (Poland) 10 - george",
+        "🇵🇱 波兰 (Poland) 11 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
