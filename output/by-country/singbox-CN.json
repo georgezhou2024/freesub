@@ -5,25 +5,28 @@
   "outbounds": [
     {
       "type": "vmess",
-      "tag": "🇹🇭 泰国 (Thailand) 01 - george",
-      "server": "119.46.51.45",
-      "server_port": 37515,
-      "uuid": "9b76bc31-17a5-4454-934a-8d5fb602cd70",
-      "security": "auto"
+      "tag": "🇨🇳 CN 01 - george",
+      "server": "39.108.113.127",
+      "server_port": 10086,
+      "uuid": "a625d148-e988-4008-b957-e9051a6371d2",
+      "security": "auto",
+      "transport": {
+        "type": "ws"
+      }
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇭 泰国 (Thailand) 01 - george"
+        "🇨🇳 CN 01 - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 泰国 (Thailand) 01 - george"
+        "🇨🇳 CN 01 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -4,25 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇹🇭 泰国 (Thailand) 01 - george
-  server: 119.46.51.45
-  port: 37515
+- name: 🇨🇳 CN 01 - george
+  server: 39.108.113.127
+  port: 10086
   udp: true
   type: vmess
-  uuid: 9b76bc31-17a5-4454-934a-8d5fb602cd70
+  uuid: a625d148-e988-4008-b957-e9051a6371d2
   alterId: 0
   cipher: auto
+  network: ws
+  ws-opts:
+    path: /
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇹🇭 泰国 (Thailand) 01 - george
+  - 🇨🇳 CN 01 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇹🇭 泰国 (Thailand) 01 - george
+  - 🇨🇳 CN 01 - george
 rules:
 - MATCH,PROXIES

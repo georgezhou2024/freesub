@@ -14,21 +14,15 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 02 - george",
-      "server": "138.124.86.230",
-      "server_port": 48115,
-      "uuid": "b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b",
-      "tls": {
-        "enabled": true,
-        "server_name": "138-124-86-230.sslip.io",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "server": "5.178.109.174",
+      "server_port": 14430,
+      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
       "transport": {
-        "type": "grpc",
-        "service_name": "138-124-86-230-sslip-io"
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "5.178.109.174"
+        }
       }
     },
     {
@@ -60,79 +54,26 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 05 - george",
-      "server": "5.178.109.174",
-      "server_port": 14430,
-      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
-      "transport": {
-        "type": "ws",
-        "path": "/vless"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇸🇪 瑞典 (Sweden) 06 - george",
-      "server": "sonau.yaremonta.loc.cc",
-      "server_port": 1080,
-      "method": "aes-256-gcm",
-      "password": "og85o9QeVVvtMD2sxPjO"
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 07 - george",
-      "server": "sonau.yaremonta.loc.cc",
-      "server_port": 8443,
-      "uuid": "c5468915-f60c-4134-b4d3-eb24501d7c65",
-      "transport": {
-        "type": "grpc",
-        "service_name": "vless-grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 08 - george",
-      "server": "sonau.yaremonta.loc.cc",
-      "server_port": 8080,
-      "uuid": "c5468915-f60c-4134-b4d3-eb24501d7c65",
-      "transport": {
-        "type": "ws",
-        "path": "/vless"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 09 - george",
-      "server": "77.232.143.142",
-      "server_port": 443,
-      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
+      "server": "138.124.86.230",
+      "server_port": 48115,
+      "uuid": "b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b",
       "tls": {
         "enabled": true,
-        "server_name": "volumestyle.komediyatorg.net",
+        "server_name": "138-124-86-230.sslip.io",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
-        "type": "ws",
-        "path": "/media/ws/"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇸🇪 瑞典 (Sweden) 10 - george",
-      "server": "sonau.yaremonta.loc.cc",
-      "server_port": 8081,
-      "uuid": "c5468915-f60c-4134-b4d3-eb24501d7c65",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/vmess"
+        "type": "grpc",
+        "service_name": "138-124-86-230-sslip-io"
       }
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 11 - george",
+      "tag": "🇸🇪 瑞典 (Sweden) 06 - george",
       "server": "185.117.88.9",
       "server_port": 8443,
       "uuid": "9a597d68-6688-4046-bf24-a5a541e115e0",
@@ -152,6 +93,26 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 07 - george",
+      "server": "volumestyle.komediyatorg.net",
+      "server_port": 443,
+      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
+      "tls": {
+        "enabled": true,
+        "server_name": "volumestyle.komediyatorg.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/media/ws/"
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -162,11 +123,7 @@
         "🇸🇪 瑞典 (Sweden) 04 - george",
         "🇸🇪 瑞典 (Sweden) 05 - george",
         "🇸🇪 瑞典 (Sweden) 06 - george",
-        "🇸🇪 瑞典 (Sweden) 07 - george",
-        "🇸🇪 瑞典 (Sweden) 08 - george",
-        "🇸🇪 瑞典 (Sweden) 09 - george",
-        "🇸🇪 瑞典 (Sweden) 10 - george",
-        "🇸🇪 瑞典 (Sweden) 11 - george"
+        "🇸🇪 瑞典 (Sweden) 07 - george"
       ]
     },
     {
@@ -179,11 +136,7 @@
         "🇸🇪 瑞典 (Sweden) 04 - george",
         "🇸🇪 瑞典 (Sweden) 05 - george",
         "🇸🇪 瑞典 (Sweden) 06 - george",
-        "🇸🇪 瑞典 (Sweden) 07 - george",
-        "🇸🇪 瑞典 (Sweden) 08 - george",
-        "🇸🇪 瑞典 (Sweden) 09 - george",
-        "🇸🇪 瑞典 (Sweden) 10 - george",
-        "🇸🇪 瑞典 (Sweden) 11 - george"
+        "🇸🇪 瑞典 (Sweden) 07 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

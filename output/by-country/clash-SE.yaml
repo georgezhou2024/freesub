@@ -12,18 +12,16 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇸🇪 瑞典 (Sweden) 02 - george
-  server: 138.124.86.230
-  port: 48115
+  server: 5.178.109.174
+  port: 14430
   udp: true
   type: vless
-  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
-  tls: true
-  servername: 138-124-86-230.sslip.io
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 138-124-86-230-sslip-io
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 5.178.109.174
 - name: 🇸🇪 瑞典 (Sweden) 03 - george
   server: 138.199.55.230
   port: 1270
@@ -47,64 +45,19 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 05 - george
-  server: 5.178.109.174
-  port: 14430
+  server: 138.124.86.230
+  port: 48115
   udp: true
   type: vless
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  network: ws
-  ws-opts:
-    path: /vless
-- name: 🇸🇪 瑞典 (Sweden) 06 - george
-  server: sonau.yaremonta.loc.cc
-  port: 1080
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: og85o9QeVVvtMD2sxPjO
-- name: 🇸🇪 瑞典 (Sweden) 07 - george
-  server: sonau.yaremonta.loc.cc
-  port: 8443
-  udp: true
-  type: vless
-  uuid: c5468915-f60c-4134-b4d3-eb24501d7c65
+  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
+  tls: true
+  servername: 138-124-86-230.sslip.io
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: grpc
   grpc-opts:
-    grpc-service-name: vless-grpc
-- name: 🇸🇪 瑞典 (Sweden) 08 - george
-  server: sonau.yaremonta.loc.cc
-  port: 8080
-  udp: true
-  type: vless
-  uuid: c5468915-f60c-4134-b4d3-eb24501d7c65
-  network: ws
-  ws-opts:
-    path: /vless
-- name: 🇸🇪 瑞典 (Sweden) 09 - george
-  server: 77.232.143.142
-  port: 443
-  udp: true
-  type: vless
-  uuid: 58e22afd-bf74-4736-984d-63a8ca03d7f0
-  tls: true
-  servername: volumestyle.komediyatorg.net
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /media/ws/
-- name: 🇸🇪 瑞典 (Sweden) 10 - george
-  server: sonau.yaremonta.loc.cc
-  port: 8081
-  udp: true
-  type: vmess
-  uuid: c5468915-f60c-4134-b4d3-eb24501d7c65
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess
-- name: 🇸🇪 瑞典 (Sweden) 11 - george
+    grpc-service-name: 138-124-86-230-sslip-io
+- name: 🇸🇪 瑞典 (Sweden) 06 - george
   server: 185.117.88.9
   port: 8443
   udp: true
@@ -117,6 +70,19 @@ proxies:
     short-id: f8d0271b4b5f9efc
   servername: www.apple.com
   client-fingerprint: chrome
+- name: 🇸🇪 瑞典 (Sweden) 07 - george
+  server: volumestyle.komediyatorg.net
+  port: 443
+  udp: true
+  type: vless
+  uuid: 58e22afd-bf74-4736-984d-63a8ca03d7f0
+  tls: true
+  servername: volumestyle.komediyatorg.net
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /media/ws/
 proxy-groups:
 - name: PROXIES
   type: select
@@ -129,10 +95,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 05 - george
   - 🇸🇪 瑞典 (Sweden) 06 - george
   - 🇸🇪 瑞典 (Sweden) 07 - george
-  - 🇸🇪 瑞典 (Sweden) 08 - george
-  - 🇸🇪 瑞典 (Sweden) 09 - george
-  - 🇸🇪 瑞典 (Sweden) 10 - george
-  - 🇸🇪 瑞典 (Sweden) 11 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -145,9 +107,5 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 05 - george
   - 🇸🇪 瑞典 (Sweden) 06 - george
   - 🇸🇪 瑞典 (Sweden) 07 - george
-  - 🇸🇪 瑞典 (Sweden) 08 - george
-  - 🇸🇪 瑞典 (Sweden) 09 - george
-  - 🇸🇪 瑞典 (Sweden) 10 - george
-  - 🇸🇪 瑞典 (Sweden) 11 - george
 rules:
 - MATCH,PROXIES
