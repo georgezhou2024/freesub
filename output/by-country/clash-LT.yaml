@@ -13,11 +13,11 @@ proxies:
   password: qYEN5HX4JKeVCdEC
 - name: 🇱🇹 立陶宛 (Lithuania) 02 - george
   server: 195.238.126.20
-  port: 9001
+  port: 9011
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: UkXRsXvR6buDMG2Y
+  password: M3t2ZEQcMGRWBjRa
 - name: 🇱🇹 立陶宛 (Lithuania) 03 - george
   server: 195.238.126.20
   port: 9078
@@ -32,6 +32,13 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: xaupMUvhptwxdDUg
+- name: 🇱🇹 立陶宛 (Lithuania) 05 - george
+  server: 195.238.126.20
+  port: 9068
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: mwgRg9hRq3b4Qnwb
 proxy-groups:
 - name: PROXIES
   type: select
@@ -41,6 +48,7 @@ proxy-groups:
   - 🇱🇹 立陶宛 (Lithuania) 02 - george
   - 🇱🇹 立陶宛 (Lithuania) 03 - george
   - 🇱🇹 立陶宛 (Lithuania) 04 - george
+  - 🇱🇹 立陶宛 (Lithuania) 05 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -50,5 +58,6 @@ proxy-groups:
   - 🇱🇹 立陶宛 (Lithuania) 02 - george
   - 🇱🇹 立陶宛 (Lithuania) 03 - george
   - 🇱🇹 立陶宛 (Lithuania) 04 - george
+  - 🇱🇹 立陶宛 (Lithuania) 05 - george
 rules:
 - MATCH,PROXIES
