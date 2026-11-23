@@ -9,27 +9,44 @@ proxies:
   port: 443
   udp: true
   type: vless
-  uuid: 43BCAE0A-10A6-4003-8615-BD510F4215BA
+  uuid: 364D2D52-E61E-4E52-80EC-2BC6BDF15349
   tls: true
   servername: fr-free.fastestrelay.com
   skip-cert-verify: false
-  client-fingerprint: random
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /700gvl-us-free
+    path: /700gvl
     headers:
       Host: fr-free.fastestrelay.com
+- name: 🌐 其他地区 (Other) 02 - george
+  server: 104.27.97.42
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 3692de53-42e6-4aed-a522-40ec355dcd2f
+  tls: true
+  servername: free.sahanwickramasinghe.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.com
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🌐 其他地区 (Other) 01 - george
+  - 🌐 其他地区 (Other) 02 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🌐 其他地区 (Other) 01 - george
+  - 🌐 其他地区 (Other) 02 - george
 rules:
 - MATCH,PROXIES
