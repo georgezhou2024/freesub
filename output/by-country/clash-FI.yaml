@@ -5,13 +5,37 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - george
-  server: 2.29.210.28
+  server: static.28.210.29.2.clients.your-server.de
   port: 25565
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: C8ZJ7R4p_HHJ32cst7ilT-0Zi2F22hAc
 - name: 🇫🇮 芬兰 (Finland) 02 - george
+  server: 157.180.98.124
+  port: 49659
+  udp: true
+  type: vless
+  uuid: 88a558b1-9645-42f3-89e5-341570d8486d
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: bBVqro8tG6swTNoAkjwUzcu4Ew4N4VcyDHzADcGviCs
+    short-id: 81959fce
+  servername: apple.com
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 03 - george
+  server: 45.144.234.157
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 45.144.234.157
+- name: 🇫🇮 芬兰 (Finland) 04 - george
   server: 94.183.164.119
   port: 24433
   udp: true
@@ -26,6 +50,8 @@ proxy-groups:
   - AUTO
   - 🇫🇮 芬兰 (Finland) 01 - george
   - 🇫🇮 芬兰 (Finland) 02 - george
+  - 🇫🇮 芬兰 (Finland) 03 - george
+  - 🇫🇮 芬兰 (Finland) 04 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -33,5 +59,7 @@ proxy-groups:
   proxies:
   - 🇫🇮 芬兰 (Finland) 01 - george
   - 🇫🇮 芬兰 (Finland) 02 - george
+  - 🇫🇮 芬兰 (Finland) 03 - george
+  - 🇫🇮 芬兰 (Finland) 04 - george
 rules:
 - MATCH,PROXIES

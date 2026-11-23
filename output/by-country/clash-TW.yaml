@@ -5,31 +5,31 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 - george
-  server: 103.115.109.49
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: t.me
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 02 - george
   server: 160.187.100.109
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 127.0.0.1
+  sni: 160.187.100.109
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 02 - george
+  server: 103.115.109.49
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 103.115.109.49
   skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 03 - george
-  server: 161.114.15.215
-  port: 30502
+  server: 34.80.15.95
+  port: 443
   udp: true
   type: trojan
-  password: 5KdDtpoJI58OTsoG0PwEYunqB0mkAEDm
-  sni: www.cloudflare.com
-  skip-cert-verify: true
+  password: '123456'
+  sni: tw.ctt25.uk
+  skip-cert-verify: false
 - name: 🇹🇼 中国台湾 (Taiwan) 04 - george
-  server: 162.19.192.89
+  server: afzuv.xiaoyan.io
   port: 16616
   udp: true
   type: vmess
