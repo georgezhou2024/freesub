@@ -6,26 +6,33 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - george",
-      "server": "104.21.0.87",
-      "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "server": "104.17.70.206",
+      "server_port": 8443,
+      "uuid": "3692de53-42e6-4aed-a522-40ec355dcd2f",
       "tls": {
         "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": false
+        "server_name": "free.sahanwickramasinghe.com",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/tyxyws",
+        "path": "/",
         "headers": {
-          "Host": "jp3.yohototo.top"
+          "Host": "free.sahanwickramasinghe.com"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 02 - george",
-      "server": "104.21.0.87",
+      "server": "104.16.10.185",
       "server_port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
@@ -46,12 +53,36 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 03 - george",
+      "server": "104.17.145.43",
+      "server_port": 443,
+      "uuid": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
+      "tls": {
+        "enabled": true,
+        "server_name": "parchment.merlano.monster",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/de7/stream",
+        "headers": {
+          "Host": "parchment.merlano.monster"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🌐 其他地区 (Other) 01 - george",
-        "🌐 其他地区 (Other) 02 - george"
+        "🌐 其他地区 (Other) 02 - george",
+        "🌐 其他地区 (Other) 03 - george"
       ]
     },
     {
@@ -59,7 +90,8 @@
       "tag": "auto",
       "outbounds": [
         "🌐 其他地区 (Other) 01 - george",
-        "🌐 其他地区 (Other) 02 - george"
+        "🌐 其他地区 (Other) 02 - george",
+        "🌐 其他地区 (Other) 03 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
