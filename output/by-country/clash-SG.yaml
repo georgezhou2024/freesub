@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇬 新加坡 (Singapore) 01 - george
-  server: 149.88.107.47
+  server: 149.88.106.74
   port: 19999
   udp: true
   type: ss
@@ -19,12 +19,12 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇸🇬 新加坡 (Singapore) 03 - george
-  server: 68.183.235.122
-  port: 8080
+  server: 149.88.106.73
+  port: 19999
   udp: true
   type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇸🇬 新加坡 (Singapore) 04 - george
   server: 149.88.107.74
   port: 19999
@@ -33,6 +33,20 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇸🇬 新加坡 (Singapore) 05 - george
+  server: 68.183.235.122
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇸🇬 新加坡 (Singapore) 06 - george
+  server: 15.235.182.183
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇸🇬 新加坡 (Singapore) 07 - george
   server: 149.88.23.207
   port: 18000
   udp: true
@@ -40,7 +54,14 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
   cipher: auto
-- name: 🇸🇬 新加坡 (Singapore) 06 - george
+- name: 🇸🇬 新加坡 (Singapore) 08 - george
+  server: 149.88.107.47
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇸🇬 新加坡 (Singapore) 09 - george
   server: 149.88.23.202
   port: 18000
   udp: true
@@ -48,34 +69,14 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
   cipher: auto
-- name: 🇸🇬 新加坡 (Singapore) 07 - george
-  server: 149.88.106.73
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇸🇬 新加坡 (Singapore) 08 - george
-  server: 68.183.235.240
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 09 - george
-  server: 15.235.182.183
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇸🇬 新加坡 (Singapore) 10 - george
-  server: 149.88.106.74
-  port: 19999
+  server: 43.156.36.253
+  port: 443
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  type: trojan
+  password: WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0
+  sni: tx-hy2
+  skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 11 - george
   server: 77.93.89.2
   port: 443
@@ -83,7 +84,7 @@ proxies:
   type: trojan
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   sni: bgsg1.hikigo.com
-  skip-cert-verify: true
+  skip-cert-verify: false
 - name: 🇸🇬 新加坡 (Singapore) 12 - george
   server: 128.1.186.73
   port: 8080
@@ -92,22 +93,19 @@ proxies:
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
 - name: 🇸🇬 新加坡 (Singapore) 13 - george
-  server: 138.2.73.238
-  port: 50160
-  udp: true
-  type: hysteria2
-  password: f87376e17da040ed04c9665ce8972930
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 14 - george
-  server: 43.156.36.253
+  server: 47.84.226.221
   port: 443
   udp: true
-  type: trojan
-  password: WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0
-  sni: tx-hy2
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 15 - george
+  type: vless
+  uuid: 49b91402-f8e3-4390-9d7b-b7eddc2684a4
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: gVQsvRtzd77zlvKW4Gk0dAOJNPRa7cfN1-jVe_AJ8Bo
+    short-id: e1c483f9d4437d42
+  servername: www.samsung.com
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 14 - george
   server: 15.235.144.92
   port: 1270
   udp: true
@@ -118,39 +116,16 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇸🇬 新加坡 (Singapore) 16 - george
-  server: 140.245.113.33
-  port: 443
-  udp: true
-  type: vless
-  uuid: f4ca59b2-767d-3425-8dfc-95a96a0e6802
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: tF9nKF6amexok5wKbieQ2QRKQI5_ZTFE6MUj1hUBBkY
-    short-id: c940a3b6d60b8611
-  servername: learn.microsoft.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 17 - george
-  server: bgsg2.hikigo.com
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  sni: bgsg2.hikigo.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: sj1awrdwnn5lbuno
-- name: 🇸🇬 新加坡 (Singapore) 18 - george
-  server: 47.129.241.99
+- name: 🇸🇬 新加坡 (Singapore) 15 - george
+  server: 54.179.113.70
   port: 443
   udp: true
   type: hysteria2
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: 47.129.241.99
+  sni: vpn-sg-001.fastervpn.world
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 19 - george
-  server: 67.159.52.81
+- name: 🇸🇬 新加坡 (Singapore) 16 - george
+  server: sg.fasti.win
   port: 443
   udp: true
   type: vless
@@ -162,20 +137,28 @@ proxies:
     short-id: feedbacc
   servername: sg.fasti.win
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 20 - george
-  server: 5.34.177.164
+- name: 🇸🇬 新加坡 (Singapore) 17 - george
+  server: 47.129.241.99
+  port: 443
+  udp: true
+  type: hysteria2
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 18 - george
+  server: 206.206.78.36
   port: 443
   udp: true
   type: vless
-  uuid: ca678d26-5435-4d13-b378-06c4c3b070ff
+  uuid: e3f0c894-0f76-4683-a751-6a93da8fd14d
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: cwWhNuekusD1iPZZ--7G891dU9PCacxyCYwsZxOApHA
-    short-id: b2efed6d157e7bb0
-  servername: gateway.icloud.com
+    public-key: UOLfRKeEoVxkp-APTF2OlvFkKSoiR2mWzUuhSWxcVmQ
+    short-id: 133a3f10a1581047
+  servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 21 - george
+- name: 🇸🇬 新加坡 (Singapore) 19 - george
   server: 138.2.89.249
   port: 443
   udp: true
@@ -185,14 +168,22 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: 309502c4a8df10b46fb976d4a8c43f42
-- name: 🇸🇬 新加坡 (Singapore) 22 - george
-  server: 43.160.213.146
-  port: 8388
+- name: 🇸🇬 新加坡 (Singapore) 20 - george
+  server: 139.162.27.96
+  port: 2096
   udp: true
-  type: ss
-  cipher: 2022-blake3-aes-256-gcm
-  password: ClzJLvRzIxivCXbf5X5jnSU0pLg5ffCEUL2AZoeLg94=
-- name: 🇸🇬 新加坡 (Singapore) 23 - george
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  tls: true
+  servername: free-server.techsonic.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
+- name: 🇸🇬 新加坡 (Singapore) 21 - george
   server: 139.180.221.53
   port: 443
   udp: true
@@ -209,71 +200,35 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 🇸🇬 新加坡 (Singapore) 24 - george
-  server: 139.162.27.96
-  port: 2096
-  udp: true
-  type: vless
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  tls: true
-  servername: free-server.techsonic.dev
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /free-server.techsonic.dev
-    headers:
-      Host: free-server.techsonic.dev
-- name: 🇸🇬 新加坡 (Singapore) 25 - george
-  server: 170.114.45.6
-  port: 80
-  udp: true
-  type: vless
-  uuid: 9ce32242-557a-4d18-864d-c9c385b3dfa4
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: matrix.learnpodedu.com
-- name: 🇸🇬 新加坡 (Singapore) 26 - george
-  server: hkzfsg2.mateflora.com
+- name: 🇸🇬 新加坡 (Singapore) 22 - george
+  server: 15.235.184.127
   port: 443
   udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: exploredigitaljobplatformandfindonlinework.com
+  skip-cert-verify: false
+- name: 🇸🇬 新加坡 (Singapore) 23 - george
+  server: 138.2.73.238
+  port: 50160
+  udp: true
   type: hysteria2
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  sni: hkzfsg2.mateflora.com
+  password: f87376e17da040ed04c9665ce8972930
+  sni: www.bing.com
   skip-cert-verify: true
-  obfs: salamander
-  obfs-password: fcfqz5o4znnjqtrp
-- name: 🇸🇬 新加坡 (Singapore) 27 - george
-  server: 195.63.138.212
-  port: 9444
-  udp: true
-  type: hysteria2
-  password: fa937345-6d3e-4ff4-8127-1a836987a0db
-  sni: cloudehouse24.ru
-  skip-cert-verify: false
-- name: 🇸🇬 新加坡 (Singapore) 28 - george
-  server: 195.133.135.238
-  port: 10086
-  udp: true
-  type: vmess
-  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
-  alterId: 0
-  cipher: auto
-- name: 🇸🇬 新加坡 (Singapore) 29 - george
-  server: 206.206.78.36
+- name: 🇸🇬 新加坡 (Singapore) 24 - george
+  server: 43.163.112.174
   port: 443
   udp: true
   type: vless
-  uuid: e3f0c894-0f76-4683-a751-6a93da8fd14d
+  uuid: 0dedd47d-47b9-4ed1-9c9f-cbeecad57a68
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: UOLfRKeEoVxkp-APTF2OlvFkKSoiR2mWzUuhSWxcVmQ
-    short-id: 133a3f10a1581047
+    public-key: mXQudYHNu0pebcdk1_qn-UgcmwhjaV7y9UrYu3HX7Rg
+    short-id: 0123456789abcdef
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -303,11 +258,6 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 22 - george
   - 🇸🇬 新加坡 (Singapore) 23 - george
   - 🇸🇬 新加坡 (Singapore) 24 - george
-  - 🇸🇬 新加坡 (Singapore) 25 - george
-  - 🇸🇬 新加坡 (Singapore) 26 - george
-  - 🇸🇬 新加坡 (Singapore) 27 - george
-  - 🇸🇬 新加坡 (Singapore) 28 - george
-  - 🇸🇬 新加坡 (Singapore) 29 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -337,10 +287,5 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 22 - george
   - 🇸🇬 新加坡 (Singapore) 23 - george
   - 🇸🇬 新加坡 (Singapore) 24 - george
-  - 🇸🇬 新加坡 (Singapore) 25 - george
-  - 🇸🇬 新加坡 (Singapore) 26 - george
-  - 🇸🇬 新加坡 (Singapore) 27 - george
-  - 🇸🇬 新加坡 (Singapore) 28 - george
-  - 🇸🇬 新加坡 (Singapore) 29 - george
 rules:
 - MATCH,PROXIES

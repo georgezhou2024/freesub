@@ -5,23 +5,26 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇦🇲 亚美尼亚 (Armenia) 01 - george",
-      "server": "03e488t.es12.h1clayd.shop",
+      "tag": "🇮🇶 IQ 01 - george",
+      "server": "196.245.52.183",
       "server_port": 443,
-      "uuid": "c5470a56-1b9b-451c-b075-02c82ee4aa6c",
-      "flow": "xtls-rprx-vision",
+      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
       "tls": {
         "enabled": true,
-        "server_name": "03e488t.es12.h1clayd.shop",
+        "server_name": "15b171g.nl7.h1clayd.click",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "F-QRCTOgAul242ISSobCpwO8G6JGN0qeIdJdv60HIRo",
-          "short_id": "bd35558b17a4930b"
+          "public_key": "zbz--PMjcIC4Ggr3j-ibDf0fzXRTj0lM_HzjPJyMkVE",
+          "short_id": "50a749f0eccb628c"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "5b79e8a94241"
       }
     },
     {
@@ -29,14 +32,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇲 亚美尼亚 (Armenia) 01 - george"
+        "🇮🇶 IQ 01 - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇲 亚美尼亚 (Armenia) 01 - george"
+        "🇮🇶 IQ 01 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
