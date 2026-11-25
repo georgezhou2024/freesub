@@ -5,31 +5,46 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - george
-  server: 201.34.136.78
-  port: 443
+  server: 38.180.38.19
+  port: 15231
   udp: true
-  type: vless
-  uuid: 42c83523-9f96-41b2-82d6-2edb71a4ac19
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA
-  servername: fjn2vd4dgxb6.dynarix-node41.sbs
-  client-fingerprint: firefox
+  type: ss
+  cipher: aes-128-gcm
+  password: 5126ccc78eea4c643cbed4e6c21465e8
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george
-  server: 176.123.162.82
-  port: 443
+  server: 38.107.234.57
+  port: 80
   udp: true
-  type: vless
-  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 3xhvTr_v46NYSlw1yF6nWUjX6ZVHGfI0a0Wuao6lGVs
-    short-id: a8b3db4bfe222a8c
-  servername: rukzmicro1.gangplatform.com
-  client-fingerprint: qq
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /vmess/
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george
+  server: 38.107.234.57
+  port: 80
+  udp: true
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /vmess/
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - george
+  server: 38.107.234.57
+  port: 80
+  udp: true
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /vmess/
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - george
   server: 3h-kazakhstan1.09vpn.com
   port: 80
   udp: true
@@ -40,8 +55,6 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess/
-    headers:
-      Host: 3h-kazakhstan1.09vpn.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -50,6 +63,8 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - george
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - george
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -58,5 +73,7 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - george
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - george
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - george
 rules:
 - MATCH,PROXIES
