@@ -14,17 +14,32 @@ proxies:
   servername: turkey-ip1.mmdaqaorg.xyz
   skip-cert-verify: false
   client-fingerprint: chrome
+- name: 🇹🇷 土耳其 (Turkey) 02 - george
+  server: 91.224.87.152
+  port: 443
+  udp: true
+  type: vless
+  uuid: bc4c9ea8-b4ee-4451-80e1-dfcd5eceec4c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: ZKLerhOtbZ9D1Kvfz9w9LPGhYTQmfGs98HthyAy85AQ
+    short-id: ad51b5ecda6a9234
+  servername: www.tradingview.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇹🇷 土耳其 (Turkey) 01 - george
+  - 🇹🇷 土耳其 (Turkey) 02 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇹🇷 土耳其 (Turkey) 01 - george
+  - 🇹🇷 土耳其 (Turkey) 02 - george
 rules:
 - MATCH,PROXIES

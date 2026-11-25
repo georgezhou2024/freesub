@@ -15,9 +15,22 @@ proxies:
   reality-opts:
     public-key: fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA
   servername: fjn2vd4dgxb6.dynarix-node41.sbs
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george
-  server: 38.107.234.57
+  server: 176.123.162.82
+  port: 443
+  udp: true
+  type: vless
+  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 3xhvTr_v46NYSlw1yF6nWUjX6ZVHGfI0a0Wuao6lGVs
+    short-id: a8b3db4bfe222a8c
+  servername: rukzmicro1.gangplatform.com
+  client-fingerprint: qq
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george
+  server: 3h-kazakhstan1.09vpn.com
   port: 80
   udp: true
   type: vmess
@@ -29,18 +42,6 @@ proxies:
     path: /vmess/
     headers:
       Host: 3h-kazakhstan1.09vpn.com
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george
-  server: 109.248.170.119
-  port: 13447
-  udp: true
-  type: vless
-  uuid: b573cefb-7bc7-4a42-b407-b8b534e66773
-  tls: true
-  reality-opts:
-    public-key: _0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE
-    short-id: '83'
-  servername: yahoo.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select

@@ -12,14 +12,14 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
 - name: 🇬🇧 英国 (United Kingdom) 02 - george
-  server: 185.176.206.9
-  port: 19999
+  server: 89.238.165.91
+  port: 12020
   udp: true
   type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-128-gcm
+  password: eb96582b5eec4168beaa3816ec09ce1f
 - name: 🇬🇧 英国 (United Kingdom) 03 - george
-  server: 142.202.51.22
+  server: 185.176.206.9
   port: 19999
   udp: true
   type: ss
@@ -33,37 +33,33 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
 - name: 🇬🇧 英国 (United Kingdom) 05 - george
-  server: 141.98.101.181
-  port: 443
+  server: 142.202.51.22
+  port: 19999
   udp: true
   type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇬🇧 英国 (United Kingdom) 06 - george
-  server: 146.70.61.37
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇬🇧 英国 (United Kingdom) 07 - george
-  server: 142.202.51.42
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇬🇧 英国 (United Kingdom) 08 - george
   server: 38.114.120.221
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇬🇧 英国 (United Kingdom) 07 - george
+  server: 82.145.63.25
+  port: 18670
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: a2dc89ab05492495decd8976bfeffc86
+- name: 🇬🇧 英国 (United Kingdom) 08 - george
+  server: 141.98.101.181
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
 - name: 🇬🇧 英国 (United Kingdom) 09 - george
   server: 149.7.16.228
   port: 1270
@@ -76,20 +72,64 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇬🇧 英国 (United Kingdom) 10 - george
-  server: 98.98.142.161
-  port: 8080
+  server: 138.124.125.193
+  port: 10444
   udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
+  type: vless
+  uuid: e57ce64d-5a1a-4a90-96df-9e1bd3ad26e4
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  servername: ads.x5.ru
+  client-fingerprint: random
 - name: 🇬🇧 英国 (United Kingdom) 11 - george
-  server: 98.98.207.163
+  server: 146.70.61.37
   port: 8080
   udp: true
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
 - name: 🇬🇧 英国 (United Kingdom) 12 - george
+  server: chatgpt.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: 55b3fd10-3658-40a2-8951-ec90932d1d30
+  tls: true
+  servername: sinavm2.soft10.ir
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM
+    headers:
+      Host: sinavm2.soft10.ir
+- name: 🇬🇧 英国 (United Kingdom) 13 - george
+  server: 22egdg.mateflora.com
+  port: 40055
+  udp: true
+  type: hysteria2
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  sni: psstatic.cdn.bcebos.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 6fltjteoyab7fjf1
+- name: 🇬🇧 英国 (United Kingdom) 14 - george
+  server: 109.71.247.170
+  port: 443
+  udp: true
+  type: vless
+  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: VYXI4MWqWEFY_qU247otuCPPK7mMxmjFDdrKT6D1a1o
+    short-id: 1a895886399244a0
+  servername: rulonmicro2.gangplatform.com
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 15 - george
   server: 46.250.240.80
   port: 2053
   udp: true
@@ -101,8 +141,38 @@ proxies:
     short-id: 3611e663b53177f2
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 13 - george
-  server: uk1.connectsuite.org
+- name: 🇬🇧 英国 (United Kingdom) 16 - george
+  server: 94.156.250.148
+  port: 7001
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- name: 🇬🇧 英国 (United Kingdom) 17 - george
+  server: 51.38.71.147
+  port: 443
+  udp: true
+  type: vless
+  uuid: fda89998-7e9a-4494-857a-cd0d00661b58
+  tls: true
+  servername: uk1.connectsuite.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /cdn-cgi/ws
+- name: 🇬🇧 英国 (United Kingdom) 18 - george
+  server: 51.38.71.147
+  port: 443
+  udp: true
+  type: vless
+  uuid: fda89998-7e9a-4494-857a-cd0d00661b58
+  tls: true
+  servername: uk1.connectsuite.org
+  skip-cert-verify: false
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 19 - george
+  server: 51.38.71.147
   port: 443
   udp: true
   type: vless
@@ -113,31 +183,13 @@ proxies:
   network: ws
   ws-opts:
     path: /cdn-cgi/ws
-- name: 🇬🇧 英国 (United Kingdom) 14 - george
+- name: 🇬🇧 英国 (United Kingdom) 20 - george
   server: 129.151.82.249
   port: 61312
   udp: true
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
   password: L35ZoQjjihDmVI3YcDK0UMgcjpoxdMtVDStV2NH74xw=
-- name: 🇬🇧 英国 (United Kingdom) 15 - george
-  server: 57.129.132.223
-  port: 80
-  udp: true
-  type: vless
-  uuid: 9e20b04d-5a81-4e16-b421-01e502f0aac6
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: google.com
-- name: 🇬🇧 英国 (United Kingdom) 16 - george
-  server: 94.156.250.148
-  port: 7001
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
 proxy-groups:
 - name: PROXIES
   type: select
@@ -159,6 +211,10 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 14 - george
   - 🇬🇧 英国 (United Kingdom) 15 - george
   - 🇬🇧 英国 (United Kingdom) 16 - george
+  - 🇬🇧 英国 (United Kingdom) 17 - george
+  - 🇬🇧 英国 (United Kingdom) 18 - george
+  - 🇬🇧 英国 (United Kingdom) 19 - george
+  - 🇬🇧 英国 (United Kingdom) 20 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -180,5 +236,9 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 14 - george
   - 🇬🇧 英国 (United Kingdom) 15 - george
   - 🇬🇧 英国 (United Kingdom) 16 - george
+  - 🇬🇧 英国 (United Kingdom) 17 - george
+  - 🇬🇧 英国 (United Kingdom) 18 - george
+  - 🇬🇧 英国 (United Kingdom) 19 - george
+  - 🇬🇧 英国 (United Kingdom) 20 - george
 rules:
 - MATCH,PROXIES
