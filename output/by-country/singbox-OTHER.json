@@ -6,6 +6,29 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - george",
+      "server": "104.21.94.203",
+      "server_port": 443,
+      "uuid": "364D2D52-E61E-4E52-80EC-2BC6BDF15349",
+      "tls": {
+        "enabled": true,
+        "server_name": "fr-free.fastestrelay.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/700gvl",
+        "headers": {
+          "Host": "fr-free.fastestrelay.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 02 - george",
       "server": "chatgpt.com",
       "server_port": 443,
       "uuid": "55b3fd10-3658-40a2-8951-ec90932d1d30",
@@ -31,14 +54,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - george"
+        "🌐 其他地区 (Other) 01 - george",
+        "🌐 其他地区 (Other) 02 - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - george"
+        "🌐 其他地区 (Other) 01 - george",
+        "🌐 其他地区 (Other) 02 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
