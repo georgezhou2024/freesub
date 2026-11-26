@@ -5,35 +5,49 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - george
-  server: 104.21.94.203
+  server: 104.24.31.89
   port: 443
   udp: true
   type: vless
-  uuid: 364D2D52-E61E-4E52-80EC-2BC6BDF15349
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   tls: true
-  servername: fr-free.fastestrelay.com
+  servername: jp3.yohototo.top
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /700gvl
+    path: /tyxyws
     headers:
-      Host: fr-free.fastestrelay.com
+      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 02 - george
-  server: chatgpt.com
+  server: 104.24.31.89
   port: 443
   udp: true
   type: vless
-  uuid: 55b3fd10-3658-40a2-8951-ec90932d1d30
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   tls: true
-  servername: sinavm2.soft10.ir
+  servername: jp3.yohototo.top
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM
+    path: /tyxyws
     headers:
-      Host: sinavm2.soft10.ir
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 03 - george
+  server: 104.24.31.89
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 proxy-groups:
 - name: PROXIES
   type: select
@@ -41,6 +55,7 @@ proxy-groups:
   - AUTO
   - 🌐 其他地区 (Other) 01 - george
   - 🌐 其他地区 (Other) 02 - george
+  - 🌐 其他地区 (Other) 03 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -48,5 +63,6 @@ proxy-groups:
   proxies:
   - 🌐 其他地区 (Other) 01 - george
   - 🌐 其他地区 (Other) 02 - george
+  - 🌐 其他地区 (Other) 03 - george
 rules:
 - MATCH,PROXIES

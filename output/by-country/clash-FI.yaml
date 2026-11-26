@@ -13,7 +13,29 @@ proxies:
   sni: 94.183.164.119
   skip-cert-verify: true
 - name: 🇫🇮 芬兰 (Finland) 02 - george
-  server: 31.76.77.231
+  server: mail1.besttotaldns.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: da14e323-6af7-406f-a5c2-1eb7975ada8b
+  flow: xtls-rprx-vision
+  tls: true
+  servername: mail1.besttotaldns.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 03 - george
+  server: 213.176.92.168
+  port: 14430
+  udp: true
+  type: vless
+  uuid: ba52cc43-700d-4040-9444-29214c98e6e0
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 213.176.92.168
+- name: 🇫🇮 芬兰 (Finland) 04 - george
+  server: 2.27.203.38
   port: 443
   udp: true
   type: vless
@@ -21,8 +43,8 @@ proxies:
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: PMtmgfkxpREXi51S_EUUi3KbYauQLjGD6c_llKRk8H4
-    short-id: cc85fc7134024405
+    public-key: Xuy5y3WGJjkxyUtkhiY87dwndv4fuD45gO64TWnlThI
+    short-id: fd0cc2b3ac52deb8
   servername: www.google.com
   client-fingerprint: firefox
 proxy-groups:
@@ -32,6 +54,8 @@ proxy-groups:
   - AUTO
   - 🇫🇮 芬兰 (Finland) 01 - george
   - 🇫🇮 芬兰 (Finland) 02 - george
+  - 🇫🇮 芬兰 (Finland) 03 - george
+  - 🇫🇮 芬兰 (Finland) 04 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -39,5 +63,7 @@ proxy-groups:
   proxies:
   - 🇫🇮 芬兰 (Finland) 01 - george
   - 🇫🇮 芬兰 (Finland) 02 - george
+  - 🇫🇮 芬兰 (Finland) 03 - george
+  - 🇫🇮 芬兰 (Finland) 04 - george
 rules:
 - MATCH,PROXIES

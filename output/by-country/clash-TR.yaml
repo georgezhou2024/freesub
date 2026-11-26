@@ -5,14 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - george
-  server: 38.180.104.37
-  port: 19084
-  udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: ff4d354078394558933d699be149ad69
-- name: 🇹🇷 土耳其 (Turkey) 02 - george
-  server: 143.246.136.128
+  server: leviko-tr3795.shopingggg.ir
   port: 50738
   udp: true
   type: vless
@@ -27,13 +20,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇹🇷 土耳其 (Turkey) 01 - george
-  - 🇹🇷 土耳其 (Turkey) 02 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇹🇷 土耳其 (Turkey) 01 - george
-  - 🇹🇷 土耳其 (Turkey) 02 - george
 rules:
 - MATCH,PROXIES
