@@ -5,12 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇪 爱尔兰 (Ireland) 01 - george
-  server: 3.248.201.197
-  port: 443
+  server: 146.70.90.195
+  port: 17453
   udp: true
   type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
+  cipher: aes-128-gcm
+  password: cVCf+5/dBI353UY4YcN3nS05znsJYtLF
 proxy-groups:
 - name: PROXIES
   type: select

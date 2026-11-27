@@ -4,25 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇳 CN 01 - george
-  server: 150.242.244.116
-  port: 2648
+- name: 🇲🇽 墨西哥 (Mexico) 01 - george
+  server: 38.60.224.141
+  port: 17184
   udp: true
-  type: vmess
-  uuid: aeff933f-0ae6-4465-85bf-12f1394f35af
-  alterId: 0
-  cipher: auto
+  type: ss
+  cipher: aes-128-gcm
+  password: wvh0jbIJPYqtf8LF/QMs6QmIqSpSF2Ed
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇳 CN 01 - george
+  - 🇲🇽 墨西哥 (Mexico) 01 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇳 CN 01 - george
+  - 🇲🇽 墨西哥 (Mexico) 01 - george
 rules:
 - MATCH,PROXIES

@@ -4,26 +4,26 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🇨🇳 CN 01 - george",
-      "server": "150.242.244.116",
-      "server_port": 2648,
-      "uuid": "aeff933f-0ae6-4465-85bf-12f1394f35af",
-      "security": "auto"
+      "type": "shadowsocks",
+      "tag": "🇴🇲 OM 01 - george",
+      "server": "130.94.81.180",
+      "server_port": 18415,
+      "method": "aes-128-gcm",
+      "password": "dT9Aan/vh0tOG8x5SD2wautLbVPLrcBf"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇳 CN 01 - george"
+        "🇴🇲 OM 01 - george"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇳 CN 01 - george"
+        "🇴🇲 OM 01 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
