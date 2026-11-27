@@ -5,17 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - george
-  server: 38.107.234.57
-  port: 8443
+  server: 194.87.224.137
+  port: 15443
   udp: true
-  type: vless
-  uuid: 2424febb-43cb-488d-bdd1-401e923c8e48
-  tls: true
-  servername: 3h-kazakhstan1.09vpn.com
+  type: hysteria2
+  password: lvu_3390f238bef4e3058ac47c87473755cf_07cd5acf7265adf5c1210040ca46facf:np2.1.HJjJucZ0-OZZUq5Njkl48v1gYx7ol9rXjxYXZUxrQdM
+  sni: n9.neproxy.net
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vless/
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george
   server: 38.107.234.57
   port: 80
@@ -28,7 +24,19 @@ proxies:
   ws-opts:
     path: /vmess/
     headers:
-      Host: 38.107.234.57
+      Host: 3h-kazakhstan1.09vpn.com
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george
+  server: 38.107.234.57
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 2424febb-43cb-488d-bdd1-401e923c8e48
+  tls: true
+  servername: 3h-kazakhstan1.09vpn.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
 proxy-groups:
 - name: PROXIES
   type: select
@@ -36,6 +44,7 @@ proxy-groups:
   - AUTO
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - george
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -43,5 +52,6 @@ proxy-groups:
   proxies:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - george
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - george
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - george
 rules:
 - MATCH,PROXIES
