@@ -4,24 +4,25 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇲🇽 墨西哥 (Mexico) 01 - george
-  server: 38.60.224.141
-  port: 17184
+- name: 🇨🇳 CN 01 - george
+  server: dog-hk.kunlun01dns.com
+  port: 21021
   udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: wvh0jbIJPYqtf8LF/QMs6QmIqSpSF2Ed
+  type: vmess
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇲🇽 墨西哥 (Mexico) 01 - george
+  - 🇨🇳 CN 01 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇲🇽 墨西哥 (Mexico) 01 - george
+  - 🇨🇳 CN 01 - george
 rules:
 - MATCH,PROXIES

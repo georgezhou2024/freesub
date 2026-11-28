@@ -12,16 +12,27 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 02 - george",
-      "server": "62.93.166.184",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
+      "server": "79.141.174.144",
+      "server_port": 443,
+      "uuid": "ba373a70-295f-482d-a471-8bc17b54e23b",
       "tls": {
         "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
+        "server_name": "seb.899themes.pro",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
       }
     },
     {
@@ -36,12 +47,114 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
         "type": "grpc",
         "service_name": "138-124-86-230-sslip-io"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇸🇪 瑞典 (Sweden) 04 - george",
+      "server": "138.199.55.230",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 05 - george",
+      "server": "2.26.124.209",
+      "server_port": 443,
+      "uuid": "848951d4-c5a5-484c-897d-d777929bcdc2",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway.icloud.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "aykMwW19tGa685HLa9yI8FDTH567ovT4KipCSUHEySk",
+          "short_id": "54325343"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇸🇪 瑞典 (Sweden) 06 - george",
+      "server": "62.93.166.184",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 07 - george",
+      "server": "92.63.193.41",
+      "server_port": 443,
+      "uuid": "f4b08bf1-d9bd-4755-aa88-ba922282c608",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ruswedmicro2.gangplatform.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Hk7E17R41exzrPKAOeETobKQ0LOAmuLSzFXdEwLSmiQ",
+          "short_id": "b92d7008f05da71e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 08 - george",
+      "server": "ws.dhafhdtjdti.site",
+      "server_port": 2053,
+      "uuid": "9f749472-c636-4c5a-af51-7f8feefaac81",
+      "tls": {
+        "enabled": true,
+        "server_name": "ws.dhafhdtjdti.site",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 09 - george",
+      "server": "5.178.109.174",
+      "server_port": 14430,
+      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
+      "transport": {
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "5.178.109.174"
+        }
       }
     },
     {
@@ -51,7 +164,13 @@
         "auto",
         "🇸🇪 瑞典 (Sweden) 01 - george",
         "🇸🇪 瑞典 (Sweden) 02 - george",
-        "🇸🇪 瑞典 (Sweden) 03 - george"
+        "🇸🇪 瑞典 (Sweden) 03 - george",
+        "🇸🇪 瑞典 (Sweden) 04 - george",
+        "🇸🇪 瑞典 (Sweden) 05 - george",
+        "🇸🇪 瑞典 (Sweden) 06 - george",
+        "🇸🇪 瑞典 (Sweden) 07 - george",
+        "🇸🇪 瑞典 (Sweden) 08 - george",
+        "🇸🇪 瑞典 (Sweden) 09 - george"
       ]
     },
     {
@@ -60,7 +179,13 @@
       "outbounds": [
         "🇸🇪 瑞典 (Sweden) 01 - george",
         "🇸🇪 瑞典 (Sweden) 02 - george",
-        "🇸🇪 瑞典 (Sweden) 03 - george"
+        "🇸🇪 瑞典 (Sweden) 03 - george",
+        "🇸🇪 瑞典 (Sweden) 04 - george",
+        "🇸🇪 瑞典 (Sweden) 05 - george",
+        "🇸🇪 瑞典 (Sweden) 06 - george",
+        "🇸🇪 瑞典 (Sweden) 07 - george",
+        "🇸🇪 瑞典 (Sweden) 08 - george",
+        "🇸🇪 瑞典 (Sweden) 09 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

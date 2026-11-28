@@ -6,14 +6,6 @@
     {
       "type": "shadowsocks",
       "tag": "🇫🇷 法国 (France) 01 - george",
-      "server": "198.244.201.129",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇫🇷 法国 (France) 02 - george",
       "server": "198.244.202.215",
       "server_port": 19999,
       "method": "aes-256-gcm",
@@ -21,15 +13,15 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇫🇷 法国 (France) 03 - george",
-      "server": "51.195.248.85",
-      "server_port": 14114,
-      "method": "aes-128-gcm",
-      "password": "8bc8CZHJUuNcD6pI66wcSxXhYWB4iORQ"
+      "tag": "🇫🇷 法国 (France) 02 - george",
+      "server": "198.244.201.129",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "shadowsocks",
-      "tag": "🇫🇷 法国 (France) 04 - george",
+      "tag": "🇫🇷 法国 (France) 03 - george",
       "server": "79.137.99.183",
       "server_port": 19999,
       "method": "aes-256-gcm",
@@ -37,7 +29,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇫🇷 法国 (France) 05 - george",
+      "tag": "🇫🇷 法国 (France) 04 - george",
       "server": "167.17.64.22",
       "server_port": 19999,
       "method": "aes-256-gcm",
@@ -45,31 +37,15 @@
     },
     {
       "type": "shadowsocks",
+      "tag": "🇫🇷 法国 (France) 05 - george",
+      "server": "38.109.228.110",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇫🇷 法国 (France) 06 - george",
-      "server": "23.162.152.245",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ySGkGhr2sKHV"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇫🇷 法国 (France) 07 - george",
-      "server": "23.162.152.22",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇫🇷 法国 (France) 08 - george",
-      "server": "172.99.189.142",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇫🇷 法国 (France) 09 - george",
       "server": "167.17.64.27",
       "server_port": 19999,
       "method": "aes-256-gcm",
@@ -77,97 +53,47 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇫🇷 法国 (France) 10 - george",
-      "server": "51.75.157.6",
-      "server_port": 15648,
-      "method": "aes-128-gcm",
-      "password": "Zt+J/vxRA4JutOJbaHu6e/CRvep3p4TL"
+      "tag": "🇫🇷 法国 (France) 07 - george",
+      "server": "167.17.64.175",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "hysteria2",
-      "tag": "🇫🇷 法国 (France) 11 - george",
-      "server": "13.36.234.11",
+      "type": "shadowsocks",
+      "tag": "🇫🇷 法国 (France) 08 - george",
+      "server": "23.162.152.245",
       "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "13.36.234.11",
-        "insecure": true
-      }
+      "method": "chacha20-ietf-poly1305",
+      "password": "ySGkGhr2sKHV"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇫🇷 法国 (France) 09 - george",
+      "server": "23.162.152.22",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇫🇷 法国 (France) 10 - george",
+      "server": "172.99.189.142",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇫🇷 法国 (France) 11 - george",
+      "server": "57.129.76.233",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "vless",
       "tag": "🇫🇷 法国 (France) 12 - george",
-      "server": "62.210.91.10",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fuck.rkn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇫🇷 法国 (France) 13 - george",
-      "server": "62.210.124.146",
-      "server_port": 22000,
-      "password": "dongtaiwang.com",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇫🇷 法国 (France) 14 - george",
-      "server": "62.210.147.2",
-      "server_port": 43115,
-      "password": "github.com/Alvin9999-newpac/fanqiang",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇫🇷 法国 (France) 15 - george",
-      "server": "62.210.7.139",
-      "server_port": 60111,
-      "password": "github.com/Alvin9999-newpac/fanqiang",
-      "tls": {
-        "enabled": true,
-        "server_name": "css.rbxcdn.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇫🇷 法国 (France) 16 - george",
-      "server": "91.134.35.72",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇷 法国 (France) 17 - george",
       "server": "62.210.91.2",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -187,16 +113,29 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇫🇷 法国 (France) 18 - george",
-      "server": "51.195.248.87",
-      "server_port": 14116,
-      "method": "aes-128-gcm",
-      "password": "8bc8CZHJUuNcD6pI66wcSxXhYWB4iORQ"
+      "type": "vless",
+      "tag": "🇫🇷 法国 (France) 13 - george",
+      "server": "62.210.91.10",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": ""
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
+      }
     },
     {
       "type": "vmess",
-      "tag": "🇫🇷 法国 (France) 19 - george",
+      "tag": "🇫🇷 法国 (France) 14 - george",
       "server": "79.137.99.183",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
@@ -209,20 +148,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇫🇷 法国 (France) 20 - george",
-      "server": "46.105.222.156",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇫🇷 法国 (France) 21 - george",
+      "tag": "🇫🇷 法国 (France) 15 - george",
       "server": "46.105.222.153",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
@@ -235,8 +161,8 @@
     },
     {
       "type": "vmess",
-      "tag": "🇫🇷 法国 (France) 22 - george",
-      "server": "46.105.222.157",
+      "tag": "🇫🇷 法国 (France) 16 - george",
+      "server": "23.162.152.127",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -248,7 +174,20 @@
     },
     {
       "type": "vmess",
-      "tag": "🇫🇷 法国 (France) 23 - george",
+      "tag": "🇫🇷 法国 (France) 17 - george",
+      "server": "46.105.222.156",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇫🇷 法国 (France) 18 - george",
       "server": "46.105.222.155",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
@@ -260,8 +199,96 @@
       }
     },
     {
-      "type": "vless",
+      "type": "vmess",
+      "tag": "🇫🇷 法国 (France) 19 - george",
+      "server": "46.105.222.157",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇫🇷 法国 (France) 20 - george",
+      "server": "62.210.147.2",
+      "server_port": 43115,
+      "password": "github.com/Alvin9999-newpac/fanqiang",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇫🇷 法国 (France) 21 - george",
+      "server": "13.36.234.11",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn-fr-001.fastervpn.world",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇫🇷 法国 (France) 22 - george",
+      "server": "162.19.82.57",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇫🇷 法国 (France) 23 - george",
+      "server": "62.210.7.139",
+      "server_port": 60111,
+      "password": "github.com/Alvin9999-newpac/fanqiang",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vmess",
       "tag": "🇫🇷 法国 (France) 24 - george",
+      "server": "172.99.189.239",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇫🇷 法国 (France) 25 - george",
+      "server": "91.134.35.72",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 法国 (France) 26 - george",
       "server": "152.228.139.33",
       "server_port": 51671,
       "uuid": "75cc7568-abb0-46a8-88be-8137d3c647d4",
@@ -270,7 +297,7 @@
         "server_name": "www.sony.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -285,7 +312,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 法国 (France) 25 - george",
+      "tag": "🇫🇷 法国 (France) 27 - george",
       "server": "152.228.139.33",
       "server_port": 35108,
       "uuid": "81dc0b61-f9fe-4ad6-8b4e-b8c067b73712",
@@ -294,7 +321,7 @@
         "server_name": "www.nvidia.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -308,55 +335,22 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇫🇷 法国 (France) 26 - george",
-      "server": "162.19.82.57",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇫🇷 法国 (France) 27 - george",
-      "server": "172.99.189.239",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇫🇷 法国 (France) 28 - george",
-      "server": "38.109.228.110",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "vmess",
-      "tag": "🇫🇷 法国 (France) 29 - george",
-      "server": "23.162.152.127",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
+      "server": "suh.cryptofront.uk",
+      "server_port": 80,
+      "uuid": "c762af05-2e92-4133-bc30-8cf45dd40a28",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "suh.cryptofront.uk"
+        }
       }
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 法国 (France) 30 - george",
+      "tag": "🇫🇷 法国 (France) 29 - george",
       "server": "138.124.70.41",
       "server_port": 14430,
       "uuid": "6cc745e3-4eb9-46c8-a4a1-85dee7b87edc",
@@ -369,24 +363,29 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇫🇷 法国 (France) 31 - george",
-      "server": "57.129.76.233",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇫🇷 法国 (France) 32 - george",
-      "server": "167.17.64.175",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "type": "vless",
+      "tag": "🇫🇷 法国 (France) 30 - george",
+      "server": "161.97.160.224",
+      "server_port": 443,
+      "uuid": "b81b4d1b-7f20-48f1-82dc-d24bef898cab",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "passport.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0",
+          "short_id": "e6"
+        }
+      }
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 法国 (France) 33 - george",
+      "tag": "🇫🇷 法国 (France) 31 - george",
       "server": "88.151.197.87",
       "server_port": 2025,
       "uuid": "1697852e-cd5c-472d-b377-0def0f301d98",
@@ -430,9 +429,7 @@
         "🇫🇷 法国 (France) 28 - george",
         "🇫🇷 法国 (France) 29 - george",
         "🇫🇷 法国 (France) 30 - george",
-        "🇫🇷 法国 (France) 31 - george",
-        "🇫🇷 法国 (France) 32 - george",
-        "🇫🇷 法国 (France) 33 - george"
+        "🇫🇷 法国 (France) 31 - george"
       ]
     },
     {
@@ -469,9 +466,7 @@
         "🇫🇷 法国 (France) 28 - george",
         "🇫🇷 法国 (France) 29 - george",
         "🇫🇷 法国 (France) 30 - george",
-        "🇫🇷 法国 (France) 31 - george",
-        "🇫🇷 法国 (France) 32 - george",
-        "🇫🇷 法国 (France) 33 - george"
+        "🇫🇷 法国 (France) 31 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

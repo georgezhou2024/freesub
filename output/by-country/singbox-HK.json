@@ -6,26 +6,26 @@
     {
       "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 - george",
-      "server": "202.146.222.29",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "server": "152.32.254.68",
+      "server_port": 5010,
+      "password": "eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ",
       "tls": {
         "enabled": true,
-        "server_name": "https://t.me/wangcai2≡ƒç¿≡ƒç│",
+        "server_name": "127.0.0.1",
         "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9"
       }
     },
     {
-      "type": "hysteria2",
+      "type": "shadowsocks",
       "tag": "🇭🇰 中国香港 (Hong Kong) 02 - george",
-      "server": "202.146.222.89",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "https://t.me/clashv8\\u0001f1e8\\u0001f1f3",
-        "insecure": true
-      }
+      "server": "213.176.92.148",
+      "server_port": 40647,
+      "method": "aes-256-gcm",
+      "password": "DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY="
     },
     {
       "type": "hysteria2",
@@ -61,20 +61,95 @@
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 05 - george",
-      "server": "waic.pro.main.sys-metric-report.com",
+      "server": "202.146.222.89",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https%3a%2f%2ft.me%2fclashv8%f0%9f%87%a8%f0%9f%87%b3",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - george",
+      "server": "202.146.222.29",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https://t.me/wangcai2",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - george",
+      "server": "154.40.61.186",
+      "server_port": 8443,
+      "uuid": "b69cf773-da16-486e-afce-a45b94f998b3",
+      "tls": {
+        "enabled": true,
+        "server_name": "senflarelink-node-wj1gsa.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/flow=fp=chrome",
+        "headers": {
+          "Host": "senflarelink-node-wj1gsa.pages.dev"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - george",
+      "server": "23.141.172.229",
+      "server_port": 50541,
+      "password": "ePPsH1bMFD",
+      "tls": {
+        "enabled": true,
+        "server_name": "is1-ssl.mzstatic.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - george",
+      "server": "27.124.5.86",
+      "server_port": 8388,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "j4DddfVh3zON1s3Wfbmdn2WWhLCWAaOJyKqdeKvxh4A="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 10 - george",
+      "server": "212.192.13.240",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "AiepJULF227ZNsjC"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 11 - george",
+      "server": "143.20.71.68",
       "server_port": 28014,
       "method": "chacha20-ietf-poly1305",
       "password": "abc62f00-95a8-4c2e-a85d-36a2cdc977da"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - george",
-      "server": "27.124.5.86",
-      "server_port": 8388,
-      "method": "2022-blake3-aes-256-gcm",
-      "password": "j4DddfVh3zON1s3Wfbmdn2WWhLCWAaOJyKqdeKvxh4A="
+      "tag": "🇭🇰 中国香港 (Hong Kong) 12 - george",
+      "server": "uk.fusetea.ir",
+      "server_port": 154,
+      "method": "chacha20-ietf-poly1305",
+      "password": "eCUs1n3b2Fh9b6WATvkNILLBzYbruQ_X"
     },
     {
       "type": "selector",
@@ -86,7 +161,13 @@
         "🇭🇰 中国香港 (Hong Kong) 03 - george",
         "🇭🇰 中国香港 (Hong Kong) 04 - george",
         "🇭🇰 中国香港 (Hong Kong) 05 - george",
-        "🇭🇰 中国香港 (Hong Kong) 06 - george"
+        "🇭🇰 中国香港 (Hong Kong) 06 - george",
+        "🇭🇰 中国香港 (Hong Kong) 07 - george",
+        "🇭🇰 中国香港 (Hong Kong) 08 - george",
+        "🇭🇰 中国香港 (Hong Kong) 09 - george",
+        "🇭🇰 中国香港 (Hong Kong) 10 - george",
+        "🇭🇰 中国香港 (Hong Kong) 11 - george",
+        "🇭🇰 中国香港 (Hong Kong) 12 - george"
       ]
     },
     {
@@ -98,7 +179,13 @@
         "🇭🇰 中国香港 (Hong Kong) 03 - george",
         "🇭🇰 中国香港 (Hong Kong) 04 - george",
         "🇭🇰 中国香港 (Hong Kong) 05 - george",
-        "🇭🇰 中国香港 (Hong Kong) 06 - george"
+        "🇭🇰 中国香港 (Hong Kong) 06 - george",
+        "🇭🇰 中国香港 (Hong Kong) 07 - george",
+        "🇭🇰 中国香港 (Hong Kong) 08 - george",
+        "🇭🇰 中国香港 (Hong Kong) 09 - george",
+        "🇭🇰 中国香港 (Hong Kong) 10 - george",
+        "🇭🇰 中国香港 (Hong Kong) 11 - george",
+        "🇭🇰 中国香港 (Hong Kong) 12 - george"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

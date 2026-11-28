@@ -5,6 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇪 爱尔兰 (Ireland) 01 - george
+  server: 146.70.90.197
+  port: 17455
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: cVCf+5/dBI353UY4YcN3nS05znsJYtLF
+- name: 🇮🇪 爱尔兰 (Ireland) 02 - george
   server: 146.70.90.195
   port: 17453
   udp: true
@@ -17,11 +24,13 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇮🇪 爱尔兰 (Ireland) 01 - george
+  - 🇮🇪 爱尔兰 (Ireland) 02 - george
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇮🇪 爱尔兰 (Ireland) 01 - george
+  - 🇮🇪 爱尔兰 (Ireland) 02 - george
 rules:
 - MATCH,PROXIES
